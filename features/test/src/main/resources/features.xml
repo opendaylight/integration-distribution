@@ -60,7 +60,7 @@
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-api</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authn</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authz</feature>
-        <feature version='0.3.0-SNAPSHOT'>odl-aaa-netconf-plugin</feature>
+        <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
         <feature version='${feature.adsal.version}'>odl-adsal-all</feature>
 <!--
@@ -78,8 +78,8 @@
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-all</feature>
         <feature version='1.3.0-SNAPSHOT'>odl-mdsal-broker</feature>
-        <feature version='${feature.mdsal.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
+        <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.nsf.version}'>odl-nsf-all</feature>
         <feature version='0.7.0-SNAPSHOT'>odl-openflowjava-protocol</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-adsal-compatibility</feature>
@@ -90,7 +90,7 @@
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-all</feature>
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.reservation.version}'>odl-reservation-models</feature>
-        <feature version='1.3.0-SNAPSHOT'>odl-restconf</feature>
+        <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
         <feature version="1.6.0-SNAPSHOT">odl-sdninterfaceapp-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-core</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
