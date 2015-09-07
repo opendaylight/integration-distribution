@@ -104,22 +104,8 @@
     </dependency>
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-netconf-connector</artifactId>
-      <version>${feature.mdsal.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.controller</groupId>
       <artifactId>features-nsf</artifactId>
       <version>${feature.nsf.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-restconf</artifactId>
-      <version>${feature.mdsal.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -176,6 +162,27 @@
       <groupId>org.opendaylight.lispflowmapping</groupId>
       <artifactId>features-lispflowmapping</artifactId>
       <version>${feature.lispflowmapping.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.netconf</groupId>
+      <artifactId>features-netconf</artifactId>
+      <version>${feature.netconf.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.netconf</groupId>
+      <artifactId>features-netconf-connector</artifactId>
+      <version>${feature.netconf.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.netconf</groupId>
+      <artifactId>features-restconf</artifactId>
+      <version>${feature.restconf.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
