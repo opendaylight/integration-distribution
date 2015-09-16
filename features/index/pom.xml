@@ -222,13 +222,6 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.openflowplugin.legacy</groupId>
-      <artifactId>features-legacy</artifactId>
-      <version>${feature.openflowplugin.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
       <groupId>org.opendaylight.ovsdb</groupId>
       <artifactId>features-ovsdb</artifactId>
       <version>${feature.ovsdb.version}</version>
