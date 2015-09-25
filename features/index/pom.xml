@@ -44,15 +44,6 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.opendaylight.alto</groupId>
-      <artifactId>features-alto</artifactId>
-      <version>0.2.0-SNAPSHOT</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
--->
     <dependency>
        <groupId>org.opendaylight.bgpcep</groupId>
        <artifactId>features-bgp</artifactId>
@@ -90,22 +81,8 @@
     </dependency>
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-adsal</artifactId>
-      <version>${feature.adsal.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.controller</groupId>
       <artifactId>features-mdsal</artifactId>
       <version>${feature.mdsal.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-nsf</artifactId>
-      <version>${feature.nsf.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -229,23 +206,9 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.packetcable</groupId>
-      <artifactId>features-packetcable-policy</artifactId>
-      <version>${feature.packetcable.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
       <groupId>org.opendaylight.reservation</groupId>
       <artifactId>features-reservation</artifactId>
       <version>${feature.reservation.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.sdninterfaceapp</groupId>
-      <artifactId>features-sdninterfaceapp</artifactId>
-      <version>1.6.0-SNAPSHOT</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -291,15 +254,6 @@
        <classifier>features</classifier>
        <type>xml</type>
     </dependency>
-<!--
-    <dependency>
-      <groupId>org.opendaylight.snbi</groupId>
-      <artifactId>features-snbi</artifactId>
-      <version>${feature.snbi.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
--->
     <dependency>
       <groupId>org.opendaylight.snmp</groupId>
       <artifactId>features-snmp</artifactId>
@@ -346,13 +300,6 @@
       <groupId>org.opendaylight.usc</groupId>
       <artifactId>usc-features</artifactId>
       <version>${feature.usc.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.vtn</groupId>
-      <artifactId>features-vtn-manager</artifactId>
-      <version>${feature.vtn-manager.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
