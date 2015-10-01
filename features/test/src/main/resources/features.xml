@@ -101,7 +101,11 @@
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
         <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
-        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-framework</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-i2rs</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory-rendering</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-link-computation</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-mlmt</feature>
         <feature version='${feature.ttp.version}'>odl-ttp-all</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel</feature>
