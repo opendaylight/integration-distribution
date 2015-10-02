@@ -124,6 +124,20 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.didm.hp</groupId>
+      <artifactId>hp-features</artifactId>
+      <version>${didm.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.didm.mininet</groupId>
+      <artifactId>mininet-features</artifactId>
+      <version>${didm.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.dlux</groupId>
       <artifactId>features-dlux</artifactId>
       <version>${feature.dlux.version}</version>
