@@ -129,6 +129,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.didm.hp</groupId>
+      <artifactId>features-hp</artifactId>
+      <version>${didm.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.dlux</groupId>
       <artifactId>features-dlux</artifactId>
       <version>${feature.dlux.version}</version>
