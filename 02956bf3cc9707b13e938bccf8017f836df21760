@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_8a6f5292",
+        "filename": "features/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2015-10-04T01:47:28Z",
+      "side": 1,
+      "message": "Are these groupIds and artifactIds in the right convention? Typically you would just have the groupId as org.opendaylight.didm and not have the extar hp or mininet",
+      "revId": "02956bf3cc9707b13e938bccf8017f836df21760",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_2a6cfe9b",
+        "filename": "features/index/src/main/resources/features.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2015-10-04T01:47:28Z",
+      "side": 1,
+      "message": "same comment, just seems off with the groupIds.",
+      "range": {
+        "startLine": 49,
+        "startChar": 41,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "02956bf3cc9707b13e938bccf8017f836df21760",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_4a693a8a",
+        "filename": "features/test/src/main/resources/features.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2015-10-04T01:47:28Z",
+      "side": 1,
+      "message": "any reason this feature is not odl-didm-hp3800?",
+      "range": {
+        "startLine": 77,
+        "startChar": 47,
+        "endLine": 77,
+        "endChar": 53
+      },
+      "revId": "02956bf3cc9707b13e938bccf8017f836df21760",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
