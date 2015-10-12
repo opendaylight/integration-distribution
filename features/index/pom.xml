@@ -206,6 +206,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.netide</groupId>
+      <artifactId>netide-features</artifactId>
+      <version>${feature.netide.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.neutron</groupId>
       <artifactId>features-neutron</artifactId>
       <version>${feature.neutron.version}</version>

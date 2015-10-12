@@ -56,6 +56,7 @@
     <repository>mvn:org.opendaylight.netconf/features-netconf/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-netconf-connector/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-restconf/${feature.restconf.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin/${feature.openflowplugin.version}/xml/features</repository>
