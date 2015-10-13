@@ -76,9 +76,6 @@
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${feature.coretutorials.version}'>odl-dsbenchmark-impl</feature>
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
-        <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
-        <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
-        <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
         <feature version='1.3.0-SNAPSHOT'>odl-mdsal-broker</feature>
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
@@ -95,7 +92,6 @@
         <feature version="1.6.0-SNAPSHOT">odl-sdninterfaceapp-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-core</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
-        <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
