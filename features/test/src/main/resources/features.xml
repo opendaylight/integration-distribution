@@ -88,7 +88,10 @@
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-ui</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-nxm-extensions</feature>
-        <feature version='${feature.ovsdb.version}'>odl-ovsdb-all</feature>
+        <feature version='${feature.ovsdb.version}'>odl-ovsdb-hwvtepsouthbound</feature>
+        <feature version='${feature.ovsdb.version}'>odl-ovsdb-library</feature>
+        <feature version='${feature.ovsdb.version}'>odl-ovsdb-sfc</feature>
+        <feature version='${feature.ovsdb.version}'>odl-ovsdb-southbound-impl</feature>
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.reservation.version}'>odl-reservation-models</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
@@ -129,7 +132,7 @@
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-ui</feature>
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
         <feature version='${feature.nic.version}'>odl-nic-core</feature>
-        <feature version='${feature.ovsdb.openstack.version}'>odl-ovsdb-openstack</feature>
+        <feature version='${feature.ovsdb.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
 <!--
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
