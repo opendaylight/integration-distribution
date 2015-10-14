@@ -229,6 +229,34 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.ovsdb</groupId>
+      <artifactId>library-features</artifactId>
+      <version>${feature.ovsdb.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.ovsdb</groupId>
+      <artifactId>southbound-features</artifactId>
+      <version>${feature.ovsdb.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.ovsdb</groupId>
+      <artifactId>hwvtepsouthbound-features</artifactId>
+      <version>${feature.ovsdb.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.ovsdb</groupId>
+      <artifactId>openstack.net-virt-sfc-features</artifactId>
+      <version>${feature.ovsdb.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.packetcable</groupId>
       <artifactId>features-packetcable-policy</artifactId>
       <version>${feature.packetcable.version}</version>
