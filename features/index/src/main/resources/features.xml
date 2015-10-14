@@ -62,6 +62,10 @@
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-li/${feature.openflowplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-extension/${feature.openflowplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/features-ovsdb/${feature.ovsdb.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/library-features/${feature.ovsdb.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/hwvtepsouthbound-features/${feature.ovsdb.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/openstack.net-virt-sfc-features/${feature.ovsdb.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.ovsdb/southbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.packetcable/features-packetcable-policy/${feature.packetcable.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.reservation/features-reservation/${feature.reservation.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/1.6.0-SNAPSHOT/xml/features</repository>
