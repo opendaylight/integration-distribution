@@ -180,6 +180,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.messaging4transport</groupId>
+      <artifactId>messaging4transport-features</artifactId>
+      <version>${feature.messaging4transport.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.netconf</groupId>
       <artifactId>features-netconf</artifactId>
       <version>${feature.netconf.version}</version>
