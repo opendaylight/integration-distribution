@@ -54,6 +54,13 @@
     </dependency>
 -->
     <dependency>
+      <groupId>org.opendaylight.armoury</groupId>
+      <artifactId>armoury-features</artifactId>
+      <version>${feature.armoury.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
        <groupId>org.opendaylight.bgpcep</groupId>
        <artifactId>features-bgp</artifactId>
        <classifier>features</classifier>

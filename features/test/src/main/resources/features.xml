@@ -66,6 +66,7 @@
 <!--
         <feature version='${feature.alto.version}'>odl-alto-integration-test</feature>
 -->
+        <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
