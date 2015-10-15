@@ -130,6 +130,7 @@
 
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+        <feature version='${feature.faas.version}'>odl-faas-all</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
