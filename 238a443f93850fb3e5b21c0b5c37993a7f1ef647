@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_599e3458",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T17:48:10Z",
+      "side": 1,
+      "message": "Merge job (without build#) is better, it shows feature files are also uploaded to Nexus. But no big deal.",
+      "range": {
+        "startLine": 9,
+        "startChar": 78,
+        "endLine": 9,
+        "endChar": 103
+      },
+      "revId": "238a443f93850fb3e5b21c0b5c37993a7f1ef647",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad0f9df_99949c38",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T17:48:10Z",
+      "side": 1,
+      "message": "odl-didm-hp3800",
+      "range": {
+        "startLine": 11,
+        "startChar": 49,
+        "endLine": 11,
+        "endChar": 59
+      },
+      "revId": "238a443f93850fb3e5b21c0b5c37993a7f1ef647",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
