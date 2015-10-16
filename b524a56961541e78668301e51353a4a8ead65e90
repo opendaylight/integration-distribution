@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_b9c72064",
+        "filename": "pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T17:20:04Z",
+      "side": 1,
+      "message": "I believe that there can be issues if version does not have three numbers. It relates to scripts used in autorelease process, or when bumping version after stable branch is cut.\n\nI may be mistaken, possibly the scripts are more intelligent now, but I would feel safer if this becomes 1.0.0-SNAPSHOT.\n\nYou can do the change in your project first (integration/distribution will keep downloading existing 1.0-SNAPSHOT stuff from Nexus) and then change the version here.",
+      "range": {
+        "startLine": 27,
+        "startChar": 29,
+        "endLine": 27,
+        "endChar": 41
+      },
+      "revId": "b524a56961541e78668301e51353a4a8ead65e90",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
