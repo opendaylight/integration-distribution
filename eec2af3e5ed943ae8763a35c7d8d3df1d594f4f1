@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_59b074f4",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T17:24:42Z",
+      "side": 1,
+      "message": "See this comment: https://git.opendaylight.org/gerrit/#/c/28468/3/pom.xml@27",
+      "range": {
+        "startLine": 37,
+        "startChar": 41,
+        "endLine": 37,
+        "endChar": 53
+      },
+      "revId": "eec2af3e5ed943ae8763a35c7d8d3df1d594f4f1",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
