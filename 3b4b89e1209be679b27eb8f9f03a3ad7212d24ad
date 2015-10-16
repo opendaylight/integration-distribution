@@ -93,6 +93,30 @@
       "revId": "3b4b89e1209be679b27eb8f9f03a3ad7212d24ad",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad0f9df_d9c0e42c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T18:06:42Z",
+      "side": 1,
+      "message": "I mean, tests for odl-vpnservice-openstack could be run with odl-integration-compatible-with-all installed, just to verify features there are compatible with _all_, not just with each other.\nIf some feature from there breaks odl-vpnservice-openstack, then there is a bug, or that feature is not as compatible as it claims. In each case, we want to know about that.",
+      "parentUuid": "fad0f9df_d9a9c47c",
+      "range": {
+        "startLine": 19,
+        "startChar": 20,
+        "endLine": 19,
+        "endChar": 44
+      },
+      "revId": "3b4b89e1209be679b27eb8f9f03a3ad7212d24ad",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
