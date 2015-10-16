@@ -24,7 +24,7 @@
     <didm.version>0.2.0-SNAPSHOT</didm.version>
     <feature.adsal.version>0.10.0-SNAPSHOT</feature.adsal.version>
     <feature.alto.version>0.2.0-SNAPSHOT</feature.alto.version>
-    <feature.armoury.version>1.0-SNAPSHOT</feature.armoury.version>
+    <feature.armoury.version>1.0.0-SNAPSHOT</feature.armoury.version>
     <feature.bgpcep.version>0.5.0-SNAPSHOT</feature.bgpcep.version>
     <feature.capwap.version>0.2.0-SNAPSHOT</feature.capwap.version>
     <feature.coretutorials.version>1.1.0-SNAPSHOT</feature.coretutorials.version>
