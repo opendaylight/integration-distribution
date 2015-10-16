@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_b9196024",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T17:04:55Z",
+      "side": 1,
+      "message": "Currently, this is only a subset of already included odl-vpnservice-core feature, but I guess this enables vpnservice contributors to add content later.",
+      "range": {
+        "startLine": 14,
+        "startChar": 19,
+        "endLine": 14,
+        "endChar": 43
+      },
+      "revId": "3b4b89e1209be679b27eb8f9f03a3ad7212d24ad",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fad0f9df_d916a4f1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-10-16T17:04:55Z",
+      "side": 1,
+      "message": "Is there a reason not to test also with odl-integration-compatible-with-all?",
+      "range": {
+        "startLine": 19,
+        "startChar": 20,
+        "endLine": 19,
+        "endChar": 44
+      },
+      "revId": "3b4b89e1209be679b27eb8f9f03a3ad7212d24ad",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
