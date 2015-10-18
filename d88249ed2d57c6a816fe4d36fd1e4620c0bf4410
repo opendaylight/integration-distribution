@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_f2f85dc6",
+        "filename": "features/index/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-10-18T17:41:07Z",
+      "side": 1,
+      "message": "If we follow alphabetical order, this section goes between lispflowmapping and nemo :)",
+      "revId": "d88249ed2d57c6a816fe4d36fd1e4620c0bf4410",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
