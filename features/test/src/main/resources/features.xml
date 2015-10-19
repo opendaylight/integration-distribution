@@ -71,6 +71,9 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
+        <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
+        <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
+        <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
         <feature version='${didm.version}'>odl-didm-identification-api</feature>
         <feature version='${didm.version}'>odl-didm-identification</feature>
         <feature version='${didm.version}'>odl-didm-drivers-api</feature>
