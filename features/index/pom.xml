@@ -87,6 +87,13 @@
        <type>xml</type>
     </dependency>
     <dependency>
+       <groupId>org.opendaylight.bgpcep</groupId>
+       <artifactId>features-rsvp</artifactId>
+       <classifier>features</classifier>
+       <version>${feature.bgpcep.version}</version>
+       <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.capwap</groupId>
       <artifactId>capwap-features</artifactId>
       <version>${feature.capwap.version}</version>
