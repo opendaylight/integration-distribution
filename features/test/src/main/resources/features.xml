@@ -122,6 +122,7 @@
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-link-computation</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-mlmt</feature>
         <feature version='${feature.ttp.version}'>odl-ttp-all</feature>
+        <feature version='${feature.unimgr.version}'>odl-unimgr</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel-rest</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>

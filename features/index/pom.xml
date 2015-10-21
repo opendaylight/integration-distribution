@@ -404,6 +404,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.unimgr</groupId>
+      <artifactId>unimgr-features</artifactId>
+      <version>${feature.unimgr.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.usc</groupId>
       <artifactId>usc-features</artifactId>
       <version>${feature.usc.version}</version>
