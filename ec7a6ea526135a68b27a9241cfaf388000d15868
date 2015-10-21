@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_e9338bf4",
+        "filename": "features/test/src/main/resources/features.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 9
+      },
+      "writtenOn": "2015-10-21T13:20:59Z",
+      "side": 1,
+      "message": "Has VTN finished its transition to MD-SAL?  Do we have new features for them?  Or is this just clipping out VTN?",
+      "revId": "ec7a6ea526135a68b27a9241cfaf388000d15868",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
