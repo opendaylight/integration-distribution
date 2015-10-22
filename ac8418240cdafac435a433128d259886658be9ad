@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad0f9df_d4e41eae",
+        "filename": "features/test/src/main/resources/features.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-10-22T01:17:10Z",
+      "side": 1,
+      "message": "This feature should go first in the list if we follow alphabetical order.",
+      "revId": "ac8418240cdafac435a433128d259886658be9ad",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
