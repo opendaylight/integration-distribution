@@ -96,6 +96,7 @@
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
+        <feature version='${feature.netide.version}'>odl-netide-rest</feature>
 <!--
         <feature version='${feature.nsf.version}'>odl-nsf-all</feature>
 -->
