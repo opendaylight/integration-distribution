@@ -101,6 +101,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.centinel</groupId>
+      <artifactId>centinel-features</artifactId>
+      <version>${feature.centinel.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.controller</groupId>
       <artifactId>features-adsal</artifactId>
       <version>${feature.adsal.version}</version>
