@@ -57,7 +57,7 @@ function join {
     final=$1; shift
 
     for str in $* ; do
-	final=${final}${delim}${str}
+        final=${final}${delim}${str}
     done
 
     echo ${final}
@@ -126,30 +126,52 @@ function verify_configuration_files
 {
     # Constants
     BIN_DIR=`dirname $0`
+    test ${BIN_DIR} == '.' && BIN_DIR=${PWD}
     CONTROLLER_DIR=`dirname ${BIN_DIR}`
     CONF_DIR=${CONTROLLER_DIR}/configuration/initial
     AKKACONF=${CONF_DIR}/akka.conf
     MODULESCONF=${CONF_DIR}/modules.conf
     MODULESHARDSCONF=${CONF_DIR}/module-shards.conf
 
-    # Verify configuation files are present.
+    # Verify configuration files are present in expected location.
     if [ ! -f ${AKKACONF} -o ! -f ${MODULESHARDSCONF} ]; then
-	cat << EOF
- ERROR: Cluster configurations files not found. Please configure\
- clustering feature.
+        # Check if the configuration files exist in the system
+        # directory, then copy them over.
+        ORIG_CONF_DIR=${CONTROLLER_DIR}/system/org/opendaylight/controller/sal-clustering-config
+        version=$(sed -n -e 's/.*<version>\(.*\)<\/version>/\1/p' ${ORIG_CONF_DIR}/maven-metadata-local.xml)
+        ORIG_CONF_DIR=${ORIG_CONF_DIR}/${version}
+        ORIG_AKKA_CONF=sal-clustering-config-${version}-akkaconf.xml
+        ORIG_MODULES_CONF=sal-clustering-config-${version}-moduleconf.xml
+        ORIG_MODULESHARDS_CONF=sal-clustering-config-${version}-moduleshardconf.xml
 
+        if [ -f ${ORIG_CONF_DIR}/${ORIG_AKKA_CONF} -a \
+             -f ${ORIG_CONF_DIR}/${ORIG_MODULES_CONF} -a \
+             -f ${ORIG_CONF_DIR}/${ORIG_MODULESHARDS_CONF} ]; then
+            cat <<EOF
+ NOTE: Cluster configuration files not found. Copying from
+ ${ORIG_CONF_DIR}
 EOF
-	exit -1
+            mkdir -p ${CONF_DIR}
+            cp ${ORIG_CONF_DIR}/${ORIG_AKKA_CONF} ${AKKACONF}
+            cp ${ORIG_CONF_DIR}/${ORIG_MODULES_CONF} ${MODULESCONF}
+            cp ${ORIG_CONF_DIR}/${ORIG_MODULESHARDS_CONF} ${MODULESHARDSCONF}
+
+        else
+            cat << EOF
+ ERROR: Cluster configurations files not found. Please\
+ configure clustering feature.
+EOF
+            exit -1
+        fi
     fi
 }
 
 function main
 {
     get_cli_params $*
+    start_banner
     verify_configuration_files
     create_strings
-
-    start_banner
     modify_conf_files
     end_banner
 }
