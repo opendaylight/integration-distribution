@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bada0100_0479262f",
+        "filename": "distributions/karaf/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-11-02T21:51:41Z",
+      "side": 1,
+      "message": "This is really smart, figuring out the version from the maven metadata will make this script to work with any ODL version.",
+      "revId": "13c5614d8ebdabb5fec1565dce0a647814d453dc",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
