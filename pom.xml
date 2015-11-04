@@ -22,7 +22,6 @@
   <properties>
     <!-- Keep this list sorted alphabetically please -->
     <didm.version>0.2.0-SNAPSHOT</didm.version>
-    <feature.adsal.version>0.10.0-SNAPSHOT</feature.adsal.version>
     <feature.alto.version>0.2.0-SNAPSHOT</feature.alto.version>
     <feature.armoury.version>1.0.0-SNAPSHOT</feature.armoury.version>
     <feature.bgpcep.version>0.5.0-SNAPSHOT</feature.bgpcep.version>
@@ -41,7 +40,6 @@
     <feature.nemo.version>1.0.0-SNAPSHOT</feature.nemo.version>
     <feature.netconf.version>1.0.0-SNAPSHOT</feature.netconf.version>
     <feature.nic.version>1.1.0-SNAPSHOT</feature.nic.version>
-    <feature.nsf.version>0.6.0-SNAPSHOT</feature.nsf.version>
     <feature.neutron.version>0.6.0-SNAPSHOT</feature.neutron.version>
     <feature.openflowplugin.version>0.2.0-SNAPSHOT</feature.openflowplugin.version>
     <feature.ovsdb.version>1.2.1-SNAPSHOT</feature.ovsdb.version>

@@ -41,9 +41,7 @@
     <repository>mvn:org.opendaylight.bgpcep/features-pcep/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/${feature.capwap.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.controller/features-adsal/${feature.adsal.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/${feature.mdsal.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.controller/features-nsf/${feature.nsf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.coretutorials/dsbenchmark-features/${feature.coretutorials.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/didm-features/${didm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm.hp/features-hp/${didm.version}/xml/features</repository>

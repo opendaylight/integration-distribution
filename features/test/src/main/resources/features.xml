@@ -62,9 +62,6 @@
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
-<!--
-        <feature version='${feature.adsal.version}'>odl-adsal-all</feature>
--->
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
@@ -96,9 +93,6 @@
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
-<!--
-        <feature version='${feature.nsf.version}'>odl-nsf-all</feature>
--->
         <feature version='0.7.0-SNAPSHOT'>odl-openflowjava-protocol</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
@@ -114,7 +108,6 @@
 <!--
         <feature version="1.6.0-SNAPSHOT">odl-sdninterfaceapp-all</feature>
 -->
-        <feature version='${feature.sfc.version}'>odl-sfc-core</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>

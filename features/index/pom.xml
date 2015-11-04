@@ -102,22 +102,8 @@
     </dependency>
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-adsal</artifactId>
-      <version>${feature.adsal.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.controller</groupId>
       <artifactId>features-mdsal</artifactId>
       <version>${feature.mdsal.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-nsf</artifactId>
-      <version>${feature.nsf.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
