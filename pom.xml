@@ -40,6 +40,7 @@
     <feature.messaging4transport.version>1.0.0-SNAPSHOT</feature.messaging4transport.version>
     <feature.nemo.version>1.0.0-SNAPSHOT</feature.nemo.version>
     <feature.netconf.version>1.0.0-SNAPSHOT</feature.netconf.version>
+    <feature.netide.version>0.1.0-SNAPSHOT</feature.netide.version>
     <feature.nic.version>1.1.0-SNAPSHOT</feature.nic.version>
     <feature.neutron.version>0.6.0-SNAPSHOT</feature.neutron.version>
     <feature.openflowplugin.version>0.2.0-SNAPSHOT</feature.openflowplugin.version>
