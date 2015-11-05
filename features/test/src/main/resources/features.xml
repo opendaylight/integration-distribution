@@ -69,6 +69,10 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
+        <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
+        <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
+        <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
+        <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
