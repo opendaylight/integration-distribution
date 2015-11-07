@@ -131,6 +131,8 @@
         <feature version='${feature.usc.version}'>odl-usc-channel</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel-rest</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>
+        <feature version='${feature.usecplugin.version}'>odl-usecplugin-api</feature>
+        <feature version='${feature.usecplugin.version}'>odl-usecplugin</feature>
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
     </feature>
 
