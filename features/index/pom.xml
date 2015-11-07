@@ -432,6 +432,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.usecplugin</groupId>
+      <artifactId>usecplugin-features</artifactId>
+      <version>${feature.usecplugin.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.vtn</groupId>
       <artifactId>features-vtn-manager</artifactId>
       <version>${feature.vtn-manager.version}</version>
