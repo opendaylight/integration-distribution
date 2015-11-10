@@ -108,16 +108,16 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.controller</groupId>
-      <artifactId>features-mdsal</artifactId>
-      <version>${feature.mdsal.version}</version>
+      <groupId>org.opendaylight.cntroller</groupId>
+      <artifactId>benchmark-features</artifactId>
+      <version>${feature.benchmark.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.coretutorials</groupId>
-      <artifactId>dsbenchmark-features</artifactId>
-      <version>${feature.coretutorials.version}</version>
+      <groupId>org.opendaylight.controller</groupId>
+      <artifactId>features-mdsal</artifactId>
+      <version>${feature.mdsal.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
