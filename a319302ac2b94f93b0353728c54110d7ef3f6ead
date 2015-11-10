@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab8dda7_67d59242",
+        "filename": "features/test/src/main/resources/features.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 4085
+      },
+      "writtenOn": "2015-11-10T13:11:17Z",
+      "side": 1,
+      "message": "would it work with \"odl-bgpcep-bgp\" instead of \"\u003eodl-bgpcep-bgp-all\"?",
+      "range": {
+        "startLine": 68,
+        "startChar": 56,
+        "endLine": 68,
+        "endChar": 71
+      },
+      "revId": "a319302ac2b94f93b0353728c54110d7ef3f6ead",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
