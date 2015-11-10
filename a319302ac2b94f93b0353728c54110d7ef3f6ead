@@ -22,6 +22,30 @@
       "revId": "a319302ac2b94f93b0353728c54110d7ef3f6ead",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab8dda7_478f2e24",
+        "filename": "features/test/src/main/resources/features.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2015-11-10T14:42:27Z",
+      "side": 1,
+      "message": "There is no practical difference between odl-bgpcep-bgp-all and odl-bgpcep-bgp in Beryllium.\nThe underlying issue why some change is needed is https://bugs.opendaylight.org/show_bug.cgi?id\u003d4598",
+      "parentUuid": "9ab8dda7_67d59242",
+      "range": {
+        "startLine": 68,
+        "startChar": 56,
+        "endLine": 68,
+        "endChar": 71
+      },
+      "revId": "a319302ac2b94f93b0353728c54110d7ef3f6ead",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
