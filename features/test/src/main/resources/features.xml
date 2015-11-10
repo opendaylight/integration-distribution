@@ -85,7 +85,7 @@
         <feature version='${didm.version}'>odl-didm-hp3800</feature>
 -->
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
-        <feature version='${feature.coretutorials.version}'>odl-dsbenchmark-impl</feature>
+        <feature version='${feature.benchmark.version}'>odl-dsbenchmark</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
