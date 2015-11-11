@@ -78,12 +78,7 @@
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
-<!--
-        <feature version='${didm.version}'>odl-didm-identification-api</feature>
-        <feature version='${didm.version}'>odl-didm-identification</feature>
-        <feature version='${didm.version}'>odl-didm-drivers-api</feature>
-        <feature version='${didm.version}'>odl-didm-hp3800</feature>
--->
+        <feature version='${didm.version}'>odl-didm-all</feature>
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${feature.benchmark.version}'>odl-dsbenchmark</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
