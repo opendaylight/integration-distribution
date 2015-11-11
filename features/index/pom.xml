@@ -123,14 +123,14 @@
     </dependency>
     <dependency>
       <groupId>org.opendaylight.didm</groupId>
-      <artifactId>didm-features</artifactId>
+      <artifactId>features-didm</artifactId>
       <version>${didm.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.didm.hp</groupId>
-      <artifactId>features-hp</artifactId>
+      <groupId>org.opendaylight.didm</groupId>
+      <artifactId>features-didm-hp</artifactId>
       <version>${didm.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
