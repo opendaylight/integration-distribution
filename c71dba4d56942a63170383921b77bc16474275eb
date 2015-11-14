@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aade967_2dabee8a",
+        "filename": "features/index/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 236,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-11-14T02:38:11Z",
+      "side": 1,
+      "message": "And also tab here",
+      "revId": "c71dba4d56942a63170383921b77bc16474275eb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aade967_8da6a2c0",
+        "filename": "features/index/src/main/resources/features.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-11-14T02:38:11Z",
+      "side": 1,
+      "message": "another tab",
+      "revId": "c71dba4d56942a63170383921b77bc16474275eb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aade967_6da1e6a8",
+        "filename": "features/test/src/main/resources/features.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-11-14T02:38:11Z",
+      "side": 1,
+      "message": "Same comment of tabs",
+      "revId": "c71dba4d56942a63170383921b77bc16474275eb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aade967_cdc49a61",
+        "filename": "pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2015-11-14T02:38:11Z",
+      "side": 1,
+      "message": "It seems you have a tab here, please fix.",
+      "revId": "c71dba4d56942a63170383921b77bc16474275eb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
