@@ -122,7 +122,9 @@
         <feature version='1.0.3-SNAPSHOT'>odl-persistence-api</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
-        <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature> <!-- Bug 4498 and Bug 4583 -->
+<!-- Bug 4498 and Bug 4583
+        <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
+-->
         <feature version='${feature.tsdr.version}'>odl-tsdr-all</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
