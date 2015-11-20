@@ -94,6 +94,8 @@
     </dependency>
 
     <!-- External application -->
+    <!--
+         TODO: Add the following dependencies after the Bug 4426 is fixed.
     <dependency>
       <groupId>org.opendaylight.vtn</groupId>
       <artifactId>distribution.vtn-coordinator</artifactId>
@@ -137,6 +139,7 @@
         </exclusion>
       </exclusions>
     </dependency>
+    -->
   </dependencies>
 
   <build>
@@ -341,6 +344,8 @@
              <ignorePermissions>false</ignorePermissions>
             </configuration>
           </execution>
+          <!--
+             TODO: Add the execution after the Bug 4426 is fixed.
           <execution>
             <id>copy-externalapps</id>
             <phase>prepare-package</phase>
@@ -356,6 +361,7 @@
               <excludeTransitive>true</excludeTransitive>
             </configuration>
           </execution>
+          -->
         </executions>
       </plugin>
       <plugin>
