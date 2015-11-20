@@ -64,12 +64,10 @@
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
-
-        <!--<feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>-->
+        <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
-
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
