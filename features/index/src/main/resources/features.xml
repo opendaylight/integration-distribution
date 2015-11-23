@@ -64,11 +64,6 @@
     <repository>mvn:org.opendaylight.reservation/features-reservation/${feature.reservation.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/1.5.3-SNAPSHOT/xml/features</repository>
     <repository>mvn:org.opendaylight.sfc/features-sfc/${feature.sfc.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.sfc/features-sfc-netconf/${feature.sfc.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.sfc/features-sfc-ovs/${feature.sfc.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.sfc/features-sfc-sb-rest/${feature.sfc.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.sfc/features-sfclisp/${feature.sfc.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.sfc/features-sfcofl2/${feature.sfc.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snbi/features-snbi/${feature.snbi.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp/features-snmp/${snmp.plugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp4sdn/features-snmp4sdn/${feature.snmp4sdn.version}/xml/features</repository>
