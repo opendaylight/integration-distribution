@@ -109,7 +109,7 @@
     </dependency>
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
-      <artifactId>benchmark-features</artifactId>
+      <artifactId>features-mdsal-benchmark</artifactId>
       <version>${feature.benchmark.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
