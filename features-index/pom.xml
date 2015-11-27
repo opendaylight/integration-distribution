@@ -362,6 +362,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.snmp4sdn</groupId>
+      <artifactId>features-snmp4sdn</artifactId>
+      <version>${feature.snmp4sdn.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.sxp</groupId>
       <artifactId>features</artifactId>
       <version>${feature.sxp.version}</version>
