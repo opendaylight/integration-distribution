@@ -82,7 +82,6 @@
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-ui</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-nxm-extensions</feature>
-        <feature version='${feature.ovsdb.version}'>odl-ovsdb-all</feature>
         <feature version='${feature.reservation.version}'>odl-reservation-models</feature>
         <feature version='1.2.4-SNAPSHOT'>odl-restconf</feature>
         <feature version="1.5.4-SNAPSHOT">odl-sdninterfaceapp-all</feature>
