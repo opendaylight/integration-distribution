@@ -89,8 +89,5 @@
     <repository>mvn:org.opendaylight.usc/usc-features/${feature.usc.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.usecplugin/usecplugin-features/${feature.usecplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.vpnservice/vpnservice-features/${feature.vpnservice.version}/xml/features</repository>
-    <!--
-         TODO: Add the following repository after the Bug 4426 is fixed.
     <repository>mvn:org.opendaylight.vtn/features-vtn-manager/${feature.vtn-manager.version}/xml/features</repository>
-    -->
 </features>
