@@ -108,9 +108,7 @@
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.reservation.version}'>odl-reservation-models</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
-<!--
-        <feature version="1.6.0-SNAPSHOT">odl-sdninterfaceapp-all</feature>
--->
+        <feature version='${feature.sdninterfaceapp.version}'>odl-sdninterfaceapp-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>

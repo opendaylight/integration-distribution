@@ -334,7 +334,7 @@
     <dependency>
       <groupId>org.opendaylight.sdninterfaceapp</groupId>
       <artifactId>features-sdninterfaceapp</artifactId>
-      <version>1.6.0-SNAPSHOT</version>
+      <version>${feature.sdninterfaceapp.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
