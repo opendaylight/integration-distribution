@@ -445,8 +445,6 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
-    <!--
-         TODO: Add the following dependency after the Bug 4426 is fixed.
     <dependency>
       <groupId>org.opendaylight.vtn</groupId>
       <artifactId>features-vtn-manager</artifactId>
@@ -454,7 +452,6 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
-    -->
     <dependency>
       <groupId>org.opendaylight.vpnservice</groupId>
       <artifactId>vpnservice-features</artifactId>
