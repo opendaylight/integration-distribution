@@ -76,7 +76,6 @@
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
-        <feature version='${didm.version}'>odl-didm-all</feature>
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
@@ -135,6 +134,7 @@
 
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+        <feature version='${didm.version}'>odl-didm-all</feature>
 <!--
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
 -->
