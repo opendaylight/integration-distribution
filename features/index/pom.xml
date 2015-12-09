@@ -177,6 +177,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+<!--    Revert when LCAP finishes pre-boron version bump.
     <dependency>
       <groupId>org.opendaylight.lacp</groupId>
       <artifactId>features-lacp</artifactId>
@@ -184,6 +185,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+-->
     <dependency>
       <groupId>org.opendaylight.lispflowmapping</groupId>
       <artifactId>features-lispflowmapping</artifactId>
