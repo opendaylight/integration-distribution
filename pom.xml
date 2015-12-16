@@ -71,7 +71,6 @@
   <modules>
     <module>distributions/</module>
     <module>features/</module>
-    <module>feature-selector</module>
   </modules>
 
   <distributionManagement>
