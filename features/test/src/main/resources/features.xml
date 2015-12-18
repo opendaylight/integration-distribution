@@ -141,7 +141,9 @@
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
+<!--
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
+-->
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-rest</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-ui</feature>
