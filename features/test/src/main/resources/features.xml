@@ -68,10 +68,13 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
+<!--
+        Commented out because two of the features lead to Yang pares errors.
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
+-->
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
@@ -113,7 +116,10 @@
         <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
+<!--
+        Commented out as it leads to Yang parser errors.
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
+-->
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
         <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
@@ -133,7 +139,11 @@
 
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+<!--
+        Commented out, because DIDM brings in Li designed OpenFlowPlugin
+        which leads to BindException.
         <feature version='${didm.version}'>odl-didm-all</feature>
+-->
 <!--
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
 -->
@@ -146,7 +156,11 @@
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-rest</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-ui</feature>
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
+<!--
+        Commented out, because NIC brings in Li designed OpenFlowPlugin
+        which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core</feature>
+-->
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
 <!--
