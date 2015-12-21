@@ -62,16 +62,20 @@
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
+<!--
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
+-->
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
+<!--
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
+-->
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
@@ -113,7 +117,9 @@
         <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
+<!--
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
+-->
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
         <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
