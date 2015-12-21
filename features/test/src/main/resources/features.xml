@@ -133,7 +133,11 @@
 
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+<!--
+        Commented out, because DIDM brings in Li designed OpenFlowPlugin
+        which leads to BindException.
         <feature version='${didm.version}'>odl-didm-all</feature>
+-->
 <!--
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
 -->
@@ -146,7 +150,11 @@
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-rest</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-ui</feature>
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
+<!--
+        Commented out, because NIC brings in Li designed OpenFlowPlugin
+        which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core</feature>
+-->
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
 <!--
