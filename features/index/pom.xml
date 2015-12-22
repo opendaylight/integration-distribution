@@ -94,6 +94,13 @@
        <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.capwap</groupId>
+      <artifactId>capwap-features</artifactId>
+      <version>${feature.capwap.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.centinel</groupId>
       <artifactId>centinel-features</artifactId>
       <version>${feature.centinel.version}</version>
