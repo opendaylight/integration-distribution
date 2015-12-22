@@ -68,6 +68,7 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
+        <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
 <!--
         Commented out because two of the features lead to Yang pares errors.
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
