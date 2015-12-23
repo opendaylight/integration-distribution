@@ -40,7 +40,6 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit-dep</artifactId>
-      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
     <!-- dependency for opendaylight-karaf-empty for use by testing -->
