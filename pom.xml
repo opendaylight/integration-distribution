@@ -68,9 +68,10 @@
     <snmp.plugin.version>1.1.0-SNAPSHOT</snmp.plugin.version>
     <!-- Keep this list sorted alphabetically please -->
   </properties>
+
   <modules>
-    <module>distributions/</module>
-    <module>features/</module>
+    <module>distribution-karaf</module>
+    <module>features</module>
   </modules>
 
   <build>
