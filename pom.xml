@@ -63,7 +63,6 @@
     <feature.vtn-manager.version>0.4.0-SNAPSHOT</feature.vtn-manager.version>
     <feature.yangtools.version>0.8.0-SNAPSHOT</feature.yangtools.version>
     <karaf.branding.version>1.2.0-SNAPSHOT</karaf.branding.version>
-    <nexusproxy>http://nexus.opendaylight.org/content</nexusproxy>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <snmp.plugin.version>1.1.0-SNAPSHOT</snmp.plugin.version>
     <!-- Keep this list sorted alphabetically please -->
