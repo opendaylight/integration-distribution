@@ -161,7 +161,11 @@
         which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core</feature>
 -->
+<!--
+        Commented out, because ovsdb-openstack brings in Li designed OpenFlowPlugin
+        for it's clustering implementation which leads to BindException.
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-openstack</feature>
+-->
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
 <!--
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
