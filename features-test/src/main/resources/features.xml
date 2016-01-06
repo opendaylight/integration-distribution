@@ -169,6 +169,8 @@
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-openstack</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
+        <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
+        <feature version='${feature.yang-push.version}'>odl-yangpush</feature>
     </feature>
 
 </features>
