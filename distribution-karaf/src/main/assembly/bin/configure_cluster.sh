@@ -121,18 +121,21 @@ function modify_conf_files
     sed -i -e "/^[^#].*replicas[ ]*=/ { :loop /.*\]/ b done; N; b loop; :done s/replicas.*\]/replicas = [${MEMBER_NAME_LIST}]/}" ${MODULESHARDSCONF}
 }
 
-
-function verify_configuration_files
+function create_constants
 {
     # Constants
     BIN_DIR=`dirname $0`
     test ${BIN_DIR} == '.' && BIN_DIR=${PWD}
     CONTROLLER_DIR=`dirname ${BIN_DIR}`
     CONF_DIR=${CONTROLLER_DIR}/configuration/initial
+    HOT_DEPLOY_DIR=${CONTROLLER_DIR}/deploy
     AKKACONF=${CONF_DIR}/akka.conf
     MODULESCONF=${CONF_DIR}/modules.conf
     MODULESHARDSCONF=${CONF_DIR}/module-shards.conf
+}
 
+function verify_configuration_files
+{
     # Verify configuration files are present in expected location.
     if [ ! -f ${AKKACONF} -o ! -f ${MODULESHARDSCONF} ]; then
         # Check if the configuration files exist in the system
@@ -166,17 +169,34 @@ EOF
     fi
 }
 
+function hot_deploy_jolokia
+{
+
+    cat > ${HOT_DEPLOY_DIR}/jolokia.xml <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+
+<features name="jolokia-1.1.5" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
+
+    <feature name='feature-jolokia' version='1.1.5' install="auto">
+       <bundle>mvn:org.jolokia/jolokia-osgi/1.1.5</bundle>
+    </feature>
+
+</features>
+EOF
+}
+
 function main
 {
     get_cli_params $*
     start_banner
+    create_constants
     verify_configuration_files
     create_strings
     modify_conf_files
+    hot_deploy_jolokia
     end_banner
 }
 
 main $*
 
 # vim: ts=4 sw=4 sts=4 et ft=sh :
-
