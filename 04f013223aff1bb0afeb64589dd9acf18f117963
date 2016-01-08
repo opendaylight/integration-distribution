@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_e1728648",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-01-08T00:28:09Z",
+      "side": 1,
+      "message": "I had trouble with this when I was indenting the xml lines to make it more readable, so this is what I ended up with.",
+      "range": {
+        "startLine": 176,
+        "startChar": 0,
+        "endLine": 184,
+        "endChar": 11
+      },
+      "revId": "04f013223aff1bb0afeb64589dd9acf18f117963",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
