@@ -62,7 +62,10 @@
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
+<!--
+        Commented out as it leads to Yang parser errors.
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
+-->
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
