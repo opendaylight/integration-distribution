@@ -62,6 +62,8 @@
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
+<!-- 1
+        Commented out as it leads to Yang parser errors.
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
@@ -69,13 +71,11 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
-<!--
         Commented out because two of the features lead to Yang pares errors.
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
--->
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
@@ -106,19 +106,15 @@
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.reservation.version}'>odl-reservation-models</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
-<!--
         <feature version="1.6.0-SNAPSHOT">odl-sdninterfaceapp-all</feature>
--->
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
-<!--
         Commented out as it leads to Yang parser errors.
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
--->
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
         <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
         <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
@@ -135,6 +131,7 @@
         <feature version='${feature.usecplugin.version}'>odl-usecplugin-api</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin</feature>
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
+-->
     </feature>
 
     <!-- Please use aphabetical order for non-compatible features -->
@@ -143,13 +140,11 @@
         Commented out, because DIDM brings in Li designed OpenFlowPlugin
         which leads to BindException.
         <feature version='${didm.version}'>odl-didm-all</feature>
--->
-<!--
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
--->
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
+-->
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch</feature>
@@ -160,16 +155,14 @@
         Commented out, because NIC brings in Li designed OpenFlowPlugin
         which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core</feature>
--->
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
-<!--
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
--->
         <feature version='${feature.tsdr.version}'>odl-tsdr-h2-all</feature>
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-openstack</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
+-->
     </feature>
 
 </features>
