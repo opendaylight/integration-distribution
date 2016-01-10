@@ -23,7 +23,10 @@
     <!-- Keep this list sorted alphabetically please -->
     <didm.version>0.2.0-SNAPSHOT</didm.version>
     <feature.alto.version>0.2.0-SNAPSHOT</feature.alto.version>
-    <feature.armoury.version>1.0.0-SNAPSHOT</feature.armoury.version>
+    <!-- Remove Armoury from Beryllium release as per as committers consent:
+    https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
+    Need to be uncommented once in Boron -->
+    <!-- <feature.armoury.version>1.0.0-SNAPSHOT</feature.armoury.version> -->
     <feature.benchmark.version>1.1.0-SNAPSHOT</feature.benchmark.version>
     <feature.bgpcep.version>0.5.0-SNAPSHOT</feature.bgpcep.version>
     <feature.capwap.version>0.2.0-SNAPSHOT</feature.capwap.version>

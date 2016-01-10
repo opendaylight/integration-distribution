@@ -63,7 +63,10 @@
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
-        <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
+        <!-- Remove Armoury from Beryllium release as per as committers consent:
+        https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
+        Need to be uncommented once in Boron -->
+        <!-- <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature> -->
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
