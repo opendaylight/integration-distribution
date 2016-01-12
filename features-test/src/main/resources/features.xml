@@ -144,9 +144,10 @@
         which leads to BindException.
         <feature version='${didm.version}'>odl-didm-all</feature>
 -->
-<!--
+        <!-- FAAS has disabled odl-faas-all feature due to timeouts in SingleFeatureTest
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
--->
+        -->
+        <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
