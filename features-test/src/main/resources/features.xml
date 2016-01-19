@@ -158,11 +158,7 @@
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-rest</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-ui</feature>
-<!--
-        Commented out, because LACP brings in Li designed OpenFlowPlugin
-        which leads to BindException.
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
--->
 <!--
         Commented out, because NIC brings in Li designed OpenFlowPlugin
         which leads to BindException.
