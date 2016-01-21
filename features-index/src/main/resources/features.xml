@@ -79,9 +79,7 @@
     <repository>mvn:org.opendaylight.reservation/features-reservation/${feature.reservation.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/1.7.0-SNAPSHOT/xml/features</repository>
     <repository>mvn:org.opendaylight.sfc/features-sfc/${feature.sfc.version}/xml/features</repository>
-<!--
     <repository>mvn:org.opendaylight.snbi/features-snbi/${feature.snbi.version}/xml/features</repository>
--->
     <repository>mvn:org.opendaylight.snmp/features-snmp/${snmp.plugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp4sdn/features-snmp4sdn/${feature.snmp4sdn.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.sxp/features/${feature.sxp.version}/xml/features</repository>
