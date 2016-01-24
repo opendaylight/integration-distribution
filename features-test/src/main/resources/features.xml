@@ -167,7 +167,9 @@
 <!--
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
 -->
+<!--    This feature has been removed through this patch:https://git.opendaylight.org/gerrit/#/c/33431/
         <feature version='${feature.tsdr.version}'>odl-tsdr-h2-all</feature>
+-->
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-openstack</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
