@@ -134,7 +134,6 @@
         <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin-api</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin</feature>
-        <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
     </feature>
 
     <!-- Please use aphabetical order for non-compatible features -->
@@ -168,6 +167,7 @@
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
 -->
         <feature version='${feature.tsdr.version}'>odl-tsdr-h2-all</feature>
+        <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-openstack</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
