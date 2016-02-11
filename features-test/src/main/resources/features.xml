@@ -55,8 +55,8 @@
     -->
     <repository>mvn:org.opendaylight.integration/features-integration-index/${project.version}/xml/features</repository>
 
-    <!-- Please use alphabetical order to add a compatible with all features -->
-    <feature name='odl-integration-compatible-with-all' version='${project.version}'>
+    <!-- Please use alphabetical order for features -->
+    <feature name='odl-integration-compatible-with-all-cluster' version='${project.version}'>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-api</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authn</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-authz</feature>
@@ -67,10 +67,6 @@
         https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
         Need to be uncommented once in Boron -->
         <!-- <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature> -->
-        <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
-        <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
-        <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
-        <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
 <!--
         Commented out because two of the features lead to Yang pares errors.
@@ -91,7 +87,6 @@
         <feature version='${feature.nemo.version}'>odl-nemo-engine-rest</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
-        <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
         <feature version='0.7.0-SNAPSHOT'>odl-openflowjava-protocol</feature>
@@ -134,7 +129,17 @@
         <feature version='${feature.usecplugin.version}'>odl-usecplugin</feature>
     </feature>
 
-    <!-- Please use aphabetical order for non-compatible features -->
+    <!-- Please use aphabetical order for features -->
+    <feature name='odl-integration-compatible-with-all' version='${project.version}'>
+        <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
+        <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
+        <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
+        <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
+        <feature version='${project.version}'>odl-integration-compatible-with-all-cluster</feature>
+        <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
+    </feature>
+
+    <!-- Please use aphabetical order for features -->
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${didm.version}'>odl-didm-all</feature>
  <!-- FAAS has disabled odl-faas-all feature due to timeouts in SingleFeatureTest
@@ -144,7 +149,6 @@
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
-        <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-l2switch-switch-rest</feature>
