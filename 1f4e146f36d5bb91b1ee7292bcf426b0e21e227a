@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Fri, 12 Feb 2016 22:10:20 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/34578
+Project: integration/distribution
+Branch: refs/heads/stable/beryllium
