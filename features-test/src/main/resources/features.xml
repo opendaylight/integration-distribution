@@ -63,22 +63,15 @@
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='0.3.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
-        <!-- Remove Armoury from Beryllium release as per as committers consent:
-        https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
-        Need to be uncommented once in Boron -->
-        <!-- <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature> -->
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
-<!--
-        Commented out because two of the features lead to Yang pares errors.
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
--->
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
@@ -93,7 +86,10 @@
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
+<!--
+        Commented out because it produces very long logs.
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
+-->
         <feature version='0.7.0-SNAPSHOT'>odl-openflowjava-protocol</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
@@ -134,9 +130,7 @@
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${didm.version}'>odl-didm-all</feature>
- <!-- FAAS has disabled odl-faas-all feature due to timeouts in SingleFeatureTest
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
- -->
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
@@ -151,9 +145,6 @@
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
-<!--    This feature has been removed through this patch:https://git.opendaylight.org/gerrit/#/c/33431/
-        <feature version='${feature.tsdr.version}'>odl-tsdr-h2-all</feature>
--->
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-openstack</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
