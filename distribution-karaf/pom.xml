@@ -137,6 +137,14 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <dependency>
+      <groupId>org.opendaylight.vpnservice</groupId>
+      <artifactId>vpnservice-features</artifactId>
+      <version>${feature.vpnservice.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -253,6 +261,7 @@
           <!-- no startupFeatures -->
           <bootFeatures>
             <feature>standard</feature>
+	    <feature>odl-vpnservice-core</feature>
           </bootFeatures>
           <!-- no installedFeatures -->
         </configuration>
