@@ -30,9 +30,9 @@
 
 
     <!-- Please add new repository in an alphabetical order -->
-    <repository>mvn:org.opendaylight.aaa/features-aaa/0.3.0-SNAPSHOT/xml/features</repository>
-    <repository>mvn:org.opendaylight.aaa/features-aaa-authz/0.3.0-SNAPSHOT/xml/features</repository>
-    <repository>mvn:org.opendaylight.aaa/features-aaa-api/0.3.0-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.aaa/features-aaa/0.3.0-Beryllium/xml/features</repository>
+    <repository>mvn:org.opendaylight.aaa/features-aaa-authz/0.3.0-Beryllium/xml/features</repository>
+    <repository>mvn:org.opendaylight.aaa/features-aaa-api/0.3.0-Beryllium/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/${feature.alto.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/${feature.bgpcep.version}/xml/features</repository>
@@ -50,7 +50,7 @@
     <repository>mvn:org.opendaylight.faas/features-faas/${feature.faas.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.groupbasedpolicy/features-groupbasedpolicy/${feature.groupbasedpolicy.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.iotdm/onem2m-features/${feature.iotdm.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.l2switch/features-l2switch/0.3.0-SNAPSHOT/xml/features</repository>
+    <repository>mvn:org.opendaylight.l2switch/features-l2switch/0.3.0-Beryllium/xml/features</repository>
     <repository>mvn:org.opendaylight.lacp/features-lacp/${feature.lacp.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/${feature.lispflowmapping.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.messaging4transport/messaging4transport-features/${feature.messaging4transport.version}/xml/features</repository>
