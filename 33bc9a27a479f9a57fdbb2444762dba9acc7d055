@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a3d3df0_796b1ef1",
+        "filename": "distribution-karaf/src/main/assembly/bin/cluster_check.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-02-24T18:55:26Z",
+      "side": 1,
+      "message": "can we add a variable for auth, so when this is used in a non admin/admin setup they change only needs to be edited\nonce up here, and not the several times below.",
+      "revId": "33bc9a27a479f9a57fdbb2444762dba9acc7d055",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_196ad2ed",
+        "filename": "distribution-karaf/src/main/assembly/bin/cluster_check.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-02-24T18:55:26Z",
+      "side": 1,
+      "message": "minor nit.  we could get !200 back for other reasons\nbesides jolokia not being installed.  perhaps simply\nstating \"jolokia may not be installed\" would help.  although\nthe response code you print will give a clue as well.",
+      "range": {
+        "startLine": 32,
+        "startChar": 14,
+        "endLine": 32,
+        "endChar": 46
+      },
+      "revId": "33bc9a27a479f9a57fdbb2444762dba9acc7d055",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_5970dadb",
+        "filename": "distribution-karaf/src/main/assembly/bin/cluster_check.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-02-24T18:55:26Z",
+      "side": 1,
+      "message": "can you print the resp.content too to help the user when \nthere is trouble.",
+      "range": {
+        "startLine": 50,
+        "startChar": 12,
+        "endLine": 50,
+        "endChar": 65
+      },
+      "revId": "33bc9a27a479f9a57fdbb2444762dba9acc7d055",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3d3df0_b97806c5",
+        "filename": "distribution-karaf/src/main/assembly/bin/cluster_check.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-02-24T18:55:26Z",
+      "side": 1,
+      "message": "resp.content too please.",
+      "range": {
+        "startLine": 73,
+        "startChar": 8,
+        "endLine": 73,
+        "endChar": 63
+      },
+      "revId": "33bc9a27a479f9a57fdbb2444762dba9acc7d055",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
