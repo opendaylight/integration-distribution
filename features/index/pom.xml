@@ -88,6 +88,13 @@
     </dependency>
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
+      <artifactId>features-extras</artifactId>
+      <version>${feature.controller.extras.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.controller</groupId>
       <artifactId>features-mdsal</artifactId>
       <version>${feature.mdsal.version}</version>
       <classifier>features</classifier>
