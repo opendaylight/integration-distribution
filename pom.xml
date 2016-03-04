@@ -32,6 +32,7 @@
     <feature.capwap.version>0.3.0-SNAPSHOT</feature.capwap.version>
     <feature.centinel.version>0.2.0-SNAPSHOT</feature.centinel.version>
     <feature.circuitsw.version>1.1.0-SNAPSHOT</feature.circuitsw.version>
+    <feature.controller.extras.version>1.7.0-SNAPSHOT</feature.controller.extras.version>
     <feature.dlux.version>0.4.0-SNAPSHOT</feature.dlux.version>
     <feature.faas.version>1.1.0-SNAPSHOT</feature.faas.version>
     <feature.flow.version>1.4.0-SNAPSHOT</feature.flow.version>
