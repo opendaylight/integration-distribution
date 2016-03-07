@@ -66,7 +66,9 @@
     <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>
+<!-- Issue with of-config merge requires this line commented out:
     <repository>mvn:org.opendaylight.of-config/features-of-config/${feature.of-config.version}/xml/features</repository>
+-->
     <repository>mvn:org.opendaylight.ofextensions.circuitsw/circuitsw-features/${feature.circuitsw.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin/${feature.openflowplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-li/${feature.openflowplugin.version}/xml/features</repository>
