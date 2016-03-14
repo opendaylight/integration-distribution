@@ -208,6 +208,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+<!-- Commented out as Nemo has no Boron artifacts in Nexus (merge job fails on unit tests)
     <dependency>
       <groupId>org.opendaylight.nemo</groupId>
       <artifactId>nemo-features</artifactId>
@@ -215,6 +216,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+-->
     <dependency>
       <groupId>org.opendaylight.netconf</groupId>
       <artifactId>features-netconf</artifactId>
@@ -250,6 +252,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+<!-- NIC refers to Nemo Beryllium features which are currently missing from Nexus
     <dependency>
       <groupId>org.opendaylight.nic</groupId>
       <artifactId>features-nic</artifactId>
@@ -257,6 +260,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+-->
 <!-- Issue with of-config merge requires this line commented out:
     <dependency>
       <groupId>org.opendaylight.of-config</groupId>
@@ -441,6 +445,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+<!-- Vpnservice pulls in NIC which pulls in Nemo which misses Boron artifacts
     <dependency>
       <groupId>org.opendaylight.vpnservice</groupId>
       <artifactId>vpnservice-features</artifactId>
@@ -448,6 +453,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+-->
     <dependency>
       <groupId>org.opendaylight.yang-push</groupId>
       <artifactId>yangpush-features</artifactId>

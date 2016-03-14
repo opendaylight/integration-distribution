@@ -90,9 +90,11 @@
         <feature version='1.4.0-SNAPSHOT'>odl-mdsal-broker</feature>
         <feature version='${feature.messaging4transport.version}'>odl-messaging4transport-api</feature>
         <feature version='${feature.messaging4transport.version}'>odl-messaging4transport</feature>
+<!-- Commented out as Nemo has no Boron artifacts in Nexus (merge job fails on unit tests)
         <feature version='${feature.nemo.version}'>odl-nemo-engine</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-rest</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
+-->
         <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
@@ -135,7 +137,9 @@
         <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin-api</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin</feature>
+<!-- Vpnservice pulls in NIC which pulls in Nemo which misses Boron artifacts
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
+-->
     </feature>
 
     <!-- Please use aphabetical order for non-compatible features -->
@@ -172,7 +176,9 @@
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
         <feature version='${feature.tsdr.version}'>odl-tsdr-hsqldb-all</feature>
+<!-- Vpnservice pulls in NIC which pulls in Nemo which misses Boron artifacts
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-openstack</feature>
+-->
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
         <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
