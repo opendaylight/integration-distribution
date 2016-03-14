@@ -59,7 +59,9 @@
     <repository>mvn:org.opendaylight.lacp/features-lacp/${feature.lacp.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/${feature.lispflowmapping.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.messaging4transport/messaging4transport-features/${feature.messaging4transport.version}/xml/features</repository>
+<!-- Commented out as Nemo has no Boron artifacts in Nexus (merge job fails on unit tests)
     <repository>mvn:org.opendaylight.nemo/nemo-features/${feature.nemo.version}/xml/features</repository>
+-->
     <repository>mvn:org.opendaylight.netconf/features-netconf/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-netconf-connector/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-restconf/${feature.restconf.version}/xml/features</repository>
