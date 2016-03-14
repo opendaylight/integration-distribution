@@ -209,13 +209,6 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.nemo</groupId>
-      <artifactId>nemo-features</artifactId>
-      <version>${feature.nemo.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
       <groupId>org.opendaylight.netconf</groupId>
       <artifactId>features-netconf</artifactId>
       <version>${feature.netconf.version}</version>
