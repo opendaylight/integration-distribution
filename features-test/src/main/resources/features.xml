@@ -57,11 +57,11 @@
 
     <!-- Please use alphabetical order to add a compatible with all features -->
     <feature name='odl-integration-compatible-with-all' version='${project.version}'>
-        <feature version='0.4.0-SNAPSHOT'>odl-aaa-api</feature>
-        <feature version='0.4.0-SNAPSHOT'>odl-aaa-authn</feature>
-        <feature version='0.4.0-SNAPSHOT'>odl-aaa-authz</feature>
+        <feature version='${feature.aaa.version}'>odl-aaa-api</feature>
+        <feature version='${feature.aaa.version}'>odl-aaa-authn</feature>
+        <feature version='${feature.aaa.version}'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
-        <feature version='0.4.0-SNAPSHOT'>odl-aaa-sssd-plugin</feature>
+        <feature version='${feature.aaa.version}'>odl-aaa-sssd-plugin</feature>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <!-- Remove Armoury from Beryllium release as per as committers consent:
         https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
@@ -87,7 +87,7 @@
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
         <feature version='${feature.benchmark.version}'>odl-mdsal-benchmark</feature>
-        <feature version='1.4.0-SNAPSHOT'>odl-mdsal-broker</feature>
+        <feature version='${feature.mdsal.version}'>odl-mdsal-broker</feature>
         <feature version='${feature.messaging4transport.version}'>odl-messaging4transport-api</feature>
         <feature version='${feature.messaging4transport.version}'>odl-messaging4transport</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine</feature>
@@ -99,7 +99,6 @@
 <!-- Issue with of-config merge requires this line commented out
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
 -->
-        <feature version='0.8.0-SNAPSHOT'>odl-openflowjava-protocol</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-ui</feature>
@@ -111,7 +110,7 @@
         <feature version='${feature.reservation.version}'>odl-reservation-models</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
 <!--
-        <feature version="1.7.0-SNAPSHOT">odl-sdninterfaceapp-all</feature>
+        <feature version="${feature.sdninterfaceapp.version}">odl-sdninterfaceapp-all</feature>
 -->
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
@@ -154,9 +153,9 @@
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
-        <feature version='0.4.0-SNAPSHOT'>odl-l2switch-switch</feature>
-        <feature version='0.4.0-SNAPSHOT'>odl-l2switch-switch-rest</feature>
-        <feature version='0.4.0-SNAPSHOT'>odl-l2switch-switch-ui</feature>
+        <feature version='${feature.l2switch.version}'>odl-l2switch-switch</feature>
+        <feature version='${feature.l2switch.version}'>odl-l2switch-switch-rest</feature>
+        <feature version='${feature.l2switch.version}'>odl-l2switch-switch-ui</feature>
 <!--
         Commented out, because LACP brings in Li designed OpenFlowPlugin
         which leads to BindException.

@@ -26,28 +26,28 @@
     <dependency>
       <groupId>org.opendaylight.aaa</groupId>
       <artifactId>features-aaa-api</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${feature.aaa.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>org.opendaylight.aaa</groupId>
       <artifactId>features-aaa</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${feature.aaa.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>org.opendaylight.aaa</groupId>
       <artifactId>features-aaa-authz</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${feature.aaa.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>org.opendaylight.alto</groupId>
       <artifactId>features-alto-release</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
+      <version>${feature.alto.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -183,7 +183,7 @@
     <dependency>
       <groupId>org.opendaylight.l2switch</groupId>
       <artifactId>features-l2switch</artifactId>
-      <version>0.4.0-SNAPSHOT</version>
+      <version>${feature.l2switch.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -346,14 +346,14 @@
     <dependency>
       <groupId>org.opendaylight.sdninterfaceapp</groupId>
       <artifactId>features-sdninterfaceapp</artifactId>
-      <version>1.7.0-SNAPSHOT</version>
+      <version>${feature.sdninterfaceapp.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>org.opendaylight.sfc</groupId>
       <artifactId>features-sfc</artifactId>
-      <version>0.3.0-SNAPSHOT</version>
+      <version>${feature.sfc.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -402,7 +402,7 @@
     <dependency>
       <groupId>org.opendaylight.tsdr</groupId>
       <artifactId>features-tsdr</artifactId>
-      <version>1.2.0-SNAPSHOT</version>
+      <version>${feature.tsdr.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
@@ -459,7 +459,7 @@
     <dependency>
       <groupId>org.opendaylight.odlparent</groupId>
       <artifactId>features-test</artifactId>
-      <version>1.7.0-SNAPSHOT</version>
+      <version>${feature.odlparent.version}</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -470,7 +470,7 @@
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
       <artifactId>opendaylight-karaf-empty</artifactId>
-      <version>1.7.0-SNAPSHOT</version>
+      <version>${feature.odlparent.version}</version>
       <type>zip</type>
     </dependency>
    </dependencies>
@@ -541,7 +541,7 @@
               <systemPropertyVariables>
                 <karaf.distro.groupId>org.opendaylight.controller</karaf.distro.groupId>
                 <karaf.distro.artifactId>opendaylight-karaf-empty</karaf.distro.artifactId>
-                <karaf.distro.version>1.7.0-SNAPSHOT</karaf.distro.version>
+                <karaf.distro.version>${feature.odlparent.version}</karaf.distro.version>
               </systemPropertyVariables>
               <dependenciesToScan>
                <dependency>org.opendaylight.odlparent:features-test</dependency>
