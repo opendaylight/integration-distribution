@@ -22,6 +22,7 @@
   <properties>
     <!-- Keep this list sorted alphabetically please -->
     <didm.version>0.1.5-SNAPSHOT</didm.version>
+    <feature.aaa.version>0.2.5-SNAPSHOT</feature.aaa.version>
     <feature.adsal.version>0.9.5-SNAPSHOT</feature.adsal.version>
     <feature.alto.version>0.1.5-SNAPSHOT</feature.alto.version>
     <feature.bgpcep.version>0.4.5-SNAPSHOT</feature.bgpcep.version>
@@ -32,17 +33,21 @@
     <feature.flow.version>1.2.5-SNAPSHOT</feature.flow.version>
     <feature.groupbasedpolicy.version>0.2.5-SNAPSHOT</feature.groupbasedpolicy.version>
     <feature.iotdm.version>0.0.6-SNAPSHOT</feature.iotdm.version>
+    <feature.l2switch.version>0.2.5-SNAPSHOT</feature.l2switch.version>
     <feature.lacp.version>1.0.5-SNAPSHOT</feature.lacp.version>
     <feature.lispflowmapping.version>1.2.5-SNAPSHOT</feature.lispflowmapping.version>
     <feature.mdsal.version>1.2.5-SNAPSHOT</feature.mdsal.version>
     <feature.nic.version>1.0.5-SNAPSHOT</feature.nic.version>
     <feature.nsf.version>0.5.5-SNAPSHOT</feature.nsf.version>
     <feature.neutron.version>0.5.5-SNAPSHOT</feature.neutron.version>
+    <feature.odlparent.version>1.5.5-SNAPSHOT</feature.odlparent.version>
     <feature.openflowplugin.version>0.1.5-SNAPSHOT</feature.openflowplugin.version>
     <feature.ovsdb.openstack.version>1.1.5-SNAPSHOT</feature.ovsdb.openstack.version>
     <feature.ovsdb.version>1.1.5-SNAPSHOT</feature.ovsdb.version>
     <feature.packetcable.version>1.2.5-SNAPSHOT</feature.packetcable.version>
+    <feature.persistence.version>1.0.5-SNAPSHOT</feature.persistence.version>
     <feature.reservation.version>1.0.5-SNAPSHOT</feature.reservation.version>
+    <feature.sdninterfaceapp.version>1.5.5-SNAPSHOT</feature.sdninterfaceapp.version>
     <feature.sfc.version>0.1.5-SNAPSHOT</feature.sfc.version>
     <feature.snbi.version>1.1.5-SNAPSHOT</feature.snbi.version>
     <feature.snmp4sdn.version>0.2.5-SNAPSHOT</feature.snmp4sdn.version>
