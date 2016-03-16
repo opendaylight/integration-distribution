@@ -22,6 +22,18 @@
       <features.file>features.xml</features.file>
    </properties>
    <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>version</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>version</artifactId>
+      <version>${project.version}</version>
+      <type>xml</type>
+      <classifier>config</classifier>
+    </dependency>
     <!-- dependencies on feature repos -->
     <dependency>
       <groupId>org.opendaylight.aaa</groupId>

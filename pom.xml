@@ -73,6 +73,7 @@
     <module>distribution-karaf</module>
     <module>features-index</module>
     <module>features-test</module>
+    <module>version</module>
   </modules>
 
   <build>
