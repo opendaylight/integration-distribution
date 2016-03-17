@@ -41,6 +41,7 @@
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/${feature.capwap.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.centinel/centinel-features/${feature.centinel.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/features-config-netty/${feature.controller.config.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-extras/${feature.controller.extras.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/${feature.mdsal.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/${feature.benchmark.version}/xml/features</repository>
@@ -88,4 +89,10 @@
     <repository>mvn:org.opendaylight.vpnservice/vpnservice-features/${feature.vpnservice.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.vtn/features-vtn-manager/${feature.vtn-manager.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.yang-push/yangpush-features/${feature.yang-push.version}/xml/features</repository>
+    <!-- TODO: Rename this component to features-distribution, or move to a separate component? -->
+    <feature name='odl-integration-version' version='${project.version}'>
+        <feature>odl-config-netty</feature>
+        <bundle>mvn:org.opendaylight.integration/version/${project.version}</bundle>
+        <configfile finalname="etc/opendaylight/karaf/odl-version.xml">mvn:org.opendaylight.integration/version/${project.version}/xml/config</configfile>
+    </feature>
 </features>
