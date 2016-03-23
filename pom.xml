@@ -28,6 +28,7 @@
     <feature.bgpcep.version>0.5.1-SNAPSHOT</feature.bgpcep.version>
     <feature.capwap.version>0.2.1-SNAPSHOT</feature.capwap.version>
     <feature.centinel.version>0.1.1-SNAPSHOT</feature.centinel.version>
+    <feature.controller.config.version>0.4.1-SNAPSHOT</feature.controller.config.version>
     <feature.controller.extras.version>1.6.1-SNAPSHOT</feature.controller.extras.version>
     <feature.dlux.version>0.3.1-SNAPSHOT</feature.dlux.version>
     <feature.faas.version>1.0.1-SNAPSHOT</feature.faas.version>
@@ -74,8 +75,10 @@
 
   <modules>
     <module>distribution-karaf</module>
+    <module>features-distribution</module>
     <module>features-index</module>
     <module>features-test</module>
+    <module>version</module>
   </modules>
 
   <build>
