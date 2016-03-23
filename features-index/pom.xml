@@ -22,6 +22,18 @@
       <features.file>features.xml</features.file>
    </properties>
    <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>version</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>version</artifactId>
+      <version>${project.version}</version>
+      <type>xml</type>
+      <classifier>config</classifier>
+    </dependency>
     <!-- dependencies on feature repos -->
     <dependency>
       <groupId>org.opendaylight.aaa</groupId>
@@ -97,6 +109,13 @@
       <groupId>org.opendaylight.centinel</groupId>
       <artifactId>centinel-features</artifactId>
       <version>${feature.centinel.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.controller</groupId>
+      <artifactId>features-config-netty</artifactId>
+      <version>${feature.controller.config.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
