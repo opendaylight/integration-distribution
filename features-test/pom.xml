@@ -35,7 +35,7 @@
     <dependency>
       <groupId>org.opendaylight.odlparent</groupId>
       <artifactId>features-test</artifactId>
-      <version>1.6.2-SNAPSHOT</version>
+      <version>${feature.odlparent.version}</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -46,7 +46,7 @@
     <dependency>
       <groupId>org.opendaylight.controller</groupId>
       <artifactId>opendaylight-karaf-empty</artifactId>
-      <version>1.6.2-SNAPSHOT</version>
+      <version>${feature.odlparent.version}</version>
       <type>zip</type>
     </dependency>
    </dependencies>
@@ -117,7 +117,7 @@
               <systemPropertyVariables>
                 <karaf.distro.groupId>org.opendaylight.controller</karaf.distro.groupId>
                 <karaf.distro.artifactId>opendaylight-karaf-empty</karaf.distro.artifactId>
-                <karaf.distro.version>1.6.2-SNAPSHOT</karaf.distro.version>
+                <karaf.distro.version>${feature.odlparent.version}</karaf.distro.version>
               </systemPropertyVariables>
               <dependenciesToScan>
                <dependency>org.opendaylight.odlparent:features-test</dependency>
