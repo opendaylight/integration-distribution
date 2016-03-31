@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a4c51b2_4d31dea1",
+        "filename": "distribution-karaf/src/main/assembly/bin/disable_persistence.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-03-31T16:15:52Z",
+      "side": 1,
+      "message": "main \"$@\"\n\nBut you are not passing other arguments from main, and inner functions only access \"$0\" so perhaps main (without any arguments) would work.",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 7
+      },
+      "revId": "e532896e7fb5b3256370c6d0fbb4b0ea8e9a39df",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
