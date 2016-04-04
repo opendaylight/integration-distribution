@@ -26,6 +26,10 @@ function usage()
  When running this script on multiple seed nodes, keep the
  seed_node_list same, and vary the index from 1 through N.
 
+ Optionally, shards can be configured in a more granular way by
+ modifying the file "custom_shard_configs.txt" in the same folder
+ as this tool.  Please see that file for more details
+
 EOF
 
     exit -1
@@ -53,7 +57,7 @@ EOF
 
 # Utility function for joining strings.
 function join {
-    delim=',\n\t\t\t'
+    delim=',\n\t\t\t\t'
     final=$1; shift
 
     for str in $* ; do
@@ -83,6 +87,31 @@ function create_strings
     MEMBER_NAME_LIST=$(join ${members[@]})
 }
 
+function module_shards_builder
+{
+
+    module_shards_string="module-shards = [\n\t{\n\t\tname = \"default\"\n\t\tshards = [\n\t\t\t{\n\t\t\t\tname = \"default\"\n\t\t\t\treplicas = []\n\t\t\t}\n\t\t]\n\t}"
+    for name in ${FRIENDLY_MODULE_NAMES[@]} ; do
+        module_shards_string="${module_shards_string},\n\t{\n\t\tname = \"${name}\"\n\t\tshards = [\n\t\t\t{\n\t\t\t\tname=\"${name}\"\n\t\t\t\treplicas = []\n\t\t\t}\n\t\t]\n\t}"
+    done
+
+    echo -e ${module_shards_string}"\n]"
+}
+
+function modules_builder
+{
+
+    modules_string="modules = [\n\t"
+    count=1
+    for name in ${FRIENDLY_MODULE_NAMES[@]} ; do
+        modules_string="${modules_string}\n\t{\n\t\tname = \"${name}\"\n\t\tnamespace = \"${MODULE_NAMESPACES[${count}]}\"\n\t\tshard-strategy = \"module\"\n\t},"
+        count=$[count + 1]
+    done
+
+    # using ::-1 below to remove the extra comma we get from the above loop
+    echo -e ${modules_string::-1}"\n]"
+}
+
 function get_cli_params
 {
     # Check if params have been supplied
@@ -108,6 +137,8 @@ function get_cli_params
 
 function modify_conf_files
 {
+    BIN_DIR=`dirname $0`
+    CUSTOM_SHARD_CONFIG_FILE=${BIN_DIR}'/custom_shard_config.txt'
     echo "Configuring unique name in akka.conf"
     sed -i -e "/roles[ ]*=/ { :loop1 /.*\]/ b done1; N; b loop1; :done1 s/roles.*\]/roles = [\"${CONTROLLER_ID}\"]/}" ${AKKACONF}
 
@@ -116,6 +147,17 @@ function modify_conf_files
 
     echo "Configuring data and rpc seed nodes in akka.conf"
     sed -i -e "/seed-nodes[ ]*=/ { :loop2 /.*\]/ b done2; N; b loop2; :done2 s/seed-nodes.*opendaylight-cluster-data.*\]/seed-nodes = [${DATA_SEED_LIST}]/; s/seed-nodes.*odl-cluster-rpc.*\]/seed-nodes = [${RPC_SEED_LIST}]/}" ${AKKACONF}
+
+    if [ -f ${CUSTOM_SHARD_CONFIG_FILE} ]; then
+        source ${CUSTOM_SHARD_CONFIG_FILE}
+        if [ ${#FRIENDLY_MODULE_NAMES[@]} -ne ${#MODULE_NAMESPACES[@]} ]; then
+            echo -e "\ncustom shard config file \"${CUSTOM_SHARD_CONFIG_FILE}\" does not have the same number of FRIENDLY_MODULE_NAMES[] and MODULE_NAMESPACES[]\n"
+            exit 1
+        fi
+        module_shards_builder > ${MODULESHARDSCONF}
+        modules_builder > ${MODULESCONF}
+        cat ${MODULESCONF}
+    fi
 
     echo "Configuring replication type in module-shards.conf"
     sed -i -e "/^[^#].*replicas[ ]*=/ { :loop /.*\]/ b done; N; b loop; :done s/replicas.*\]/replicas = [${MEMBER_NAME_LIST}]/}" ${MODULESHARDSCONF}
@@ -179,4 +221,3 @@ function main
 main $*
 
 # vim: ts=4 sw=4 sts=4 et ft=sh :
-
