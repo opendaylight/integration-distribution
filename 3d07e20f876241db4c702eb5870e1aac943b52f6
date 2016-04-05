@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3a4c51b2_c3993670",
+        "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-04-05T04:53:11Z",
+      "side": 1,
+      "message": "Weird why this script had originally -1 instead of 1. I can change this.",
+      "parentUuid": "3a4c51b2_3d775904",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 27,
+        "endChar": 11
+      },
+      "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a4c51b2_5d17c5a3",
         "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2016-04-04T17:39:40Z",
       "side": 1,
       "message": "\"$1\"",
+      "range": {
+        "startLine": 48,
+        "startChar": 11,
+        "endLine": 48,
+        "endChar": 13
+      },
+      "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a4c51b2_03a31e9f",
+        "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-04-05T04:53:11Z",
+      "side": 1,
+      "message": "This is OK too.",
+      "parentUuid": "3a4c51b2_5d17c5a3",
       "range": {
         "startLine": 48,
         "startChar": 11,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "3a4c51b2_e39f124f",
+        "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-04-05T04:53:11Z",
+      "side": 1,
+      "message": "good point, will change.",
+      "parentUuid": "3a4c51b2_9d882de9",
+      "range": {
+        "startLine": 51,
+        "startChar": 9,
+        "endLine": 51,
+        "endChar": 19
+      },
+      "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a4c51b2_fd6cd138",
         "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
         "patchSetId": 4
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "3a4c51b2_43ad2688",
+        "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-04-05T04:53:11Z",
+      "side": 1,
+      "message": "can change this one too",
+      "parentUuid": "3a4c51b2_fd6cd138",
+      "range": {
+        "startLine": 57,
+        "startChar": 9,
+        "endLine": 57,
+        "endChar": 27
+      },
+      "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3a4c51b2_fd7691d7",
         "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
         "patchSetId": 4
@@ -105,6 +201,30 @@
       "writtenOn": "2016-04-04T17:39:40Z",
       "side": 1,
       "message": "Does not really matter here, but even then it is good to keep using the safer patern.\nhttp://www.tldp.org/LDP/abs/html/internalvariables.html#INCOMPAT",
+      "range": {
+        "startLine": 109,
+        "startChar": 5,
+        "endLine": 109,
+        "endChar": 7
+      },
+      "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a4c51b2_23aa9a70",
+        "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-04-05T04:53:11Z",
+      "side": 1,
+      "message": "You mean using quotes \"$*\"? if I do that script does not work :(",
+      "parentUuid": "3a4c51b2_fd7691d7",
       "range": {
         "startLine": 109,
         "startChar": 5,
