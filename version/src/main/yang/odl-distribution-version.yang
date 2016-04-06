@@ -25,6 +25,16 @@ module odl-distribution-version {
                 type string;
                 mandatory true;
             }
+            list test {
+                description "Test to see whether config-subsystem accepts empty lists from XML.";
+                key "foo bar";
+                leaf foo {
+                    type string;
+                }
+                leaf bar {
+                    type string;
+                }
+            }
         }
     }
 }
