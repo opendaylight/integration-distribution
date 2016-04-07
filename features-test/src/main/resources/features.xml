@@ -88,8 +88,6 @@
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
         <feature version='${feature.benchmark.version}'>odl-mdsal-benchmark</feature>
         <feature version='${feature.mdsal.version}'>odl-mdsal-broker</feature>
-        <feature version='${feature.messaging4transport.version}'>odl-messaging4transport-api</feature>
-        <feature version='${feature.messaging4transport.version}'>odl-messaging4transport</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-rest</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>

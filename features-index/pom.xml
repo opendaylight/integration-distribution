@@ -202,13 +202,6 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.messaging4transport</groupId>
-      <artifactId>messaging4transport-features</artifactId>
-      <version>${feature.messaging4transport.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
       <groupId>org.opendaylight.nemo</groupId>
       <artifactId>nemo-features</artifactId>
       <version>${feature.nemo.version}</version>
