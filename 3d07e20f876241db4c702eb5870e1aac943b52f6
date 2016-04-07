@@ -234,6 +234,30 @@
       "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a4c51b2_e6eef68a",
+        "filename": "distribution-karaf/src/main/assembly/bin/set_persistence.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-04-07T16:06:10Z",
+      "side": 1,
+      "message": "No, I mean \"$@\".",
+      "parentUuid": "3a4c51b2_23aa9a70",
+      "range": {
+        "startLine": 109,
+        "startChar": 5,
+        "endLine": 109,
+        "endChar": 7
+      },
+      "revId": "3d07e20f876241db4c702eb5870e1aac943b52f6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
