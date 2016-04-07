@@ -337,13 +337,6 @@
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>org.opendaylight.reservation</groupId>
-      <artifactId>features-reservation</artifactId>
-      <version>${feature.reservation.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
       <groupId>org.opendaylight.sdninterfaceapp</groupId>
       <artifactId>features-sdninterfaceapp</artifactId>
       <version>${feature.sdninterfaceapp.version}</version>
