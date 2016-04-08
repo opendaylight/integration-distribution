@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a4c51b2_f5605637",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-04-08T21:48:31Z",
+      "side": 1,
+      "message": "I think this will not work if you execute the command out of the bin folder like \u003e bin/configure_cluster.sh\n\nIf you look the next function there is something like     BIN_DIR\u003d`dirname $0` that will give you the relative path to the config file.",
+      "revId": "888b32633741c83c6875cf5a7a8bb57d23666bb3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
