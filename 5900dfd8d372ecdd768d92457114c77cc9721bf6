@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a4c51b2_2846f9bf",
+        "filename": "distribution-karaf/src/main/assembly/bin/custom_shard_config.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-04-08T01:00:50Z",
+      "side": 1,
+      "message": "I will add some comments here explaining how this file should be used.",
+      "revId": "5900dfd8d372ecdd768d92457114c77cc9721bf6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
