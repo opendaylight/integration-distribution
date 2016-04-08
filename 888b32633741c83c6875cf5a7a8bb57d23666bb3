@@ -16,6 +16,24 @@
       "revId": "888b32633741c83c6875cf5a7a8bb57d23666bb3",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a4c51b2_15eea288",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-04-08T22:01:53Z",
+      "side": 1,
+      "message": "great catch!\n\nfixed in next patch",
+      "parentUuid": "3a4c51b2_f5605637",
+      "revId": "888b32633741c83c6875cf5a7a8bb57d23666bb3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
