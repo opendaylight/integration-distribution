@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a494da4_db4ad3ab",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 2984
+      },
+      "writtenOn": "2016-04-10T13:58:50Z",
+      "side": 1,
+      "message": "You might want to verify that array sizes for FRIENDLY_MODULE_NAMES  and MODULE_NAMESPACES are same. If they are not, then some warning might be helpful.\n\nTo get array size, use: ${#ArrayName[@]}",
+      "revId": "a5d4dfdada5725325a1885b8264bca2174b94c46",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
