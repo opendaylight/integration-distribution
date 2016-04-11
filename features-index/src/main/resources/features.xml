@@ -59,6 +59,8 @@
     <repository>mvn:org.opendaylight.netconf/features-netconf/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-netconf-connector/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-restconf/${feature.restconf.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/features-netvirt/${feature.netvirt.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>
@@ -69,7 +71,6 @@
     <repository>mvn:org.opendaylight.ovsdb/features-ovsdb/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/library-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/hwvtepsouthbound-features/${feature.ovsdb.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.ovsdb/openstack.net-virt-sfc-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/southbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.packetcable/features-packetcable-policy/${feature.packetcable.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/${feature.sdninterfaceapp.version}/xml/features</repository>
