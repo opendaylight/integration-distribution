@@ -233,6 +233,20 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+     <dependency>
+       <groupId>org.opendaylight.netvirt</groupId>
+       <artifactId>features-netvirt</artifactId>
+       <version>${feature.netvirt.version}</version>
+       <classifier>features</classifier>
+       <type>xml</type>
+     </dependency>
+     <dependency>
+       <groupId>org.opendaylight.netvirt</groupId>
+       <artifactId>openstack.net-virt-sfc-features</artifactId>
+       <version>${feature.netvirt.version}</version>
+       <classifier>features</classifier>
+       <type>xml</type>
+     </dependency>
     <dependency>
       <groupId>org.opendaylight.neutron</groupId>
       <artifactId>features-neutron</artifactId>
@@ -299,13 +313,6 @@
     <dependency>
       <groupId>org.opendaylight.ovsdb</groupId>
       <artifactId>hwvtepsouthbound-features</artifactId>
-      <version>${feature.ovsdb.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.ovsdb</groupId>
-      <artifactId>openstack.net-virt-sfc-features</artifactId>
       <version>${feature.ovsdb.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
