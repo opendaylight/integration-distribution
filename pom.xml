@@ -20,6 +20,8 @@
     <tag>HEAD</tag>
   </scm>
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     <!-- Keep this list sorted alphabetically please -->
     <didm.version>0.1.5-SNAPSHOT</didm.version>
     <feature.aaa.version>0.2.5-SNAPSHOT</feature.aaa.version>
@@ -62,8 +64,6 @@
     <feature.yangtools.version>0.7.5-SNAPSHOT</feature.yangtools.version>
     <junit.version>4.8.1</junit.version>
     <karaf.branding.version>1.1.5-SNAPSHOT</karaf.branding.version>
-    <nexusproxy>http://nexus.opendaylight.org/content</nexusproxy>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <snmp.plugin.version>1.0.5-SNAPSHOT</snmp.plugin.version>
     <!-- Keep this list sorted alphabetically please -->
   </properties>
