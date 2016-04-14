@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a494da4_0e1d0ebe",
+        "filename": "features-test/src/main/resources/features.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-04-14T12:12:45Z",
+      "side": 1,
+      "message": "What kind of conflict is this? Is there a Bug to track?",
+      "range": {
+        "startLine": 141,
+        "startChar": 25,
+        "endLine": 141,
+        "endChar": 83
+      },
+      "revId": "a3702de67c776ecce1dc885b1fc4b3ec675ffb0d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
