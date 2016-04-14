@@ -138,9 +138,8 @@
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-ui</feature>
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
-        <!-- Temporarily remove odl-ovsdb-sfc because it conflicts with odl-sfcofl2 -->
-        <!--<feature version='${feature.netvirt.version}'>odl-ovsdb-sfc</feature>-->
         <feature version='${feature.netvirt.version}'>odl-ovsdb-openstack</feature>
+        <feature version='${feature.netvirt.version}'>odl-ovsdb-sfc</feature>
         <feature version='${feature.sfc.version}'>odl-sfcofl2</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
         <feature version='${feature.vpnservice.version}'>odl-vpnservice-core</feature>
