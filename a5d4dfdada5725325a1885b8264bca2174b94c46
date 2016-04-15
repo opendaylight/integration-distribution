@@ -16,6 +16,24 @@
       "revId": "a5d4dfdada5725325a1885b8264bca2174b94c46",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_10dd2871",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2016-04-15T05:27:34Z",
+      "side": 1,
+      "message": "thanks for checking this out Shaleen.  new patch does this\nnow, and will make it a little more user friendly.",
+      "parentUuid": "1a494da4_db4ad3ab",
+      "revId": "a5d4dfdada5725325a1885b8264bca2174b94c46",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
