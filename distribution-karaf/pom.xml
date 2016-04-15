@@ -32,6 +32,11 @@
           <groupId>org.apache.sshd</groupId>
           <artifactId>sshd-core</artifactId>
         </exclusion>
+        <!-- We provide a newer version of Aries Proxy -->
+        <exclusion>
+          <groupId>org.apache.aries.proxy</groupId>
+          <artifactId>org.apache.aries.proxy.impl</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
     <!-- scope is runtime so the feature repo is listed in the features
@@ -137,6 +142,15 @@
         </exclusion>
       </exclusions>
     </dependency>
+
+    <!-- Aries Proxy 1.0.5 contains important bug fixes -->
+    <!-- Once we upgrade to a version of Karaf which has at least 1.0.5, this can be removed -->
+    <dependency>
+      <groupId>org.apache.aries.proxy</groupId>
+      <artifactId>org.apache.aries.proxy.impl</artifactId>
+      <version>1.0.5</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -253,6 +267,7 @@
           <!-- no startupFeatures -->
           <bootFeatures>
             <feature>standard</feature>
+            <feature>eventadmin</feature>
           </bootFeatures>
           <!-- no installedFeatures -->
         </configuration>
@@ -371,6 +386,12 @@
                           <include name="shell"/>
                         </fileset>
                     </chmod>
+                    <!-- Remove this once Karaf provides a new-enough version of Aries Proxy -->
+                    <replace dir="${project.build.directory}/assembly/etc"
+                             token="org.apache.aries.proxy.impl/1.0.4"
+                             value="org.apache.aries.proxy.impl/1.0.5">
+                      <include name="startup.properties"/>
+                    </replace>
                   </tasks>
                 </configuration>
             </execution>
