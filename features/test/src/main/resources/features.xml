@@ -108,7 +108,9 @@
         <feature version='${feature.alto.version}'>odl-alto-integration-test</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
+        <!-- IOTDM binds to port 8282 which is already used by AD-SAL NSF.
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
+        -->
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-rest</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-ui</feature>
