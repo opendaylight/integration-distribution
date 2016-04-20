@@ -22,7 +22,15 @@
       <features.file>features.xml</features.file>
    </properties>
    <dependencies>
-    <!-- dependencies on feature repos -->
+    <!-- feature repository dependencies from this project -->
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>features-distribution</artifactId>
+      <version>${project.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <!-- feature repository dependencies from other ODL projects -->
     <dependency>
       <groupId>org.opendaylight.aaa</groupId>
       <artifactId>features-aaa-api</artifactId>
