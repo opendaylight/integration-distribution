@@ -253,28 +253,28 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
-     <dependency>
-       <groupId>org.opendaylight.netvirt</groupId>
-       <artifactId>features-netvirt</artifactId>
-       <version>${feature.netvirt.version}</version>
-       <classifier>features</classifier>
-       <type>xml</type>
+    <dependency>
+      <groupId>org.opendaylight.netvirt</groupId>
+      <artifactId>features-netvirt</artifactId>
+      <version>${feature.netvirt.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.netvirt</groupId>
+      <artifactId>openstack.net-virt-sfc-features</artifactId>
+      <version>${feature.netvirt.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.netvirt</groupId>
+      <artifactId>vpnservice-features</artifactId>
+      <version>${feature.netvirt.vpnservice.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
      </dependency>
-     <dependency>
-       <groupId>org.opendaylight.netvirt</groupId>
-       <artifactId>openstack.net-virt-sfc-features</artifactId>
-       <version>${feature.netvirt.version}</version>
-       <classifier>features</classifier>
-       <type>xml</type>
-     </dependency>
-     <dependency>
-       <groupId>org.opendaylight.netvirt</groupId>
-       <artifactId>vpnservice-features</artifactId>
-       <version>${feature.netvirt.vpnservice.version}</version>
-       <classifier>features</classifier>
-       <type>xml</type>
-     </dependency>
-     <dependency>
+    <dependency>
       <groupId>org.opendaylight.netide</groupId>
       <artifactId>netide-features</artifactId>
       <version>${feature.netide.version}</version>
@@ -325,16 +325,22 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
-     <dependency>
-       <groupId>org.opendaylight.openflowplugin</groupId>
-       <artifactId>features-openflowplugin-li</artifactId>
-       <version>${feature.openflowplugin.version}</version>
-       <classifier>features</classifier>
-       <type>xml</type>
-     </dependency>
+    <dependency>
+      <groupId>org.opendaylight.openflowplugin</groupId>
+      <artifactId>features-openflowplugin-he</artifactId>
+      <version>${feature.openflowplugin.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
     <dependency>
       <groupId>org.opendaylight.openflowplugin</groupId>
       <artifactId>features-openflowplugin-extension</artifactId>
+      <version>${feature.openflowplugin.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+      <groupId>org.opendaylight.openflowplugin</groupId>
+      <artifactId>features-openflowplugin-extension-he</artifactId>
       <version>${feature.openflowplugin.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
