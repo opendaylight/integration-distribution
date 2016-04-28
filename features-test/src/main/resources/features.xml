@@ -62,18 +62,15 @@
         <feature version='${feature.aaa.version}'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='${feature.aaa.version}'>odl-aaa-sssd-plugin</feature>
-        <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
-
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
-
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
@@ -125,6 +122,7 @@
 
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+        <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <feature version='${didm.version}'>odl-didm-all</feature>
         <feature version='${feature.faas.version}'>odl-faas-all</feature>
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
