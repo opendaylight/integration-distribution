@@ -62,7 +62,6 @@
         <feature version='${feature.aaa.version}'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='${feature.aaa.version}'>odl-aaa-sssd-plugin</feature>
-        <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <!-- Remove Armoury from Beryllium release as per as committers consent:
         https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
         Need to be uncommented once in Boron -->
@@ -135,6 +134,7 @@
 
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+        <feature version='${feature.alto.version}'>odl-alto-release</feature>
 <!--
         Commented out, because DIDM brings in Li designed OpenFlowPlugin
         which leads to BindException.
