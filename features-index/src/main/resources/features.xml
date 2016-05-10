@@ -65,6 +65,7 @@
     <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/features-netvirt/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/${feature.netvirt.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/vpnservice-features/${feature.netvirt.vpnservice.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/${feature.ocpplugin.version}/xml/features</repository>
@@ -92,7 +93,6 @@
     <repository>mvn:org.opendaylight.unimgr/unimgr-features/${feature.unimgr.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.usc/usc-features/${feature.usc.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.usecplugin/usecplugin-features/${feature.usecplugin.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.vpnservice/vpnservice-features/${feature.vpnservice.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.vtn/features-vtn-manager/${feature.vtn-manager.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.yang-push/yangpush-features/${feature.yang-push.version}/xml/features</repository>
 </features>
