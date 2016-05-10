@@ -243,7 +243,14 @@
        <classifier>features</classifier>
        <type>xml</type>
      </dependency>
-    <dependency>
+     <dependency>
+       <groupId>org.opendaylight.netvirt</groupId>
+       <artifactId>vpnservice-features</artifactId>
+       <version>${feature.netvirt.vpnservice.version}</version>
+       <classifier>features</classifier>
+       <type>xml</type>
+     </dependency>
+     <dependency>
       <groupId>org.opendaylight.netide</groupId>
       <artifactId>netide-features</artifactId>
       <version>${feature.netide.version}</version>
@@ -424,13 +431,6 @@
       <groupId>org.opendaylight.vtn</groupId>
       <artifactId>features-vtn-manager</artifactId>
       <version>${feature.vtn-manager.version}</version>
-      <classifier>features</classifier>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>org.opendaylight.vpnservice</groupId>
-      <artifactId>vpnservice-features</artifactId>
-      <version>${feature.vpnservice.version}</version>
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
