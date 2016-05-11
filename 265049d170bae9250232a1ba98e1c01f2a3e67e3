@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa57193c_c542a40f",
+        "filename": "features-test/src/main/resources/features.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2016-05-11T04:08:13Z",
+      "side": 1,
+      "message": "Can we consider removing this altogether? As of today core is same as openstack and doesn\u0027t add any value. Let us retain only openstack for now and use it. We can add core back later if we need a netvirt-vpnservice without openstack and we redefine it in features.xml in netvirt.",
+      "range": {
+        "startLine": 160,
+        "startChar": 65,
+        "endLine": 160,
+        "endChar": 92
+      },
+      "revId": "265049d170bae9250232a1ba98e1c01f2a3e67e3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
