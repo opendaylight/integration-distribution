@@ -264,6 +264,13 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+    <dependency>
+      <groupId>org.opendaylight.ocpplugin</groupId>
+      <artifactId>features-ocpplugin</artifactId>
+      <version>${feature.ocpplugin.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
 <!-- Issue with of-config merge requires this line commented out:
     <dependency>
       <groupId>org.opendaylight.of-config</groupId>
