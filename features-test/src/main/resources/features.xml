@@ -141,15 +141,15 @@
         which leads to BindException.
         <feature version='${didm.version}'>odl-didm-all</feature>
 -->
-        <!-- FAAS has disabled odl-faas-all feature due to timeouts in SingleFeatureTest
-        <feature version='${feature.faas.version}'>odl-faas-all</feature>
-        -->
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
+<!--
+        commenting this feature because issue with Jetty server
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
+-->
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-rest</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-ui</feature>
@@ -157,9 +157,7 @@
         Commented out, because LACP brings in Li designed OpenFlowPlugin
         which leads to BindException.
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
--->
         <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-vpnservice-openstack</feature>
-<!--
         Commented out, because NIC brings in Li designed OpenFlowPlugin
         which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
