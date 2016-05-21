@@ -171,6 +171,7 @@
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
         <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
         <feature version='${feature.yang-push.version}'>odl-yangpush</feature>
+		<feature version='${feature.genius.version}'>odl-genius-rest</feature>
     </feature>
 
 </features>

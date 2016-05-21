@@ -250,6 +250,13 @@
        <classifier>features</classifier>
        <type>xml</type>
      </dependency>
+	 <dependency>
+       <groupId>org.opendaylight.genius</groupId>
+       <artifactId>genius-features</artifactId>
+       <version>${feature.genius.version}</version>
+       <classifier>features</classifier>
+       <type>xml</type>
+     </dependency>
      <dependency>
       <groupId>org.opendaylight.netide</groupId>
       <artifactId>netide-features</artifactId>
