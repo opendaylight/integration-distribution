@@ -167,6 +167,13 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>org.opendaylight.genius</groupId>
+      <artifactId>genius-features</artifactId>
+      <version>${feature.genius.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>org.opendaylight.groupbasedpolicy</groupId>
       <artifactId>features-groupbasedpolicy</artifactId>
       <version>${feature.groupbasedpolicy.version}</version>

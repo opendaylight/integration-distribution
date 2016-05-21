@@ -37,6 +37,7 @@
     <feature.dlux.version>0.4.0-SNAPSHOT</feature.dlux.version>
     <feature.faas.version>1.1.0-SNAPSHOT</feature.faas.version>
     <feature.flow.version>1.4.0-SNAPSHOT</feature.flow.version>
+    <feature.genius.version>0.1.0-SNAPSHOT</feature.genius.version>
     <feature.groupbasedpolicy.version>0.4.0-SNAPSHOT</feature.groupbasedpolicy.version>
     <feature.iotdm.version>0.2.0-SNAPSHOT</feature.iotdm.version>
     <feature.l2switch.version>0.4.0-SNAPSHOT</feature.l2switch.version>

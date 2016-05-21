@@ -141,6 +141,7 @@
         <feature version='${didm.version}'>odl-didm-all</feature>
         -->
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
+        <feature version='${feature.genius.version}'>odl-genius-rest</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
