@@ -63,21 +63,21 @@
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='${feature.aaa.version}'>odl-aaa-sssd-plugin</feature>
         <!-- Remove Armoury from Beryllium release as per as committers consent:
-        https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
-        Need to be uncommented once in Boron -->
-        <!-- <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature> -->
+            https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
+            Needs to be uncommented once in Boron
+        <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
+        -->
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
-<!--
-        Commented out because two of the features lead to Yang pares errors.
+        <!-- Commented out because two of the features lead to Yang pares errors.
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
--->
+        -->
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
@@ -94,9 +94,9 @@
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
         <feature version='${feature.ocpplugin.version}'>odl-ocpplugin-all</feature>
-<!-- Issue with of-config merge requires this line commented out
+        <!-- Issue with of-config merge requires this line commented out
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
--->
+        -->
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-ui</feature>
@@ -106,9 +106,9 @@
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-southbound-impl</feature>
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
-<!--
+        <!-- The reason why sdninterfaceapp is commented-out has been lost in time.
         <feature version="${feature.sdninterfaceapp.version}">odl-sdninterfaceapp-all</feature>
--->
+        -->
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
@@ -136,32 +136,33 @@
     <!-- Please use aphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
-<!--
-        Commented out, because DIDM brings in Li designed OpenFlowPlugin
-        which leads to BindException.
+        <!-- Commented out, because DIDM brings in Li designed OpenFlowPlugin
+            which leads to BindException.
         <feature version='${didm.version}'>odl-didm-all</feature>
--->
+        -->
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
-<!--
-        commenting this feature because issue with Jetty server
+        <!-- Commenting this feature due to an issue with Jetty server
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
--->
+        -->
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-rest</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-ui</feature>
-<!--
-        Commented out, because LACP brings in Li designed OpenFlowPlugin
-        which leads to BindException.
+        <!-- Commented out, because LACP brings in Li designed OpenFlowPlugin
+            which leads to BindException.
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
+        -->
+        <!-- Depends on NIC, which is commented out.
         <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-vpnservice-openstack</feature>
-        Commented out, because NIC brings in Li designed OpenFlowPlugin
-        which leads to BindException.
+        -->
+        <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
+            which leads to BindException.
+            Also, NIC merge jobs are currently failing.
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
--->
+        -->
         <feature version='${feature.netvirt.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.netvirt.version}'>odl-ovsdb-sfc</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>

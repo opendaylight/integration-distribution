@@ -243,6 +243,7 @@
        <classifier>features</classifier>
        <type>xml</type>
      </dependency>
+    <!-- Depends on NIC, which is commented-out
      <dependency>
        <groupId>org.opendaylight.netvirt</groupId>
        <artifactId>vpnservice-features</artifactId>
@@ -250,6 +251,7 @@
        <classifier>features</classifier>
        <type>xml</type>
      </dependency>
+    -->
      <dependency>
       <groupId>org.opendaylight.netide</groupId>
       <artifactId>netide-features</artifactId>
@@ -264,6 +266,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+    <!-- NIC merge jobs are failing due to getTableFeatures() method not being supported by OpenFlowPlugin anymore
     <dependency>
       <groupId>org.opendaylight.nic</groupId>
       <artifactId>features-nic</artifactId>
@@ -271,6 +274,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+    -->
     <dependency>
       <groupId>org.opendaylight.ocpplugin</groupId>
       <artifactId>features-ocpplugin</artifactId>
@@ -278,7 +282,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
-<!-- Issue with of-config merge requires this line commented out:
+    <!-- Issue with of-config merge requires this line commented out:
     <dependency>
       <groupId>org.opendaylight.of-config</groupId>
       <artifactId>features-of-config</artifactId>
@@ -286,7 +290,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
--->
+    -->
     <dependency>
       <groupId>org.opendaylight.ofextensions.circuitsw</groupId>
       <artifactId>circuitsw-features</artifactId>
