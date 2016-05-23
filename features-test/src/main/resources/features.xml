@@ -160,7 +160,6 @@
         -->
         <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
             which leads to BindException.
-            Also, NIC merge jobs are currently failing.
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
         -->
         <feature version='${feature.netvirt.version}'>odl-ovsdb-openstack</feature>
