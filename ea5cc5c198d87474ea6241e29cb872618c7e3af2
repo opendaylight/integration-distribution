@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa57193c_2c0ebd8d",
+        "filename": "features-index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2016-05-23T12:27:35Z",
+      "side": 1,
+      "message": "probably should move this ip top keep the ordering right.",
+      "revId": "ea5cc5c198d87474ea6241e29cb872618c7e3af2",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa57193c_0c1139ac",
+        "filename": "features-index/src/main/resources/features.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2016-05-23T12:27:35Z",
+      "side": 1,
+      "message": "same comment on ordering\n\nAlso looks like there is a tab here so whitespace is wrong",
+      "revId": "ea5cc5c198d87474ea6241e29cb872618c7e3af2",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa57193c_8c1c29c3",
+        "filename": "features-test/src/main/resources/features.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2016-05-23T12:27:35Z",
+      "side": 1,
+      "message": "tabs should be spaces\n\nmove up to keep ordering correct",
+      "revId": "ea5cc5c198d87474ea6241e29cb872618c7e3af2",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa57193c_ec7a05f0",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2016-05-23T12:27:35Z",
+      "side": 1,
+      "message": "ordering and tab",
+      "revId": "ea5cc5c198d87474ea6241e29cb872618c7e3af2",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
