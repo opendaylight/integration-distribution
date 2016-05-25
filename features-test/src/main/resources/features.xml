@@ -82,6 +82,7 @@
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
+        <feature version='${project.version}'>odl-distribution-version</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
