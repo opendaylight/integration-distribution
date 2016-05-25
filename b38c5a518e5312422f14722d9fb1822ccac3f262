@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa57193c_82e86511",
+        "filename": "distribution-karaf/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2016-05-25T14:10:13Z",
+      "side": 1,
+      "message": "Every project seems to get this wrong. The scm-\u003eurl tag is not for linking to a wiki page. It\u0027s to link to the module in gitweb. So the correct scm url in this case would be:\n\nhttps://git.opendaylight.org/gerrit/gitweb?p\u003dintegration/distribution.git;a\u003dtree;f\u003ddistribution-karaf;hb\u003dHEAD",
+      "revId": "b38c5a518e5312422f14722d9fb1822ccac3f262",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
