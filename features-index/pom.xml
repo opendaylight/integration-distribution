@@ -252,7 +252,6 @@
        <classifier>features</classifier>
        <type>xml</type>
      </dependency>
-    <!-- Depends on NIC, which is commented-out
      <dependency>
        <groupId>org.opendaylight.netvirt</groupId>
        <artifactId>vpnservice-features</artifactId>
@@ -260,7 +259,6 @@
        <classifier>features</classifier>
        <type>xml</type>
      </dependency>
-    -->
      <dependency>
       <groupId>org.opendaylight.netide</groupId>
       <artifactId>netide-features</artifactId>
