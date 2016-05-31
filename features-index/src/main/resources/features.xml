@@ -70,9 +70,7 @@
     <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/${feature.netvirt.vpnservice.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
-    <!-- NIC merge jobs are failing due to getTableFeatures() method moved in OpenFlowPlugin (new design)
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/${feature.ocpplugin.version}/xml/features</repository>
     <!-- Issue with of-config merge requires this line commented out:
     <repository>mvn:org.opendaylight.of-config/features-of-config/${feature.of-config.version}/xml/features</repository>
