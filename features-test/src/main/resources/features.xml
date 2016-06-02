@@ -146,9 +146,16 @@
         -->
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.genius.version}'>odl-genius-rest</feature>
-        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-faas</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-iovisor</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutronmapper</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutron-and-ofoverlay</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutron-vpp-mapper</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ne-location-provider</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-sxp-mapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-vpp</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
         <!-- Commenting this feature due to an issue with Jetty server
         <feature version='${feature.iotdm.version}'>odl-iotdm-onem2m</feature>
