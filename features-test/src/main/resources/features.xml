@@ -177,6 +177,7 @@
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ios-xe-renderer</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-openflow-renderer</feature>
+        <feature version='${feature.sfc.version}'>odl-sfc-verify</feature>
         <feature version='${feature.tsdr.version}'>odl-tsdr-hsqldb-all</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
