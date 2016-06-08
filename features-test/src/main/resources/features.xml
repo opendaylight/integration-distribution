@@ -88,8 +88,6 @@
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
         <feature version='${feature.benchmark.version}'>odl-mdsal-benchmark</feature>
         <feature version='${feature.mdsal.version}'>odl-mdsal-broker</feature>
-        <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
-        <feature version='${feature.natapp.version}'>odl-natapp</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-rest</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
@@ -167,6 +165,8 @@
             which leads to BindException.
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
         -->
+        <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
+        <feature version='${feature.natapp.version}'>odl-natapp</feature>
         <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-vpnservice-openstack</feature>
         <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
             which leads to BindException.
