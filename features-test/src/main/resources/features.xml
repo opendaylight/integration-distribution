@@ -72,6 +72,7 @@
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
+        <feature version='${project.version}'>odl-distribution-version</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-msmr</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-neutron</feature>
         <feature version='${feature.lispflowmapping.version}'>odl-lispflowmapping-ui</feature>
