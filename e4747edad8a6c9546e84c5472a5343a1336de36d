@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba51214e_65e77f41",
+        "filename": "features-index/src/main/resources/features.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-06-16T17:28:32Z",
+      "side": 0,
+      "message": "We have tests for He design. Should we remove them, or should we include -he feature repository instead? I strongly suggest the latter.",
+      "range": {
+        "startLine": 82,
+        "startChar": 75,
+        "endLine": 82,
+        "endChar": 78
+      },
+      "revId": "e4747edad8a6c9546e84c5472a5343a1336de36d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
