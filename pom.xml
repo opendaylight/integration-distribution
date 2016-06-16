@@ -82,6 +82,7 @@
     <module>features-distribution</module>
     <module>features-index</module>
     <module>features-test</module>
+    <module>snapshot-karaf</module>
     <module>version</module>
   </modules>
 
