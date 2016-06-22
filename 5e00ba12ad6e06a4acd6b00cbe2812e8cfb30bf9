@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba51214e_c5ee398b",
+        "filename": ".gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-06-22T10:59:40Z",
+      "side": 1,
+      "message": "The next line is brittle, but that file we do not want to override (as opposed to the other file in that directory).",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "5e00ba12ad6e06a4acd6b00cbe2812e8cfb30bf9",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
