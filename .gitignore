@@ -3,11 +3,31 @@
 *.swp
 
 # Java / Maven
-target/
+*.class
+**/target
+**/logs
+maven-metadata-local.xml
+
+# ODL code generation
+version/src/main/java/org/opendaylight/yang/gen/v1/urn/opendaylight/params/xml/ns/yang/integration/distribution/version/rev160316/OdlVersionModuleFactory.java
+
+# IDE, miscellaneous and mysterious
+products
+repository
+workspace
 .classpath
 .project
 .settings
-
-# IDE
-.idea
+MANIFEST.MF
+*.ipr
 *.iml
+*.iws
+.idea
+classes
+out/
+.externalToolBuilders
+maven-eclipse.xml
+.DS_STORE
+.metadata
+.checkstyle
+.factorypath
