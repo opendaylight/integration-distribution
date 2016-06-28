@@ -59,6 +59,7 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+<!--
     <dependency>
        <groupId>org.opendaylight.bgpcep</groupId>
        <artifactId>features-bgp</artifactId>
@@ -94,6 +95,7 @@
        <version>${feature.bgpcep.version}</version>
        <type>xml</type>
     </dependency>
+-->
     <dependency>
       <groupId>org.opendaylight.capwap</groupId>
       <artifactId>capwap-features</artifactId>

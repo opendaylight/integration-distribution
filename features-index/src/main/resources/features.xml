@@ -34,11 +34,13 @@
     <repository>mvn:org.opendaylight.aaa/features-aaa-authz/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.aaa/features-aaa-api/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/${feature.alto.version}/xml/features</repository>
+<!--
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-extras/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-pcep/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/${feature.bgpcep.version}/xml/features</repository>
+-->
     <repository>mvn:org.opendaylight.capwap/capwap-features/${feature.capwap.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.centinel/centinel-features/${feature.centinel.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-extras/${feature.controller.extras.version}/xml/features</repository>
