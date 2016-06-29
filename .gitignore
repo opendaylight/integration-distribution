@@ -3,11 +3,28 @@
 *.swp
 
 # Java / Maven
-target/
+*.class
+**/target
+**/logs
+maven-metadata-local.xml
+
+# IDE, miscellaneous and mysterious
+products
+repository
+workspace
 .classpath
 .project
 .settings
-
-# IDE
-.idea
+MANIFEST.MF
+*.ipr
 *.iml
+*.iws
+.idea
+classes
+out/
+.externalToolBuilders
+maven-eclipse.xml
+.DS_STORE
+.metadata
+.checkstyle
+.factorypath
