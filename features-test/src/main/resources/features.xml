@@ -142,7 +142,9 @@
             Also, DIDM merge jobs are currently failing.
         <feature version='${didm.version}'>odl-didm-all</feature>
         -->
+        <!-- Commented out, because it breaks the controller in presence of netvirt
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
+        -->
         <feature version='${feature.genius.version}'>odl-genius-rest</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-faas</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-iovisor</feature>
