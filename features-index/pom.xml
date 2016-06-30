@@ -302,6 +302,20 @@
       <classifier>features</classifier>
       <type>xml</type>
     </dependency>
+    <dependency>
+      <groupId>org.opendaylight.odlparent</groupId>
+      <artifactId>features-akka</artifactId>
+      <version>${feature.odlparent.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.odlparent</groupId>
+      <artifactId>features-odlparent</artifactId>
+      <version>${feature.odlparent.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+    </dependency>
     <!-- Issue with of-config merge requires this line commented out:
     <dependency>
       <groupId>org.opendaylight.of-config</groupId>
