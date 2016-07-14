@@ -500,6 +500,7 @@
       <groupId>org.opendaylight.odlparent</groupId>
       <artifactId>features-test</artifactId>
       <version>${feature.odlparent.version}</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
