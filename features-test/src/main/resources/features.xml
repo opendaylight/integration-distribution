@@ -117,7 +117,6 @@
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
         <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
-        <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-i2rs</feature>
