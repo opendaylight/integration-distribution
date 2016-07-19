@@ -167,7 +167,7 @@
         -->
         <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
         <feature version='${feature.natapp.version}'>odl-natapp</feature>
-        <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-vpnservice-openstack</feature>
+        <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-openstack</feature>
         <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
             which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
