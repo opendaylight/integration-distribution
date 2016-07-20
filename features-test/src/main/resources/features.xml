@@ -116,7 +116,9 @@
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
+        <!-- Issue with old adsal dependency shows up in aaa distribution-check
         <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
+        -->
         <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory</feature>
