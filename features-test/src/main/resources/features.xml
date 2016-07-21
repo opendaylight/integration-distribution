@@ -116,7 +116,7 @@
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
-        <!-- Issue with old adsal dependency shows up in aaa distribution-check
+        <!-- Issues with yang parser show up in aaa distribution-check
         <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
         -->
         <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
@@ -179,7 +179,9 @@
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ios-xe-renderer</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-openflow-renderer</feature>
+        <!-- Issues with yang parser show up in aaa distribution-check
         <feature version='${feature.tsdr.version}'>odl-tsdr-hsqldb-all</feature>
+        -->
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
         <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
