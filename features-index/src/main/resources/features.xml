@@ -88,13 +88,14 @@
     <repository>mvn:org.opendaylight.ovsdb/hwvtepsouthbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/southbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.packetcable/features-packetcable-policy/${feature.packetcable.version}/xml/features</repository>
+    <!-- Remove sdninterfaceapp until they remove their dependency on tcpmd5.
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/${feature.sdninterfaceapp.version}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.sfc/features-sfc/${feature.sfc.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snbi/features-snbi/${feature.snbi.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp/features-snmp/${snmp.plugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp4sdn/features-snmp4sdn/${feature.snmp4sdn.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.sxp/features/${feature.sxp.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.tcpmd5/features-tcpmd5/${feature.tcpmd5.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.topoprocessing/features-topoprocessing/${feature.topoprocessing.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.tsdr/features-tsdr/${feature.tsdr.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ttp/features-ttp/${feature.ttp.version}/xml/features</repository>
