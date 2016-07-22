@@ -107,7 +107,9 @@
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-southbound-impl</feature>
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
+        <!-- Remove sdninterfaceapp until they remove their dependency on tcpmd5
         <feature version='${feature.sdninterfaceapp.version}'>odl-sdninterfaceapp-all</feature>
+        -->
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
@@ -119,7 +121,6 @@
         <!-- Issues with yang parser show up in aaa distribution-check
         <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
         -->
-        <feature version='${feature.tcpmd5.version}'>odl-tcpmd5-all</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-i2rs</feature>
