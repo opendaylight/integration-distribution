@@ -36,6 +36,7 @@
     <feature.flow.version>1.4.0-SNAPSHOT</feature.flow.version>
     <feature.genius.version>0.1.0-SNAPSHOT</feature.genius.version>
     <feature.groupbasedpolicy.version>0.4.0-SNAPSHOT</feature.groupbasedpolicy.version>
+    <feature.infrautils.version>1.0.0-SNAPSHOT</feature.infrautils.version>
     <feature.iotdm.version>0.2.0-SNAPSHOT</feature.iotdm.version>
     <feature.l2switch.version>0.4.0-SNAPSHOT</feature.l2switch.version>
     <feature.lacp.version>1.2.0-SNAPSHOT</feature.lacp.version>
