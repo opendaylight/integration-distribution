@@ -38,6 +38,21 @@
             <artifactId>framework</artifactId>
             <type>kar</type>
         </dependency>
+        <!-- Override scopes from karaf-parent in attempt to avoid Bug 6187 -->
+        <dependency>
+            <groupId>org.apache.karaf.features</groupId>
+            <artifactId>standard</artifactId>
+            <version>${karaf.version}</version>
+            <type>xml</type>
+            <classifier>features</classifier>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.karaf.region</groupId>
+            <artifactId>org.apache.karaf.region.persist</artifactId>
+            <version>${karaf.version}</version>
+            <scope>provided</scope>
+        </dependency>
         <!-- integration feature -->
         <dependency>
             <artifactId>features-integration-index</artifactId>
