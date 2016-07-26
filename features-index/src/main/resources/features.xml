@@ -48,11 +48,9 @@
     <repository>mvn:org.opendaylight.controller/features-extras/${feature.controller.extras.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/${feature.mdsal.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/${feature.benchmark.version}/xml/features</repository>
-    <!-- DIDM merge jobs are failing due to getTableFeatures() method moved in OpenFlowPlugin (new design)
     <repository>mvn:org.opendaylight.didm/features-didm/${didm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-hp/${didm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-ovs/${didm.version}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.dlux/features-dlux/${feature.dlux.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.faas/features-faas/${feature.faas.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.genius/genius-features/${feature.genius.version}/xml/features</repository>

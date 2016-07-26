@@ -155,7 +155,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- DIDM merge jobs are failing due to getTableFeatures() method moved in OpenFlowPlugin (new design)
         <dependency>
             <groupId>org.opendaylight.didm</groupId>
             <artifactId>features-didm</artifactId>
@@ -177,7 +176,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.dlux</groupId>
             <artifactId>features-dlux</artifactId>
