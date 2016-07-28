@@ -78,6 +78,7 @@
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
         -->
+        <feature version='${didm.version}'>odl-didm-all</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
         <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
@@ -140,11 +141,7 @@
     <!-- Please use alphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
-        <!-- Commented out, because DIDM brings in Li designed OpenFlowPlugin
-            which leads to BindException.
-            Also, DIDM merge jobs are currently failing.
         <feature version='${didm.version}'>odl-didm-all</feature>
-        -->
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.genius.version}'>odl-genius-rest</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-faas</feature>
