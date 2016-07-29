@@ -86,6 +86,13 @@
         </dependency>
         -->
         <dependency>
+            <groupId>org.opendaylight.atrium</groupId>
+            <artifactId>atrium-features</artifactId>
+            <version>${feature.atrium.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>features-bgp</artifactId>
             <classifier>features</classifier>

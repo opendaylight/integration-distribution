@@ -33,6 +33,7 @@
         <didm.version>0.3.0-SNAPSHOT</didm.version>
         <feature.aaa.version>0.4.0-SNAPSHOT</feature.aaa.version>
         <feature.alto.version>0.3.0-SNAPSHOT</feature.alto.version>
+        <feature.atrium.version>0.0.1-SNAPSHOT</feature.atrium.version>
         <feature.benchmark.version>1.2.0-SNAPSHOT</feature.benchmark.version>
         <feature.bgpcep.version>0.6.0-SNAPSHOT</feature.bgpcep.version>
         <feature.capwap.version>0.3.0-SNAPSHOT</feature.capwap.version>
