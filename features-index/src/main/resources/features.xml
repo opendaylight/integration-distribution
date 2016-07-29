@@ -38,6 +38,7 @@
     https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
     Need to be uncommented once in Boron -->
     <!-- <repository>mvn:org.opendaylight.armoury/armoury-features/${feature.armoury.version}/xml/features</repository> -->
+    <repository>mvn:org.opendaylight.atrium/atrium-features/${feature.atrium.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-extras/${feature.bgpcep.version}/xml/features</repository>
