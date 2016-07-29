@@ -67,6 +67,7 @@
             Needs to be uncommented once in Boron
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         -->
+        <feature version='${feature.atrium.version}'>odl-atrium-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
