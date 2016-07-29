@@ -488,7 +488,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Commenting due to faulty feature POM file
         <dependency>
             <groupId>org.opendaylight.usecplugin</groupId>
             <artifactId>usecplugin-features</artifactId>
@@ -496,7 +495,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.vtn</groupId>
             <artifactId>features-vtn-manager</artifactId>
