@@ -421,15 +421,13 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Remove sdninterfaceapp until they remove their dependency on tcpmd5
-            <dependency>
-                <groupId>org.opendaylight.sdninterfaceapp</groupId>
-                <artifactId>features-sdninterfaceapp</artifactId>
-                <version>${feature.sdninterfaceapp.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-        -->
+        <dependency>
+            <groupId>org.opendaylight.sdninterfaceapp</groupId>
+            <artifactId>features-sdninterfaceapp</artifactId>
+            <version>${feature.sdninterfaceapp.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
             <artifactId>features-sfc</artifactId>
