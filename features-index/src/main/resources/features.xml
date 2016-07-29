@@ -52,6 +52,7 @@
     <repository>mvn:org.opendaylight.didm/features-didm-hp/${didm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-ovs/${didm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.dlux/features-dlux/${feature.dlux.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.eman/eman-features/${feature.eman.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.faas/features-faas/${feature.faas.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.genius/genius-features/${feature.genius.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.groupbasedpolicy/features-groupbasedpolicy/${feature.groupbasedpolicy.version}/xml/features</repository>
