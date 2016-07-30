@@ -4,15 +4,15 @@
   <parent>
     <groupId>org.opendaylight.controller</groupId>
     <artifactId>config-parent</artifactId>
-    <version>0.4.3-SNAPSHOT</version>
+    <version>0.4.3-Beryllium-SR3</version>
     <relativePath/>
   </parent>
   <groupId>org.opendaylight.integration</groupId>
   <artifactId>version</artifactId>
-  <version>0.4.3-SNAPSHOT</version>
+  <version>0.4.3-Beryllium-SR3</version>
   <packaging>bundle</packaging>
   <properties>
-    <feature.odlparent.version>1.6.3-SNAPSHOT</feature.odlparent.version>
+    <feature.odlparent.version>1.6.3-Beryllium-SR3</feature.odlparent.version>
   </properties>
   <build>
     <plugins>
