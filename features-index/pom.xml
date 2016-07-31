@@ -344,7 +344,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Issue with of-config merge requires this line commented out:
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
             <artifactId>features-of-config</artifactId>
@@ -352,7 +351,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.ofextensions.circuitsw</groupId>
             <artifactId>circuitsw-features</artifactId>

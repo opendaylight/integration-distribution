@@ -76,9 +76,7 @@
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/${feature.ocpplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-akka/${feature.odlparent.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-odlparent/${feature.odlparent.version}/xml/features</repository>
-    <!-- Issue with of-config merge requires this line commented out:
     <repository>mvn:org.opendaylight.of-config/features-of-config/${feature.of-config.version}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.ofextensions.circuitsw/circuitsw-features/${feature.circuitsw.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin/${feature.openflowplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-he/${feature.openflowplugin.version}/xml/features</repository>
