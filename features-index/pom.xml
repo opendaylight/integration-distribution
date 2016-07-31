@@ -309,6 +309,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Failed netide merge job makes distribution fail
         <dependency>
             <groupId>org.opendaylight.netide</groupId>
             <artifactId>netide-features</artifactId>
@@ -316,6 +317,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.neutron</groupId>
             <artifactId>features-neutron</artifactId>
