@@ -68,7 +68,9 @@
     <repository>mvn:org.opendaylight.netconf/features-netconf/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-netconf-connector/${feature.netconf.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-restconf/${feature.restconf.version}/xml/features</repository>
+    <!-- Failed netide merge job makes distribution fail
     <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.netvirt/features-netvirt/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/${feature.netvirt.vpnservice.version}/xml/features</repository>
