@@ -95,9 +95,7 @@
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
         <feature version='${feature.netide.version}'>odl-netide-app</feature>
         <feature version='${feature.ocpplugin.version}'>odl-ocpplugin-all</feature>
-        <!-- Issue with of-config merge requires this line commented out
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
-        -->
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-ui</feature>
