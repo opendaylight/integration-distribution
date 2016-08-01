@@ -45,6 +45,7 @@
     <repository>mvn:org.opendaylight.bgpcep/features-pcep/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/${feature.capwap.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.cardinal/cardinal-features/${feature.cardinal.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.centinel/centinel-features/${feature.centinel.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-extras/${feature.controller.extras.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/${feature.mdsal.version}/xml/features</repository>

@@ -37,6 +37,7 @@
         <feature.benchmark.version>1.2.0-SNAPSHOT</feature.benchmark.version>
         <feature.bgpcep.version>0.6.0-SNAPSHOT</feature.bgpcep.version>
         <feature.capwap.version>0.3.0-SNAPSHOT</feature.capwap.version>
+        <feature.cardinal.version>0.1.0-SNAPSHOT</feature.cardinal.version>
         <feature.centinel.version>0.2.0-SNAPSHOT</feature.centinel.version>
         <feature.circuitsw.version>1.1.0-SNAPSHOT</feature.circuitsw.version>
         <feature.controller.config.version>0.5.0-SNAPSHOT</feature.controller.config.version>

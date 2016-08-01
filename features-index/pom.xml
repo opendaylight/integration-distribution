@@ -135,6 +135,13 @@
             <type>xml</type>
         </dependency>
         <dependency>
+            <groupId>org.opendaylight.cardinal</groupId>
+            <artifactId>cardinal-features</artifactId>
+            <version>${feature.cardinal.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
             <groupId>org.opendaylight.centinel</groupId>
             <artifactId>centinel-features</artifactId>
             <version>${feature.centinel.version}</version>
