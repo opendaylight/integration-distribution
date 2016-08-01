@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a6b29fe_b0c0c87d",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-08-01T22:34:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a6b29fe_10bedcff",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-08-01T22:34:38Z",
+      "side": 1,
+      "message": "trailing space",
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a6b29fe_d0c3c488",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-08-01T22:34:38Z",
+      "side": 1,
+      "message": "This will return all IP addresses the Linux has (except loopback), however the get_index function does not seem to deal with multiple VM IP addresses.",
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
