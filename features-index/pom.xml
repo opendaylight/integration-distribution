@@ -368,13 +368,6 @@
             <type>xml</type>
         </dependency>
         <dependency>
-            <groupId>org.opendaylight.ofextensions.circuitsw</groupId>
-            <artifactId>circuitsw-features</artifactId>
-            <version>${feature.circuitsw.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>features-openflowplugin</artifactId>
             <version>${feature.openflowplugin.version}</version>
