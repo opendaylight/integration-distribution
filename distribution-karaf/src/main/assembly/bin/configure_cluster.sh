@@ -32,7 +32,7 @@ function usage()
 
 EOF
 
-    exit -1
+    exit 1
 }
 
 
@@ -203,7 +203,7 @@ EOF
  ERROR: Cluster configurations files not found. Please\
  configure clustering feature.
 EOF
-            exit -1
+            exit 1
         fi
     fi
 }
