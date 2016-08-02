@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "7a6b29fe_5dd34c38",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-08-02T11:48:51Z",
+      "side": 1,
+      "message": "Mention this script has limitations, and configure_cluster.sh is to be used if this script does not work as expected.",
+      "range": {
+        "startLine": 24,
+        "startChar": 41,
+        "endLine": 24,
+        "endChar": 58
+      },
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a6b29fe_b0c0c87d",
         "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
         "patchSetId": 1
@@ -13,6 +36,29 @@
       "writtenOn": "2016-08-01T22:34:38Z",
       "side": 1,
       "message": "trailing space",
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a6b29fe_3da650c2",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-08-02T11:48:51Z",
+      "side": 1,
+      "message": "Ouch, I should have spotted this already in configure_cluster.sh\nhttps://git.opendaylight.org/gerrit/42963",
+      "range": {
+        "startLine": 34,
+        "startChar": 9,
+        "endLine": 34,
+        "endChar": 11
+      },
       "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
@@ -36,6 +82,29 @@
     },
     {
       "key": {
+        "uuid": "7a6b29fe_9ddde445",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-08-02T11:48:51Z",
+      "side": 1,
+      "message": "Spaces instead of tabs please.",
+      "range": {
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 1
+      },
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a6b29fe_d0c3c488",
         "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
         "patchSetId": 1
@@ -47,6 +116,24 @@
       "writtenOn": "2016-08-01T22:34:38Z",
       "side": 1,
       "message": "This will return all IP addresses the Linux has (except loopback), however the get_index function does not seem to deal with multiple VM IP addresses.",
+      "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a6b29fe_3d63f0b2",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-08-02T11:48:51Z",
+      "side": 1,
+      "message": "Also, on some systems (Debian) \"ifconfig\" requires sudo.\nI recommend to use \"hostname -I\" instead (and pick the first address returned).",
+      "parentUuid": "7a6b29fe_d0c3c488",
       "revId": "67456efc77dcf4b53a492c47b5739d0b060836a7",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
