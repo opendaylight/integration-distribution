@@ -80,9 +80,6 @@
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
         -->
-        <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch</feature>
-        <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-rest</feature>
-        <feature version='${feature.circuitsw.version}'>odl-circuitsw-switch-ui</feature>
         <feature version='${didm.version}'>odl-didm-all</feature>
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${project.version}'>odl-distribution-version</feature>
