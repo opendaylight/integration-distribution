@@ -226,6 +226,13 @@
             <type>xml</type>
         </dependency>
         <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>vbd-features</artifactId>
+            <version>${feature.honeycomb.vbd.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
             <groupId>org.opendaylight.infrautils</groupId>
             <artifactId>infrautils-features</artifactId>
             <version>${feature.infrautils.version}</version>

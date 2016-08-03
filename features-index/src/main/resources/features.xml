@@ -58,6 +58,7 @@
     <repository>mvn:org.opendaylight.faas/features-faas/${feature.faas.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.genius/genius-features/${feature.genius.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.groupbasedpolicy/features-groupbasedpolicy/${feature.groupbasedpolicy.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.honeycomb.vbd/vbd-features/${feature.honeycomb.vbd.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.infrautils/infrautils-features/${feature.infrautils.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.integration/features-distribution/${project.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.iotdm/onem2m-features/${feature.iotdm.version}/xml/features</repository>
