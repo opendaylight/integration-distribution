@@ -94,52 +94,6 @@
       </exclusions>
     </dependency>
 
-    <!-- External application -->
-    <dependency>
-      <groupId>org.opendaylight.vtn</groupId>
-      <artifactId>distribution.vtn-coordinator</artifactId>
-      <version>6.2.3-SNAPSHOT</version>
-      <type>tar.bz2</type>
-      <classifier>bin</classifier>
-      <exclusions>
-        <exclusion>
-          <groupId>com.google.code.gson</groupId>
-          <artifactId>gson</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>commons-codec</groupId>
-          <artifactId>commons-codec</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.json</groupId>
-          <artifactId>json</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-
-    <dependency>
-      <groupId>org.opendaylight.vtn</groupId>
-      <artifactId>distribution.vtn-coordinator</artifactId>
-      <version>6.2.3-SNAPSHOT</version>
-      <type>txt</type>
-      <classifier>README</classifier>
-      <exclusions>
-        <exclusion>
-          <groupId>com.google.code.gson</groupId>
-          <artifactId>gson</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>commons-codec</groupId>
-          <artifactId>commons-codec</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.json</groupId>
-          <artifactId>json</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-  </dependencies>
-
   <build>
     <pluginManagement>
       <plugins>
@@ -331,21 +285,6 @@
              <excludes>META-INF\/**</excludes>
              <excludeTransitive>true</excludeTransitive>
              <ignorePermissions>false</ignorePermissions>
-            </configuration>
-          </execution>
-          <execution>
-            <id>copy-externalapps</id>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>copy-dependencies</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${project.build.directory}/assembly/externalapps</outputDirectory>
-              <includeArtifactIds>distribution.vtn-coordinator</includeArtifactIds>
-              <overWriteReleases>false</overWriteReleases>
-              <overWriteSnapshots>true</overWriteSnapshots>
-              <overWriteIfNewer>true</overWriteIfNewer>
-              <excludeTransitive>true</excludeTransitive>
             </configuration>
           </execution>
         </executions>
