@@ -29,7 +29,6 @@
     </scm>
     <properties>
         <odlparent.version>1.7.0-SNAPSHOT</odlparent.version>
-        <vtn.coordinator.version>6.3.0-SNAPSHOT</vtn.coordinator.version>
     </properties>
     <dependencies>
         <!-- opendaylight-karaf-parent uses this too -->
@@ -68,59 +67,9 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- external application -->
-        <dependency>
-            <groupId>org.opendaylight.vtn</groupId>
-            <artifactId>distribution.vtn-coordinator</artifactId>
-            <version>${vtn.coordinator.version}</version>
-            <type>tar.bz2</type>
-            <classifier>bin</classifier>
-            <exclusions>
-                <exclusion>
-                    <groupId>*</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.vtn</groupId>
-            <artifactId>distribution.vtn-coordinator</artifactId>
-            <version>${vtn.coordinator.version}</version>
-            <type>txt</type>
-            <classifier>README</classifier>
-            <exclusions>
-                <exclusion>
-                    <groupId>*</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
-            <!-- Overriding executions from parent. -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <executions>
-                    <!-- This replaces one of executions (defined in parent) which would exclude the app. -->
-                    <execution>
-                        <id>copy-externalapps</id>
-                        <phase>prepare-package</phase>
-                        <goals>
-                            <goal>copy-dependencies</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${project.build.directory}/assembly/externalapps</outputDirectory>
-                            <includeArtifactIds>distribution.vtn-coordinator</includeArtifactIds>
-                            <overWriteReleases>false</overWriteReleases>
-                            <overWriteSnapshots>true</overWriteSnapshots>
-                            <overWriteIfNewer>true</overWriteIfNewer>
-                            <excludeTransitive>true</excludeTransitive>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
             <!-- karaf-parent does not use karaf-plugin (yet) -->
             <plugin>
                 <groupId>org.opendaylight.odlparent</groupId>
