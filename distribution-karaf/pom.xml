@@ -70,6 +70,13 @@
     </dependencies>
     <build>
         <plugins>
+            <!-- Try to reduce number of dependencies -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <goals combine.self="override">
+                </goals>
+            </plugin>
             <!-- karaf-parent does not use karaf-plugin (yet) -->
             <plugin>
                 <groupId>org.opendaylight.odlparent</groupId>
