@@ -109,9 +109,7 @@
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-southbound-impl</feature>
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
-        <!-- Latest change misses a dependency in the feature pom.xml file
         <feature version='${feature.sdninterfaceapp.version}'>odl-sdninterfaceapp-all</feature>
-        -->
         <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
         <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
