@@ -27,9 +27,6 @@
         <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=distribution-karaf;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <properties>
-        <odlparent.version>1.8.0-SNAPSHOT</odlparent.version>
-    </properties>
     <dependencies>
         <!-- opendaylight-karaf-parent uses this too -->
         <dependency>
@@ -68,25 +65,4 @@
             </exclusions>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <!-- karaf-parent does not use karaf-plugin (yet) -->
-            <plugin>
-                <groupId>org.opendaylight.odlparent</groupId>
-                <artifactId>karaf-plugin</artifactId>
-                <version>${odlparent.version}</version>
-                <executions>
-                    <execution>
-                        <id>populate-local-repo</id>
-                        <goals>
-                            <goal>populate-local-repo</goal>
-                        </goals>
-                        <configuration>
-                            <localRepo>${project.build.directory}/assembly/system</localRepo>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
