@@ -67,7 +67,6 @@
             Needs to be uncommented once in Boron
         <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
         -->
-        <feature version='${feature.atrium.version}'>odl-atrium-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
@@ -138,6 +137,7 @@
     <!-- Please use alphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
+        <feature version='${feature.atrium.version}'>odl-atrium-all</feature>
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.genius.version}'>odl-genius-rest</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-faas</feature>
