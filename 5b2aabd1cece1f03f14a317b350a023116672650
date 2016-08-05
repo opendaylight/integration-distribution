@@ -1,0 +1,9 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Ryan Goulding <ryandgoulding@gmail.com>
+Code-Review+1: Stephen Kitt <skitt@redhat.com>
+Code-Review+2: Vratko Polák <vrpolak@cisco.com>
+Submitted-by: Vratko Polák <vrpolak@cisco.com>
+Submitted-at: Fri, 05 Aug 2016 15:11:10 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/43139
+Project: integration/distribution
+Branch: refs/heads/master
