@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Sirisha Sangam <sirisha.sangam@tcs.com>
+Code-Review+2: Vratko Polák <vrpolak@cisco.com>
+Submitted-by: Vratko Polák <vrpolak@cisco.com>
+Submitted-at: Fri, 05 Aug 2016 13:10:00 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/43224
+Project: integration/distribution
+Branch: refs/heads/master
