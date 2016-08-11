@@ -29,6 +29,7 @@
     </scm>
     <properties>
         <odlparent.version>1.8.0-SNAPSHOT</odlparent.version>
+        <karaf.plugin.version>1.7.0-SNAPSHOT</karaf.plugin.version>
     </properties>
     <dependencies>
         <!-- opendaylight-karaf-parent uses this too -->
@@ -68,25 +69,4 @@
             </exclusions>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <!-- karaf-parent does not use karaf-plugin (yet) -->
-            <plugin>
-                <groupId>org.opendaylight.odlparent</groupId>
-                <artifactId>karaf-plugin</artifactId>
-                <version>${odlparent.version}</version>
-                <executions>
-                    <execution>
-                        <id>populate-local-repo</id>
-                        <goals>
-                            <goal>populate-local-repo</goal>
-                        </goals>
-                        <configuration>
-                            <localRepo>${project.build.directory}/assembly/system</localRepo>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
