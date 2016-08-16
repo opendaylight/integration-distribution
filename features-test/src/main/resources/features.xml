@@ -62,11 +62,6 @@
         <feature version='${feature.aaa.version}'>odl-aaa-authz</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
         <feature version='${feature.aaa.version}'>odl-aaa-sssd-plugin</feature>
-        <!-- Remove Armoury from Beryllium release as per as committers consent:
-            https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
-            Needs to be uncommented once in Boron
-        <feature version='${feature.armoury.version}'>odl-armoury-workloadmanager</feature>
-        -->
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
@@ -92,12 +87,12 @@
         <feature version='${feature.nemo.version}'>odl-nemo-engine</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-rest</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
-        <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <!-- Failed netide merge job makes distribution fail
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
         <feature version='${feature.netide.version}'>odl-netide-app</feature>
         -->
+        <feature version='${feature.neutron.version}'>odl-neutron-service</feature>
         <feature version='${feature.ocpplugin.version}'>odl-ocpplugin-all</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services</feature>
         <feature version='${feature.openflowplugin.version}'>odl-openflowplugin-flow-services-rest</feature>
@@ -109,22 +104,22 @@
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
         <feature version='${feature.sdninterfaceapp.version}'>odl-sdninterfaceapp-all</feature>
-        <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
-        <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
-        <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
-        <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>
-        <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
+        <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
+        <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>
+        <feature version='${feature.sfc.version}'>odl-sfc-test-consumer</feature>
+        <feature version='${feature.sfc.version}'>odl-sfc-ui</feature>
+        <feature version='${feature.sfc.version}'>odl-sfclisp</feature>
         <feature version='${feature.sxp.version}'>odl-sxp-controller</feature>
         <feature version='${snmp.plugin.version}'>odl-snmp-plugin</feature>
         <!-- Issues with yang parser show up in aaa distribution-check
         <feature version='${feature.snmp4sdn.version}'>odl-snmp4sdn-all</feature>
         -->
-        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
-        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-i2rs</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-inventory-rendering</feature>
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-mlmt</feature>
+        <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
         <feature version='${feature.ttp.version}'>odl-ttp-all</feature>
         <feature version='${feature.unimgr.version}'>odl-unimgr</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel</feature>
@@ -161,16 +156,17 @@
             which leads to BindException.
         <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
         -->
-        <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
         <feature version='${feature.natapp.version}'>odl-natapp</feature>
+        <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
         <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-openstack</feature>
+        <feature version='${feature.netvirt.version}'>odl-netvirt-openstack-sfc-translator</feature>
         <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
             which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
         -->
+        <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
         <feature version='${feature.netvirt.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.netvirt.version}'>odl-ovsdb-sfc</feature>
-        <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ios-xe-renderer</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-openflow-renderer</feature>
@@ -179,8 +175,8 @@
         -->
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
-        <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
         <feature version='${feature.yang-push.version}'>odl-yangpush</feature>
+        <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
     </feature>
 
 </features>
