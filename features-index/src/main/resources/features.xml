@@ -31,13 +31,9 @@
 
     <!-- Please add new repository in an alphabetical order -->
     <repository>mvn:org.opendaylight.aaa/features-aaa/${feature.aaa.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.aaa/features-aaa-authz/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.aaa/features-aaa-api/${feature.aaa.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.aaa/features-aaa-authz/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/${feature.alto.version}/xml/features</repository>
-    <!-- Remove Armoury from Beryllium release as per as committers consent:
-    https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
-    Need to be uncommented once in Boron -->
-    <!-- <repository>mvn:org.opendaylight.armoury/armoury-features/${feature.armoury.version}/xml/features</repository> -->
     <repository>mvn:org.opendaylight.atrium/atrium-features/${feature.atrium.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/${feature.bgpcep.version}/xml/features</repository>
@@ -73,6 +69,7 @@
     <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/features-netvirt/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/${feature.netvirt.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/openstack.sfc-translator-features/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/${feature.netvirt.vpnservice.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>
