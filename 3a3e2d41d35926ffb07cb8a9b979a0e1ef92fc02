@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Tue, 16 Aug 2016 20:53:35 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/44026
+Project: integration/distribution
+Branch: refs/heads/stable/boron
