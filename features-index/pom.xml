@@ -74,17 +74,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Remove Armoury from Beryllium release as per as committers consent:
-            https://lists.opendaylight.org/pipermail/armoury-dev/2016-January/000081.html.
-            Need to be uncommented once in Boron
-        <dependency>
-            <groupId>org.opendaylight.armoury</groupId>
-            <artifactId>armoury-features</artifactId>
-            <version>${feature.armoury.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.atrium</groupId>
             <artifactId>atrium-features</artifactId>
@@ -312,6 +301,13 @@
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>openstack.net-virt-sfc-features</artifactId>
+            <version>${feature.netvirt.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netvirt</groupId>
+            <artifactId>openstack.sfc-translator-features</artifactId>
             <version>${feature.netvirt.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
