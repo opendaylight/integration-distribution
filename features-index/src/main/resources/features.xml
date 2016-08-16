@@ -73,6 +73,7 @@
     <repository>mvn:org.opendaylight.netide/netide-features/${feature.netide.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/features-netvirt/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/${feature.netvirt.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.netvirt/openstack.sfc-translator-features/${feature.netvirt.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/${feature.netvirt.vpnservice.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/${feature.neutron.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/${feature.nic.version}/xml/features</repository>

@@ -318,6 +318,13 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
+            <artifactId>openstack.sfc-translator-features</artifactId>
+            <version>${feature.netvirt.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>vpnservice-features</artifactId>
             <version>${feature.netvirt.vpnservice.version}</version>
             <classifier>features</classifier>

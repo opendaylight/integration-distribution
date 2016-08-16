@@ -170,6 +170,7 @@
         -->
         <feature version='${feature.netvirt.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.netvirt.version}'>odl-ovsdb-sfc</feature>
+        <feature version='${feature.netvirt.version}'>odl-netvirt-openstack-sfc-translator</feature>
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ios-xe-renderer</feature>
