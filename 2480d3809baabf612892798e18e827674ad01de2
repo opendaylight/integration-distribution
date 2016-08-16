@@ -16,6 +16,24 @@
       "revId": "2480d3809baabf612892798e18e827674ad01de2",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a6b29fe_b6834f03",
+        "filename": "features-test/src/main/resources/features.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 65
+      },
+      "writtenOn": "2016-08-16T17:12:12Z",
+      "side": 1,
+      "message": "odl-ovsdb-openstack, odl-ovdsb-sfc feature are also part of netvirt project. is there any ordering that we need to maintain?",
+      "parentUuid": "7a6b29fe_c0dba4eb",
+      "revId": "2480d3809baabf612892798e18e827674ad01de2",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
