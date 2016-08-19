@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a6b29fe_427023a5",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-08-19T08:18:55Z",
+      "side": 1,
+      "message": "\"hostname -I\" is available more widely (for example Debian requires sudo for ifconfig).",
+      "range": {
+        "startLine": 142,
+        "startChar": 21,
+        "endLine": 142,
+        "endChar": 29
+      },
+      "revId": "e4b07557e6cf633b089e01a6f09952f200d4a17c",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a6b29fe_02762ba4",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-08-19T08:18:55Z",
+      "side": 1,
+      "message": "1",
+      "range": {
+        "startLine": 249,
+        "startChar": 17,
+        "endLine": 249,
+        "endChar": 19
+      },
+      "revId": "e4b07557e6cf633b089e01a6f09952f200d4a17c",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
