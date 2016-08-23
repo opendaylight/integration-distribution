@@ -10,12 +10,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.opendaylight.integration</groupId>
-        <artifactId>root</artifactId>
-        <version>0.5.0-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>features-parent</artifactId>
+        <version>1.7.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
+    <groupId>org.opendaylight.integration</groupId>
     <artifactId>features-integration-index</artifactId>
+    <version>0.5.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Sub-project gathering feature repositories of all ODL projects participating in distribution.</description>
@@ -33,8 +35,66 @@
         <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=features-index;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
+    <!-- TODO: Replace the following properties by *-artifacts dependencies -->
     <properties>
-        <features.file>features.xml</features.file>
+        <!-- Keep this list sorted alphabetically please -->
+        <didm.version>0.3.0-SNAPSHOT</didm.version>
+        <feature.aaa.version>0.4.0-SNAPSHOT</feature.aaa.version>
+        <feature.alto.version>0.3.0-SNAPSHOT</feature.alto.version>
+        <feature.atrium.version>0.0.1-SNAPSHOT</feature.atrium.version>
+        <feature.benchmark.version>1.2.0-SNAPSHOT</feature.benchmark.version>
+        <feature.bgpcep.version>0.6.0-SNAPSHOT</feature.bgpcep.version>
+        <feature.capwap.version>0.3.0-SNAPSHOT</feature.capwap.version>
+        <feature.cardinal.version>0.1.0-SNAPSHOT</feature.cardinal.version>
+        <feature.centinel.version>0.2.0-SNAPSHOT</feature.centinel.version>
+        <feature.controller.config.version>0.5.0-SNAPSHOT</feature.controller.config.version>
+        <feature.controller.extras.version>1.7.0-SNAPSHOT</feature.controller.extras.version>
+        <feature.dlux.version>0.4.0-SNAPSHOT</feature.dlux.version>
+        <feature.eman.version>1.0.0-SNAPSHOT</feature.eman.version>
+        <feature.faas.version>1.1.0-SNAPSHOT</feature.faas.version>
+        <feature.flow.version>1.4.0-SNAPSHOT</feature.flow.version>
+        <feature.genius.version>0.1.0-SNAPSHOT</feature.genius.version>
+        <feature.groupbasedpolicy.version>0.4.0-SNAPSHOT</feature.groupbasedpolicy.version>
+        <feature.honeycomb.vbd.version>1.0.0-SNAPSHOT</feature.honeycomb.vbd.version>
+        <feature.infrautils.version>1.0.0-SNAPSHOT</feature.infrautils.version>
+        <feature.iotdm.version>0.2.0-SNAPSHOT</feature.iotdm.version>
+        <feature.l2switch.version>0.4.0-SNAPSHOT</feature.l2switch.version>
+        <feature.lacp.version>1.2.0-SNAPSHOT</feature.lacp.version>
+        <feature.lispflowmapping.version>1.4.0-SNAPSHOT</feature.lispflowmapping.version>
+        <feature.mdsal.version>1.4.0-SNAPSHOT</feature.mdsal.version>
+        <feature.natapp.version>0.1.0-SNAPSHOT</feature.natapp.version>
+        <feature.nemo.version>1.1.0-SNAPSHOT</feature.nemo.version>
+        <feature.netconf.version>1.1.0-SNAPSHOT</feature.netconf.version>
+        <feature.netide.version>0.2.0-SNAPSHOT</feature.netide.version>
+        <feature.netvirt.version>1.3.0-SNAPSHOT</feature.netvirt.version>
+        <feature.netvirt.vpnservice.version>0.3.0-SNAPSHOT</feature.netvirt.vpnservice.version>
+        <feature.nic.version>1.2.0-SNAPSHOT</feature.nic.version>
+        <feature.neutron.version>0.7.0-SNAPSHOT</feature.neutron.version>
+        <feature.ocpplugin.version>0.1.0-SNAPSHOT</feature.ocpplugin.version>
+        <feature.odlparent.version>1.7.0-SNAPSHOT</feature.odlparent.version>
+        <feature.of-config.version>1.1.0-SNAPSHOT</feature.of-config.version>
+        <feature.openflowplugin.version>0.3.0-SNAPSHOT</feature.openflowplugin.version>
+        <feature.ovsdb.version>1.3.0-SNAPSHOT</feature.ovsdb.version>
+        <feature.packetcable.version>1.4.0-SNAPSHOT</feature.packetcable.version>
+        <feature.restconf.version>1.4.0-SNAPSHOT</feature.restconf.version>
+        <feature.sdninterfaceapp.version>1.7.0-SNAPSHOT</feature.sdninterfaceapp.version>
+        <feature.sfc.version>0.3.0-SNAPSHOT</feature.sfc.version>
+        <feature.snbi.version>1.3.0-SNAPSHOT</feature.snbi.version>
+        <feature.snmp4sdn.version>0.4.0-SNAPSHOT</feature.snmp4sdn.version>
+        <feature.sxp.version>1.3.0-SNAPSHOT</feature.sxp.version>
+        <feature.topoprocessing.version>0.2.0-SNAPSHOT</feature.topoprocessing.version>
+        <feature.tsdr.version>1.2.0-SNAPSHOT</feature.tsdr.version>
+        <feature.ttp.version>0.3.0-SNAPSHOT</feature.ttp.version>
+        <feature.unimgr.version>0.1.0-SNAPSHOT</feature.unimgr.version>
+        <feature.usc.version>1.2.0-SNAPSHOT</feature.usc.version>
+        <feature.usecplugin.version>1.1.0-SNAPSHOT</feature.usecplugin.version>
+        <feature.vtn-manager.version>0.5.0-SNAPSHOT</feature.vtn-manager.version>
+        <feature.yang-push.version>1.1.0-SNAPSHOT</feature.yang-push.version>
+        <feature.yangtools.version>1.0.0-SNAPSHOT</feature.yangtools.version>
+        <karaf.branding.version>1.3.0-SNAPSHOT</karaf.branding.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <snmp.plugin.version>1.2.0-SNAPSHOT</snmp.plugin.version>
+        <!-- Keep this list sorted alphabetically please -->
     </properties>
     <dependencies>
         <!-- feature repository dependencies from this project -->
@@ -522,100 +582,5 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- test to validate features.xml -->
-        <dependency>
-            <groupId>org.opendaylight.odlparent</groupId>
-            <artifactId>features-test</artifactId>
-            <version>${feature.odlparent.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit-dep</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <!-- dependency for opendaylight-karaf-empty for use by testing -->
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>opendaylight-karaf-empty</artifactId>
-            <version>${feature.odlparent.version}</version>
-            <type>zip</type>
-        </dependency>
     </dependencies>
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.karaf.tooling</groupId>
-                <artifactId>karaf-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <executions>
-                    <execution>
-                        <id>features-create-kar</id>
-                        <goals>
-                            <goal>features-create-kar</goal>
-                        </goals>
-                        <configuration>
-                            <featuresFile>${project.build.directory}/classes/${features.file}</featuresFile>
-                        </configuration>
-                    </execution>
-                </executions>
-                <!-- There is no useful configuration for the kar mojo. The features-generate-descriptor mojo configuration may be useful -->
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>filter</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>resources</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>build-helper-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>attach-artifacts</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>attach-artifact</goal>
-                        </goals>
-                        <configuration>
-                            <artifacts>
-                                <artifact>
-                                    <file>${project.build.directory}/classes/${features.file}</file>
-                                    <type>xml</type>
-                                    <classifier>features</classifier>
-                                </artifact>
-                            </artifacts>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <systemPropertyVariables>
-                        <karaf.distro.groupId>org.opendaylight.controller</karaf.distro.groupId>
-                        <karaf.distro.artifactId>opendaylight-karaf-empty</karaf.distro.artifactId>
-                        <karaf.distro.version>${feature.odlparent.version}</karaf.distro.version>
-                    </systemPropertyVariables>
-                    <dependenciesToScan>
-                        <dependency>org.opendaylight.odlparent:features-test</dependency>
-                    </dependenciesToScan>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>

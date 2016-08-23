@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- vi: set et smarttab sw=4 tabstop=4: -->
+<!--
+ Copyright (c) 2014 Cisco Systems, Inc. and others.  All rights reserved.
+
+ This program and the accompanying materials are made available under the
+ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+ and is available at http://www.eclipse.org/legal/epl-v10.html
+-->
+<features name="odl-integration-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.2.0 http://karaf.apache.org/xmlns/features/v1.2.0">
+
+    <!--
+        Concept:
+            This file is a registry of features defined in the projects for use in integration testing.
+
+            The intent is to capture high level (not low level features).  This means a project
+            may have features that are not listed here.  That is fine.  Only the stuff you think
+            end users would want to install should be indexed here.
+
+            There are two kinds of features defined here:
+
+            odl-integration-compatible-with-all - to list high level features that don't have compatibility
+                issues
+
+            odl-integration-all - to list all features available in OpenDaylighthigh level features
+                that have compatibility issues with some other features.  This feature includes
+                odl-integration-compatible-with-all
+
+        Directions:
+            1) Make sure your feature file is running the tests and passing them in master:
+                https://wiki.opendaylight.org/view/Karaf:Hands_On_Guide#Existing_Feature_Files
+            2) Add your <repository> to integration/features/index/src/main/resources/features.xml
+            3) If and ONLY if your top level feature is compatible with everything, add it to
+                odl-integration-compatible-with-all
+            4) If and ONLY if your top level feature is incompatible with other things, add it to
+                odl-integration-all
+            5) Go to the ../pom.xml and
+                a)  Add a dependendy for your feature
+                b)  DO NOT ADD ANYTHING TO THE BOOTFEATURES.
+
+            Important note: None of the features defined in this file will be in the integration/karaf build by default
+                            because that is what we ship, and test features should not by default ship.
+                            Please be aware that the features pulled in via features-integration-repo from the projects
+                            *will* be.  Its only these aggregating test features that will be missing.
+                            If you need to have these test features defined in this file (for example if you are doing
+                            integration testing) then:
+                            cd integration/distributions/karaf
+                            perl -i -pe "s/features-integration-index/features-integration-test/" target/assembly/etc/org.apache.karaf.features.cfg
+                            and they will be present and availble
+    -->
+    <!-- The features-integration-index should be the one and only repository in this file.
+        If you think another repository is needed, please add it to integration/features/index/src/main/resource/features.xml
+    -->
+    <repository>mvn:org.opendaylight.integration/features-integration-index/{{VERSION}}/xml/features</repository>
+
+    <!-- Please use alphabetical order to add a compatible with all features -->
+    <feature name='odl-integration-compatible-with-all' version='${project.version}'>
+        <feature>odl-aaa-api</feature>
+        <feature>odl-aaa-authn</feature>
+        <feature>odl-aaa-authz</feature>
+        <feature>odl-aaa-netconf-plugin</feature>
+        <feature>odl-aaa-sssd-plugin</feature>
+        <feature>odl-bgpcep-bgp-all</feature>
+        <feature>odl-bgpcep-bmp</feature>
+        <feature>odl-bgpcep-pcep-all</feature>
+        <feature>odl-bgpcep-rsvp</feature>
+        <feature>odl-capwap-ac-rest</feature>
+        <feature>odl-cardinal</feature>
+        <!-- Commented out because two of the features lead to Yang pares errors.
+        <feature>odl-centinel-core</feature>
+        <feature>odl-centinel-laas</feature>
+        <feature>odl-centinel-streamhandler</feature>
+        <feature>odl-centinel-ui</feature>
+        -->
+        <feature>odl-didm-all</feature>
+        <feature>odl-dlux-core</feature>
+        <feature>odl-distribution-version</feature>
+        <feature>odl-eman</feature>
+        <feature>odl-eman-rest</feature>
+        <feature>odl-eman-ui</feature>
+        <feature>odl-lispflowmapping-msmr</feature>
+        <feature>odl-lispflowmapping-ui</feature>
+        <feature>odl-mdsal-benchmark</feature>
+        <feature>odl-mdsal-broker</feature>
+        <feature>odl-nemo-engine</feature>
+        <feature>odl-nemo-engine-rest</feature>
+        <feature>odl-nemo-engine-ui</feature>
+        <feature>odl-netconf-connector-ssh</feature>
+        <!-- Failed netide merge job makes distribution fail
+        <feature>odl-netide-rest</feature>
+        <feature>odl-netide-app</feature>
+        -->
+        <feature>odl-neutron-service</feature>
+        <feature>odl-ocpplugin-all</feature>
+        <feature>odl-openflowplugin-flow-services</feature>
+        <feature>odl-openflowplugin-flow-services-rest</feature>
+        <feature>odl-openflowplugin-flow-services-ui</feature>
+        <feature>odl-openflowplugin-nxm-extensions</feature>
+        <feature>odl-ovsdb-hwvtepsouthbound</feature>
+        <feature>odl-ovsdb-library</feature>
+        <feature>odl-ovsdb-southbound-impl</feature>
+        <feature>odl-packetcable-policy-server-all</feature>
+        <feature>odl-restconf-noauth</feature>
+        <feature>odl-sdninterfaceapp-all</feature>
+        <feature>odl-sfc-netconf</feature>
+        <feature>odl-sfc-ovs</feature>
+        <feature>odl-sfc-sb-rest</feature>
+        <feature>odl-sfc-test-consumer</feature>
+        <feature>odl-sfc-ui</feature>
+        <feature>odl-sfclisp</feature>
+        <feature>odl-sxp-controller</feature>
+        <feature>odl-snmp-plugin</feature>
+        <!-- Issues with yang parser show up in aaa distribution-check
+        <feature>odl-snmp4sdn-all</feature>
+        -->
+        <feature>odl-topoprocessing-i2rs</feature>
+        <feature>odl-topoprocessing-inventory</feature>
+        <feature>odl-topoprocessing-inventory-rendering</feature>
+        <feature>odl-topoprocessing-mlmt</feature>
+        <feature>odl-topoprocessing-network-topology</feature>
+        <feature>odl-ttp-all</feature>
+        <feature>odl-unimgr</feature>
+        <feature>odl-usc-channel</feature>
+        <feature>odl-usc-channel-rest</feature>
+        <feature>odl-usc-channel-ui</feature>
+        <feature>odl-usecplugin-aaa</feature>
+        <feature>odl-usecplugin-openflow</feature>
+    </feature>
+
+    <!-- Please use alphabetical order for non-compatible features -->
+    <feature name='odl-integration-all' version='${project.version}'>
+        <feature>odl-alto-release</feature>
+        <feature>odl-atrium-all</feature>
+        <feature>odl-faas-base</feature>
+        <feature>odl-genius-rest</feature>
+        <feature>odl-groupbasedpolicy-faas</feature>
+        <feature>odl-groupbasedpolicy-iovisor</feature>
+        <feature>odl-groupbasedpolicy-neutronmapper</feature>
+        <feature>odl-groupbasedpolicy-neutron-and-ofoverlay</feature>
+        <feature>odl-groupbasedpolicy-neutron-vpp-mapper</feature>
+        <feature>odl-groupbasedpolicy-ne-location-provider</feature>
+        <feature>odl-groupbasedpolicy-ofoverlay</feature>
+        <feature>odl-groupbasedpolicy-sxp-mapper</feature>
+        <feature>odl-groupbasedpolicy-ui</feature>
+        <feature>odl-groupbasedpolicy-vpp</feature>
+        <feature>odl-integration-compatible-with-all</feature>
+        <!-- Commenting this feature due to an issue with Jetty server
+        <feature>odl-iotdm-onem2m</feature>
+        -->
+        <feature>odl-l2switch-switch</feature>
+        <feature>odl-l2switch-switch-rest</feature>
+        <feature>odl-l2switch-switch-ui</feature>
+        <!-- Commented out, because LACP brings in Li designed OpenFlowPlugin
+            which leads to BindException.
+        <feature>odl-lacp-ui</feature>
+        -->
+        <feature>odl-natapp</feature>
+        <feature>odl-natapp-api</feature>
+        <feature>odl-netvirt-openstack</feature>
+        <feature>odl-netvirt-openstack-sfc-translator</feature>
+        <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
+            which leads to BindException.
+        <feature>odl-nic-core-mdsal</feature>
+        -->
+        <feature>odl-of-config-all</feature>
+        <feature>odl-ovsdb-openstack</feature>
+        <feature>odl-ovsdb-sfc</feature>
+        <feature>odl-snbi-all</feature>
+        <feature>odl-sfc-ios-xe-renderer</feature>
+        <feature>odl-sfc-openflow-renderer</feature>
+        <!-- Issues with yang parser show up in aaa distribution-check
+        <feature>odl-tsdr-hsqldb-all</feature>
+        -->
+        <feature>odl-vtn-manager-neutron</feature>
+        <feature>odl-vtn-manager-rest</feature>
+        <feature>odl-yangpush</feature>
+        <feature>odl-yangpush-api</feature>
+    </feature>
+
+</features>

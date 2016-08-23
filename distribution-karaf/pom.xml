@@ -50,6 +50,10 @@
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.opendaylight</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <!-- integration test feature -->
@@ -65,28 +69,11 @@
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.opendaylight</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <!-- karaf-parent does not use karaf-plugin (yet) -->
-            <plugin>
-                <groupId>org.opendaylight.odlparent</groupId>
-                <artifactId>karaf-plugin</artifactId>
-                <version>${odlparent.version}</version>
-                <executions>
-                    <execution>
-                        <id>populate-local-repo</id>
-                        <goals>
-                            <goal>populate-local-repo</goal>
-                        </goals>
-                        <configuration>
-                            <localRepo>${project.build.directory}/assembly/system</localRepo>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>
