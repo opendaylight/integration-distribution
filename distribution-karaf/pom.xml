@@ -11,7 +11,7 @@
     <artifactId>distribution-karaf</artifactId>
     <version>0.6.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>distribution:${project.artifactId}</name>
     <description>The actual Karaf building sub-project.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>

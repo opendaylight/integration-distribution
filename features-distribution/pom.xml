@@ -17,7 +17,7 @@
     </parent>
     <artifactId>features-distribution</artifactId>
     <packaging>jar</packaging>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>distribution:${project.artifactId}</name>
     <description>Sub-project building features internal to distribution.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>

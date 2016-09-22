@@ -12,7 +12,7 @@
     <version>0.6.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!-- <name> value is used by Sonar to set project name -->
-    <name>distribution</name>
+    <name>Integration/Distribution</name>
     <description>OpenDaylight Integration/Distribution project, used for creating complete Karaf distribution packages.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
@@ -95,27 +95,4 @@
         <module>features-test</module>
         <module>version</module>
     </modules>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-enforcer-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>enforce-maven</id>
-                        <goals>
-                            <goal>enforce</goal>
-                        </goals>
-                        <configuration>
-                            <rules>
-                                <requireMavenVersion>
-                                    <version>3.1.1</version>
-                                </requireMavenVersion>
-                            </rules>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>

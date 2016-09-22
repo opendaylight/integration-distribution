@@ -17,7 +17,7 @@
     </parent>
     <artifactId>features-integration-test</artifactId>
     <packaging>jar</packaging>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>distribution:${project.artifactId}</name>
     <description>Sub-project building aggregate features used for feature compatibility testing.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
