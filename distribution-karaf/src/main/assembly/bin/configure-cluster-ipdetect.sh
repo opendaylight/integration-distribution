@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Copyright (c) 2015 Brocade Communications Systems, Inc. and others.  All rights reserved.
+# Copyright (c) 2016 Cisco Systems, Inc. and others.  All rights reserved.
 #
 # This program and the accompanying materials are made available under the
 # terms of the Eclipse Public License v1.0 which accompanies this distribution,
@@ -138,14 +139,12 @@ function get_index ()
 
 function get_local_ip_addresses
 {
-    # Get the local node's IP addresses
-    LOCAL_IP_STRING=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'`
-
+    # Get the local node's IP addresses as list
     LOCAL_IPS=()
-    while read -r line; do
-        LOCAL_IPS+=("$line")
-    done <<< "$LOCAL_IP_STRING"
-
+    for IP in `hostname -I`
+    do
+        LOCAL_IPS+=("$IP")
+    done
     echo ${LOCAL_IPS[@]}
 }
 
@@ -246,7 +245,7 @@ EOF
  ERROR: Cluster configurations files not found. Please\
  configure clustering feature.
 EOF
-            exit -1
+            exit 1
         fi
     fi
 }
