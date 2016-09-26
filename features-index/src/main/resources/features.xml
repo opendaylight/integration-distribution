@@ -31,8 +31,7 @@
 
     <!-- Please add new repository in an alphabetical order -->
     <repository>mvn:org.opendaylight.aaa/features-aaa/${feature.aaa.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.aaa/features-aaa-api/${feature.aaa.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.aaa/features-aaa-authz/${feature.aaa.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.aaa/features-aaa-shiro/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/${feature.alto.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.atrium/atrium-features/${feature.atrium.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
