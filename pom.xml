@@ -89,6 +89,7 @@
         <!-- Keep this list sorted alphabetically please -->
     </properties>
     <modules>
+        <!-- snapshot-karaf is for testing only, it needs ${snapshot.karaf.version} to be defined -->
         <module>distribution-karaf</module>
         <module>features-distribution</module>
         <module>features-index</module>
