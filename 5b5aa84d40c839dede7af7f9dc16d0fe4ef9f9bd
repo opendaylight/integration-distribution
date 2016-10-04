@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a6b29fe_907b0c7b",
+        "filename": "distribution-karaf/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2016-10-04T16:16:00Z",
+      "side": 1,
+      "message": "FYI, this does not work on MAC :(",
+      "revId": "5b5aa84d40c839dede7af7f9dc16d0fe4ef9f9bd",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
