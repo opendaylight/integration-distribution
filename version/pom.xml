@@ -4,15 +4,15 @@
   <parent>
     <groupId>org.opendaylight.controller</groupId>
     <artifactId>config-parent</artifactId>
-    <version>0.4.4-SNAPSHOT</version>
+    <version>0.4.5-SNAPSHOT</version>
     <relativePath/>
   </parent>
   <groupId>org.opendaylight.integration</groupId>
   <artifactId>version</artifactId>
-  <version>0.4.4-SNAPSHOT</version>
+  <version>0.4.5-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <properties>
-    <feature.odlparent.version>1.6.4-SNAPSHOT</feature.odlparent.version>
+    <feature.odlparent.version>1.6.5-SNAPSHOT</feature.odlparent.version>
   </properties>
   <build>
     <plugins>

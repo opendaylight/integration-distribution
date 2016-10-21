@@ -4,16 +4,16 @@
   <parent>
       <groupId>org.opendaylight.integration</groupId>
       <artifactId>root</artifactId>
-      <version>0.4.4-SNAPSHOT</version>
+      <version>0.4.5-SNAPSHOT</version>
       <relativePath>../</relativePath>
    </parent>
   <artifactId>distribution-karaf</artifactId>
-  <version>0.4.4-SNAPSHOT</version>
+  <version>0.4.5-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
-    <branding.version>1.2.4-SNAPSHOT</branding.version>
-    <karaf.resources.version>1.6.4-SNAPSHOT</karaf.resources.version>
+    <branding.version>1.2.5-SNAPSHOT</branding.version>
+    <karaf.resources.version>1.6.5-SNAPSHOT</karaf.resources.version>
   </properties>
 
   <dependencies>
@@ -98,7 +98,7 @@
     <dependency>
       <groupId>org.opendaylight.vtn</groupId>
       <artifactId>distribution.vtn-coordinator</artifactId>
-      <version>6.2.4-SNAPSHOT</version>
+      <version>6.2.5-SNAPSHOT</version>
       <type>tar.bz2</type>
       <classifier>bin</classifier>
       <exclusions>
@@ -120,7 +120,7 @@
     <dependency>
       <groupId>org.opendaylight.vtn</groupId>
       <artifactId>distribution.vtn-coordinator</artifactId>
-      <version>6.2.4-SNAPSHOT</version>
+      <version>6.2.5-SNAPSHOT</version>
       <type>txt</type>
       <classifier>README</classifier>
       <exclusions>
@@ -380,7 +380,7 @@
       <plugin>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>karaf-plugin</artifactId>
-        <version>1.6.4-SNAPSHOT</version>
+        <version>1.6.5-SNAPSHOT</version>
         <executions>
           <execution>
             <id>populate-local-repo</id>
