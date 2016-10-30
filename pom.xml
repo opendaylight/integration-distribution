@@ -3,13 +3,13 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent</artifactId>
-        <version>1.7.1-SNAPSHOT</version>
+        <version>1.7.1-Boron-SR1</version>
         <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>root</artifactId>
-    <version>0.5.1-SNAPSHOT</version>
+    <version>0.5.1-Boron-SR1</version>
     <packaging>pom</packaging>
     <!-- <name> value is used by Sonar to set project name -->
     <name>distribution</name>
@@ -30,62 +30,62 @@
     </scm>
     <properties>
         <!-- Keep this list sorted alphabetically please -->
-        <didm.version>0.3.1-SNAPSHOT</didm.version>
-        <feature.aaa.version>0.4.1-SNAPSHOT</feature.aaa.version>
-        <feature.alto.version>0.3.1-SNAPSHOT</feature.alto.version>
-        <feature.atrium.version>0.0.2-SNAPSHOT</feature.atrium.version>
-        <feature.benchmark.version>1.2.1-SNAPSHOT</feature.benchmark.version>
-        <feature.bgpcep.version>0.6.1-SNAPSHOT</feature.bgpcep.version>
-        <feature.capwap.version>0.3.1-SNAPSHOT</feature.capwap.version>
-        <feature.cardinal.version>0.1.1-SNAPSHOT</feature.cardinal.version>
-        <feature.centinel.version>0.2.1-SNAPSHOT</feature.centinel.version>
-        <feature.controller.config.version>0.5.1-SNAPSHOT</feature.controller.config.version>
-        <feature.controller.extras.version>1.7.1-SNAPSHOT</feature.controller.extras.version>
-        <feature.dlux.version>0.4.1-SNAPSHOT</feature.dlux.version>
-        <feature.eman.version>1.0.1-SNAPSHOT</feature.eman.version>
-        <feature.faas.version>1.1.1-SNAPSHOT</feature.faas.version>
-        <feature.flow.version>1.4.1-SNAPSHOT</feature.flow.version>
-        <feature.genius.version>0.1.1-SNAPSHOT</feature.genius.version>
-        <feature.groupbasedpolicy.version>0.4.1-SNAPSHOT</feature.groupbasedpolicy.version>
-        <feature.honeycomb.vbd.version>1.0.1-SNAPSHOT</feature.honeycomb.vbd.version>
-        <feature.infrautils.version>1.0.1-SNAPSHOT</feature.infrautils.version>
-        <feature.iotdm.version>0.2.1-SNAPSHOT</feature.iotdm.version>
-        <feature.l2switch.version>0.4.1-SNAPSHOT</feature.l2switch.version>
-        <feature.lacp.version>1.2.1-SNAPSHOT</feature.lacp.version>
-        <feature.lispflowmapping.version>1.4.1-SNAPSHOT</feature.lispflowmapping.version>
-        <feature.mdsal.version>1.4.1-SNAPSHOT</feature.mdsal.version>
-        <feature.natapp.version>0.1.1-SNAPSHOT</feature.natapp.version>
-        <feature.nemo.version>1.1.1-SNAPSHOT</feature.nemo.version>
-        <feature.netconf.version>1.1.1-SNAPSHOT</feature.netconf.version>
-        <feature.netide.version>0.2.1-SNAPSHOT</feature.netide.version>
-        <feature.netvirt.version>1.3.1-SNAPSHOT</feature.netvirt.version>
-        <feature.netvirt.vpnservice.version>0.3.1-SNAPSHOT</feature.netvirt.vpnservice.version>
-        <feature.nic.version>1.2.1-SNAPSHOT</feature.nic.version>
-        <feature.neutron.version>0.7.1-SNAPSHOT</feature.neutron.version>
-        <feature.ocpplugin.version>0.1.1-SNAPSHOT</feature.ocpplugin.version>
-        <feature.odlparent.version>1.7.1-SNAPSHOT</feature.odlparent.version>
-        <feature.of-config.version>1.1.1-SNAPSHOT</feature.of-config.version>
-        <feature.openflowplugin.version>0.3.1-SNAPSHOT</feature.openflowplugin.version>
-        <feature.ovsdb.version>1.3.1-SNAPSHOT</feature.ovsdb.version>
-        <feature.packetcable.version>1.4.1-SNAPSHOT</feature.packetcable.version>
-        <feature.restconf.version>1.4.1-SNAPSHOT</feature.restconf.version>
-        <feature.sdninterfaceapp.version>1.7.1-SNAPSHOT</feature.sdninterfaceapp.version>
-        <feature.sfc.version>0.3.1-SNAPSHOT</feature.sfc.version>
-        <feature.snbi.version>1.3.1-SNAPSHOT</feature.snbi.version>
-        <feature.snmp4sdn.version>0.4.1-SNAPSHOT</feature.snmp4sdn.version>
-        <feature.sxp.version>1.3.1-SNAPSHOT</feature.sxp.version>
-        <feature.topoprocessing.version>0.2.1-SNAPSHOT</feature.topoprocessing.version>
-        <feature.tsdr.version>1.2.1-SNAPSHOT</feature.tsdr.version>
-        <feature.ttp.version>0.3.1-SNAPSHOT</feature.ttp.version>
-        <feature.unimgr.version>0.1.1-SNAPSHOT</feature.unimgr.version>
-        <feature.usc.version>1.2.1-SNAPSHOT</feature.usc.version>
-        <feature.usecplugin.version>1.1.1-SNAPSHOT</feature.usecplugin.version>
-        <feature.vtn-manager.version>0.5.1-SNAPSHOT</feature.vtn-manager.version>
-        <feature.yang-push.version>1.1.1-SNAPSHOT</feature.yang-push.version>
-        <feature.yangtools.version>1.0.1-SNAPSHOT</feature.yangtools.version>
-        <karaf.branding.version>1.3.1-SNAPSHOT</karaf.branding.version>
+        <didm.version>0.3.1-Boron-SR1</didm.version>
+        <feature.aaa.version>0.4.1-Boron-SR1</feature.aaa.version>
+        <feature.alto.version>0.3.1-Boron-SR1</feature.alto.version>
+        <feature.atrium.version>0.0.2-Boron-SR1</feature.atrium.version>
+        <feature.benchmark.version>1.2.1-Boron-SR1</feature.benchmark.version>
+        <feature.bgpcep.version>0.6.1-Boron-SR1</feature.bgpcep.version>
+        <feature.capwap.version>0.3.1-Boron-SR1</feature.capwap.version>
+        <feature.cardinal.version>0.1.1-Boron-SR1</feature.cardinal.version>
+        <feature.centinel.version>0.2.1-Boron-SR1</feature.centinel.version>
+        <feature.controller.config.version>0.5.1-Boron-SR1</feature.controller.config.version>
+        <feature.controller.extras.version>1.7.1-Boron-SR1</feature.controller.extras.version>
+        <feature.dlux.version>0.4.1-Boron-SR1</feature.dlux.version>
+        <feature.eman.version>1.0.1-Boron-SR1</feature.eman.version>
+        <feature.faas.version>1.1.1-Boron-SR1</feature.faas.version>
+        <feature.flow.version>1.4.1-Boron-SR1</feature.flow.version>
+        <feature.genius.version>0.1.1-Boron-SR1</feature.genius.version>
+        <feature.groupbasedpolicy.version>0.4.1-Boron-SR1</feature.groupbasedpolicy.version>
+        <feature.honeycomb.vbd.version>1.0.1-Boron-SR1</feature.honeycomb.vbd.version>
+        <feature.infrautils.version>1.0.1-Boron-SR1</feature.infrautils.version>
+        <feature.iotdm.version>0.2.1-Boron-SR1</feature.iotdm.version>
+        <feature.l2switch.version>0.4.1-Boron-SR1</feature.l2switch.version>
+        <feature.lacp.version>1.2.1-Boron-SR1</feature.lacp.version>
+        <feature.lispflowmapping.version>1.4.1-Boron-SR1</feature.lispflowmapping.version>
+        <feature.mdsal.version>1.4.1-Boron-SR1</feature.mdsal.version>
+        <feature.natapp.version>0.1.1-Boron-SR1</feature.natapp.version>
+        <feature.nemo.version>1.1.1-Boron-SR1</feature.nemo.version>
+        <feature.netconf.version>1.1.1-Boron-SR1</feature.netconf.version>
+        <feature.netide.version>0.2.1-Boron-SR1</feature.netide.version>
+        <feature.netvirt.version>1.3.1-Boron-SR1</feature.netvirt.version>
+        <feature.netvirt.vpnservice.version>0.3.1-Boron-SR1</feature.netvirt.vpnservice.version>
+        <feature.nic.version>1.2.1-Boron-SR1</feature.nic.version>
+        <feature.neutron.version>0.7.1-Boron-SR1</feature.neutron.version>
+        <feature.ocpplugin.version>0.1.1-Boron-SR1</feature.ocpplugin.version>
+        <feature.odlparent.version>1.7.1-Boron-SR1</feature.odlparent.version>
+        <feature.of-config.version>1.1.1-Boron-SR1</feature.of-config.version>
+        <feature.openflowplugin.version>0.3.1-Boron-SR1</feature.openflowplugin.version>
+        <feature.ovsdb.version>1.3.1-Boron-SR1</feature.ovsdb.version>
+        <feature.packetcable.version>1.4.1-Boron-SR1</feature.packetcable.version>
+        <feature.restconf.version>1.4.1-Boron-SR1</feature.restconf.version>
+        <feature.sdninterfaceapp.version>1.7.1-Boron-SR1</feature.sdninterfaceapp.version>
+        <feature.sfc.version>0.3.1-Boron-SR1</feature.sfc.version>
+        <feature.snbi.version>1.3.1-Boron-SR1</feature.snbi.version>
+        <feature.snmp4sdn.version>0.4.1-Boron-SR1</feature.snmp4sdn.version>
+        <feature.sxp.version>1.3.1-Boron-SR1</feature.sxp.version>
+        <feature.topoprocessing.version>0.2.1-Boron-SR1</feature.topoprocessing.version>
+        <feature.tsdr.version>1.2.1-Boron-SR1</feature.tsdr.version>
+        <feature.ttp.version>0.3.1-Boron-SR1</feature.ttp.version>
+        <feature.unimgr.version>0.1.1-Boron-SR1</feature.unimgr.version>
+        <feature.usc.version>1.2.1-Boron-SR1</feature.usc.version>
+        <feature.usecplugin.version>1.1.1-Boron-SR1</feature.usecplugin.version>
+        <feature.vtn-manager.version>0.5.1-Boron-SR1</feature.vtn-manager.version>
+        <feature.yang-push.version>1.1.1-Boron-SR1</feature.yang-push.version>
+        <feature.yangtools.version>1.0.1-Boron-SR1</feature.yangtools.version>
+        <karaf.branding.version>1.3.1-Boron-SR1</karaf.branding.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <snmp.plugin.version>1.2.1-SNAPSHOT</snmp.plugin.version>
+        <snmp.plugin.version>1.2.1-Boron-SR1</snmp.plugin.version>
         <!-- Keep this list sorted alphabetically please -->
     </properties>
     <modules>
