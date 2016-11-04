@@ -89,10 +89,10 @@
         <!-- Keep this list sorted alphabetically please -->
     </properties>
     <modules>
-        <module>distribution-karaf</module>
-        <module>features-distribution</module>
+<!--        <module>distribution-karaf</module>
+        <module>features-distribution</module> -->
         <module>features-index</module>
-        <module>features-test</module>
-        <module>version</module>
+<!--        <module>features-test</module>
+        <module>version</module> -->
     </modules>
 </project>
