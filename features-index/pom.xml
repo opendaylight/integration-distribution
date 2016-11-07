@@ -354,13 +354,15 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+<!--
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
             <artifactId>features-of-config</artifactId>
             <version>${feature.of-config.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
-        </dependency>
+        </dependency>-->
+
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>features-openflowplugin</artifactId>
