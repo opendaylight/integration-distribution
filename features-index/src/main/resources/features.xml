@@ -75,7 +75,9 @@
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/${feature.ocpplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-akka/${feature.odlparent.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-odlparent/${feature.odlparent.version}/xml/features</repository>
+    <!-- Commented out, because of-config merge job is failing and there is no artifacts in nexus
     <repository>mvn:org.opendaylight.of-config/features-of-config/${feature.of-config.version}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin/${feature.openflowplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-he/${feature.openflowplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.openflowplugin/features-openflowplugin-extension/${feature.openflowplugin.version}/xml/features</repository>
