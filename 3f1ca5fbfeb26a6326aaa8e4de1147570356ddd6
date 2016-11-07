@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Thanh Ha <thanh.ha@linuxfoundation.org>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Mon, 07 Nov 2016 17:58:17 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/48075
+Project: integration/distribution
+Branch: refs/heads/master
