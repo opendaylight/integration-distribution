@@ -164,9 +164,7 @@
             which leads to BindException.
         <feature version='${feature.nic.version}'>odl-nic-core-mdsal</feature>
         -->
-        <!-- Commented out, because of-config merge job is failing and there is no artifacts in nexus
         <feature version='${feature.of-config.version}'>odl-of-config-all</feature>
-        -->
         <feature version='${feature.netvirt.version}'>odl-ovsdb-openstack</feature>
         <feature version='${feature.netvirt.version}'>odl-ovsdb-sfc</feature>
         <feature version='${feature.snbi.version}'>odl-snbi-all</feature>

@@ -354,7 +354,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Commented out, because of-config merge job is failing and there is no artifacts in nexus
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
             <artifactId>features-of-config</artifactId>
@@ -362,7 +361,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>features-openflowplugin</artifactId>
