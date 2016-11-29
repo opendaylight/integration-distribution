@@ -87,7 +87,6 @@
         <feature version='${feature.nemo.version}'>odl-nemo-engine</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-rest</feature>
         <feature version='${feature.nemo.version}'>odl-nemo-engine-ui</feature>
-        <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <!-- Failed netide merge job makes distribution fail
         <feature version='${feature.netide.version}'>odl-netide-rest</feature>
         <feature version='${feature.netide.version}'>odl-netide-app</feature>
@@ -158,6 +157,10 @@
         -->
         <feature version='${feature.natapp.version}'>odl-natapp</feature>
         <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
+        <!-- The following two Netconf features are incompatible with each other.
+        As -only- CSIT jobs may use one or another, none of them can be in odl-integration-compatible-with-all. -->
+        <feature version='${feature.netconf.version}'>odl-netconf-clustered-topology</feature>
+        <feature version='${feature.netconf.version}'>odl-netconf-connector-ssh</feature>
         <feature version='${feature.netvirt.vpnservice.version}'>odl-netvirt-openstack</feature>
         <feature version='${feature.netvirt.version}'>odl-netvirt-openstack-sfc-translator</feature>
         <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
