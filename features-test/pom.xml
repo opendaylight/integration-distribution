@@ -58,7 +58,7 @@
         </dependency>
         <!-- dependency for opendaylight-karaf-empty for use by testing -->
         <dependency>
-            <groupId>org.opendaylight.controller</groupId>
+            <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>opendaylight-karaf-empty</artifactId>
             <version>${feature.odlparent.version}</version>
             <type>zip</type>
@@ -129,7 +129,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <systemPropertyVariables>
-                        <karaf.distro.groupId>org.opendaylight.controller</karaf.distro.groupId>
+                        <karaf.distro.groupId>org.opendaylight.odlparent</karaf.distro.groupId>
                         <karaf.distro.artifactId>opendaylight-karaf-empty</karaf.distro.artifactId>
                         <karaf.distro.version>${feature.odlparent.version}</karaf.distro.version>
                     </systemPropertyVariables>
