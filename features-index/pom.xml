@@ -180,6 +180,13 @@
             <type>xml</type>
         </dependency>
         <dependency>
+            <groupId>org.opendaylight.dluxapps</groupId>
+            <artifactId>features-dluxapps</artifactId>
+            <version>${feature.dluxapps.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
             <groupId>org.opendaylight.eman</groupId>
             <artifactId>eman-features</artifactId>
             <version>${feature.eman.version}</version>
