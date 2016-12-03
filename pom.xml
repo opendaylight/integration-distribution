@@ -42,6 +42,7 @@
         <feature.controller.config.version>0.6.0-SNAPSHOT</feature.controller.config.version>
         <feature.controller.extras.version>1.8.0-SNAPSHOT</feature.controller.extras.version>
         <feature.dlux.version>0.5.0-SNAPSHOT</feature.dlux.version>
+        <feature.dluxapps.version>0.5.0-SNAPSHOT</feature.dluxapps.version>
         <feature.eman.version>1.1.0-SNAPSHOT</feature.eman.version>
         <feature.faas.version>1.2.0-SNAPSHOT</feature.faas.version>
         <feature.flow.version>1.5.0-SNAPSHOT</feature.flow.version>
