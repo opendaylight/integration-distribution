@@ -47,6 +47,10 @@
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <!-- integration test feature -->
@@ -60,6 +64,10 @@
             <exclusions>
                 <exclusion>
                     <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
             </exclusions>
