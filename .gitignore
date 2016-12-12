@@ -4,7 +4,8 @@
 
 # Java / Maven
 *.class
-**/target
+target/
+target-ide/
 **/logs
 maven-metadata-local.xml
 
