@@ -22,6 +22,30 @@
       "revId": "38b2a791c8f15f1dd84a3faec2ddc2c669a6c697",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a622d24_f2a693c0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 5867
+      },
+      "writtenOn": "2016-12-12T20:49:42Z",
+      "side": 1,
+      "message": "\u003e We also have features-index and features-distribution.\n\nWould you merge this if I simply applied the same (small) change in features-index and features-distribution as well?\n\n\u003e The right thing would be to migrate to odlparent:features-parent\n\u003e (...) I cannot promise I will have time to do that this week.\n\nAs this is blocking me from progressing with https://git.opendaylight.org/gerrit/#/c/48901/, which I *really* would like to finally wrap up (I need to move on to other frontiers ASAP!), I\u0027ve gone ahead and started this in https://git.opendaylight.org/gerrit/#/c/49272/ ..\n\n\u003e It should be easy now\n\nWehl... not THAT easy - I\u0027m stuck in particular with 1 problem - care to take a look, and perhaps directly yourself amend c/49272 ?  I would abandon this if you can help to wrap that one up...\n\n\u003e migrating to odlparent:feature-repo-parent requires lots of typing (and typo fixing), so it can wait until more projects use that parent.\n\njust FYI: I\u0027m not really in a position to fully appreciate this... I\u0027m \"guessing\", and just learning from what I find is present, more than fully understanding what is exactly for what here... ;-)",
+      "parentUuid": "1a622d24_5ef4b3f1",
+      "range": {
+        "startLine": 7,
+        "startChar": 28,
+        "endLine": 7,
+        "endChar": 41
+      },
+      "revId": "38b2a791c8f15f1dd84a3faec2ddc2c669a6c697",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
