@@ -37,7 +37,7 @@
             4) If and ONLY if your top level feature is incompatible with other things, add it to
                 odl-integration-all
             5) Go to the ../pom.xml and
-                a)  Add a dependendy for your feature
+                a)  Add a dependency for your feature
                 b)  DO NOT ADD ANYTHING TO THE BOOTFEATURES.
 
             Important note: None of the features defined in this file will be in the integration/karaf build by default
@@ -48,7 +48,7 @@
                             integration testing) then:
                             cd integration/distributions/karaf
                             perl -i -pe "s/features-integration-index/features-integration-test/" target/assembly/etc/org.apache.karaf.features.cfg
-                            and they will be present and availble
+                            and they will be present and available
     -->
     <!-- The features-integration-index should be the one and only repository in this file.
         If you think another repository is needed, please add it to integration/features/index/src/main/resource/features.xml
@@ -68,7 +68,7 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
         <feature version='${feature.cardinal.version}'>odl-cardinal</feature>
-        <!-- Commented out because two of the features lead to Yang pares errors.
+        <!-- Commented out because two of the features lead to Yang parser errors.
         <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
         <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
