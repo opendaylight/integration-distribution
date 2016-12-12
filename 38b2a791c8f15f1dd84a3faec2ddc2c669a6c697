@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a622d24_5ef4b3f1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-12-12T17:04:09Z",
+      "side": 1,
+      "message": "Not enough. We also have features-index and features-distribution. Having important differences between them would be a pain to maintain.\n\nThe right thing would be to migrate to odlparent:features-parent. It should be easy now (when odlparent:opendaylight-karaf-empty is used in both places), but I cannot promise I will have time to do that this week.\n\nNote that migrating to odlparent:feature-repo-parent requires lots of typing (and typo fixing), so it can wait until more projects use that parent.",
+      "range": {
+        "startLine": 7,
+        "startChar": 28,
+        "endLine": 7,
+        "endChar": 41
+      },
+      "revId": "38b2a791c8f15f1dd84a3faec2ddc2c669a6c697",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
