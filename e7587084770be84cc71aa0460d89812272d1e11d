@@ -46,6 +46,30 @@
       "revId": "e7587084770be84cc71aa0460d89812272d1e11d",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a622d24_c14e23c1",
+        "filename": "distribution-karaf/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2016-12-13T18:50:07Z",
+      "side": 1,
+      "message": "\u003e those *.sh \u0026 *.bat then call the *.jar that are elsewhere\n\nThat would be fine if we actually had such scripts. But currently we do not have them.\n\nBasically, user is either supposed to use aaa-cli-jar manually (in which case it should be in bin/), or the user should use a script instead (which means this Change just adds a dependency for a feature that does not exist).\n\nI am against merging dependencies before anyone benefits them.\n\nOn the other hand, maybe there will be user-friendly script, but power users may still want to run aaa-cli-jar directly, in which case it would be better placed in bin/ again.\n\nFinally, we can always move aaa-cli-jar from bin/ if a superior script appears.\n\nOverall, I see no reason for merging this lib/bin/ version.",
+      "parentUuid": "1a622d24_c6aab918",
+      "range": {
+        "startLine": 97,
+        "startChar": 72,
+        "endLine": 97,
+        "endChar": 88
+      },
+      "revId": "e7587084770be84cc71aa0460d89812272d1e11d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
