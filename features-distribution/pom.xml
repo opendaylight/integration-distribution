@@ -50,6 +50,11 @@
             <type>xml</type>
             <classifier>config</classifier>
         </dependency>
+        <dependency>
+            <groupId>org.opendaylight.cardinal</groupId>
+            <artifactId>cardinal-impl</artifactId>
+            <version>0.2.0-SNAPSHOT</version>
+        </dependency>
         <!-- dependencies on feature repos -->
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
