@@ -31,6 +31,13 @@
     <properties>
         <feature.odlparent.version>1.8.0-SNAPSHOT</feature.odlparent.version>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.opendaylight.cardinal</groupId>
+            <artifactId>jdmk</artifactId>
+            <version>0.2.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
