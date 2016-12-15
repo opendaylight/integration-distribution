@@ -70,6 +70,30 @@
       "revId": "e7587084770be84cc71aa0460d89812272d1e11d",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a622d24_15cb2c54",
+        "filename": "distribution-karaf/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 5867
+      },
+      "writtenOn": "2016-12-15T12:13:38Z",
+      "side": 1,
+      "message": "OK, moved from lib/bin/ to bin/, as no reply from Ryan and Mohamed, and Tim indicating on IRC that he\u0027s fine either way (as long we get this in some how); I\u0027ll stand down... ;-)",
+      "parentUuid": "1a622d24_c14e23c1",
+      "range": {
+        "startLine": 97,
+        "startChar": 72,
+        "endLine": 97,
+        "endChar": 88
+      },
+      "revId": "e7587084770be84cc71aa0460d89812272d1e11d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
