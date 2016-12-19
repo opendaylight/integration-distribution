@@ -85,7 +85,9 @@
     <repository>mvn:org.opendaylight.ovsdb/hwvtepsouthbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/southbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.packetcable/features-packetcable-policy/${feature.packetcable.version}/xml/features</repository>
+    <!-- No snapshot artifacts available due to Bug 7404
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/${feature.sdninterfaceapp.version}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.sfc/features-sfc/${feature.sfc.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snbi/features-snbi/${feature.snbi.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp/features-snmp/${snmp.plugin.version}/xml/features</repository>

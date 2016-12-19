@@ -424,6 +424,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- No snapshot artifacts available due to Bug 7404
         <dependency>
             <groupId>org.opendaylight.sdninterfaceapp</groupId>
             <artifactId>features-sdninterfaceapp</artifactId>
@@ -431,6 +432,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
             <artifactId>features-sfc</artifactId>
