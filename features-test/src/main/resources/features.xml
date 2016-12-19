@@ -66,6 +66,7 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
+        <feature version='${feature.bier.version}'>odl-bier-all</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
         <feature version='${feature.cardinal.version}'>odl-cardinal</feature>
         <!-- Commented out because two of the features lead to Yang pares errors.
@@ -102,7 +103,9 @@
         <feature version='${feature.ovsdb.version}'>odl-ovsdb-southbound-impl</feature>
         <feature version='${feature.packetcable.version}'>odl-packetcable-policy-server-all</feature>
         <feature version='${feature.restconf.version}'>odl-restconf-noauth</feature>
+        <!-- No snapshot artifacts available due to Bug 7404
         <feature version='${feature.sdninterfaceapp.version}'>odl-sdninterfaceapp-all</feature>
+        -->
         <feature version='${feature.sfc.version}'>odl-sfc-netconf</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-ovs</feature>
         <feature version='${feature.sfc.version}'>odl-sfc-sb-rest</feature>

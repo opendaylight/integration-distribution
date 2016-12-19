@@ -35,6 +35,7 @@
     <repository>mvn:org.opendaylight.alto/features-alto-release/${feature.alto.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.atrium/atrium-features/${feature.atrium.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.bier/features-bier/${feature.bier.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-extras/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-pcep/${feature.bgpcep.version}/xml/features</repository>
@@ -85,7 +86,9 @@
     <repository>mvn:org.opendaylight.ovsdb/hwvtepsouthbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.ovsdb/southbound-features/${feature.ovsdb.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.packetcable/features-packetcable-policy/${feature.packetcable.version}/xml/features</repository>
+    <!-- No snapshot artifacts available due to Bug 7404
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/${feature.sdninterfaceapp.version}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.sfc/features-sfc/${feature.sfc.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snbi/features-snbi/${feature.snbi.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp/features-snmp/${snmp.plugin.version}/xml/features</repository>
