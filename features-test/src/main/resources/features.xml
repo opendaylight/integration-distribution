@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
  Copyright (c) 2014 Cisco Systems, Inc. and others.  All rights reserved.
@@ -66,6 +66,7 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
+        <feature version='${feature.bier.version}'>odl-bier-all</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
         <feature version='${feature.cardinal.version}'>odl-cardinal</feature>
         <!-- Commented out because two of the features lead to Yang pares errors.
