@@ -133,6 +133,7 @@
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
         <feature version='${feature.atrium.version}'>odl-atrium-all</feature>
+        <feature version='${feature.bier.version}'>odl-bier-all</feature>
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.genius.version}'>odl-genius-rest</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-faas</feature>
