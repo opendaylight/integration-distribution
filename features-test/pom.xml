@@ -50,10 +50,6 @@
             <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>features-test</artifactId>
             <version>${feature.odlparent.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit-dep</artifactId>
             <scope>test</scope>
         </dependency>
         <!-- dependency for opendaylight-karaf-empty for use by testing -->
@@ -62,6 +58,7 @@
             <artifactId>opendaylight-karaf-empty</artifactId>
             <version>${feature.odlparent.version}</version>
             <type>zip</type>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>

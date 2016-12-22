@@ -461,6 +461,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>features</artifactId>
@@ -529,11 +530,6 @@
             <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>features-test</artifactId>
             <version>${feature.odlparent.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit-dep</artifactId>
             <scope>test</scope>
         </dependency>
         <!-- dependency for opendaylight-karaf-empty for use by testing -->
