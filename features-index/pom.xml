@@ -178,6 +178,12 @@
             <version>${feature.dlux.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
+            <exclusions>
+              <exclusion>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+              </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.dluxapps</groupId>
@@ -220,6 +226,12 @@
             <version>${feature.honeycomb.vbd.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
+            <exclusions>
+              <exclusion>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+              </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.infrautils</groupId>
@@ -439,6 +451,12 @@
             <version>${feature.sfc.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
+            <exclusions>
+              <exclusion>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+              </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.snbi</groupId>
@@ -446,6 +464,12 @@
             <version>${feature.snbi.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
+            <exclusions>
+              <exclusion>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+              </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.snmp</groupId>
