@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
  Copyright (c) 2014 Cisco Systems, Inc. and others.  All rights reserved.
@@ -39,6 +39,7 @@
     <repository>mvn:org.opendaylight.bgpcep/features-extras/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-pcep/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/${feature.bgpcep.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.bier/features-bier/${feature.bier.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/${feature.capwap.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.cardinal/cardinal-features/${feature.cardinal.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.centinel/centinel-features/${feature.centinel.version}/xml/features</repository>
