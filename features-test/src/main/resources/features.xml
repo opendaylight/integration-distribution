@@ -61,7 +61,6 @@
         <feature version='${feature.aaa.version}'>odl-aaa-authz</feature>
         <feature version='${feature.aaa.version}'>odl-aaa-shiro</feature>
         <feature version='${feature.netconf.version}'>odl-aaa-netconf-plugin</feature>
-        <feature version='${feature.aaa.version}'>odl-aaa-sssd-plugin</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bgp-all</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-bmp</feature>
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-pcep-all</feature>
