@@ -45,13 +45,16 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- test to validate features.xml -->
-        <dependency>
-            <groupId>org.opendaylight.odlparent</groupId>
-            <artifactId>features-test</artifactId>
-            <version>${feature.odlparent.version}</version>
-            <scope>test</scope>
-        </dependency>
+        <!-- ****************************************************************************************
+                *** DO NOT ADD a <dependency> to org.opendaylight.odlparent:features-test here! ***
+               Since the introduction of the bundles-test, this lead to very weird following error:
+               java.lang.NoClassDefFoundError: Could not initialize class org.opendaylight.odlparent.featuretest.SingleFeatureTest
+               The features-test (and the bundles-test through a transitive dependency from it)
+               are already on the classpath transitively from the previous dependency above,
+               so it works without repeating it here.  Why repeating it here, which should
+               have no effect in Maven, leads to the NoClassDefFoundError, is one of the
+               currently unsolved mysteries of the universe.
+             **************************************************************************************** -->
         <!-- dependency for opendaylight-karaf-empty for use by testing -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
