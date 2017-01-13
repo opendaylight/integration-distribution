@@ -31,6 +31,7 @@
     <properties>
         <!-- Keep this list sorted alphabetically please -->
         <didm.version>0.4.0-SNAPSHOT</didm.version>
+        <daexim.version>1.0.0-SNAPSHOT</daexim.version>
         <feature.aaa.version>0.5.0-SNAPSHOT</feature.aaa.version>
         <feature.alto.version>0.4.0-SNAPSHOT</feature.alto.version>
         <feature.atrium.version>0.1.0-SNAPSHOT</feature.atrium.version>
