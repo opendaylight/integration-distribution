@@ -524,6 +524,14 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+         <dependency>
+            <groupId>org.opendaylight.daexim</groupId>
+            <artifactId>daexim-features</artifactId>
+            <version>${daexim.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- test to validate features.xml -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
