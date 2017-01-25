@@ -95,5 +95,7 @@
         <module>features-index</module>
         <module>features-test</module>
         <module>version</module>
+              <module>tapapp</module>          <!-- App 2: Traffic tap -->
+
     </modules>
 </project>
