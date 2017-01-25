@@ -141,7 +141,7 @@
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-neutron-vpp-mapper</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ne-location-provider</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ofoverlay</feature>
-        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-sxp-mapper</feature>
+        <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-sxp-ep-provider</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-ui</feature>
         <feature version='${feature.groupbasedpolicy.version}'>odl-groupbasedpolicy-vpp</feature>
         <feature version='${project.version}'>odl-integration-compatible-with-all</feature>
