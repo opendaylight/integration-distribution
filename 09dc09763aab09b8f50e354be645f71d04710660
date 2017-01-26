@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fafc7978_27c47791",
+        "filename": "commons/parent/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-01-26T09:48:36Z",
+      "side": 1,
+      "message": "Current master branch is Carbon development, so the correct version to use here would be: 1.8.0-SNAPSHOT\n\nBut as most of the code expects Beryllium, I think the easiest solution is to contribute to stable/beryllium branch instead, in which case the correct version to use would be: 1.6.5-SNAPSHOT",
+      "range": {
+        "startLine": 11,
+        "startChar": 13,
+        "endLine": 11,
+        "endChar": 32
+      },
+      "revId": "09dc09763aab09b8f50e354be645f71d04710660",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fafc7978_c7464b23",
+        "filename": "commons/parent/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-01-26T09:48:36Z",
+      "side": 1,
+      "message": "Is this was stable/beryllium branch, the correct ending would be 5-SNAPSHOT here and in every other version in this patch set (instead of both 0-SNAPSHOT and 1-Beryllium-SR1).",
+      "range": {
+        "startLine": 18,
+        "startChar": 15,
+        "endLine": 18,
+        "endChar": 25
+      },
+      "revId": "09dc09763aab09b8f50e354be645f71d04710660",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fafc7978_a75ea7e7",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-01-26T09:48:36Z",
+      "side": 1,
+      "message": "I believe you also need to add commons/parent and commons/util (either directly or by creating commons/pom.xml).",
+      "range": {
+        "startLine": 98,
+        "startChar": 14,
+        "endLine": 98,
+        "endChar": 15
+      },
+      "revId": "09dc09763aab09b8f50e354be645f71d04710660",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
