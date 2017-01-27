@@ -58,7 +58,7 @@
     <repository>mvn:org.opendaylight.honeycomb.vbd/vbd-features/${feature.honeycomb.vbd.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.infrautils/infrautils-features/${feature.infrautils.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.integration/features-distribution/${project.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.iotdm/onem2m-features/${feature.iotdm.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.iotdm/onem2mall-features/${feature.iotdm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.l2switch/features-l2switch/${feature.l2switch.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.lacp/features-lacp/${feature.lacp.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/${feature.lispflowmapping.version}/xml/features</repository>

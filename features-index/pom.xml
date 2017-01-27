@@ -237,7 +237,7 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.iotdm</groupId>
-            <artifactId>onem2m-features</artifactId>
+            <artifactId>onem2mall-features</artifactId>
             <version>${feature.iotdm.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
