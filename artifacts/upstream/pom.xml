@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- vi: set et smarttab sw=4 tabstop=4: -->
+<!--
+ Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
+
+ This program and the accompanying materials are made available under the
+ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+ and is available at http://www.eclipse.org/legal/epl-v10.html
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+      <groupId>org.opendaylight.odlparent</groupId>
+      <artifactId>odlparent-lite</artifactId>
+      <version>1.8.0-SNAPSHOT</version>
+      <relativePath/>
+    </parent>
+    <groupId>org.opendaylight.integration</groupId>
+    <artifactId>upstream-artifacts</artifactId>
+    <version>0.6.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>distribution:upstream-artifacts</name>
+    <description>POM to import with all upstream ODL artifact versions.</description>
+    <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+    <licenses>
+        <license>
+            <name>Eclipse Public License v1.0</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
+    <!-- FIXME: Add developers section -->
+    <scm>
+        <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
+        <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream;hb=HEAD</url>
+        <tag>HEAD</tag>
+    </scm>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Version properties by project or component. -->
+        <!-- Keep this list sorted alphabetically please. -->
+        <aaa.version>0.5.0-SNAPSHOT</aaa.version>
+        <alto.version>0.4.0-SNAPSHOT</alto.version>
+        <atrium.version>0.1.0-SNAPSHOT</atrium.version>
+        <benchmark.version>1.3.0-SNAPSHOT</benchmark.version>
+        <bgpcep.version>0.7.0-SNAPSHOT</bgpcep.version>
+        <bier.version>0.1.0-SNAPSHOT</bier.version>
+        <capwap.version>0.4.0-SNAPSHOT</capwap.version>
+        <cardinal.version>0.2.0-SNAPSHOT</cardinal.version>
+        <centinel.version>0.3.0-SNAPSHOT</centinel.version>
+        <controller.config.version>0.6.0-SNAPSHOT</controller.config.version>
+        <controller.extras.version>1.8.0-SNAPSHOT</controller.extras.version>
+        <didm.version>0.4.0-SNAPSHOT</didm.version>
+        <dlux.version>0.5.0-SNAPSHOT</dlux.version>
+        <dluxapps.version>0.5.0-SNAPSHOT</dluxapps.version>
+        <eman.version>1.1.0-SNAPSHOT</eman.version>
+        <faas.version>1.2.0-SNAPSHOT</faas.version>
+        <flow.version>1.5.0-SNAPSHOT</flow.version>
+        <genius.version>0.2.0-SNAPSHOT</genius.version>
+        <groupbasedpolicy.version>0.5.0-SNAPSHOT</groupbasedpolicy.version>
+        <honeycomb.vbd.version>1.1.0-SNAPSHOT</honeycomb.vbd.version>
+        <infrautils.version>1.1.0-SNAPSHOT</infrautils.version>
+        <iotdm.version>0.3.0-SNAPSHOT</iotdm.version>
+        <l2switch.version>0.5.0-SNAPSHOT</l2switch.version>
+        <lacp.version>1.3.0-SNAPSHOT</lacp.version>
+        <lispflowmapping.version>1.5.0-SNAPSHOT</lispflowmapping.version>
+        <mdsal.version>1.5.0-SNAPSHOT</mdsal.version>
+        <natapp.version>0.2.0-SNAPSHOT</natapp.version>
+        <nemo.version>1.2.0-SNAPSHOT</nemo.version>
+        <netconf.version>1.2.0-SNAPSHOT</netconf.version>
+        <netide.version>0.3.0-SNAPSHOT</netide.version>
+        <netvirt.version>1.4.0-SNAPSHOT</netvirt.version>
+        <nic.version>1.3.0-SNAPSHOT</nic.version>
+        <neutron.version>0.8.0-SNAPSHOT</neutron.version>
+        <ocpplugin.version>0.2.0-SNAPSHOT</ocpplugin.version>
+        <odlparent.version>1.8.0-SNAPSHOT</odlparent.version>
+        <of-config.version>1.2.0-SNAPSHOT</of-config.version>
+        <openflowplugin.version>0.4.0-SNAPSHOT</openflowplugin.version>
+        <ovsdb.version>1.4.0-SNAPSHOT</ovsdb.version>
+        <packetcable.version>1.5.0-SNAPSHOT</packetcable.version>
+        <restconf.version>1.5.0-SNAPSHOT</restconf.version>
+        <sdninterfaceapp.version>1.8.0-SNAPSHOT</sdninterfaceapp.version>
+        <sfc.version>0.5.0-SNAPSHOT</sfc.version>
+        <snbi.version>1.4.0-SNAPSHOT</snbi.version>
+        <snmp.version>1.3.0-SNAPSHOT</snmp.version>
+        <snmp4sdn.version>0.5.0-SNAPSHOT</snmp4sdn.version>
+        <sxp.version>1.4.0-SNAPSHOT</sxp.version>
+        <topoprocessing.version>0.3.0-SNAPSHOT</topoprocessing.version>
+        <tsdr.version>1.3.0-SNAPSHOT</tsdr.version>
+        <ttp.version>0.4.0-SNAPSHOT</ttp.version>
+        <unimgr.version>0.2.0-SNAPSHOT</unimgr.version>
+        <usc.version>1.3.0-SNAPSHOT</usc.version>
+        <usecplugin.version>1.2.0-SNAPSHOT</usecplugin.version>
+        <vpnservice.version>0.4.0-SNAPSHOT</vpnservice.version>
+        <vtn-manager.version>0.6.0-SNAPSHOT</vtn-manager.version>
+        <yang-push.version>1.2.0-SNAPSHOT</yang-push.version>
+        <yangtools.version>1.1.0-SNAPSHOT</yangtools.version>
+        <!-- Keep this list sorted alphabetically please. -->
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <!-- For Version. -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-config-persister</artifactId>
+                <version>${controller.config.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- External applications. -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>aaa-cli-jar</artifactId>
+                <version>${aaa.version}</version>
+            </dependency>
+            <!-- For features, by project. -->
+            <!-- TODO: This basically duplicates features-index dependencies just to save i line per dependency there. Is it worth? -->
+            <!-- Aaa -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features-aaa</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Alto -->
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>features-alto-release</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Atrium -->
+            <dependency>
+                <groupId>org.opendaylight.atrium</groupId>
+                <artifactId>atrium-features</artifactId>
+                <version>${atrium.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Bgpcep -->
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>features-bgp</artifactId>
+                <classifier>features</classifier>
+                <version>${bgpcep.version}</version>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>features-bmp</artifactId>
+                <classifier>features</classifier>
+                <version>${bgpcep.version}</version>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>features-extras</artifactId>
+                <classifier>features</classifier>
+                <version>${bgpcep.version}</version>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>features-pcep</artifactId>
+                <classifier>features</classifier>
+                <version>${bgpcep.version}</version>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>features-rsvp</artifactId>
+                <classifier>features</classifier>
+                <version>${bgpcep.version}</version>
+                <type>xml</type>
+            </dependency>
+            <!-- Bier -->
+            <dependency>
+                <groupId>org.opendaylight.bier</groupId>
+                <artifactId>features-bier</artifactId>
+                <classifier>features</classifier>
+                <version>${bier.version}</version>
+                <type>xml</type>
+            </dependency>
+            <!-- Capwap -->
+            <dependency>
+                <groupId>org.opendaylight.capwap</groupId>
+                <artifactId>capwap-features</artifactId>
+                <version>${capwap.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Cardinal -->
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>cardinal-features</artifactId>
+                <version>${cardinal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Centinel -->
+            <dependency>
+                <groupId>org.opendaylight.centinel</groupId>
+                <artifactId>centinel-features</artifactId>
+                <version>${centinel.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Controller -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-extras</artifactId>
+                <version>${controller.extras.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-mdsal-benchmark</artifactId>
+                <version>${benchmark.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Didm -->
+            <dependency>
+                <groupId>org.opendaylight.didm</groupId>
+                <artifactId>features-didm</artifactId>
+                <version>${didm.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.didm</groupId>
+                <artifactId>features-didm-hp</artifactId>
+                <version>${didm.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.didm</groupId>
+                <artifactId>features-didm-ovs</artifactId>
+                <version>${didm.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Dlux -->
+            <dependency>
+                <groupId>org.opendaylight.dlux</groupId>
+                <artifactId>features-dlux</artifactId>
+                <version>${dlux.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Dluxapps -->
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>features-dluxapps</artifactId>
+                <version>${dluxapps.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Eman -->
+            <dependency>
+                <groupId>org.opendaylight.eman</groupId>
+                <artifactId>eman-features</artifactId>
+                <version>${eman.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Faas -->
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>features-faas</artifactId>
+                <version>${faas.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Genius -->
+            <dependency>
+                <groupId>org.opendaylight.genius</groupId>
+                <artifactId>genius-features</artifactId>
+                <version>${genius.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Groupbasedpolicy -->
+            <dependency>
+                <groupId>org.opendaylight.groupbasedpolicy</groupId>
+                <artifactId>features-groupbasedpolicy</artifactId>
+                <version>${groupbasedpolicy.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Honeycomb/Vbd -->
+            <dependency>
+                <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                <artifactId>vbd-features</artifactId>
+                <version>${honeycomb.vbd.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Infrautils -->
+            <dependency>
+                <groupId>org.opendaylight.infrautils</groupId>
+                <artifactId>infrautils-features</artifactId>
+                <version>${infrautils.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Iotdm -->
+            <dependency>
+                <groupId>org.opendaylight.iotdm</groupId>
+                <artifactId>onem2mall-features</artifactId>
+                <version>${iotdm.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- L2switch -->
+            <dependency>
+                <groupId>org.opendaylight.l2switch</groupId>
+                <artifactId>features-l2switch</artifactId>
+                <version>${l2switch.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Lacp -->
+            <dependency>
+                <groupId>org.opendaylight.lacp</groupId>
+                <artifactId>features-lacp</artifactId>
+                <version>${lacp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Lispflowmapping -->
+            <dependency>
+                <groupId>org.opendaylight.lispflowmapping</groupId>
+                <artifactId>features-lispflowmapping</artifactId>
+                <version>${lispflowmapping.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Natapp -->
+            <dependency>
+                <groupId>org.opendaylight.natapp</groupId>
+                <artifactId>natapp-features</artifactId>
+                <version>${natapp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Nemo -->
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>nemo-features</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Netconf -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-netconf</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-netconf-connector</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-restconf</artifactId>
+                <version>${restconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Netvirt -->
+            <dependency>
+                <groupId>org.opendaylight.netvirt</groupId>
+                <artifactId>features-netvirt</artifactId>
+                <version>${netvirt.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netvirt</groupId>
+                <artifactId>openstack.net-virt-sfc-features</artifactId>
+                <version>${netvirt.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netvirt</groupId>
+                <artifactId>openstack.sfc-translator-features</artifactId>
+                <version>${netvirt.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netvirt</groupId>
+                <artifactId>vpnservice-features</artifactId>
+                <version>${vpnservice.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Netide -->
+            <dependency>
+                <groupId>org.opendaylight.netide</groupId>
+                <artifactId>netide-features</artifactId>
+                <version>${netide.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Neutron -->
+            <dependency>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>features-neutron</artifactId>
+                <version>${neutron.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Nic -->
+            <dependency>
+                <groupId>org.opendaylight.nic</groupId>
+                <artifactId>features-nic</artifactId>
+                <version>${nic.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Ocpplugin -->
+            <dependency>
+                <groupId>org.opendaylight.ocpplugin</groupId>
+                <artifactId>features-ocpplugin</artifactId>
+                <version>${ocpplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Odlparent -->
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features-akka</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features-odlparent</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Of-config -->
+            <dependency>
+                <groupId>org.opendaylight.of-config</groupId>
+                <artifactId>features-of-config</artifactId>
+                <version>${of-config.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Openflowplugin -->
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin-he</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin-extension</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin-extension-he</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Ovsdb -->
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>library-features</artifactId>
+                <version>${ovsdb.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>southbound-features</artifactId>
+                <version>${ovsdb.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>hwvtepsouthbound-features</artifactId>
+                <version>${ovsdb.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Packetcable -->
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>features-packetcable-policy</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Sdninterfaceapp -->
+            <dependency>
+                <groupId>org.opendaylight.sdninterfaceapp</groupId>
+                <artifactId>features-sdninterfaceapp</artifactId>
+                <version>${sdninterfaceapp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Sfc -->
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>features-sfc</artifactId>
+                <version>${sfc.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Snbi -->
+            <dependency>
+                <groupId>org.opendaylight.snbi</groupId>
+                <artifactId>features-snbi</artifactId>
+                <version>${snbi.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Snmp -->
+            <dependency>
+                <groupId>org.opendaylight.snmp</groupId>
+                <artifactId>features-snmp</artifactId>
+                <version>${snmp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Snmp4sdn -->
+            <dependency>
+                <groupId>org.opendaylight.snmp4sdn</groupId>
+                <artifactId>features-snmp4sdn</artifactId>
+                <version>${snmp4sdn.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Sxp -->
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>features</artifactId>
+                <version>${sxp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Topoprocessing -->
+            <dependency>
+                <groupId>org.opendaylight.topoprocessing</groupId>
+                <artifactId>features-topoprocessing</artifactId>
+                <version>${topoprocessing.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Tsdr -->
+            <dependency>
+                <groupId>org.opendaylight.tsdr</groupId>
+                <artifactId>features-tsdr</artifactId>
+                <version>${tsdr.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Ttp -->
+            <dependency>
+                <groupId>org.opendaylight.ttp</groupId>
+                <artifactId>features-ttp</artifactId>
+                <version>${ttp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Unimgr -->
+            <dependency>
+                <groupId>org.opendaylight.unimgr</groupId>
+                <artifactId>unimgr-features</artifactId>
+                <version>${unimgr.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Usc -->
+            <dependency>
+                <groupId>org.opendaylight.usc</groupId>
+                <artifactId>usc-features</artifactId>
+                <version>${usc.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Usecplugin -->
+            <dependency>
+                <groupId>org.opendaylight.usecplugin</groupId>
+                <artifactId>usecplugin-features</artifactId>
+                <version>${usecplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Vtn -->
+            <dependency>
+                <groupId>org.opendaylight.vtn</groupId>
+                <artifactId>features-vtn-manager</artifactId>
+                <version>${vtn-manager.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Yang-push -->
+            <dependency>
+                <groupId>org.opendaylight.yang-push</groupId>
+                <artifactId>yangpush-features</artifactId>
+                <version>${yang-push.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -10,12 +10,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.opendaylight.integration</groupId>
-        <artifactId>root</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>features-parent</artifactId>
+        <version>1.8.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
+    <groupId>org.opendaylight.integration</groupId>
+    <!-- TODO: Rename to features-test when migrating to Karaf 4. -->
     <artifactId>features-integration-test</artifactId>
+    <version>0.6.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>distribution:${project.artifactId}</name>
     <description>Sub-project building aggregate features used for feature compatibility testing.</description>
@@ -33,125 +36,24 @@
         <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=features-test;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <properties>
-        <features.file>features.xml</features.file>
-    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>all-artifacts</artifactId>
+                <version>${project.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
-        <!-- dependencies on feature repos -->
+        <!-- Dependencies on feature repos. -->
         <dependency>
             <groupId>org.opendaylight.integration</groupId>
             <artifactId>features-integration-index</artifactId>
-            <version>${project.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- ****************************************************************************************
-                *** DO NOT ADD a <dependency> to org.opendaylight.odlparent:features-test here! ***
-               Since the introduction of the bundles-test, this lead to very weird following error:
-               java.lang.NoClassDefFoundError: Could not initialize class org.opendaylight.odlparent.featuretest.SingleFeatureTest
-               The features-test (and the bundles-test through a transitive dependency from it)
-               are already on the classpath transitively from the previous dependency above,
-               so it works without repeating it here.  Why repeating it here, which should
-               have no effect in Maven, leads to the NoClassDefFoundError, is one of the
-               currently unsolved mysteries of the universe.
-             **************************************************************************************** -->
-        <!-- dependency for opendaylight-karaf-empty for use by testing -->
-        <dependency>
-            <groupId>org.opendaylight.odlparent</groupId>
-            <artifactId>opendaylight-karaf-empty</artifactId>
-            <version>${feature.odlparent.version}</version>
-            <type>zip</type>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-    <build>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-        <plugins>
-            <plugin>
-                <!-- This generates the META-INF/maven/dependencies.properties file
-                     which is required by the versionAsInProject() used in SingleFeatureTest -->
-                <groupId>org.ops4j.pax.exam</groupId>
-                <artifactId>maven-paxexam-plugin</artifactId>
-                <executions>
-                  <execution>
-                   <id>generate-dependencies.properties-file</id>
-                   <goals>
-                     <goal>generate-depends-file</goal>
-                   </goals>
-                  </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.karaf.tooling</groupId>
-                <artifactId>karaf-maven-plugin</artifactId>
-                <extensions>true</extensions>
-                <executions>
-                    <execution>
-                        <id>features-create-kar</id>
-                        <goals>
-                            <goal>features-create-kar</goal>
-                        </goals>
-                        <configuration>
-                            <featuresFile>${project.build.directory}/classes/${features.file}</featuresFile>
-                        </configuration>
-                    </execution>
-                </executions>
-                <!-- There is no useful configuration for the kar mojo. The features-generate-descriptor mojo configuration may be useful -->
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>filter</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>resources</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>build-helper-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>attach-artifacts</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>attach-artifact</goal>
-                        </goals>
-                        <configuration>
-                            <artifacts>
-                                <artifact>
-                                    <file>${project.build.directory}/classes/${features.file}</file>
-                                    <type>xml</type>
-                                    <classifier>features</classifier>
-                                </artifact>
-                            </artifacts>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <configuration>
-                    <systemPropertyVariables>
-                        <karaf.distro.groupId>org.opendaylight.odlparent</karaf.distro.groupId>
-                        <karaf.distro.artifactId>opendaylight-karaf-empty</karaf.distro.artifactId>
-                        <karaf.distro.version>${feature.odlparent.version}</karaf.distro.version>
-                    </systemPropertyVariables>
-                    <dependenciesToScan>
-                        <dependency>org.opendaylight.odlparent:features-test</dependency>
-                    </dependenciesToScan>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
