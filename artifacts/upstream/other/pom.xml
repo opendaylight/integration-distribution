@@ -1,7 +1,7 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
- Copyright (c) 2014-2017 Cisco Systems, Inc. and others.  All rights reserved.
+ Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
 
  This program and the accompanying materials are made available under the
  terms of the Eclipse Public License v1.0 which accompanies this distribution,
@@ -12,18 +12,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.opendaylight.odlparent</groupId>
-        <artifactId>odlparent-lite</artifactId>
-        <version>1.8.0-SNAPSHOT</version>
-        <relativePath/>
+        <groupId>org.opendaylight.integration</groupId>
+        <artifactId>properties</artifactId>
+        <version>0.6.0-SNAPSHOT</version>
+        <relativePath>../properties</relativePath>
     </parent>
-    <groupId>org.opendaylight.integration</groupId>
-    <artifactId>agregator</artifactId>
-    <version>0.6.0-SNAPSHOT</version>
+    <artifactId>other-artifacts</artifactId>
     <packaging>pom</packaging>
-    <!-- <name> value is used by Sonar to set project name -->
-    <name>Integration/Distribution</name>
-    <description>OpenDaylight Integration/Distribution project, used for creating complete Karaf distribution packages.</description>
+    <name>distribution:other-artifacts</name>
+    <description>POM to import, with all the needed versions of upstream ODL artifacts not imported elsewhere.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -35,18 +32,18 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream/other;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <modules>
-        <!-- Keep this list sorted alphabetically please -->
-        <module>artifacts</module>
-        <module>karaf</module>
-        <module>distribution-karaf</module>
-        <module>features</module>
-        <module>features3-distribution</module>
-        <module>features3-index</module>
-        <module>features3-test</module>
-        <module>version</module>
-    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <!-- External applications. -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>aaa-cli-jar</artifactId>
+                <!-- TODO: Open Bug agains AAA to export this version in an artifact pom. -->
+                <version>${aaa.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

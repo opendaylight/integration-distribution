@@ -55,8 +55,8 @@
     -->
     <repository>mvn:org.opendaylight.integration/features-integration-index/{{VERSION}}/xml/features</repository>
 
-    <!-- Please use alphabetical order to add a compatible with all features -->
     <feature name='odl-integration-compatible-with-all' version='${project.version}'>
+        <!-- Please use alphabetical order to add a compatible with all features -->
         <feature>odl-aaa-authn</feature>
         <feature>odl-aaa-shiro</feature>
         <feature>odl-aaa-netconf-plugin</feature>
@@ -125,8 +125,8 @@
         <feature>odl-usecplugin-openflow</feature>
     </feature>
 
-    <!-- Please use alphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
+        <!-- Please use alphabetical order for non-compatible features -->
         <feature>odl-alto-release</feature>
         <feature>odl-atrium-all</feature>
         <feature>odl-bier-all</feature>
