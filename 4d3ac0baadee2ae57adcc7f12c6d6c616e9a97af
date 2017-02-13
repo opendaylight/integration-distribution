@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fafc7978_50d92582",
+        "filename": "artifacts/upstream/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-02-13T17:59:52Z",
+      "side": 1,
+      "message": "I think this adds code duplication, is there a way for the feature-index pom to use this pom definition or this pom to use feature-index pom defintions? On the other hand if this is a temporary configuration for karaf 4 migration, I am OK with it.",
+      "revId": "4d3ac0baadee2ae57adcc7f12c6d6c616e9a97af",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
