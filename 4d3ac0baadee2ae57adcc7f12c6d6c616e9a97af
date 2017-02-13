@@ -34,6 +34,24 @@
       "revId": "4d3ac0baadee2ae57adcc7f12c6d6c616e9a97af",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fafc7978_b05691d0",
+        "filename": "artifacts/upstream/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-02-13T18:05:04Z",
+      "side": 1,
+      "message": "In combination with line 38 of https://git.opendaylight.org/gerrit/#/c/51762/2/artifacts/upstream/feature-repos/pom.xml\nand line 50 of https://git.opendaylight.org/gerrit/#/c/51762/2/artifacts/upstream/single-features/pom.xml",
+      "parentUuid": "fafc7978_10467d23",
+      "revId": "4d3ac0baadee2ae57adcc7f12c6d6c616e9a97af",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
