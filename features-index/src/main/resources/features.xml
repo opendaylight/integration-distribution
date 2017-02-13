@@ -33,7 +33,6 @@
     <repository>mvn:org.opendaylight.aaa/features-aaa/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.aaa/features-aaa-shiro/${feature.aaa.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/${feature.alto.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.atrium/atrium-features/${feature.atrium.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/${feature.bgpcep.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-extras/${feature.bgpcep.version}/xml/features</repository>
@@ -42,7 +41,6 @@
     <repository>mvn:org.opendaylight.bier/features-bier/${feature.bier.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/${feature.capwap.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.cardinal/cardinal-features/${feature.cardinal.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.centinel/centinel-features/${feature.centinel.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-extras/${feature.controller.extras.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/${feature.mdsal.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/${feature.benchmark.version}/xml/features</repository>
@@ -60,7 +58,6 @@
     <repository>mvn:org.opendaylight.integration/features-distribution/${project.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.iotdm/onem2mall-features/${feature.iotdm.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.l2switch/features-l2switch/${feature.l2switch.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.lacp/features-lacp/${feature.lacp.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/${feature.lispflowmapping.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.natapp/natapp-features/${feature.natapp.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.nemo/nemo-features/${feature.nemo.version}/xml/features</repository>
@@ -97,7 +94,5 @@
     <repository>mvn:org.opendaylight.ttp/features-ttp/${feature.ttp.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.unimgr/unimgr-features/${feature.unimgr.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.usc/usc-features/${feature.usc.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.usecplugin/usecplugin-features/${feature.usecplugin.version}/xml/features</repository>
     <repository>mvn:org.opendaylight.vtn/features-vtn-manager/${feature.vtn-manager.version}/xml/features</repository>
-    <repository>mvn:org.opendaylight.yang-push/yangpush-features/${feature.yang-push.version}/xml/features</repository>
 </features>

@@ -66,12 +66,6 @@
         <feature version='${feature.bgpcep.version}'>odl-bgpcep-rsvp</feature>
         <feature version='${feature.capwap.version}'>odl-capwap-ac-rest</feature>
         <feature version='${feature.cardinal.version}'>odl-cardinal</feature>
-        <!-- Commented out because two of the features lead to Yang pares errors.
-        <feature version='${feature.centinel.version}'>odl-centinel-core</feature>
-        <feature version='${feature.centinel.version}'>odl-centinel-laas</feature>
-        <feature version='${feature.centinel.version}'>odl-centinel-streamhandler</feature>
-        <feature version='${feature.centinel.version}'>odl-centinel-ui</feature>
-        -->
         <feature version='${didm.version}'>odl-didm-all</feature>
         <feature version='${feature.dlux.version}'>odl-dlux-core</feature>
         <feature version='${project.version}'>odl-distribution-version</feature>
@@ -121,14 +115,11 @@
         <feature version='${feature.usc.version}'>odl-usc-channel</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel-rest</feature>
         <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>
-        <feature version='${feature.usecplugin.version}'>odl-usecplugin-aaa</feature>
-        <feature version='${feature.usecplugin.version}'>odl-usecplugin-openflow</feature>
     </feature>
 
     <!-- Please use alphabetical order for non-compatible features -->
     <feature name='odl-integration-all' version='${project.version}'>
         <feature version='${feature.alto.version}'>odl-alto-release</feature>
-        <feature version='${feature.atrium.version}'>odl-atrium-all</feature>
         <feature version='${feature.bier.version}'>odl-bier-all</feature>
         <feature version='${feature.faas.version}'>odl-faas-base</feature>
         <feature version='${feature.genius.version}'>odl-genius-rest</feature>
@@ -149,10 +140,6 @@
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-rest</feature>
         <feature version='${feature.l2switch.version}'>odl-l2switch-switch-ui</feature>
-        <!-- Commented out, because LACP brings in Li designed OpenFlowPlugin
-            which leads to BindException.
-        <feature version='${feature.lacp.version}'>odl-lacp-ui</feature>
-        -->
         <feature version='${feature.natapp.version}'>odl-natapp</feature>
         <feature version='${feature.natapp.version}'>odl-natapp-api</feature>
         <!-- The following two Netconf features are incompatible with each other.
@@ -179,8 +166,6 @@
         <feature version='${feature.unimgr.version}'>odl-unimgr</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
-        <feature version='${feature.yang-push.version}'>odl-yangpush</feature>
-        <feature version='${feature.yang-push.version}'>odl-yangpush-api</feature>
     </feature>
 
 </features>

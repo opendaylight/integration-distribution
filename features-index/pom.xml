@@ -68,13 +68,6 @@
             <type>xml</type>
         </dependency>
         <dependency>
-            <groupId>org.opendaylight.atrium</groupId>
-            <artifactId>atrium-features</artifactId>
-            <version>${feature.atrium.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>features-bgp</artifactId>
             <classifier>features</classifier>
@@ -127,13 +120,6 @@
             <groupId>org.opendaylight.cardinal</groupId>
             <artifactId>cardinal-features</artifactId>
             <version>${feature.cardinal.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.centinel</groupId>
-            <artifactId>centinel-features</artifactId>
-            <version>${feature.centinel.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -246,13 +232,6 @@
             <groupId>org.opendaylight.l2switch</groupId>
             <artifactId>features-l2switch</artifactId>
             <version>${feature.l2switch.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.lacp</groupId>
-            <artifactId>features-lacp</artifactId>
-            <version>${feature.lacp.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -510,23 +489,9 @@
             <type>xml</type>
         </dependency>
         <dependency>
-            <groupId>org.opendaylight.usecplugin</groupId>
-            <artifactId>usecplugin-features</artifactId>
-            <version>${feature.usecplugin.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
             <groupId>org.opendaylight.vtn</groupId>
             <artifactId>features-vtn-manager</artifactId>
             <version>${feature.vtn-manager.version}</version>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.yang-push</groupId>
-            <artifactId>yangpush-features</artifactId>
-            <version>${feature.yang-push.version}</version>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
