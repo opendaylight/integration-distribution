@@ -7,14 +7,14 @@
  terms of the Eclipse Public License v1.0 which accompanies this distribution,
  and is available at http://www.eclipse.org/legal/epl-v10.html
 -->
-<features name="odl-distribution-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0"
+<features name="odl-integration-distribution-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.2.0 http://karaf.apache.org/xmlns/features/v1.2.0">
-    <repository>mvn:org.opendaylight.controller/features-config-persister/${feature.controller.config.version}/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/features-config-persister/{{VERSION}}/xml/features</repository>
 
     <feature name='odl-distribution-version' version='${project.version}'>
         <feature>odl-config-startup</feature>
-        <bundle>mvn:org.opendaylight.integration/version/${project.version}</bundle>
-        <configfile finalname="etc/opendaylight/karaf/odl-version.xml">mvn:org.opendaylight.integration/version/${project.version}/xml/config</configfile>
+        <bundle>mvn:org.opendaylight.integration/version/{{VERSION}}</bundle>
+        <configfile finalname="etc/opendaylight/karaf/odl-version.xml">mvn:org.opendaylight.integration/version/{{VERSION}}/xml/config</configfile>
     </feature>
 </features>

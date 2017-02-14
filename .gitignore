@@ -29,3 +29,6 @@ maven-eclipse.xml
 .metadata
 .checkstyle
 .factorypath
+
+# Maven console output redirect
+log.txt
