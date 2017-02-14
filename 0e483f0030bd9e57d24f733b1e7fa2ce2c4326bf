@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fafc7978_f283f953",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-02-14T17:00:06Z",
+      "side": 1,
+      "message": "Btw, we can only do this because nobody outside Int/Dist depends on this (and any non-ODL downstream users will get broken by Karaf 4 migration anyway).",
+      "range": {
+        "startLine": 17,
+        "startChar": 28,
+        "endLine": 17,
+        "endChar": 38
+      },
+      "revId": "0e483f0030bd9e57d24f733b1e7fa2ce2c4326bf",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
