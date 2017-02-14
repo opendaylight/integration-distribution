@@ -12,17 +12,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.8.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.integration</groupId>
+        <artifactId>properties</artifactId>
+        <version>0.6.0-SNAPSHOT</version>
+        <relativePath>../properties</relativePath>
     </parent>
-    <groupId>org.opendaylight.integration</groupId>
-    <artifactId>upstream-aggregator</artifactId>
-    <version>0.6.0-SNAPSHOT</version>
+    <artifactId>artifact-artifacts</artifactId>
     <packaging>pom</packaging>
-    <name>distribution:upstream-aggregator</name>
-    <description>Aggregator for upstream artifact related modules.</description>
+    <name>distribution:artifacts-artifacts</name>
+    <description>POM to import, with all upstream ODL project artifact poms with public versions.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -34,17 +32,20 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream/artifacts;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <!-- TODO: Work towards using artifact-artifacts only. Properties, artifacts and all than can be joined to replace this pom. -->
-    <modules>
-        <module>properties</module>
-        <module>artifacts</module>
-        <module>feature3-repos</module>
-        <module>feature-repos</module>
-        <module>single-features</module>
-        <module>other</module>
-        <module>all</module>
-    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <!-- Project artifact poms. -->
+            <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>config-artifacts</artifactId>
+                <version>${config.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
