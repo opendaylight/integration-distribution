@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fafc7978_1ec68049",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-02-16T11:42:57Z",
+      "side": 1,
+      "message": "This fails locally, so we can postpone un-commenting for later.\n\ninstallFeature(org.opendaylight.odlparent.featuretest.SingleFeatureTest)[repoUrl: file:/home/odl/build/\ndistribution/features/repos/index/target/feature/feature.xml, Feature: features4-netconf-connector 1.2.\n0.SNAPSHOT]  Time elapsed: 74.079 sec  \u003c\u003c\u003c ERROR!\norg.opendaylight.yangtools.yang.data.api.schema.tree.ConflictingModificationAppliedException: Node was \ncreated by other transaction.",
+      "range": {
+        "startLine": 68,
+        "startChar": 24,
+        "endLine": 68,
+        "endChar": 51
+      },
+      "revId": "1f3ff3ebdb8e79c38d09f73b7b73daaa413e9ff8",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
