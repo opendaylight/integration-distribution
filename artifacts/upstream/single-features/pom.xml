@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- vi: set et smarttab sw=4 tabstop=4: -->
+<!--
+ Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
+
+ This program and the accompanying materials are made available under the
+ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+ and is available at http://www.eclipse.org/legal/epl-v10.html
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.opendaylight.integration</groupId>
+        <artifactId>properties</artifactId>
+        <version>0.6.0-SNAPSHOT</version>
+        <relativePath>../properties</relativePath>
+    </parent>
+    <artifactId>single-feature-artifacts</artifactId>
+    <packaging>pom</packaging>
+    <name>distribution:${project.artifactId}</name>
+    <description>POM to import, with all upstream ODL user-facing single feature artifact versions.</description>
+    <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+    <licenses>
+        <license>
+            <name>Eclipse Public License v1.0</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
+    <!-- FIXME: Add developers section -->
+    <scm>
+        <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
+        <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream/single-features;hb=HEAD</url>
+        <tag>HEAD</tag>
+    </scm>
+    <dependencyManagement>
+        <dependencies>
+            <!-- Non-user-facing single feature needed for Version. -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>odl-config-persister</artifactId>
+                <version>${config.version}</version>
+                <!-- TODO: Ask Controller to export this version in an artifact POM.-->
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- User facing single features. -->
+            <!-- TODO: Open Bugs against projects to export user-facing single feature versions in artifact pom. -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-netconf-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-restconf</artifactId>
+                <version>${restconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
