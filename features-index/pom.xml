@@ -235,14 +235,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Removed from autorelease due to inactivity.
         <dependency>
             <groupId>org.opendaylight.lacp</groupId>
             <artifactId>features-lacp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
             <artifactId>features-lispflowmapping</artifactId>
