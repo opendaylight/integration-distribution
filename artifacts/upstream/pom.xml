@@ -352,8 +352,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Lacp
-                Removed from autorelease due to inactivity.
+            <!-- Lacp -->
             <dependency>
                 <groupId>org.opendaylight.lacp</groupId>
                 <artifactId>features-lacp</artifactId>
@@ -361,7 +360,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
             <!-- Lispflowmapping -->
             <dependency>
                 <groupId>org.opendaylight.lispflowmapping</groupId>
