@@ -156,7 +156,6 @@
         <feature>odl-l2switch-switch-ui</feature>
         <!-- Commented out, because LACP brings in Li designed OpenFlowPlugin
             which leads to BindException.
-            Also, removed from autorelease due to inactivity.
         <feature>odl-lacp-ui</feature>
         -->
         <feature>odl-natapp</feature>

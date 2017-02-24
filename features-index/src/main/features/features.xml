@@ -64,9 +64,7 @@
     <repository>mvn:org.opendaylight.integration/features-distribution/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.iotdm/onem2mall-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.l2switch/features-l2switch/{{VERSION}}/xml/features</repository>
-    <!-- Removed from autorelease due to inactivity.
     <repository>mvn:org.opendaylight.lacp/features-lacp/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.natapp/natapp-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.nemo/nemo-features/{{VERSION}}/xml/features</repository>
