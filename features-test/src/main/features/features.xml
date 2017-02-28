@@ -57,7 +57,6 @@
 
     <!-- Please use alphabetical order to add a compatible with all features -->
     <feature name='odl-integration-compatible-with-all' version='${project.version}'>
-        <feature>odl-aaa-authn</feature>
         <feature>odl-aaa-shiro</feature>
         <feature>odl-aaa-netconf-plugin</feature>
         <feature>odl-bgpcep-bgp-all</feature>
