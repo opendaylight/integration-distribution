@@ -12,17 +12,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.8.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>odlparent-lite</artifactId>
+        <version>1.8.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>upstream-aggregator</artifactId>
+    <artifactId>features-aggregator</artifactId>
     <version>0.6.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>distribution:${project.artifactId}</name>
-    <description>Aggregator for upstream artifact related modules.</description>
+    <description>Aggregator for distribution features and feature repos.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -34,17 +34,11 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=features;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <!-- TODO: Work towards using artifact-artifacts only. Properties, artifacts and all than can be joined to replace this pom. -->
     <modules>
-        <module>properties</module>
-        <module>artifacts</module>
-        <module>feature3-repos</module>
-        <module>feature-repos</module>
-        <module>single-features</module>
-        <module>other</module>
-        <module>all</module>
+        <module>singles</module>
+        <module>repos</module>
     </modules>
 </project>
