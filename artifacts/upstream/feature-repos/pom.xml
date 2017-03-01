@@ -12,17 +12,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.8.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.integration</groupId>
+        <artifactId>properties</artifactId>
+        <version>0.6.0-SNAPSHOT</version>
+        <relativePath>../properties</relativePath>
     </parent>
-    <groupId>org.opendaylight.integration</groupId>
-    <artifactId>all-artifacts</artifactId>
-    <version>0.6.0-SNAPSHOT</version>
+    <artifactId>feature-repo-artifacts</artifactId>
     <packaging>pom</packaging>
     <name>distribution:${project.artifactId}</name>
-    <description>POM to import with all ODL artifact versions including Distribution.</description>
+    <description>POM to import, with all upstream ODL user-facing feature repo artifact versions.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -34,25 +32,34 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/all;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream/feature-repos;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
+    <!-- TODO: Open Bugs against projects to export user-facing feature repository versions in artifact poms. -->
     <dependencyManagement>
-        <!-- TODO: Hardcode each version when moving to semantic versioning. -->
+        <!-- User facing feature repositories. -->
         <dependencies>
+            <!-- Netconf -->
             <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>upstream-artifacts</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features4-netconf</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
             </dependency>
             <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>distribution-artifacts</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features4-netconf-connector</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features4-restconf</artifactId>
+                <version>${restconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
