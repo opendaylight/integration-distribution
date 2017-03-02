@@ -200,6 +200,12 @@
             <type>xml</type>
         </dependency>
         <dependency>
+            <groupId>org.opendaylight.federation</groupId>
+            <artifactId>federation-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
             <groupId>org.opendaylight.genius</groupId>
             <artifactId>genius-features</artifactId>
             <classifier>features</classifier>

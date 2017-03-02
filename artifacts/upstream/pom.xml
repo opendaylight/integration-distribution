@@ -59,6 +59,7 @@
         <dluxapps.version>0.5.0-SNAPSHOT</dluxapps.version>
         <eman.version>1.1.0-SNAPSHOT</eman.version>
         <faas.version>1.2.0-SNAPSHOT</faas.version>
+        <federation.version>0.2.0-SNAPSHOT</federation.version>
         <flow.version>1.5.0-SNAPSHOT</flow.version>
         <genius.version>0.2.0-SNAPSHOT</genius.version>
         <groupbasedpolicy.version>0.5.0-SNAPSHOT</groupbasedpolicy.version>
@@ -299,6 +300,14 @@
                 <groupId>org.opendaylight.faas</groupId>
                 <artifactId>features-faas</artifactId>
                 <version>${faas.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <!-- Federation -->
+            <dependency>
+                <groupId>org.opendaylight.federation</groupId>
+                <artifactId>federation-features</artifactId>
+                <version>${federation.version}</version>
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
