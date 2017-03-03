@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
- Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
+ Copyright (c) 2016-2017 Cisco Systems, Inc. and others.  All rights reserved.
 
  This program and the accompanying materials are made available under the
  terms of the Eclipse Public License v1.0 which accompanies this distribution,
@@ -12,19 +12,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.8.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>features-parent</artifactId>
+        <version>1.8.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>all-artifacts</artifactId>
+    <artifactId>features3-distribution</artifactId>
     <version>0.6.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
     <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>POM to import with all ODL artifact versions including Distribution.</description>
+    <description>Sub-project building features internal to distribution.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -36,26 +36,40 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/all;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=features3-distribution;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
     <dependencyManagement>
-        <!-- TODO: Hardcode each version when moving to semantic versioning. -->
         <dependencies>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>upstream-all-artifacts</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>distribution-artifacts</artifactId>
+                <artifactId>all-artifacts</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <dependencies>
+        <!-- Version module. -->
+        <!-- Keep distribution-atrifacts updated. -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>version</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>version</artifactId>
+            <type>xml</type>
+            <classifier>config</classifier>
+        </dependency>
+        <!-- Dependencies on upstream feature repositories. -->
+        <!-- Keep upstream-atrifacts updated. -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-config-persister</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+    </dependencies>
 </project>

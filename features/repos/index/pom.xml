@@ -12,19 +12,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.8.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>feature-repo-parent</artifactId>
+        <version>1.8.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>all-artifacts</artifactId>
+    <artifactId>features-index</artifactId>
     <version>0.6.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>feature</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
     <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>POM to import with all ODL artifact versions including Distribution.</description>
+    <description>Aggregate repository of all ODL repositories with user-facing features.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -36,26 +36,47 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/all;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=features/repos/index;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
     <dependencyManagement>
-        <!-- TODO: Hardcode each version when moving to semantic versioning. -->
         <dependencies>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>upstream-all-artifacts</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>distribution-artifacts</artifactId>
+                <artifactId>all-artifacts</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <dependencies>
+        <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>features-distribution</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features4-netconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features4-netconf-connector</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features4-restconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+    </dependencies>
 </project>
