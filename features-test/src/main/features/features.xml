@@ -174,9 +174,7 @@
         <feature>odl-sfc-ios-xe-renderer</feature>
         -->
         <feature>odl-sfc-openflow-renderer</feature>
-        <!-- Issues with yang parser show up in aaa distribution-check
         <feature>odl-tsdr-hsqldb-all</feature>
-        -->
         <feature>odl-unimgr</feature>
         <feature>odl-vtn-manager-neutron</feature>
         <feature>odl-vtn-manager-rest</feature>
