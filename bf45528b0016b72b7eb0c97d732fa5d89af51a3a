@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "fafc7978_3895df32",
+        "filename": "features-index-opnfv/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1723
+      },
+      "writtenOn": "2017-03-09T21:40:27Z",
+      "side": 1,
+      "message": "The other examples use \"ODL :: integration :: ${project.artifactId}\" (vs distribution), I\u0027m assuming that\u0027s what you meant.",
+      "parentUuid": "fafc7978_0da41b49",
+      "range": {
+        "startLine": 23,
+        "startChar": 10,
+        "endLine": 23,
+        "endChar": 44
+      },
+      "revId": "bf45528b0016b72b7eb0c97d732fa5d89af51a3a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fafc7978_ad6cef08",
         "filename": "features-index-opnfv/pom.xml",
         "patchSetId": 3
