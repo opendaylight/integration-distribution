@@ -117,7 +117,7 @@
         <feature>odl-topoprocessing-inventory-rendering</feature>
         <feature>odl-topoprocessing-mlmt</feature>
         <feature>odl-topoprocessing-network-topology</feature>
-        <feature>odl-ttp-all</feature>
+        <feature>odl-ttp-model</feature>
         <feature>odl-usc-channel</feature>
         <feature>odl-usc-channel-rest</feature>
         <feature>odl-usc-channel-ui</feature>
