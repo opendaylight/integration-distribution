@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "fafc7978_6fe146fe",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1723
+      },
+      "writtenOn": "2017-03-14T16:44:21Z",
+      "side": 1,
+      "message": "Okay, great, thanks for helping to clarify.\n\nI should highlight these related autorelease and builder patches:\n\nhttps://git.opendaylight.org/gerrit/#/c/51986\nhttps://git.opendaylight.org/gerrit/#/c/51984",
+      "parentUuid": "fafc7978_6f13060e",
+      "range": {
+        "startLine": 10,
+        "startChar": 21,
+        "endLine": 10,
+        "endChar": 41
+      },
+      "revId": "a5ac10766439816ac97655d20ea4fa439597ea16",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fafc7978_4f9a82c6",
         "filename": "/COMMIT_MSG",
         "patchSetId": 6
