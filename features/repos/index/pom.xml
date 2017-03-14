@@ -71,12 +71,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features4-restconf</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
     </dependencies>
 </project>
