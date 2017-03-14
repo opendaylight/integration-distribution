@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fafc7978_efb9b616",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1723
+      },
+      "writtenOn": "2017-03-14T15:56:55Z",
+      "side": 1,
+      "message": "Looking through the release list archives for February, these seem like examples:\n\nhttps://lists.opendaylight.org/pipermail/release/2017-February/009333.html\nhttps://lists.opendaylight.org/pipermail/release/2017-February/009358.html\nhttps://lists.opendaylight.org/pipermail/release/2017-February/009359.html\nhttps://lists.opendaylight.org/pipermail/release/2017-February/009365.html\nhttps://lists.opendaylight.org/pipermail/release/2017-February/009371.html\nhttps://lists.opendaylight.org/pipermail/release/2017-February/009294.html\n\nAssuming I can interpret \"breaking karaf\" as \"breaking autorelease\"?",
+      "parentUuid": "fafc7978_0f619ad3",
+      "range": {
+        "startLine": 10,
+        "startChar": 21,
+        "endLine": 10,
+        "endChar": 41
+      },
+      "revId": "a5ac10766439816ac97655d20ea4fa439597ea16",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fafc7978_4f9a82c6",
         "filename": "/COMMIT_MSG",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2017-03-14T15:20:59Z",
       "side": 1,
       "message": "This change will make distribution (as the merge job) slower to build, because it would contain two distributions (as the karaf zips).\n\nUnless there is a progress on ides described in this thread: https://lists.opendaylight.org/pipermail/integration-dev/2015-August/003953.html",
+      "range": {
+        "startLine": 11,
+        "startChar": 9,
+        "endLine": 11,
+        "endChar": 25
+      },
+      "revId": "a5ac10766439816ac97655d20ea4fa439597ea16",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fafc7978_0fbd1a03",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1723
+      },
+      "writtenOn": "2017-03-14T15:56:55Z",
+      "side": 1,
+      "message": "Ah, well that\u0027s not what I want. Was hoping to have no impact on primary pipeline, run subset-build in parallel.\n\nIs there some more appropriate way to implement this goal? Maybe we don\u0027t need changes to int/dist, just releng/builder and releng/autorelease?",
+      "parentUuid": "fafc7978_4f9a82c6",
       "range": {
         "startLine": 11,
         "startChar": 9,
