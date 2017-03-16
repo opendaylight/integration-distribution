@@ -482,14 +482,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Snbi -->
-            <dependency>
-                <groupId>org.opendaylight.snbi</groupId>
-                <artifactId>features-snbi</artifactId>
-                <version>${snbi.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
             <!-- Snmp -->
             <dependency>
                 <groupId>org.opendaylight.snmp</groupId>
