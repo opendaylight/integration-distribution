@@ -415,12 +415,6 @@
             <type>xml</type>
         </dependency>
         <dependency>
-            <groupId>org.opendaylight.snbi</groupId>
-            <artifactId>features-snbi</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
             <groupId>org.opendaylight.snmp</groupId>
             <artifactId>features-snmp</artifactId>
             <classifier>features</classifier>

@@ -93,7 +93,6 @@
     <repository>mvn:org.opendaylight.packetcable/features-packetcable-policy/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.sfc/features-sfc/{{VERSION}}/xml/features</repository>
-    <repository>mvn:org.opendaylight.snbi/features-snbi/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp/features-snmp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp4sdn/features-snmp4sdn/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.sxp/features/{{VERSION}}/xml/features</repository>
