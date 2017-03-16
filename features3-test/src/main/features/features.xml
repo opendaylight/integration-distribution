@@ -154,8 +154,6 @@
         <feature>odl-l2switch-switch-rest</feature>
         <feature>odl-l2switch-switch-ui</feature>
         <feature>odl-lacp-ui</feature>
-        <feature>odl-natapp</feature>
-        <feature>odl-natapp-api</feature>
         <!-- The following two Netconf features are incompatible with each other.
         As CSIT jobs may use either of them, none of them can be in odl-integration-compatible-with-all. -->
         <feature>odl-netconf-clustered-topology</feature>

@@ -259,12 +259,6 @@
             <type>xml</type>
         </dependency>
         <dependency>
-            <groupId>org.opendaylight.natapp</groupId>
-            <artifactId>natapp-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
             <groupId>org.opendaylight.nemo</groupId>
             <artifactId>nemo-features</artifactId>
             <classifier>features</classifier>

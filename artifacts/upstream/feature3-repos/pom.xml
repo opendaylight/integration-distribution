@@ -293,14 +293,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Natapp -->
-            <dependency>
-                <groupId>org.opendaylight.natapp</groupId>
-                <artifactId>natapp-features</artifactId>
-                <version>${natapp.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
             <!-- Nemo -->
             <dependency>
                 <groupId>org.opendaylight.nemo</groupId>
