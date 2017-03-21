@@ -236,7 +236,7 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.iotdm</groupId>
-            <artifactId>onem2mall-features</artifactId>
+            <artifactId>iotdmcsitdist-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>

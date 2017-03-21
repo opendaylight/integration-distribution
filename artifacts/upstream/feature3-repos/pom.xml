@@ -264,7 +264,7 @@
             <!-- Iotdm -->
             <dependency>
                 <groupId>org.opendaylight.iotdm</groupId>
-                <artifactId>onem2mall-features</artifactId>
+                <artifactId>iotdmcsitdist-features</artifactId>
                 <version>${iotdm.version}</version>
                 <classifier>features</classifier>
                 <type>xml</type>
