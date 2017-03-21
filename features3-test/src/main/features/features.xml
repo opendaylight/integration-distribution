@@ -148,7 +148,7 @@
         <feature>odl-groupbasedpolicy-vpp</feature>
         <feature>odl-integration-compatible-with-all</feature>
         <!-- Commenting this feature due to an issue with Jetty server
-        <feature>odl-iotdm-onem2m</feature>
+        <feature>odl-iotdmcsitdist</feature>
         -->
         <feature>odl-l2switch-switch</feature>
         <feature>odl-l2switch-switch-rest</feature>
