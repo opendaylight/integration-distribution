@@ -246,12 +246,14 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Commenting this features due to lack of artifacts in nexus
         <dependency>
             <groupId>org.opendaylight.lacp</groupId>
             <artifactId>features-lacp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
             <artifactId>features-lispflowmapping</artifactId>
