@@ -133,7 +133,9 @@
         <!-- Removed from autorelease due to inactivity.
         <feature>odl-atrium-all</feature>
         -->
+        <!-- Commented because feature does not work after https://git.opendaylight.org/gerrit/#/c/53139/
         <feature>odl-bier-all</feature>
+        -->
         <feature>odl-faas-base</feature>
         <feature>odl-genius-rest</feature>
         <feature>odl-groupbasedpolicy-faas</feature>
@@ -153,7 +155,9 @@
         <feature>odl-l2switch-switch</feature>
         <feature>odl-l2switch-switch-rest</feature>
         <feature>odl-l2switch-switch-ui</feature>
+        <!-- Commenting this feature due to lack of artifacts in nexus
         <feature>odl-lacp-ui</feature>
+        -->
         <!-- The following two Netconf features are incompatible with each other.
         As CSIT jobs may use either of them, none of them can be in odl-integration-compatible-with-all. -->
         <feature>odl-netconf-clustered-topology</feature>
