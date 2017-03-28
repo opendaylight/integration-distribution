@@ -80,14 +80,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Removed from autorelease due to inactivity.
-        <dependency>
-            <groupId>org.opendaylight.atrium</groupId>
-            <artifactId>atrium-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-         -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>features-bgp</artifactId>
@@ -136,14 +128,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Removed from autorelease due to inactivity.
-        <dependency>
-            <groupId>org.opendaylight.centinel</groupId>
-            <artifactId>centinel-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>features-extras</artifactId>
@@ -456,27 +440,11 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Removed from autorelease due to inactivity.
-        <dependency>
-            <groupId>org.opendaylight.usecplugin</groupId>
-            <artifactId>usecplugin-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.vtn</groupId>
             <artifactId>features-vtn-manager</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Removed from autorelease due to inactivity.
-        <dependency>
-            <groupId>org.opendaylight.yang-push</groupId>
-            <artifactId>yangpush-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
     </dependencies>
 </project>

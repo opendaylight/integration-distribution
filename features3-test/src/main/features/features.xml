@@ -65,13 +65,6 @@
         <feature>odl-bgpcep-rsvp</feature>
         <feature>odl-capwap-ac-rest</feature>
         <feature>odl-cardinal</feature>
-        <!-- Commented out because two of the features lead to Yang pares errors.
-            Also, removed from autorelease due to inactivity.
-        <feature>odl-centinel-core</feature>
-        <feature>odl-centinel-laas</feature>
-        <feature>odl-centinel-streamhandler</feature>
-        <feature>odl-centinel-ui</feature>
-        -->
         <feature>odl-didm-all</feature>
         <feature>odl-dlux-core</feature>
         <feature>odl-distribution-version</feature>
@@ -121,18 +114,11 @@
         <feature>odl-usc-channel</feature>
         <feature>odl-usc-channel-rest</feature>
         <feature>odl-usc-channel-ui</feature>
-        <!-- Removed from autorelease due to inactivity.
-        <feature>odl-usecplugin-aaa</feature>
-        <feature>odl-usecplugin-openflow</feature>
-        -->
     </feature>
 
     <feature name='odl-integration-all' version='${project.version}'>
         <!-- Please use alphabetical order for non-compatible features -->
         <feature>odl-alto-release</feature>
-        <!-- Removed from autorelease due to inactivity.
-        <feature>odl-atrium-all</feature>
-        -->
         <feature>odl-bier-all</feature>
         <feature>odl-faas-base</feature>
         <feature>odl-genius-rest</feature>
@@ -175,10 +161,6 @@
         <feature>odl-unimgr</feature>
         <feature>odl-vtn-manager-neutron</feature>
         <feature>odl-vtn-manager-rest</feature>
-        <!-- Removed from autorelease due to inactivity.
-        <feature>odl-yangpush</feature>
-        <feature>odl-yangpush-api</feature>
-        -->
     </feature>
 
 </features>

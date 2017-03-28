@@ -33,9 +33,6 @@
     <repository>mvn:org.opendaylight.aaa/features-aaa/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.aaa/features-aaa-shiro/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/{{VERSION}}/xml/features</repository>
-    <!-- Removed from autorelease due to inactivity.
-    <repository>mvn:org.opendaylight.atrium/atrium-features/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-extras/{{VERSION}}/xml/features</repository>
@@ -44,9 +41,6 @@
     <repository>mvn:org.opendaylight.bier/features-bier/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.cardinal/cardinal-features/{{VERSION}}/xml/features</repository>
-    <!-- Removed from autorelease due to inactivity.
-    <repository>mvn:org.opendaylight.centinel/centinel-features/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.controller/features-extras/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/{{VERSION}}/xml/features</repository>
@@ -100,11 +94,5 @@
     <repository>mvn:org.opendaylight.ttp/features-ttp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.unimgr/unimgr-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.usc/usc-features/{{VERSION}}/xml/features</repository>
-    <!-- Removed from autorelease due to inactivity.
-    <repository>mvn:org.opendaylight.usecplugin/usecplugin-features/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.vtn/features-vtn-manager/{{VERSION}}/xml/features</repository>
-    <!-- Removed from autorelease due to inactivity.
-    <repository>mvn:org.opendaylight.yang-push/yangpush-features/{{VERSION}}/xml/features</repository>
-    -->
 </features>
