@@ -65,16 +65,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Atrium
-                Removed from autorelease due to inactivity.
-            <dependency>
-                <groupId>org.opendaylight.atrium</groupId>
-                <artifactId>atrium-features</artifactId>
-                <version>${atrium.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            -->
             <!-- Bgpcep -->
             <dependency>
                 <groupId>org.opendaylight.bgpcep</groupId>
@@ -135,16 +125,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Centinel
-                Removed from autorelease due to inactivity.
-            <dependency>
-                <groupId>org.opendaylight.centinel</groupId>
-                <artifactId>centinel-features</artifactId>
-                <version>${centinel.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            -->
             <!-- Controller -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
@@ -546,16 +526,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Usecplugin
-                Removed from autorelease due to inactivity.
-            <dependency>
-                <groupId>org.opendaylight.usecplugin</groupId>
-                <artifactId>usecplugin-features</artifactId>
-                <version>${usecplugin.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            -->
             <!-- Vtn -->
             <dependency>
                 <groupId>org.opendaylight.vtn</groupId>
@@ -564,16 +534,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Yang-push
-                Removed from autorelease due to inactivity.
-            <dependency>
-                <groupId>org.opendaylight.yang-push</groupId>
-                <artifactId>yangpush-features</artifactId>
-                <version>${yang-push.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            -->
         </dependencies>
     </dependencyManagement>
 </project>
