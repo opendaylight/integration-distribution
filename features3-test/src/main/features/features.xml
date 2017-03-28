@@ -133,7 +133,9 @@
         <!-- Removed from autorelease due to inactivity.
         <feature>odl-atrium-all</feature>
         -->
+        <!-- Comment bier feature as it does not work after https://git.opendaylight.org/gerrit/#/c/53139/
         <feature>odl-bier-all</feature>
+        -->
         <feature>odl-faas-base</feature>
         <feature>odl-genius-rest</feature>
         <feature>odl-groupbasedpolicy-faas</feature>
