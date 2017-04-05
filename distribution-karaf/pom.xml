@@ -66,7 +66,7 @@
             <scope>runtime</scope>
             <exclusions>
                 <exclusion>
-                    <groupId>org.opendaylight.controller</groupId>
+                    <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
                 <exclusion>
@@ -84,7 +84,7 @@
             <scope>test</scope>
             <exclusions>
                 <exclusion>
-                    <groupId>org.opendaylight.controller</groupId>
+                    <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
                 <exclusion>
