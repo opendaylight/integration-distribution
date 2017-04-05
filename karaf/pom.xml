@@ -125,6 +125,10 @@
                             <overWriteSnapshots>true</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
                             <excludeTransitive>true</excludeTransitive>
+                            < ! - - Do not include version in JAR filename, as external scripts call this utility,
+                                 and they understandly do not want to have to adjust for every ODL release;
+                                 see e.g. https://github.com/dfarrell07/puppet-opendaylight/pull/140 - - >
+                            <stripVersion>true</stripVersion>
                         </configuration>
                     </execution>
                 </executions>
