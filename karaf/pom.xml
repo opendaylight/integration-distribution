@@ -64,10 +64,6 @@
                     <artifactId>opendaylight-karaf4-empty</artifactId>
                 </exclusion>
                 <exclusion>
-                    <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>opendaylight-karaf-empty</artifactId>
-                </exclusion>
-                <exclusion>
                     <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
@@ -84,10 +80,6 @@
                 <exclusion>
                     <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf4-empty</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.opendaylight.odlparent</groupId>
