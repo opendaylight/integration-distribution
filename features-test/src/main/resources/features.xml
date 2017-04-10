@@ -122,9 +122,6 @@
         <feature version='${feature.topoprocessing.version}'>odl-topoprocessing-network-topology</feature>
         <feature version='${feature.ttp.version}'>odl-ttp-all</feature>
         <feature version='${feature.unimgr.version}'>odl-unimgr</feature>
-        <feature version='${feature.usc.version}'>odl-usc-channel</feature>
-        <feature version='${feature.usc.version}'>odl-usc-channel-rest</feature>
-        <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin-aaa</feature>
         <feature version='${feature.usecplugin.version}'>odl-usecplugin-openflow</feature>
     </feature>
@@ -173,6 +170,9 @@
         <!-- Issues with yang parser show up in aaa distribution-check
         <feature version='${feature.tsdr.version}'>odl-tsdr-hsqldb-all</feature>
         -->
+        <feature version='${feature.usc.version}'>odl-usc-channel</feature>
+        <feature version='${feature.usc.version}'>odl-usc-channel-rest</feature>
+        <feature version='${feature.usc.version}'>odl-usc-channel-ui</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-neutron</feature>
         <feature version='${feature.vtn-manager.version}'>odl-vtn-manager-rest</feature>
         <feature version='${feature.yang-push.version}'>odl-yangpush</feature>
