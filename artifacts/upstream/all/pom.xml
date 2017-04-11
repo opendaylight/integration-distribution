@@ -53,13 +53,6 @@
             <!-- TODO: All of the following should contain directions on how to get rid of their content. -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>feature3-repo-artifacts</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
                 <artifactId>feature-repo-artifacts</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>

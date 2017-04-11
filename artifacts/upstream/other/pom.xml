@@ -44,7 +44,7 @@
                 <groupId>org.opendaylight.aaa</groupId>
                 <artifactId>aaa-cli-jar</artifactId>
                 <!-- TODO: Open Bug agains AAA to export this version in an artifact pom. -->
-                <version>${aaa.version}</version>
+                <version>0.5.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

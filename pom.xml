@@ -42,11 +42,7 @@
         <!-- Keep this list sorted alphabetically please -->
         <module>artifacts</module>
         <module>karaf</module>
-        <module>distribution-karaf</module>
         <module>features</module>
-        <module>features3-distribution</module>
-        <module>features3-index</module>
-        <module>features3-test</module>
         <module>version</module>
     </modules>
 </project>
