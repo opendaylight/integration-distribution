@@ -12,12 +12,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.opendaylight.integration</groupId>
-        <artifactId>properties</artifactId>
-        <version>0.6.0-SNAPSHOT</version>
-        <relativePath>../properties</relativePath>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>odlparent-lite</artifactId>
+        <version>1.9.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
+    <groupId>org.opendaylight.integration</groupId>
     <artifactId>other-artifacts</artifactId>
+    <version>0.7.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
@@ -44,7 +46,7 @@
                 <groupId>org.opendaylight.aaa</groupId>
                 <artifactId>aaa-cli-jar</artifactId>
                 <!-- TODO: Open Bug agains AAA to export this version in an artifact pom. -->
-                <version>${aaa.version}</version>
+                <version>0.6.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
