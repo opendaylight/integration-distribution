@@ -50,7 +50,6 @@
         <benchmark.version>1.4.0-SNAPSHOT</benchmark.version>
         <bgpcep.version>0.8.0-SNAPSHOT</bgpcep.version>
         <bier.version>0.2.0-SNAPSHOT</bier.version>
-        <capwap.version>0.5.0-SNAPSHOT</capwap.version>
         <cardinal.version>0.3.0-SNAPSHOT</cardinal.version>
         <config.version>0.7.0-SNAPSHOT</config.version>
         <controller.extras.version>1.9.0-SNAPSHOT</controller.extras.version>
