@@ -109,14 +109,6 @@
                 <version>${bier.version}</version>
                 <type>xml</type>
             </dependency>
-            <!-- Capwap -->
-            <dependency>
-                <groupId>org.opendaylight.capwap</groupId>
-                <artifactId>capwap-features</artifactId>
-                <version>${capwap.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
             <!-- Cardinal -->
             <dependency>
                 <groupId>org.opendaylight.cardinal</groupId>

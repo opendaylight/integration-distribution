@@ -63,7 +63,6 @@
         <feature>odl-bgpcep-bmp</feature>
         <feature>odl-bgpcep-pcep-all</feature>
         <feature>odl-bgpcep-rsvp</feature>
-        <feature>odl-capwap-ac-rest</feature>
         <feature>odl-cardinal</feature>
         <feature>odl-didm-all</feature>
         <feature>odl-dlux-core</feature>
