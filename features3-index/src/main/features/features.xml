@@ -43,9 +43,11 @@
     <repository>mvn:org.opendaylight.controller/features-extras/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.didm/features-didm/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-hp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-ovs/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.dlux/features-dlux/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.dluxapps/features-dluxapps/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.eman/eman-features/{{VERSION}}/xml/features</repository>
@@ -56,9 +58,13 @@
     <repository>mvn:org.opendaylight.honeycomb.vbd/vbd-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.infrautils/infrautils-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.integration/features3-distribution/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.iotdm/iotdmcsitdist-features/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.l2switch/features-l2switch/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.lacp/features-lacp/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.lispflowmapping/features-lispflowmapping/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.nemo/nemo-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-netconf/{{VERSION}}/xml/features</repository>
@@ -70,7 +76,9 @@
     <repository>mvn:org.opendaylight.netvirt/openstack.sfc-translator-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.nic/features-nic/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-akka/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-odlparent/{{VERSION}}/xml/features</repository>
@@ -86,12 +94,16 @@
     <repository>mvn:org.opendaylight.sdninterfaceapp/features-sdninterfaceapp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.sfc/features-sfc/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.snmp/features-snmp/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.snmp4sdn/features-snmp4sdn/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.sxp/features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.topoprocessing/features-topoprocessing/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.tsdr/features-tsdr/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.ttp/features-ttp/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.unimgr/unimgr-features/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.usc/usc-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.vtn/features-vtn-manager/{{VERSION}}/xml/features</repository>
 </features>
