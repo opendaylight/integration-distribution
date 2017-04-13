@@ -40,7 +40,9 @@
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bier/features-bier/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.capwap/capwap-features/{{VERSION}}/xml/features</repository>
+    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.cardinal/cardinal-features/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.controller/features-extras/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/{{VERSION}}/xml/features</repository>

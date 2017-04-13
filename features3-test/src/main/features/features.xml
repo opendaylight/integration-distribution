@@ -64,7 +64,9 @@
         <feature>odl-bgpcep-pcep-all</feature>
         <feature>odl-bgpcep-rsvp</feature>
         <feature>odl-capwap-ac-rest</feature>
+        <!-- Temporary remove because of karaf 4
         <feature>odl-cardinal</feature>
+        -->
         <feature>odl-didm-all</feature>
         <feature>odl-dlux-core</feature>
         <feature>odl-distribution-version</feature>
