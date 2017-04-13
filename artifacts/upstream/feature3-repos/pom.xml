@@ -185,14 +185,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Eman -->
-            <dependency>
-                <groupId>org.opendaylight.eman</groupId>
-                <artifactId>eman-features</artifactId>
-                <version>${eman.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
             <!-- Faas -->
             <dependency>
                 <groupId>org.opendaylight.faas</groupId>
