@@ -140,6 +140,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Didm -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.didm</groupId>
                 <artifactId>features-didm</artifactId>
@@ -147,6 +148,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.opendaylight.didm</groupId>
                 <artifactId>features-didm-hp</artifactId>
@@ -234,6 +236,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Iotdm -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.iotdm</groupId>
                 <artifactId>iotdmcsitdist-features</artifactId>
@@ -241,6 +244,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- L2switch -->
             <dependency>
                 <groupId>org.opendaylight.l2switch</groupId>
@@ -250,6 +254,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Lacp -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.lacp</groupId>
                 <artifactId>features-lacp</artifactId>
@@ -257,6 +262,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Lispflowmapping -->
             <dependency>
                 <groupId>org.opendaylight.lispflowmapping</groupId>
@@ -341,6 +347,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Nic -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.nic</groupId>
                 <artifactId>features-nic</artifactId>
@@ -348,6 +355,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Ocpplugin -->
             <dependency>
                 <groupId>org.opendaylight.ocpplugin</groupId>
@@ -463,6 +471,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Snmp4sdn -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
                 <artifactId>features-snmp4sdn</artifactId>
@@ -470,6 +479,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Sxp -->
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
@@ -487,6 +497,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Tsdr -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.tsdr</groupId>
                 <artifactId>features-tsdr</artifactId>
@@ -494,6 +505,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Ttp -->
             <dependency>
                 <groupId>org.opendaylight.ttp</groupId>
@@ -503,6 +515,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Unimgr -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>unimgr-features</artifactId>
@@ -510,6 +523,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Usc -->
             <dependency>
                 <groupId>org.opendaylight.usc</groupId>

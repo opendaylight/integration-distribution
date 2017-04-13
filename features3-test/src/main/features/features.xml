@@ -64,7 +64,9 @@
         <feature>odl-bgpcep-pcep-all</feature>
         <feature>odl-bgpcep-rsvp</feature>
         <feature>odl-cardinal</feature>
+        <!-- Temporary remove because of karaf 4
         <feature>odl-didm-all</feature>
+        -->
         <feature>odl-dlux-core</feature>
         <feature>odl-distribution-version</feature>
         <feature>odl-eman</feature>
@@ -138,7 +140,9 @@
         <feature>odl-l2switch-switch</feature>
         <feature>odl-l2switch-switch-rest</feature>
         <feature>odl-l2switch-switch-ui</feature>
+        <!-- Temporary remove because of karaf 4
         <feature>odl-lacp-ui</feature>
+        -->
         <!-- The following two Netconf features are incompatible with each other.
         As CSIT jobs may use either of them, none of them can be in odl-integration-compatible-with-all. -->
         <feature>odl-netconf-clustered-topology</feature>
@@ -156,8 +160,12 @@
         <feature>odl-sfc-ios-xe-renderer</feature>
         -->
         <feature>odl-sfc-openflow-renderer</feature>
+        <!-- Temporary remove because of karaf 4
         <feature>odl-tsdr-hsqldb-all</feature>
+        -->
+        <!-- Temporary remove because of karaf 4
         <feature>odl-unimgr</feature>
+        -->
         <feature>odl-vtn-manager-neutron</feature>
         <feature>odl-vtn-manager-rest</feature>
     </feature>
