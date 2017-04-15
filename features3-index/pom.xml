@@ -268,24 +268,6 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
-            <artifactId>features-netvirt</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netvirt</groupId>
-            <artifactId>openstack.net-virt-sfc-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netvirt</groupId>
-            <artifactId>openstack.sfc-translator-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>vpnservice-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
