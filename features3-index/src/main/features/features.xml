@@ -65,9 +65,6 @@
     <repository>mvn:org.opendaylight.netconf/features-netconf-connector/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.netconf/features-restconf/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.netide/netide-features/{{VERSION}}/xml/features</repository>
-    <repository>mvn:org.opendaylight.netvirt/features-netvirt/{{VERSION}}/xml/features</repository>
-    <repository>mvn:org.opendaylight.netvirt/openstack.net-virt-sfc-features/{{VERSION}}/xml/features</repository>
-    <repository>mvn:org.opendaylight.netvirt/openstack.sfc-translator-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/{{VERSION}}/xml/features</repository>

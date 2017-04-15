@@ -298,27 +298,6 @@
             <!-- Netvirt -->
             <dependency>
                 <groupId>org.opendaylight.netvirt</groupId>
-                <artifactId>features-netvirt</artifactId>
-                <version>${netvirt.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.netvirt</groupId>
-                <artifactId>openstack.net-virt-sfc-features</artifactId>
-                <version>${netvirt.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.netvirt</groupId>
-                <artifactId>openstack.sfc-translator-features</artifactId>
-                <version>${netvirt.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.netvirt</groupId>
                 <artifactId>vpnservice-features</artifactId>
                 <version>${vpnservice.version}</version>
                 <classifier>features</classifier>
