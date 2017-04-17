@@ -388,14 +388,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.snmp4sdn</groupId>
             <artifactId>features-snmp4sdn</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>features</artifactId>

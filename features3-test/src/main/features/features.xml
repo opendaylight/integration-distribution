@@ -107,9 +107,7 @@
         <feature>odl-sfclisp</feature>
         <feature>odl-sxp-controller</feature>
         <feature>odl-snmp-plugin</feature>
-        <!-- Issues with yang parser show up in aaa distribution-check
         <feature>odl-snmp4sdn-all</feature>
-        -->
         <feature>odl-topoprocessing-i2rs</feature>
         <feature>odl-topoprocessing-inventory</feature>
         <feature>odl-topoprocessing-inventory-rendering</feature>
