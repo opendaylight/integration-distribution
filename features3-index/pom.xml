@@ -414,14 +414,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>unimgr-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.usc</groupId>
             <artifactId>usc-features</artifactId>
