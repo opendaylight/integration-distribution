@@ -41,6 +41,55 @@
     <dependencyManagement>
         <!-- User facing feature repositories. -->
         <dependencies>
+
+            <!-- AAA -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features4-aaa</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features4-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Controller -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features4-extras</artifactId>
+                <version>${controller.extras.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features4-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features4-mdsal-benchmark</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- InfraUtils -->
+            <dependency>
+                <groupId>org.opendaylight.infrautils</groupId>
+                <artifactId>infrautils-features4</artifactId>
+                <version>infrautils.version</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- Netconf -->
             <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
@@ -63,6 +112,23 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+
+            <!-- ODL Parent -->
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features4-akka</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features4-odlparent</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
