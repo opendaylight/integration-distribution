@@ -110,6 +110,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Cardinal -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.cardinal</groupId>
                 <artifactId>cardinal-features</artifactId>
@@ -117,6 +118,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Controller -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
@@ -148,7 +150,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
             <dependency>
                 <groupId>org.opendaylight.didm</groupId>
                 <artifactId>features-didm-hp</artifactId>
@@ -163,6 +164,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Dlux -->
             <dependency>
                 <groupId>org.opendaylight.dlux</groupId>
@@ -476,6 +478,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Tsdr -->
+            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.tsdr</groupId>
                 <artifactId>features-tsdr</artifactId>
@@ -483,6 +486,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Ttp -->
             <dependency>
                 <groupId>org.opendaylight.ttp</groupId>

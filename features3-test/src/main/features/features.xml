@@ -63,7 +63,9 @@
         <feature>odl-bgpcep-bmp</feature>
         <feature>odl-bgpcep-pcep-all</feature>
         <feature>odl-bgpcep-rsvp</feature>
+        <!-- Temporary remove because of karaf 4
         <feature>odl-cardinal</feature>
+        -->
         <!-- Temporary remove because of karaf 4
         <feature>odl-didm-all</feature>
         -->
@@ -157,7 +159,9 @@
         <feature>odl-sfc-ios-xe-renderer</feature>
         -->
         <feature>odl-sfc-openflow-renderer</feature>
+        <!-- Temporary remove because of karaf 4
         <feature>odl-tsdr-hsqldb-all</feature>
+        -->
         <feature>odl-unimgr</feature>
         <feature>odl-vtn-manager-neutron</feature>
         <feature>odl-vtn-manager-rest</feature>
