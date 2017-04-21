@@ -182,6 +182,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Eman -->
+            <!-- Temporary remove because of karaf 
             <dependency>
                 <groupId>org.opendaylight.eman</groupId>
                 <artifactId>eman-features</artifactId>
@@ -189,6 +190,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Faas -->
             <dependency>
                 <groupId>org.opendaylight.faas</groupId>

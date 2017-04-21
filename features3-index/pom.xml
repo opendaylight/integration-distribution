@@ -174,12 +174,14 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Temporary remove because karaf 4
         <dependency>
             <groupId>org.opendaylight.eman</groupId>
             <artifactId>eman-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.faas</groupId>
             <artifactId>features-faas</artifactId>
