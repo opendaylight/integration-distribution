@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da01753e_388564d0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-04-21T15:56:01Z",
+      "side": 1,
+      "message": "I see only feature repos added.\nodl-integration-compatible-with-all still contains (basically) just odl-restconf.\n\nBut as Bug 7900 is not fixed yet, perhaps SFT in distribution4-check will test all the feature4-* features in features-index. Will have to check the generated repo to be sure.",
+      "range": {
+        "startLine": 7,
+        "startChar": 13,
+        "endLine": 7,
+        "endChar": 21
+      },
+      "revId": "8095adb58e9433ed29c0890c70fe013c0205048d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
