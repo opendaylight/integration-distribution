@@ -110,12 +110,13 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Temporarily remove from Carbon because of sporadic Karaf4 SFT failures
         <dependency>
             <groupId>org.opendaylight.bier</groupId>
             <artifactId>features-bier</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
-        </dependency>
+        </dependency> -->
         <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.cardinal</groupId>
