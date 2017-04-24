@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da01753e_025c667d",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-04-24T12:17:19Z",
+      "side": 1,
+      "message": "This block is not needed if ...\n(see line 40 here).",
+      "range": {
+        "startLine": 47,
+        "startChar": 28,
+        "endLine": 47,
+        "endChar": 53
+      },
+      "revId": "67a5c19f88e3be2bd3c5e58648b35b1aef373e90",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da01753e_22d7eac0",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-04-24T12:17:19Z",
+      "side": 1,
+      "message": "... if this block is moved to artifacts/upstream/artitacts/.",
+      "range": {
+        "startLine": 53,
+        "startChar": 28,
+        "endLine": 53,
+        "endChar": 53
+      },
+      "revId": "67a5c19f88e3be2bd3c5e58648b35b1aef373e90",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da01753e_62f8d249",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-04-24T12:17:19Z",
+      "side": 1,
+      "message": "In Karaf 3 this is part of odl-integration-compatible-with-all. Why not in Karaf 4?",
+      "range": {
+        "startLine": 71,
+        "startChar": 24,
+        "endLine": 71,
+        "endChar": 48
+      },
+      "revId": "67a5c19f88e3be2bd3c5e58648b35b1aef373e90",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
