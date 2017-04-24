@@ -64,6 +64,20 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>odl-sxp-robot</artifactId>
+                <version>${sxp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>odl-sxp-routing</artifactId>
+                <version>${sxp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
