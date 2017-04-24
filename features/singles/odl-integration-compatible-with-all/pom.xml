@@ -58,6 +58,13 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        <!-- Lispflowmapping -->
+        <dependency>
+            <groupId>org.opendaylight.lispflowmapping</groupId>
+            <artifactId>odl-lispflowmapping-msmr</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
