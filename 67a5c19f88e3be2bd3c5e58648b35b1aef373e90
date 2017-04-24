@@ -68,6 +68,24 @@
       "revId": "67a5c19f88e3be2bd3c5e58648b35b1aef373e90",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da01753e_08df653c",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-04-24T14:56:09Z",
+      "side": 1,
+      "message": "Sorry about that, my mistake. I will fix that.",
+      "parentUuid": "da01753e_62f8d249",
+      "revId": "67a5c19f88e3be2bd3c5e58648b35b1aef373e90",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
