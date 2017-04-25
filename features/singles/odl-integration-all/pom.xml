@@ -58,5 +58,11 @@
             <classifier>features</classifier>
         </dependency>
         <!-- External single feature dependencies. -->
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-clustered-topology</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
     </dependencies>
 </project>
