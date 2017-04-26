@@ -48,13 +48,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>org.opendaylight.lispflowmapping</groupId>
-                <artifactId>lispflowmapping-artifacts</artifactId>
-                <version>${lispflowmapping.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
