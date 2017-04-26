@@ -75,11 +75,13 @@
             <classifier>features</classifier>
         </dependency>
         -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8304
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
     </dependencies>
 </project>
