@@ -102,7 +102,6 @@
                 <type>xml</type>
             </dependency>
             <!-- Bier -->
-            <!-- Temporarily remove because of sporadic Karaf 4 SFT failures
             <dependency>
                 <groupId>org.opendaylight.bier</groupId>
                 <artifactId>features-bier</artifactId>
@@ -110,7 +109,6 @@
                 <version>${bier.version}</version>
                 <type>xml</type>
             </dependency>
-            -->
             <!-- Cardinal -->
             <!-- Temporary remove because of karaf 4
             <dependency>
