@@ -124,9 +124,7 @@
     <feature name='odl-integration-all' version='${project.version}'>
         <!-- Please use alphabetical order for non-compatible features -->
         <feature>odl-alto-release</feature>
-        <!-- Temporarily remove because of sporadic Karaf 4 SFT failures
         <feature>odl-bier-all</feature>
-        -->
         <feature>odl-faas-base</feature>
         <feature>odl-genius-rest</feature>
         <feature>odl-groupbasedpolicy-faas</feature>
