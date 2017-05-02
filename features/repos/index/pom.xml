@@ -52,12 +52,16 @@
     </dependencyManagement>
     <dependencies>
         <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
+
+        <!-- Distribution -->
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>features-distribution</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- AAA -->
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>features4-aaa</artifactId>
@@ -70,6 +74,42 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- BGPCEP -->
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-bgp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-bmp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8356
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-extras</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-pcep</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-rsvp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- Controller -->
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>features4-extras</artifactId>
@@ -88,32 +128,56 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- Dlux -->
         <dependency>
-            <groupId>org.opendaylight.lispflowmapping</groupId>
-            <artifactId>features4-lispflowmapping</artifactId>
+            <groupId>org.opendaylight.dlux</groupId>
+            <artifactId>features4-dlux</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
+
+        <!-- Dlux Apps -->
+        <dependency>
+            <groupId>org.opendaylight.dluxapps</groupId>
+            <artifactId>features4-dluxapps</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- InfraUtils -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8355
+        <dependency>
+            <groupId>org.opendaylight.infrautils</groupId>
+            <artifactId>infrautils-features4</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- Netconf -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features4-netconf</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features4-netconf-connector</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features4-restconf</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
+        
+        <!-- ODL Parent -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>features4-akka</artifactId>
@@ -126,5 +190,52 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- OpenFlow Plugin -->
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features4-openflowplugin</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features4-openflowplugin-he</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features4-openflowplugin-extension</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features4-openflowplugin-extension-he</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- SNMP -->
+        <!-- New issue
+        <dependency>
+            <groupId>org.opendaylight.snmp</groupId>
+            <artifactId>features4-snmp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- SXP -->
+        <!-- New issue
+        <dependency>
+            <groupId>org.opendaylight.sxp</groupId>
+            <artifactId>features4-sxp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
     </dependencies>
 </project>
