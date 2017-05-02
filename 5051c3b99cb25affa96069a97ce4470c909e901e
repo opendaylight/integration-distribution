@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba068154_c5d018fa",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-05-02T21:01:01Z",
+      "side": 1,
+      "message": "It seems there is issue with infrautils, can you remove this for now?",
+      "revId": "5051c3b99cb25affa96069a97ce4470c909e901e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
