@@ -40,6 +40,8 @@
     <dependencyManagement>
         <dependencies>
             <!-- Non-user-facing single feature needed for Version. -->
+
+            <!-- Controller -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
                 <artifactId>odl-config-persister</artifactId>
@@ -48,8 +50,66 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+
             <!-- User facing single features. -->
             <!-- TODO: Open Bugs against projects to export user-facing single feature versions in artifact pom. -->
+
+            <!-- AAA -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-aaa-cert</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- BGPCEP -->
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>odl-bgpcep-bgp</artifactId>
+                <version>${bgpcep.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>odl-bgpcep-bmp</artifactId>
+                <version>${bgpcep.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>odl-bgpcep-pcep</artifactId>
+                <version>${bgpcep.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>odl-bgpcep-rsvp</artifactId>
+                <version>${bgpcep.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Dlux -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-dlux-core</artifactId>
+                <version>${dlux.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Netconf -->
             <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
                 <artifactId>odl-netconf-mdsal</artifactId>
@@ -64,6 +124,34 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+
+            <!-- OpenFlow Plugin -->
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>odl-openflowplugin-flow-services-ui</artifactId>
+                <version>${openflowplugin.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
+            <!-- SNMP -->
+            <dependency>
+                <groupId>org.opendaylight.snmp</groupId>
+                <artifactId>odl-snmp-plugin</artifactId>
+                <version>${snmp.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
+            <!-- SXP -->
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>odl-sxp-controller</artifactId>
+                <version>${sxp.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
