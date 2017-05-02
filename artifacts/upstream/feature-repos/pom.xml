@@ -81,34 +81,29 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Dlux -->
+            <dependency>
+                <groupId>org.opendaylight.dlux</groupId>
+                <artifactId>features4-dlux</artifactId>
+                <version>${dlux.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Dlux Apps -->
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>features4-dluxapps</artifactId>
+                <version>${dluxapps.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- InfraUtils -->
             <dependency>
                 <groupId>org.opendaylight.infrautils</groupId>
                 <artifactId>infrautils-features4</artifactId>
                 <version>${infrautils.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-
-            <!-- Netconf -->
-            <dependency>
-                <groupId>org.opendaylight.netconf</groupId>
-                <artifactId>features4-netconf</artifactId>
-                <version>${netconf.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.netconf</groupId>
-                <artifactId>features4-netconf-connector</artifactId>
-                <version>${netconf.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.netconf</groupId>
-                <artifactId>features4-restconf</artifactId>
-                <version>${restconf.version}</version>
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
@@ -125,6 +120,54 @@
                 <groupId>org.opendaylight.odlparent</groupId>
                 <artifactId>features4-odlparent</artifactId>
                 <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- OpenFlow Plugin -->
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features4-openflowplugin</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features4-openflowplugin-he</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features4-openflowplugin-extension</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features4-openflowplugin-extension-he</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- SNMP -->
+            <dependency>
+                <groupId>org.opendaylight.snmp</groupId>
+                <artifactId>features4-snmp</artifactId>
+                <version>${snmp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- SXP -->
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>features4-sxp</artifactId>
+                <version>${sxp.version}</version>
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>

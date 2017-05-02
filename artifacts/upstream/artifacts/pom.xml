@@ -42,19 +42,26 @@
             <!-- Project artifact poms. -->
             <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
             <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>bgpcep-artifacts</artifactId>
+                <version>${bgpcep.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.controller</groupId>
                 <artifactId>config-artifacts</artifactId>
                 <version>${config.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+        </dependencies>
             <dependency>
-                <groupId>org.opendaylight.lispflowmapping</groupId>
-                <artifactId>lispflowmapping-artifacts</artifactId>
-                <version>${lispflowmapping.version}</version>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>netconf-artifacts</artifactId>
+                <version>${netconf.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-        </dependencies>
     </dependencyManagement>
 </project>
