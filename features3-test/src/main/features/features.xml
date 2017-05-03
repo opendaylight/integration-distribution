@@ -71,11 +71,9 @@
         -->
         <feature>odl-dlux-core</feature>
         <feature>odl-distribution-version</feature>
-        <!-- Temporary remove because of karaf 4
         <feature>odl-eman</feature>
         <feature>odl-eman-rest</feature>
         <feature>odl-eman-ui</feature>
-        -->
         <feature>odl-lispflowmapping-msmr</feature>
         <feature>odl-lispflowmapping-ui</feature>
         <feature>odl-mdsal-benchmark</feature>
