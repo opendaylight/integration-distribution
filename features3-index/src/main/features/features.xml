@@ -52,9 +52,7 @@
     -->
     <repository>mvn:org.opendaylight.dlux/features-dlux/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.dluxapps/features-dluxapps/{{VERSION}}/xml/features</repository>
-    <!-- Temporary remove because of karaf 4
     <repository>mvn:org.opendaylight.eman/eman-features/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.faas/features-faas/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.federation/federation-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.genius/genius-features/{{VERSION}}/xml/features</repository>
