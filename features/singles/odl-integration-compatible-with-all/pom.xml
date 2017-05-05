@@ -80,14 +80,12 @@
             <classifier>features</classifier>
         </dependency>
         -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8363
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bmp</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-pcep</artifactId>
