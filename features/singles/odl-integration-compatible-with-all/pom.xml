@@ -72,14 +72,12 @@
         -->
 
         <!-- BGPCEP -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8362
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8363
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
