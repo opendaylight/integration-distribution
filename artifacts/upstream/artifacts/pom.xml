@@ -46,6 +46,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.bgpcep</groupId>
+                <artifactId>bgpcep-artifacts</artifactId>
+                <version>${bgpcep.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!-- Project artifact poms. -->
             <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
         </dependencies>
