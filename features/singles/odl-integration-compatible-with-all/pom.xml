@@ -52,5 +52,12 @@
     </dependencyManagement>
     <dependencies>
         <!-- External single feature dependencies. -->
+        <!-- BGPCEP -->
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-bgp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
     </dependencies>
 </project>
