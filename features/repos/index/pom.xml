@@ -88,14 +88,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8356
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>features4-extras</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>features4-pcep</artifactId>
