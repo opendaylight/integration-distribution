@@ -194,6 +194,14 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            <!-- TSDR -->
+            <dependency>
+                <groupId>org.opendaylight.tsdr</groupId>
+                <artifactId>features4-tsdr</artifactId>
+                <version>${tsdr.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

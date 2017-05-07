@@ -157,5 +157,12 @@
         </dependency>
         -->
 
+        <!-- TSDR -->
+        <dependency>
+            <groupId>org.opendaylight.tsdr</groupId>
+            <artifactId>odl-tsdr-hsqldb</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
     </dependencies>
 </project>
