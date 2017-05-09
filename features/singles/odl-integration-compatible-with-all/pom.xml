@@ -157,5 +157,13 @@
         </dependency>
         -->
 
+        <!-- USC -->
+        <dependency>
+            <groupId>org.opendaylight.usc</groupId>
+            <artifactId>odl-usc-channel-ui</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
     </dependencies>
 </project>

@@ -122,6 +122,15 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- USC -->
+            <dependency>
+                <groupId>org.opendaylight.usc</groupId>
+                <artifactId>odl-usc-channel-ui</artifactId>
+                <version>${usc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

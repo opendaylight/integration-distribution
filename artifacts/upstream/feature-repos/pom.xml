@@ -195,6 +195,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- USC -->
+            <dependency>
+                <groupId>org.opendaylight.usc</groupId>
+                <artifactId>usc-features4</artifactId>
+                <version>${usc.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
