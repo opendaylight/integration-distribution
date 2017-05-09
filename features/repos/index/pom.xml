@@ -239,5 +239,13 @@
         </dependency>
         -->
 
+        <!-- USC -->
+        <dependency>
+            <groupId>org.opendaylight.usc</groupId>
+            <artifactId>usc-features4</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
     </dependencies>
 </project>
