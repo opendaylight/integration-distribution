@@ -442,6 +442,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Snmp4sdn -->
+            <!-- Commented out because https://bugs.opendaylight.org/show_bug.cgi?id=8409
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
                 <artifactId>features-snmp4sdn</artifactId>
@@ -449,6 +450,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Sxp -->
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
