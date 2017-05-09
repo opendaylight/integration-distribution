@@ -85,7 +85,6 @@
         <sdninterfaceapp.version>1.9.0-SNAPSHOT</sdninterfaceapp.version>
         <sfc.version>0.6.0-SNAPSHOT</sfc.version>
         <snmp.version>1.4.0-SNAPSHOT</snmp.version>
-        <snmp4sdn.version>0.6.0-SNAPSHOT</snmp4sdn.version>
         <sxp.version>1.5.0-SNAPSHOT</sxp.version>
         <topoprocessing.version>0.4.0-SNAPSHOT</topoprocessing.version>
         <tsdr.version>1.4.0-SNAPSHOT</tsdr.version>
