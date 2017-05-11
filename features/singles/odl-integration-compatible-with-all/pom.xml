@@ -62,14 +62,12 @@
         </dependency>
 
         <!-- AAA -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>odl-aaa-shiro</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- BGPCEP -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8362
@@ -102,17 +100,15 @@
         </dependency>
 
         <!-- Dlux -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.dlux</groupId>
             <artifactId>odl-dlux-core</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- Netconf -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8357
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-mdsal</artifactId>
@@ -138,24 +134,20 @@
         -->
 
         <!-- SNMP -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.snmp</groupId>
             <artifactId>odl-snmp-plugin</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- SXP -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>odl-sxp-controller</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
     </dependencies>
 </project>
