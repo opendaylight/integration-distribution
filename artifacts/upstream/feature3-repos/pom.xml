@@ -238,7 +238,6 @@
                 <type>xml</type>
             </dependency>
             <!-- Iotdm -->
-            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.iotdm</groupId>
                 <artifactId>iotdmcsitdist-features</artifactId>
@@ -246,7 +245,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
             <!-- L2switch -->
             <dependency>
                 <groupId>org.opendaylight.l2switch</groupId>
