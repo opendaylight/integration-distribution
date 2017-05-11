@@ -188,7 +188,6 @@
         </dependency>
 
         <!-- OpenFlow Plugin -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>features4-openflowplugin</artifactId>
@@ -213,27 +212,22 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
 
         <!-- SNMP -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.snmp</groupId>
             <artifactId>features4-snmp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
 
         <!-- SXP -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>features4-sxp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
 
     </dependencies>
 </project>
