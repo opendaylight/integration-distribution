@@ -152,7 +152,6 @@
         </dependency>
 
         <!-- Netconf -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features4-netconf</artifactId>
@@ -165,7 +164,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features4-restconf</artifactId>
@@ -188,7 +186,6 @@
         </dependency>
 
         <!-- OpenFlow Plugin -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>features4-openflowplugin</artifactId>
@@ -213,7 +210,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
 
         <!-- SNMP -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
