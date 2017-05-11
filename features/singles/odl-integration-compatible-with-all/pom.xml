@@ -62,14 +62,12 @@
         </dependency>
 
         <!-- AAA -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>odl-aaa-shiro</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- BGPCEP -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8362
@@ -102,14 +100,12 @@
         </dependency>
 
         <!-- Dlux -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8378
         <dependency>
             <groupId>org.opendaylight.dlux</groupId>
             <artifactId>odl-dlux-core</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- Netconf -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8357
