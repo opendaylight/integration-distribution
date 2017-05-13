@@ -228,14 +228,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.lacp</groupId>
             <artifactId>features-lacp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
             <artifactId>features-lispflowmapping</artifactId>
