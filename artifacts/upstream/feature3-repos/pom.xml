@@ -110,7 +110,6 @@
                 <type>xml</type>
             </dependency>
             <!-- Cardinal -->
-            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.cardinal</groupId>
                 <artifactId>cardinal-features</artifactId>
@@ -118,7 +117,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
             <!-- Controller -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
