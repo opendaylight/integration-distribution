@@ -284,14 +284,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.nic</groupId>
             <artifactId>features-nic</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.ocpplugin</groupId>
             <artifactId>features-ocpplugin</artifactId>

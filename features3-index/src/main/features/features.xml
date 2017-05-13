@@ -73,9 +73,7 @@
     <repository>mvn:org.opendaylight.netide/netide-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/{{VERSION}}/xml/features</repository>
-    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.nic/features-nic/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-akka/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-odlparent/{{VERSION}}/xml/features</repository>

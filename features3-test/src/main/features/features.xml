@@ -148,10 +148,7 @@
         <feature>odl-netconf-clustered-topology</feature>
         <feature>odl-netconf-connector-ssh</feature>
         <feature>odl-netvirt-openstack</feature>
-        <!-- Commented out, because NIC brings in Li designed OpenFlowPlugin
-            which leads to BindException.
         <feature>odl-nic-core-mdsal</feature>
-        -->
         <feature>odl-of-config-all</feature>
         <!-- Commented out, because it produces OutOfMemoryError in SingleFeature test
         <feature>odl-sfc-ios-xe-renderer</feature>
