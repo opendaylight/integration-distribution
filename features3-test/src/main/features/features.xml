@@ -59,9 +59,9 @@
         <!-- Please use alphabetical order to add a compatible with all features -->
         <feature>odl-aaa-shiro</feature>
         <feature>odl-aaa-netconf-plugin</feature>
-        <feature>odl-bgpcep-bgp-all</feature>
+        <feature>odl-bgpcep-bgp</feature>
         <feature>odl-bgpcep-bmp</feature>
-        <feature>odl-bgpcep-pcep-all</feature>
+        <feature>odl-bgpcep-pcep</feature>
         <feature>odl-bgpcep-rsvp</feature>
         <!-- Temporary remove because of karaf 4
         <feature>odl-cardinal</feature>
