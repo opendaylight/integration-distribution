@@ -140,7 +140,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.didm</groupId>
             <artifactId>features-didm</artifactId>
@@ -159,7 +158,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.dlux</groupId>
             <artifactId>features-dlux</artifactId>

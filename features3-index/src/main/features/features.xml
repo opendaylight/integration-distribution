@@ -43,11 +43,9 @@
     <repository>mvn:org.opendaylight.controller/features-extras/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/{{VERSION}}/xml/features</repository>
-    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.didm/features-didm/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-hp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-ovs/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.dlux/features-dlux/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.dluxapps/features-dluxapps/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.eman/eman-features/{{VERSION}}/xml/features</repository>
