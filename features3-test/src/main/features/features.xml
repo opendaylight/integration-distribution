@@ -66,9 +66,7 @@
         <!-- Temporary remove because of karaf 4
         <feature>odl-cardinal</feature>
         -->
-        <!-- Temporary remove because of karaf 4
         <feature>odl-didm-all</feature>
-        -->
         <feature>odl-dlux-core</feature>
         <feature>odl-distribution-version</feature>
         <feature>odl-eman</feature>
