@@ -63,9 +63,7 @@
         <feature>odl-bgpcep-bmp</feature>
         <feature>odl-bgpcep-pcep-all</feature>
         <feature>odl-bgpcep-rsvp</feature>
-        <!-- Temporary remove because of karaf 4
         <feature>odl-cardinal</feature>
-        -->
         <!-- Temporary remove because of karaf 4
         <feature>odl-didm-all</feature>
         -->
