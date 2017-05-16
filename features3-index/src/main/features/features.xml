@@ -88,9 +88,7 @@
     <repository>mvn:org.opendaylight.snmp4sdn/features-snmp4sdn/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.sxp/features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.topoprocessing/features-topoprocessing/{{VERSION}}/xml/features</repository>
-    <!-- Temporay remove because of karaf 4
     <repository>mvn:org.opendaylight.tsdr/features-tsdr/{{VERSION}}/xml/features</repository>
-    -->
     <repository>mvn:org.opendaylight.ttp/features-ttp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.unimgr/unimgr-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.usc/usc-features/{{VERSION}}/xml/features</repository>

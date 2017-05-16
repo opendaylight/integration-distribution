@@ -468,7 +468,6 @@
                 <type>xml</type>
             </dependency>
             <!-- Tsdr -->
-            <!-- Temporary remove because of karaf 4
             <dependency>
                 <groupId>org.opendaylight.tsdr</groupId>
                 <artifactId>features-tsdr</artifactId>
@@ -476,7 +475,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
             <!-- Ttp -->
             <dependency>
                 <groupId>org.opendaylight.ttp</groupId>

@@ -394,14 +394,12 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Temporary remove because of karaf 4
         <dependency>
             <groupId>org.opendaylight.tsdr</groupId>
             <artifactId>features-tsdr</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.ttp</groupId>
             <artifactId>features-ttp</artifactId>
