@@ -1,0 +1,9 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Claudio D. Gasparini <claudio.gasparini@pantheon.tech>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Code-Review+1: A H <an.ho@huawei.com>
+Submitted-by: A H <an.ho@huawei.com>
+Submitted-at: Wed, 17 May 2017 21:02:07 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/57042
+Project: integration/distribution
+Branch: refs/heads/stable/carbon
