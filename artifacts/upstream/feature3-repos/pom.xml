@@ -484,6 +484,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Unimgr -->
+            <!-- Comment out due to failing merge job
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>unimgr-features</artifactId>
@@ -491,6 +492,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Usc -->
             <dependency>
                 <groupId>org.opendaylight.usc</groupId>
