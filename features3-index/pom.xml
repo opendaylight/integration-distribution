@@ -406,7 +406,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Comment out due to failing merge job
+        <!-- Removing on 5/23/17 b/c of compilation failures
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>unimgr-features</artifactId>

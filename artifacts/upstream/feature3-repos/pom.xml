@@ -484,6 +484,7 @@
                 <type>xml</type>
             </dependency>
             <!-- Unimgr -->
+            <!-- Removing on 5/23/17 b/c of compilation failures
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>unimgr-features</artifactId>
@@ -491,6 +492,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
             <!-- Usc -->
             <dependency>
                 <groupId>org.opendaylight.usc</groupId>

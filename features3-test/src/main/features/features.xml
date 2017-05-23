@@ -154,7 +154,7 @@
         -->
         <feature>odl-sfc-openflow-renderer</feature>
         <feature>odl-tsdr-hsqldb-all</feature>
-        <!-- Comment out due to failing merge job
+        <!-- Removing on 5/23/17 b/c of compilation failures
         <feature>odl-unimgr</feature>
         -->
         <feature>odl-vtn-manager-neutron</feature>
