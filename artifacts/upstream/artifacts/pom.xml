@@ -77,6 +77,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.lispflowmapping</groupId>
+                <artifactId>lispflowmapping-artifacts</artifactId>
+                <version>${lispflowmapping.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
                 <artifactId>restconf-artifacts</artifactId>
                 <version>${restconf.version}</version>
