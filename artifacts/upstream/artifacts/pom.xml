@@ -56,6 +56,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>lispflowmapping-artifacts</artifactId>
+                <version>${config.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.neutron</groupId>
                 <artifactId>neutron-artifacts</artifactId>
                 <version>${neutron.version}</version>

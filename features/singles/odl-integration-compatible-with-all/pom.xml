@@ -105,6 +105,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- LISP Flow Mapping -->
+        <dependency>
+            <groupId>org.opendaylight.lispflowmapping</groupId>
+            <artifactId>odl-lispflowmapping-msmr</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Netconf -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
