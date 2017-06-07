@@ -63,6 +63,20 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.lispflowmapping</groupId>
+                <artifactId>lispflowmapping-artifacts</artifactId>
+                <version>${lispflowmapping.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>neutron-artifacts</artifactId>
+                <version>${neutron.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.genius</groupId>
                 <artifactId>genius-artifacts</artifactId>
                 <version>${genius.version}</version>
@@ -87,13 +101,6 @@
                 <groupId>org.opendaylight.netvirt</groupId>
                 <artifactId>vpnservice-artifacts</artifactId>
                 <version>${vpnservice.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.neutron</groupId>
-                <artifactId>neutron-artifacts</artifactId>
-                <version>${neutron.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
