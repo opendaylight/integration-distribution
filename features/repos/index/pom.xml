@@ -107,6 +107,14 @@
 
         <!-- FIXME: Add Mdsal -->
 
+        <!-- LISP Flow Mapping -->
+        <dependency>
+            <groupId>org.opendaylight.lispflowmapping</groupId>
+            <artifactId>features4-lispflowmapping</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- Netconf -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>

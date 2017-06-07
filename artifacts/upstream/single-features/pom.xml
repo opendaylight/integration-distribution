@@ -58,6 +58,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- LISP Flow Mapping -->
+            <dependency>
+                <groupId>org.opendaylight.lispflowmapping</groupId>
+                <artifactId>odl-lispflowmapping-msmr</artifactId>
+                <version>${lispflowmapping.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- Netconf -->
             <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
