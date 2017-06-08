@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
- Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
+ Copyright (c) 2014-2017 Cisco Systems, Inc. and others.  All rights reserved.
 
  This program and the accompanying materials are made available under the
  terms of the Eclipse Public License v1.0 which accompanies this distribution,
@@ -12,19 +12,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>odlparent-lite</artifactId>
+        <version>1.9.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>upstream-aggregator</artifactId>
+    <artifactId>distribution3-aggregator</artifactId>
     <version>0.7.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <!-- <name> formatting is used by autorelease to parse and notify projects on
-         build failure. Please do not modify this unless you have a good reason. -->
-    <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>Aggregator for upstream artifact related modules.</description>
+    <!-- <name> value is used by Sonar to set project name -->
+    <name>Integration/Distribution</name>
+    <description>OpenDaylight Integration/Distribution project, used for creating complete Karaf distribution packages.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -36,16 +35,18 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <!-- TODO: Work towards using artifact-artifacts only. Properties, artifacts and all than can be joined to replace this pom. -->
     <modules>
-        <module>properties</module>
-        <module>artifacts</module>
-        <module>feature-repos</module>
-        <module>single-features</module>
-        <module>other</module>
-        <module>all</module>
+        <!-- Keep this list sorted alphabetically please -->
+        <module>artifacts/pom3.xml</module>
+        <module>karaf</module>
+        <module>distribution-karaf</module>
+        <module>features</module>
+        <module>features3-distribution</module>
+        <module>features3-index</module>
+        <module>features3-test</module>
+        <module>version</module>
     </modules>
 </project>

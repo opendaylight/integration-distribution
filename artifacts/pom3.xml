@@ -12,19 +12,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-      <groupId>org.opendaylight.odlparent</groupId>
-      <artifactId>odlparent-lite</artifactId>
-      <version>1.9.0-SNAPSHOT</version>
-      <relativePath/>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>odlparent-lite</artifactId>
+        <version>1.9.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>upstream-aggregator</artifactId>
+    <artifactId>artifacts3-aggregator</artifactId>
     <version>0.7.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
     <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>Aggregator for upstream artifact related modules.</description>
+    <description>Aggregator for artifacts-related distribution sub-projects.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -36,16 +36,12 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <!-- TODO: Work towards using artifact-artifacts only. Properties, artifacts and all than can be joined to replace this pom. -->
     <modules>
-        <module>properties</module>
-        <module>artifacts</module>
-        <module>feature-repos</module>
-        <module>single-features</module>
-        <module>other</module>
-        <module>all</module>
+        <module>distribution</module>
+        <module>upstream/pom3.xml</module>
+        <module>all/pom3.xml</module>
     </modules>
 </project>
