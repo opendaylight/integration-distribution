@@ -18,7 +18,7 @@
       <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>upstream-all-artifacts</artifactId>
+    <artifactId>upstream3-all-artifacts</artifactId>
     <version>0.7.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -45,12 +45,19 @@
             <!-- Idealy, only artifact artifacts should be needed. -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>artifact-artifacts</artifactId>
+                <artifactId>artifact3-artifacts</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
             <!-- TODO: All of the following should contain directions on how to get rid of their content. -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>feature3-repo-artifacts</artifactId>
+                <version>${project.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>feature-repo-artifacts</artifactId>
