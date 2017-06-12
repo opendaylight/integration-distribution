@@ -41,6 +41,6 @@
     </scm>
     <!-- Is there a way to inherit/include properties from a file bumped autimatically? -->
     <properties>
-        <feature.odlparent.version>1.9.0-SNAPSHOT</feature.odlparent.version>
+        <feature.odlparent.version>1.8.0-Carbon</feature.odlparent.version>
     </properties>
 </project>

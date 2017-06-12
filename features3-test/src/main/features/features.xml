@@ -82,7 +82,9 @@
         <feature>odl-netide-app</feature>
         -->
         <feature>odl-neutron-service</feature>
+        <!-- Did not update odlparent version
         <feature>odl-ocpplugin-all</feature>
+        -->
         <feature>odl-openflowplugin-flow-services</feature>
         <feature>odl-openflowplugin-flow-services-rest</feature>
         <feature>odl-openflowplugin-flow-services-ui</feature>

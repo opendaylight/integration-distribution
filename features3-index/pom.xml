@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>features-parent</artifactId>
-        <version>1.9.0-SNAPSHOT</version>
+        <version>1.8.0-Carbon</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -284,12 +284,14 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Did not update odlparent version
         <dependency>
             <groupId>org.opendaylight.ocpplugin</groupId>
             <artifactId>features-ocpplugin</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>features-akka</artifactId>
