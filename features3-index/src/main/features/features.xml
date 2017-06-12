@@ -68,7 +68,9 @@
     <repository>mvn:org.opendaylight.netvirt/vpnservice-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.neutron/features-neutron/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.nic/features-nic/{{VERSION}}/xml/features</repository>
+    <!-- This feature breaks the distribution
     <repository>mvn:org.opendaylight.ocpplugin/features-ocpplugin/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.odlparent/features-akka/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.odlparent/features-odlparent/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.of-config/features-of-config/{{VERSION}}/xml/features</repository>
