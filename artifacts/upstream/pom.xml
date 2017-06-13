@@ -43,7 +43,6 @@
     <modules>
         <module>properties</module>
         <module>artifacts</module>
-        <module>feature3-repos</module>
         <module>feature-repos</module>
         <module>single-features</module>
         <module>other</module>
