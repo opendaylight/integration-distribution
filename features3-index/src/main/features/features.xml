@@ -33,11 +33,13 @@
     <repository>mvn:org.opendaylight.aaa/features-aaa/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.aaa/features-aaa-shiro/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.alto/features-alto-release/{{VERSION}}/xml/features</repository>
+    <!-- bgpcep has issues bumping odlparent version
     <repository>mvn:org.opendaylight.bgpcep/features-bgp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-bmp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-extras/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-pcep/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.bgpcep/features-rsvp/{{VERSION}}/xml/features</repository>
+    -->
     <repository>mvn:org.opendaylight.bier/features-bier/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.cardinal/cardinal-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-extras/{{VERSION}}/xml/features</repository>
