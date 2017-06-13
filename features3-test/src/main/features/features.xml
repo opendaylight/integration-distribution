@@ -59,10 +59,12 @@
         <!-- Please use alphabetical order to add a compatible with all features -->
         <feature>odl-aaa-shiro</feature>
         <feature>odl-aaa-netconf-plugin</feature>
+        <!-- bgpcep has issues bumping odlparent version
         <feature>odl-bgpcep-bgp</feature>
         <feature>odl-bgpcep-bmp</feature>
         <feature>odl-bgpcep-pcep</feature>
         <feature>odl-bgpcep-rsvp</feature>
+        -->
         <feature>odl-cardinal</feature>
         <feature>odl-didm-all</feature>
         <feature>odl-dlux-core</feature>
@@ -118,7 +120,9 @@
     <feature name='odl-integration-all' version='${project.version}'>
         <!-- Please use alphabetical order for non-compatible features -->
         <feature>odl-alto-release</feature>
+        <!-- bgpcep has issues bumping odlparent version and bier uses bgpcep
         <feature>odl-bier-all</feature>
+        -->
         <feature>odl-faas-base</feature>
         <feature>odl-genius-rest</feature>
         <feature>odl-groupbasedpolicy-faas</feature>
