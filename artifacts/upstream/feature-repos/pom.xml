@@ -82,6 +82,7 @@
             </dependency>
 
             <!-- Dlux -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
             <dependency>
                 <groupId>org.opendaylight.dlux</groupId>
                 <artifactId>features4-dlux</artifactId>
@@ -89,8 +90,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- Dlux Apps -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
             <dependency>
                 <groupId>org.opendaylight.dluxapps</groupId>
                 <artifactId>features4-dluxapps</artifactId>
@@ -98,6 +101,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- InfraUtils -->
             <dependency>
@@ -148,6 +152,7 @@
             </dependency>
 
             <!-- OpenFlow Plugin -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
             <dependency>
                 <groupId>org.opendaylight.openflowplugin</groupId>
                 <artifactId>features4-openflowplugin</artifactId>
@@ -176,8 +181,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SNMP -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
             <dependency>
                 <groupId>org.opendaylight.snmp</groupId>
                 <artifactId>features4-snmp</artifactId>
@@ -185,8 +192,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SXP -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
                 <artifactId>features4-sxp</artifactId>
@@ -194,6 +203,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
         </dependencies>
     </dependencyManagement>
