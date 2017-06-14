@@ -145,5 +145,13 @@
 
         <!-- FIXME: Add Yangtools -->
 
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>features4-neutron-service</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
     </dependencies>
 </project>

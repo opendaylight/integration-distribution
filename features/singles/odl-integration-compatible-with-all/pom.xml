@@ -85,5 +85,13 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>odl-neutron-service</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
     </dependencies>
 </project>
