@@ -73,6 +73,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Neutron Northbound -->
+            <dependency>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>odl-neutron-service</artifactId>
+                <version>${neutron.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
