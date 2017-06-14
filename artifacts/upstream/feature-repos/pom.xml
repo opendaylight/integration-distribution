@@ -122,6 +122,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Neuron Northbound -->
+            <dependency>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>features-neutron-service</artifactId>
+                <version>${neutron.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

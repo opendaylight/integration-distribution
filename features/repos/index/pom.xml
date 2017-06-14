@@ -145,7 +145,6 @@
 
         <!-- FIXME: Add Yangtools -->
 
-
         <!-- OVSDB -->
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
@@ -165,5 +164,14 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>features-neutron-service</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
     </dependencies>
 </project>
