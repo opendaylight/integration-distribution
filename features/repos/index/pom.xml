@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>1.8.0-Carbon</version>
+        <version>1.9.0</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -61,6 +61,8 @@
             <type>xml</type>
         </dependency>
 
+        <!-- Offset 0 -->
+
         <!-- AAA -->
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
@@ -71,38 +73,6 @@
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>features4-aaa-shiro</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
-        <!-- BGPCEP -->
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features4-bgp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features4-bmp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features4-bgpcep-extras</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features4-pcep</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features4-rsvp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -127,22 +97,6 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Dlux -->
-        <dependency>
-            <groupId>org.opendaylight.dlux</groupId>
-            <artifactId>features4-dlux</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
-        <!-- Dlux Apps -->
-        <dependency>
-            <groupId>org.opendaylight.dluxapps</groupId>
-            <artifactId>features4-dluxapps</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
         <!-- InfraUtils -->
         <dependency>
             <groupId>org.opendaylight.infrautils</groupId>
@@ -150,6 +104,8 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- FIXME: Add Mdsal -->
 
         <!-- Netconf -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
@@ -187,7 +143,66 @@
             <type>xml</type>
         </dependency>
 
+        <!-- FIXME: Add Yangtools -->
+
+        <!-- Higher offsets, temporarily removed due to Bug 8625 -->
+
+        <!-- BGPCEP -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-bgp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-bmp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-bgpcep-extras</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-pcep</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features4-rsvp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- Dlux -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.dlux</groupId>
+            <artifactId>features4-dlux</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- Dlux Apps -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.dluxapps</groupId>
+            <artifactId>features4-dluxapps</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
         <!-- OpenFlow Plugin -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>features4-openflowplugin</artifactId>
@@ -212,22 +227,27 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- SNMP -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.snmp</groupId>
             <artifactId>features4-snmp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- SXP -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>features4-sxp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
     </dependencies>
 </project>
