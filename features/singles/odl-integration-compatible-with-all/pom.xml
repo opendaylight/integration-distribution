@@ -58,12 +58,104 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
+        <!-- External single feature dependencies. -->
+
+        <!-- AAA -->
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>odl-aaa-shiro</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- BGPCEP -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8362
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-bgp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8363
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-bmp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-pcep</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-rsvp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+
+        <!-- Dlux -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+        <dependency>
+            <groupId>org.opendaylight.dlux</groupId>
+            <artifactId>odl-dlux-core</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+
         <!-- Netconf -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-mdsal</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
+        <!-- OpenFlow Plugin -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>odl-openflowplugin-flow-services-ui</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+
+        <!-- SNMP -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+        <dependency>
+            <groupId>org.opendaylight.snmp</groupId>
+            <artifactId>odl-snmp-plugin</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+
+        <!-- SXP -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+        <dependency>
+            <groupId>org.opendaylight.sxp</groupId>
+            <artifactId>odl-sxp-controller</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+
     </dependencies>
 </project>
