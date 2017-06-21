@@ -41,8 +41,94 @@
         <dependencies>
             <!-- Non-user-facing single feature needed for Version. -->
 
+            <!-- Controller -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>odl-config-persister</artifactId>
+                <version>${config.version}</version>
+                <!-- TODO: Ask Controller to export this version in an artifact POM.-->
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- User facing single features. -->
             <!-- TODO: Open Bugs against projects to export user-facing single feature versions in artifact pom. -->
+
+            <!-- AAA -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-aaa-cert</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Dlux -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.dlux</groupId>
+                <artifactId>odl-dlux-core</artifactId>
+                <version>${dlux.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            -->
+
+            <!-- Netconf -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-netconf-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-restconf</artifactId>
+                <version>${restconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- OpenFlow Plugin -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>odl-openflowplugin-flow-services-ui</artifactId>
+                <version>${openflowplugin.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            -->
+
+            <!-- SNMP -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.snmp</groupId>
+                <artifactId>odl-snmp-plugin</artifactId>
+                <version>${snmp.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            -->
+
+            <!-- SXP -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>odl-sxp-controller</artifactId>
+                <version>${sxp.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            -->
 
         </dependencies>
     </dependencyManagement>
