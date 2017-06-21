@@ -98,12 +98,14 @@
         </dependency>
 
         <!-- InfraUtils -->
+        <!-- Removed temporarily in order to migrate to odlparent 2.0.0
         <dependency>
             <groupId>org.opendaylight.infrautils</groupId>
             <artifactId>infrautils-features4</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- FIXME: Add Mdsal -->
 
