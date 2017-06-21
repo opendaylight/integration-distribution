@@ -63,6 +63,72 @@
 
         <!-- Offset 0, dependency order. -->
 
+        <!-- AAA -->
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>features-aaa</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>features-aaa-shiro</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- Controller -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-extras</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-mdsal</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-mdsal-benchmark</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- InfraUtils -->
+        <dependency>
+            <groupId>org.opendaylight.infrautils</groupId>
+            <artifactId>infrautils-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- FIXME: Add Mdsal -->
+
+        <!-- Netconf -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-netconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-netconf-connector</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-restconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- ODL Parent -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
@@ -77,15 +143,111 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Netconf -->
+        <!-- FIXME: Add Yangtools -->
+
+        <!-- Higher offsets, temporarily removed due to Bug 8625 -->
+
+        <!-- BGPCEP -->
+        <!--
         <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>features-netconf</artifactId>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features-bgp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features-bmp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features-bgpcep-extras</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features-pcep</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>features-rsvp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
 
-        <!-- Higher offsets, temporarily removed due to Bug 8625 -->
+        <!-- Dlux -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.dlux</groupId>
+            <artifactId>features-dlux</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- Dlux Apps -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.dluxapps</groupId>
+            <artifactId>features-dluxapps</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- OpenFlow Plugin -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features-openflowplugin</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features-openflowplugin-he</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features-openflowplugin-extension</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features-openflowplugin-extension-he</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- SNMP -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.snmp</groupId>
+            <artifactId>features-snmp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+
+        <!-- SXP -->
+        <!--
+        <dependency>
+            <groupId>org.opendaylight.sxp</groupId>
+            <artifactId>features-sxp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
 
     </dependencies>
 </project>
