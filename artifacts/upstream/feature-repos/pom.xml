@@ -41,6 +41,163 @@
     <dependencyManagement>
         <!-- User facing feature repositories. -->
         <dependencies>
+
+            <!-- AAA -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features-aaa</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Controller -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-extras</artifactId>
+                <version>${controller.extras.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-mdsal-benchmark</artifactId>
+                <version>${benchmark.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Dlux -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.dlux</groupId>
+                <artifactId>features-dlux</artifactId>
+                <version>${dlux.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            -->
+
+            <!-- Dlux Apps -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>features-dluxapps</artifactId>
+                <version>${dluxapps.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            -->
+
+            <!-- InfraUtils -->
+            <dependency>
+                <groupId>org.opendaylight.infrautils</groupId>
+                <artifactId>infrautils-features</artifactId>
+                <version>${infrautils.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Netconf -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-netconf-connector</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-restconf</artifactId>
+                <version>${restconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- ODL Parent -->
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features-akka</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features-odlparent</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- OpenFlow Plugin -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin-he</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin-extension</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>features-openflowplugin-extension-he</artifactId>
+                <version>${openflowplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            -->
+
+            <!-- SNMP -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.snmp</groupId>
+                <artifactId>features-snmp</artifactId>
+                <version>${snmp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            -->
+
+            <!-- SXP -->
+            <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=8625
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>features-sxp</artifactId>
+                <version>${sxp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            -->
+
         </dependencies>
     </dependencyManagement>
 </project>
