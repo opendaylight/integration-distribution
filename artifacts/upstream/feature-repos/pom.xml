@@ -39,8 +39,90 @@
     </scm>
     <!-- TODO: Open Bugs against projects to export user-facing feature repository versions in artifact poms. -->
     <dependencyManagement>
-        <!-- User facing feature repositories. -->
         <dependencies>
+
+            <!-- User facing feature repositories. -->
+
+            <!-- AAA -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features-aaa</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>features-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Controller -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-extras</artifactId>
+                <version>${controller.extras.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-mdsal-benchmark</artifactId>
+                <version>${benchmark.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- InfraUtils -->
+            <dependency>
+                <groupId>org.opendaylight.infrautils</groupId>
+                <artifactId>infrautils-features</artifactId>
+                <version>${infrautils.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Netconf -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-netconf-connector</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-restconf</artifactId>
+                <version>${restconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- ODL Parent -->
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features-akka</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.odlparent</groupId>
+                <artifactId>features-odlparent</artifactId>
+                <version>${odlparent.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
