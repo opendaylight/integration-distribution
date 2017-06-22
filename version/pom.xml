@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.opendaylight.controller</groupId>
         <artifactId>config-filtering-parent</artifactId>
-        <version>0.5.4-SNAPSHOT</version>
+        <version>0.5.5-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>version</artifactId>
-    <version>0.5.4-SNAPSHOT</version>
+    <version>0.5.5-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Sub-project for ODL version(s) reporting mechanism.</description>
@@ -29,7 +29,7 @@
     </scm>
     <!-- Is there a way to inherit/include properties from a file bumped autimatically? -->
     <properties>
-        <feature.odlparent.version>1.7.4-SNAPSHOT</feature.odlparent.version>
+        <feature.odlparent.version>1.7.5-SNAPSHOT</feature.odlparent.version>
     </properties>
     <build>
         <plugins>

@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>karaf-parent</artifactId>
-        <version>1.7.4-SNAPSHOT</version>
+        <version>1.7.5-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>distribution-karaf</artifactId>
-    <version>0.5.4-SNAPSHOT</version>
+    <version>0.5.5-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>The actual Karaf building sub-project.</description>
@@ -28,7 +28,7 @@
         <tag>HEAD</tag>
     </scm>
     <properties>
-        <odlparent.version>1.7.4-SNAPSHOT</odlparent.version>
+        <odlparent.version>1.7.5-SNAPSHOT</odlparent.version>
     </properties>
     <dependencies>
         <!-- opendaylight-karaf-parent uses this too -->
