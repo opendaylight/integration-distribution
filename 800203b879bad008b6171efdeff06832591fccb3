@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa2559ec_017cce1f",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 5867
+      },
+      "writtenOn": "2017-06-23T16:42:08Z",
+      "side": 1,
+      "message": "this bug (which I\u0027ve no idea what it\u0027s about) now has Status:Resolved, so should this be un-commented at this stage?  If not, should the commented by updated to point to a new bug?",
+      "revId": "800203b879bad008b6171efdeff06832591fccb3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa2559ec_e1789a2d",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 5867
+      },
+      "writtenOn": "2017-06-23T16:42:08Z",
+      "side": 1,
+      "message": "dito",
+      "revId": "800203b879bad008b6171efdeff06832591fccb3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa2559ec_4176c63f",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 5867
+      },
+      "writtenOn": "2017-06-23T16:42:08Z",
+      "side": 1,
+      "message": "dito",
+      "revId": "800203b879bad008b6171efdeff06832591fccb3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
