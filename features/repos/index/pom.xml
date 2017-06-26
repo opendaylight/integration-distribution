@@ -77,6 +77,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- Controller -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-extras</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Netconf -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
