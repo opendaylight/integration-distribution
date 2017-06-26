@@ -58,6 +58,13 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        <!-- Controller -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>odl-jolokia</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
         <!-- Netconf -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>

@@ -44,6 +44,14 @@
             <!-- User facing single features. -->
             <!-- TODO: Open Bugs against projects to export user-facing single feature versions in artifact pom. -->
 
+        <!-- Controller -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>odl-jolokia</artifactId>
+                <version>${controller.extras.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
