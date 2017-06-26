@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_ec5423cc",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-06-26T13:43:12Z",
+      "side": 1,
+      "message": "Please add a comment specifying a section for Controller features starts here.",
+      "range": {
+        "startLine": 61,
+        "startChar": 8,
+        "endLine": 61,
+        "endChar": 9
+      },
+      "revId": "fd4fb0b9756cb86f919ecc602beec25cdb8eb4ba",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_cc515fda",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-06-26T13:43:12Z",
+      "side": 1,
+      "message": "Delete this line, rely in definition somewhere in artifacts/upstream.",
+      "range": {
+        "startLine": 64,
+        "startChar": 20,
+        "endLine": 64,
+        "endChar": 22
+      },
+      "revId": "fd4fb0b9756cb86f919ecc602beec25cdb8eb4ba",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
