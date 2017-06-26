@@ -41,6 +41,13 @@
     <dependencyManagement>
         <!-- User facing feature repositories. -->
         <dependencies>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-extras</artifactId>
+                <version>${controller.extras.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
