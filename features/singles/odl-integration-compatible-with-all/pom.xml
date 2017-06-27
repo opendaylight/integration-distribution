@@ -58,12 +58,32 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
+        <!-- User facing single features. -->
+
+        <!-- AAA -->
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>odl-aaa-shiro</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Netconf -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-mdsal</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
     </dependencies>
 </project>

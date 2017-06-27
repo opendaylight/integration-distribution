@@ -39,10 +39,39 @@
     </scm>
     <dependencyManagement>
         <dependencies>
-            <!-- Non-user-facing single feature needed for Version. -->
-
             <!-- User facing single features. -->
             <!-- TODO: Open Bugs against projects to export user-facing single feature versions in artifact pom. -->
+
+            <!-- AAA -->
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-aaa-cert</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.aaa</groupId>
+                <artifactId>odl-aaa-shiro</artifactId>
+                <version>${aaa.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- Netconf -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-netconf-mdsal</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-restconf</artifactId>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>

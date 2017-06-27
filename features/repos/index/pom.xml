@@ -51,7 +51,43 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+
+        <!-- User facing single features. -->
         <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
+
+        <!-- AAA -->
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>features-aaa</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>features-aaa-shiro</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- Controller -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-extras</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-mdsal</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>features-mdsal-benchmark</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
 
         <!-- Distribution -->
         <dependency>
@@ -61,7 +97,37 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Offset 0, dependency order. -->
+        <!-- InfraUtils -->
+        <dependency>
+            <groupId>org.opendaylight.infrautils</groupId>
+            <artifactId>infrautils-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- FIXME: Add Mdsal -->
+
+        <!-- Netconf -->
+        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-netconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-netconf-connector</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-restconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
 
         <!-- ODL Parent -->
         <dependency>
@@ -77,15 +143,7 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Netconf -->
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>features-restconf</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
-        <!-- Higher offsets, temporarily removed due to Bug 8625 -->
+        <!-- FIXME: Add Yangtools -->
 
     </dependencies>
 </project>
