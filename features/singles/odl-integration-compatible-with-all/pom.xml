@@ -51,6 +51,14 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <!-- Controller -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-mdsal-benchmark</artifactId>
+            <version>${project.version}</version>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
         <!-- Distribution -->
         <dependency>
             <groupId>${project.groupId}</groupId>
