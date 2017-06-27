@@ -42,11 +42,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>all-artifacts</artifactId>
-                <version>${project.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>features-extras</artifactId>
+                <version>${controller.extras.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
             </dependency>
         </dependencies>
     </dependencyManagement>
