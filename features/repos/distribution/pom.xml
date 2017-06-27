@@ -48,6 +48,12 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>odl-mdsal-benchmark</artifactId>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>
