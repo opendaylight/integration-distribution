@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_03586255",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2017-06-27T16:15:55Z",
+      "side": 1,
+      "message": "This is already being done as far as I can tell, from config-artifacts.",
+      "range": {
+        "startLine": 49,
+        "startChar": 16,
+        "endLine": 49,
+        "endChar": 87
+      },
+      "revId": "87c8f6e57d66ef9bd10282a8f4280daecdf12495",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
