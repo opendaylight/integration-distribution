@@ -40,7 +40,14 @@
     <dependencyManagement>
         <dependencies>
             <!-- Non-user-facing single feature needed for Version. -->
-
+        <!-- Controller -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>odl-mdsal-benchmark</artifactId>
+                <version>${project.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
             <!-- User facing single features. -->
             <!-- TODO: Open Bugs against projects to export user-facing single feature versions in artifact pom. -->
 
