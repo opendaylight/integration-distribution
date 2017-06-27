@@ -51,6 +51,13 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <!-- Controller -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-mdsal-benchmark</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
         <!-- Distribution -->
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -65,6 +72,32 @@
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>odl-aaa-shiro</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- BGPCEP -->
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-bgp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-bmp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-pcep</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.bgpcep</groupId>
+            <artifactId>odl-bgpcep-rsvp</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
