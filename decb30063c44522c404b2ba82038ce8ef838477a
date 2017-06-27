@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_fdf16f96",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-06-27T09:16:24Z",
+      "side": 1,
+      "message": "I do not like the two consecutive empty lines, but no big deal.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 0
+      },
+      "revId": "decb30063c44522c404b2ba82038ce8ef838477a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
