@@ -80,6 +80,12 @@
         -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-clustered-topology</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
