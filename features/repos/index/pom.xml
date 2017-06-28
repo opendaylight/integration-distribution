@@ -145,5 +145,25 @@
 
         <!-- FIXME: Add Yangtools -->
 
+
+        <!-- OVSDB -->
+        <dependency>
+            <groupId>org.opendaylight.ovsdb</groupId>
+            <artifactId>library-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.ovsdb</groupId>
+            <artifactId>southbound-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.ovsdb</groupId>
+            <artifactId>hwvtepsouthbound-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
     </dependencies>
 </project>
