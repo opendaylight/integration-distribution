@@ -55,6 +55,27 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>library-artifacts</artifactId>
+                <version>${ovsdb.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>southbound-artifacts</artifactId>
+                <version>${ovsdb.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>hwvtepsouthbound-artifacts</artifactId>
+                <version>${ovsdb.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
