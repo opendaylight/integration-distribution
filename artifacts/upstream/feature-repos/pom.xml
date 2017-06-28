@@ -105,6 +105,20 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-netconf</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-yanglib</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
 
             <!-- ODL Parent -->
             <dependency>

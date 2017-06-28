@@ -72,6 +72,13 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>odl-netconf-clustered-topology</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
