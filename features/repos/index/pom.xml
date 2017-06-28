@@ -143,6 +143,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- TTP -->
+        <dependency>
+            <groupId>org.opendaylight.ttp</groupId>
+            <artifactId>features-ttp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- FIXME: Add Yangtools -->
 
     </dependencies>
