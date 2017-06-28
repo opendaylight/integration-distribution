@@ -16,6 +16,24 @@
       "revId": "8f5fe2b65bf4e7e569ba5a12f7286758d61c32ef",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_4863921a",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-28T15:45:09Z",
+      "side": 1,
+      "message": "Build was failing witout it. I shouldn\u0027t need to, sure missing something elsewhere. Will make other changes you mentioned and try without this.",
+      "parentUuid": "da2a55be_08aa3a19",
+      "revId": "8f5fe2b65bf4e7e569ba5a12f7286758d61c32ef",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
