@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_752bd330",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-06-28T10:14:37Z",
+      "side": 1,
+      "message": "Import netconf-artifacts instead.\nhttps://github.com/opendaylight/netconf/blob/master/netconf/netconf-artifacts/pom.xml",
+      "range": {
+        "startLine": 111,
+        "startChar": 25,
+        "endLine": 111,
+        "endChar": 43
+      },
+      "revId": "fecced203e882e34300fd2b804c8768046a1d491",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_95264767",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-06-28T10:14:37Z",
+      "side": 1,
+      "message": "This is not compatible with all. It is incompatible with odl-netconf-topology, so this would affect 1node netconf -all- csit.",
+      "range": {
+        "startLine": 83,
+        "startChar": 36,
+        "endLine": 83,
+        "endChar": 54
+      },
+      "revId": "fecced203e882e34300fd2b804c8768046a1d491",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
