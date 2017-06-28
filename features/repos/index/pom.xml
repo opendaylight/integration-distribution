@@ -148,7 +148,6 @@
         <!-- FIXME: Add Mdsal -->
 
         <!-- Netconf -->
-        <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features-netconf</artifactId>
@@ -161,10 +160,15 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features-restconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>features-yanglib</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
