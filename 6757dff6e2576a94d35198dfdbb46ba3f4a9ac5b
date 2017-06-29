@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_fdae81e6",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:35:32Z",
+      "side": 1,
+      "message": "If alphabetical this should be before netconf",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_3db9392f",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:35:32Z",
+      "side": 1,
+      "message": "just curious if you depend on infrautils.",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_5d87cd61",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:35:32Z",
+      "side": 1,
+      "message": "I think it is better to do alphabetical for all projects, including offset 0.",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_bd7c0974",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:35:32Z",
+      "side": 1,
+      "message": "i think this should not be",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_3d901995",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:35:32Z",
+      "side": 1,
+      "message": "you can skip this, -rest should cover this one.",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_dd929d9e",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:35:32Z",
+      "side": 1,
+      "message": "delete this, ofp removed -ui dependency",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
