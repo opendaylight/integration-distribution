@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_fa8847c8",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T20:04:52Z",
+      "side": 1,
+      "message": "I guess you mean Neutron, also can you place it in alphabetical order?",
+      "revId": "2b1e33430b4c2c0f49e627267a09c750a7f78452",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_7abc576d",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T20:04:52Z",
+      "side": 1,
+      "message": "Can you place in alphabetical order?",
+      "revId": "2b1e33430b4c2c0f49e627267a09c750a7f78452",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_9abb0b72",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T20:04:52Z",
+      "side": 1,
+      "message": "Also alphabetical here",
+      "revId": "2b1e33430b4c2c0f49e627267a09c750a7f78452",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
