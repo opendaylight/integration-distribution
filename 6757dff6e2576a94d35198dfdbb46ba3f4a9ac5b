@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_5d634db1",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-29T22:09:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_fdae81e6",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_3db9392f",
         "filename": "artifacts/upstream/artifacts/pom.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2017-06-29T21:35:32Z",
       "side": 1,
       "message": "just curious if you depend on infrautils.",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_5deead23",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-29T22:09:58Z",
+      "side": 1,
+      "message": "yes, genius uses infrautils.",
+      "parentUuid": "da2a55be_3db9392f",
       "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_9d5dc5ec",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-29T22:09:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_5d87cd61",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_bd7c0974",
         "filename": "features/repos/index/pom.xml",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2017-06-29T21:35:32Z",
       "side": 1,
       "message": "i think this should not be",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_bdf36909",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-29T22:09:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_bd7c0974",
       "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_fddcc176",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-29T22:09:58Z",
+      "side": 1,
+      "message": "followed older features.xml as a guide. also we use this, without rest, in genius/netvirt.",
+      "parentUuid": "da2a55be_3d901995",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_dd929d9e",
         "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
         "patchSetId": 1
@@ -98,6 +188,24 @@
       "writtenOn": "2017-06-29T21:35:32Z",
       "side": 1,
       "message": "delete this, ofp removed -ui dependency",
+      "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_ddd9fd84",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 3276
+      },
+      "writtenOn": "2017-06-29T22:09:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_dd929d9e",
       "revId": "6757dff6e2576a94d35198dfdbb46ba3f4a9ac5b",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
