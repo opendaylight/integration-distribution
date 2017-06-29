@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_9df825e7",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:50:34Z",
+      "side": 1,
+      "message": "this should be before netconf, right?",
+      "revId": "c845d5606e346bbd6a64d9277f7441df8abd0fa7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_3de77942",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:50:34Z",
+      "side": 1,
+      "message": "this also goes before netconf",
+      "revId": "c845d5606e346bbd6a64d9277f7441df8abd0fa7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_1de4353a",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-29T21:50:34Z",
+      "side": 1,
+      "message": "same comment here",
+      "revId": "c845d5606e346bbd6a64d9277f7441df8abd0fa7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
