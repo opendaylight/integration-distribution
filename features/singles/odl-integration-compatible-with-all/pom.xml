@@ -59,7 +59,7 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- User facing single features. -->
+        <!-- User facing single features. Alphabetical order -->
 
         <!-- AAA -->
         <dependency>
@@ -85,6 +85,20 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- OpenflowPlugin -->
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>odl-openflowplugin-flow-services-rest</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>odl-openflowplugin-nxm-extensions</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- OVSDB -->
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
@@ -94,13 +108,13 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>odl-ovsdb-southbound-impl</artifactId>
+            <artifactId>odl-ovsdb-hwvtepsouthbound</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>odl-ovsdb-hwvtepsouthbound</artifactId>
+            <artifactId>odl-ovsdb-southbound-impl</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>

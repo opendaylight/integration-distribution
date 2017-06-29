@@ -52,7 +52,7 @@
     </dependencyManagement>
     <dependencies>
 
-        <!-- User facing single features. -->
+        <!-- User facing single features. Alphabetical order -->
         <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
 
         <!-- AAA -->
@@ -93,6 +93,14 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>features-distribution</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- Genius -->
+        <dependency>
+            <groupId>org.opendaylight.genius</groupId>
+            <artifactId>genius-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -143,8 +151,13 @@
             <type>xml</type>
         </dependency>
 
-        <!-- FIXME: Add Yangtools -->
-
+        <!-- OpenflowPlugin -->
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features-openflowplugin</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
 
         <!-- OVSDB -->
         <dependency>
@@ -155,15 +168,18 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>southbound-features</artifactId>
+            <artifactId>hwvtepsouthbound-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>hwvtepsouthbound-features</artifactId>
+            <artifactId>southbound-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- FIXME: Add Yangtools -->
+
     </dependencies>
 </project>

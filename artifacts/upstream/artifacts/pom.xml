@@ -39,7 +39,7 @@
     </scm>
     <dependencyManagement>
         <dependencies>
-            <!-- Project artifact poms. -->
+            <!-- Project artifact poms. Alphabetical order -->
             <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
@@ -49,9 +49,37 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.genius</groupId>
+                <artifactId>genius-artifacts</artifactId>
+                <version>${genius.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.infrautils</groupId>
+                <artifactId>infrautils-artifacts</artifactId>
+                <version>${infrautils.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
                 <artifactId>restconf-artifacts</artifactId>
                 <version>${restconf.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.openflowplugin</groupId>
+                <artifactId>openflowplugin-artifacts</artifactId>
+                <version>${openflowplugin.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.ovsdb</groupId>
+                <artifactId>hwvtepsouthbound-artifacts</artifactId>
+                <version>${ovsdb.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -65,13 +93,6 @@
             <dependency>
                 <groupId>org.opendaylight.ovsdb</groupId>
                 <artifactId>southbound-artifacts</artifactId>
-                <version>${ovsdb.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.ovsdb</groupId>
-                <artifactId>hwvtepsouthbound-artifacts</artifactId>
                 <version>${ovsdb.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
