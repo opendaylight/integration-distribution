@@ -145,7 +145,24 @@
 
         <!-- FIXME: Add Yangtools -->
 
+        <!-- Alphabetical -->
 
+        <!-- Genius -->
+        <dependency>
+            <groupId>org.opendaylight.genius</groupId>
+            <artifactId>genius-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- OpenflowPlugin -->
+        <dependency>
+            <groupId>org.opendaylight.openflowplugin</groupId>
+            <artifactId>features-openflowplugin</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        
         <!-- OVSDB -->
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
@@ -155,13 +172,13 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>southbound-features</artifactId>
+            <artifactId>hwvtepsouthbound-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>hwvtepsouthbound-features</artifactId>
+            <artifactId>southbound-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
