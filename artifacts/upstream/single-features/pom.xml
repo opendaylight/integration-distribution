@@ -96,6 +96,29 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- Packetcable -->
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>odl-packetcable-policy-model</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>odl-packetcable-policy-server</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>odl-packetcable-policy-server-all</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- SNMP4SDN -->
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
