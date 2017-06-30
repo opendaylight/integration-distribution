@@ -51,6 +51,13 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <!-- Distribution -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-distribution-version</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
 
         <!-- User facing single features. Alphabetical order -->
 
@@ -62,10 +69,10 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- Distribution -->
+        <!-- Neutron Northbound -->
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>odl-distribution-version</artifactId>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>odl-neutron-service</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -169,6 +176,14 @@
             <artifactId>odl-sxp-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
+        </dependency>
+
+        <!-- NIC -->
+        <dependency>
+            <groupId>org.opendaylight.nic</groupId>
+            <artifactId>odl-nic-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
         </dependency>
 
         <!-- Topoprocessing -->

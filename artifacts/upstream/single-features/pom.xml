@@ -82,6 +82,28 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- NIC -->
+            <dependency>
+                <groupId>org.opendaylight.nic</groupId>
+                <artifactId>odl-nic-all</artifactId>
+                <version>${nic.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.nic</groupId>
+                <artifactId>odl-nic-core-mdsal</artifactId>
+                <version>${nic.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.nic</groupId>
+                <artifactId>odl-nic-intent-common</artifactId>
+                <version>${nic.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
             <!-- TTP -->
             <dependency>
                 <groupId>org.opendaylight.ttp</groupId>
