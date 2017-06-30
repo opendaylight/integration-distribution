@@ -73,6 +73,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- SXP -->
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>odl-sxp-controller</artifactId>
+                <version>${sxp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

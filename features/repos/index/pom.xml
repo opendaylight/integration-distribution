@@ -233,6 +233,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- SXP -->
+        <dependency>
+            <groupId>org.opendaylight.sxp</groupId>
+            <artifactId>features-sxp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- FIXME: Add Yangtools -->
 
     </dependencies>
