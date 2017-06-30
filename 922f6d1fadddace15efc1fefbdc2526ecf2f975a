@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_71babae2",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-06-30T15:05:40Z",
+      "side": 1,
+      "message": "That the result of s/features4-lispflowmapping/features-lispflowmapping/, will remove one of them.",
+      "parentUuid": "da2a55be_915daeec",
+      "revId": "922f6d1fadddace15efc1fefbdc2526ecf2f975a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_3155e2c6",
         "filename": "features/repos/index/pom.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2017-06-30T14:50:31Z",
       "side": 1,
       "message": "All projects I have seen so far have removed K3 features and renamed K4 features features4-\u003efeatures. Do you still want to merge this?",
+      "revId": "922f6d1fadddace15efc1fefbdc2526ecf2f975a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_51bfb6d0",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-06-30T15:05:40Z",
+      "side": 1,
+      "message": "We did too, this patch is a respin of an older one and I missed this.",
+      "parentUuid": "da2a55be_3155e2c6",
       "revId": "922f6d1fadddace15efc1fefbdc2526ecf2f975a",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
