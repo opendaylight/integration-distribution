@@ -122,6 +122,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- SXP -->
+            <dependency>
+                <groupId>org.opendaylight.sxp</groupId>
+                <artifactId>features-sxp</artifactId>
+                <version>${sxp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
