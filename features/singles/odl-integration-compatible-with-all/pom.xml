@@ -207,6 +207,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- NIC -->
+        <dependency>
+            <groupId>org.opendaylight.nic</groupId>
+            <artifactId>odl-nic-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- OpenflowPlugin -->
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>

@@ -118,6 +118,30 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Netconf -->
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-netconf-connector</artifactId>
+                <version>${netconf.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.netconf</groupId>
+                <artifactId>features-restconf</artifactId>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- NIC -->
+            <dependency>
+                <groupId>org.opendaylight.nic</groupId>
+                <artifactId>features-nic</artifactId>
+                <version>${nic.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- ODL Parent -->
             <dependency>
                 <groupId>org.opendaylight.odlparent</groupId>
