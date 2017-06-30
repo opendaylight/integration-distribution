@@ -102,6 +102,29 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Packetcable -->
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>odl-packetcable-policy-model</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>odl-packetcable-policy-server</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.packetcable</groupId>
+                <artifactId>odl-packetcable-policy-server-all</artifactId>
+                <version>${packetcable.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- SXP -->
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
