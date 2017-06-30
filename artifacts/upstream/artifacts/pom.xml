@@ -147,6 +147,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                <artifactId>vbd-artifacts</artifactId>
+                <version>${honeycomb.vbd.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
                 <artifactId>netconf-artifacts</artifactId>
                 <version>${netconf.version}</version>
