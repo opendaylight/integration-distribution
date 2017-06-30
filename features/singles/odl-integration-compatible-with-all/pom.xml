@@ -70,15 +70,7 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- Distribution -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>odl-distribution-version</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-         <!-- BGPCEP -->
+        <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
@@ -100,6 +92,14 @@
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-rsvp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Distribution -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-distribution-version</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -164,6 +164,14 @@
         </dependency>
         -->
 
+        <!-- NIC -->
+        <dependency>
+            <groupId>org.opendaylight.nic</groupId>
+            <artifactId>odl-nic-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- OpenflowPlugin -->
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
@@ -174,14 +182,6 @@
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>odl-openflowplugin-nxm-extensions</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- TTP -->
-        <dependency>
-            <groupId>org.opendaylight.ttp</groupId>
-            <artifactId>odl-ttp-model-rest</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -242,6 +242,14 @@
         <dependency>
             <groupId>org.opendaylight.topoprocessing</groupId>
             <artifactId>odl-topoprocessing-mlmt</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- TTP -->
+        <dependency>
+            <groupId>org.opendaylight.ttp</groupId>
+            <artifactId>odl-ttp-model-rest</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
