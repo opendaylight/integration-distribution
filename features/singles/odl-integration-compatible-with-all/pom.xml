@@ -70,6 +70,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>odl-neutron-service</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
          <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
@@ -170,6 +178,14 @@
             <artifactId>odl-sxp-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
+        </dependency>
+
+        <!-- NIC -->
+        <dependency>
+            <groupId>org.opendaylight.nic</groupId>
+            <artifactId>odl-nic-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
         </dependency>
 
         <!-- Topoprocessing -->
