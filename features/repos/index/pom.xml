@@ -147,14 +147,6 @@
 
         <!-- FIXME: Add Mdsal -->
 
-        <!-- Neutron Northbound -->
-        <dependency>
-            <groupId>org.opendaylight.neutron</groupId>
-            <artifactId>features-neutron-service</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
         <!-- Netconf -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
@@ -181,6 +173,14 @@
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>vpnservice-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>features-neutron-service</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -237,6 +237,14 @@
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>features-sxp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
+        <!-- Topoprocessing -->
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>features-topoprocessing</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>

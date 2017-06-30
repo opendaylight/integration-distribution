@@ -51,13 +51,6 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <!-- Distribution -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>odl-distribution-version</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
 
         <!-- User facing single features. Alphabetical order -->
 
@@ -69,10 +62,10 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- Neutron Northbound -->
+        <!-- Distribution -->
         <dependency>
-            <groupId>org.opendaylight.neutron</groupId>
-            <artifactId>odl-neutron-service</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-distribution-version</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -91,7 +84,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-pcep</artifactId>
@@ -117,6 +109,14 @@
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>odl-neutron-service</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -170,5 +170,38 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- Topoprocessing -->
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-i2rs</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-inventory</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-inventory-rendering</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-network-topology</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-mlmt</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
     </dependencies>
 </project>

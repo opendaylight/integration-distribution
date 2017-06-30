@@ -56,13 +56,6 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.opendaylight.neutron</groupId>
-                <artifactId>neutron-artifacts</artifactId>
-                <version>${neutron.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.opendaylight.genius</groupId>
                 <artifactId>genius-artifacts</artifactId>
                 <version>${genius.version}</version>
@@ -91,6 +84,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>neutron-artifacts</artifactId>
+                <version>${neutron.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.openflowplugin</groupId>
                 <artifactId>openflowplugin-artifacts</artifactId>
                 <version>${openflowplugin.version}</version>
@@ -115,6 +115,13 @@
                 <groupId>org.opendaylight.ovsdb</groupId>
                 <artifactId>southbound-artifacts</artifactId>
                 <version>${ovsdb.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.topoprocessing</groupId>
+                <artifactId>topoprocessing-artifacts</artifactId>
+                <version>${topoprocessing.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
