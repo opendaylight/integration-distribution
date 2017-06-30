@@ -42,16 +42,16 @@
             <!-- Project artifact poms. Alphabetical order -->
             <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
             <dependency>
-                <groupId>org.opendaylight.bgpcep</groupId>
-                <artifactId>bgpcep-artifacts</artifactId>
-                <version>${bgpcep.version}</version>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>config-artifacts</artifactId>
+                <version>${config.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.opendaylight.controller</groupId>
-                <artifactId>config-artifacts</artifactId>
-                <version>${config.version}</version>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>neutron-artifacts</artifactId>
+                <version>${neutron.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -122,6 +122,13 @@
                 <groupId>org.opendaylight.topoprocessing</groupId>
                 <artifactId>topoprocessing-artifacts</artifactId>
                 <version>${topoprocessing.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                <artifactId>vbd-artifacts</artifactId>
+                <version>${honeycomb.vbd.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
