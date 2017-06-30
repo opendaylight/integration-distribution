@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_91e2ce01",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-06-30T15:01:14Z",
+      "side": 1,
+      "message": "You have dependency in dlux, we have to wait until delux applies to distribution.",
+      "revId": "9c2d3f6011b95c6fbb50114ae8bb57ac1e67341f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
