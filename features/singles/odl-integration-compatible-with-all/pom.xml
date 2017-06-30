@@ -218,6 +218,16 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- NIC -->
+        <!-- Commenting this feature because SFT memory issues
+        <dependency>
+            <groupId>org.opendaylight.nic</groupId>
+            <artifactId>odl-nic-intent-common</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
+
         <!-- OCPplugin -->
         <dependency>
             <groupId>org.opendaylight.ocpplugin</groupId>
