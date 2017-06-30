@@ -367,5 +367,13 @@
 
         <!-- FIXME: Add Yangtools -->
 
+        <!-- Packetcable -->
+        <dependency>
+            <groupId>org.opendaylight.packetcable</groupId>
+            <artifactId>features4-packetcable-policy</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
     </dependencies>
 </project>
