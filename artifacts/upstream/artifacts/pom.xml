@@ -118,6 +118,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.opendaylight.topoprocessing</groupId>
+                <artifactId>topoprocessing-artifacts</artifactId>
+                <version>${topoprocessing.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
