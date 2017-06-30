@@ -127,6 +127,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- NIC -->
+            <dependency>
+                <groupId>org.opendaylight.nic</groupId>
+                <artifactId>features-nic</artifactId>
+                <version>${nic.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- OCP Plugin -->
             <dependency>
                 <groupId>org.opendaylight.ocpplugin</groupId>
