@@ -82,6 +82,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- TTP -->
+            <dependency>
+                <groupId>org.opendaylight.ttp</groupId>
+                <artifactId>odl-ttp-model-rest</artifactId>
+                <version>${ttp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
