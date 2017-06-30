@@ -260,6 +260,26 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- Packetcable -->
+        <dependency>
+            <groupId>org.opendaylight.packetcable</groupId>
+            <artifactId>odl-packetcable-policy-model</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.packetcable</groupId>
+            <artifactId>odl-packetcable-policy-server</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.packetcable</groupId>
+            <artifactId>odl-packetcable-policy-server-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- SFC -->
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
