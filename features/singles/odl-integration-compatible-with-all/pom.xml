@@ -70,7 +70,17 @@
             <classifier>features</classifier>
         </dependency>
 
-         <!-- BGPCEP -->
+        <!-- User facing single features. Alphabetical order -->
+
+        <!-- AAA -->
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>odl-aaa-shiro</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
@@ -92,6 +102,14 @@
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-rsvp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Neutron Northbound -->
+        <dependency>
+            <groupId>org.opendaylight.neutron</groupId>
+            <artifactId>odl-neutron-service</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -202,6 +220,27 @@
             <artifactId>odl-topoprocessing-mlmt</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
+        </dependency>
+
+
+        <!-- Honeycomb/VBD -->
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-rest</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-ui</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
         </dependency>
 
     </dependencies>
