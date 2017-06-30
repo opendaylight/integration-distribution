@@ -126,5 +126,36 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        <!-- Topoprocessing -->
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-i2rs</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-inventory</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-inventory-rendering</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-network-topology</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.topoprocessing</groupId>
+            <artifactId>odl-topoprocessing-mlmt</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
     </dependencies>
 </project>
