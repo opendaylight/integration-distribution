@@ -61,6 +61,19 @@
                 <version>${config.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency><dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>config-artifacts</artifactId>
+                <version>${config.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.neutron</groupId>
+                <artifactId>neutron-artifacts</artifactId>
+                <version>${neutron.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.opendaylight.daexim</groupId>
@@ -143,6 +156,13 @@
                 <groupId>org.opendaylight.topoprocessing</groupId>
                 <artifactId>topoprocessing-artifacts</artifactId>
                 <version>${topoprocessing.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                <artifactId>vbd-artifacts</artifactId>
+                <version>${honeycomb.vbd.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

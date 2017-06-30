@@ -62,22 +62,6 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- Daexim -->
-        <dependency>
-	    <groupId>org.opendaylight.daexim</groupId>
-            <artifactId>odl-daexim-all</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- Distribution -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>odl-distribution-version</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
          <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
@@ -100,6 +84,22 @@
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-rsvp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Daexim -->
+        <dependency>
+	    <groupId>org.opendaylight.daexim</groupId>
+            <artifactId>odl-daexim-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Distribution -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-distribution-version</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -128,6 +128,26 @@
             <artifactId>odl-dluxapps-yangvisualizer</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
+        </dependency>
+
+        <!-- Honeycomb/VBD -->
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-rest</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-ui</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
         </dependency>
 
         <!-- LISP Flow Mapping -->
@@ -174,14 +194,6 @@
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>odl-openflowplugin-nxm-extensions</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- TTP -->
-        <dependency>
-            <groupId>org.opendaylight.ttp</groupId>
-            <artifactId>odl-ttp-model-rest</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -242,6 +254,14 @@
         <dependency>
             <groupId>org.opendaylight.topoprocessing</groupId>
             <artifactId>odl-topoprocessing-mlmt</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- TTP -->
+        <dependency>
+            <groupId>org.opendaylight.ttp</groupId>
+            <artifactId>odl-ttp-model-rest</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
