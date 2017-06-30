@@ -285,5 +285,25 @@
 
         <!-- FIXME: Add Yangtools -->
 
+        <!-- Honeycomb/VBD -->
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-rest</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-ui</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
     </dependencies>
 </project>
