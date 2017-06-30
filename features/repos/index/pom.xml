@@ -261,6 +261,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- NIC -->
+        <dependency>
+            <groupId>org.opendaylight.nic</groupId>
+            <artifactId>features-nic</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- ODL Parent -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
