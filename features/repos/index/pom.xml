@@ -145,14 +145,6 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Netvirt -->
-        <dependency>
-            <groupId>org.opendaylight.netvirt</groupId>
-            <artifactId>vpnservice-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
         <!-- ODL Parent -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
