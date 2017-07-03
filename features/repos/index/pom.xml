@@ -170,12 +170,14 @@
         </dependency>
 
         <!-- Netvirt -->
+        <!-- Temporary remove netvirt
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>vpnservice-features</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- Neutron Northbound -->
         <dependency>

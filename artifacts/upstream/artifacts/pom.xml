@@ -76,6 +76,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Temporary remove netvirt
             <dependency>
                 <groupId>org.opendaylight.netvirt</groupId>
                 <artifactId>vpnservice-artifacts</artifactId>
@@ -83,6 +84,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.opendaylight.neutron</groupId>
                 <artifactId>neutron-artifacts</artifactId>

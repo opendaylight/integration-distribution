@@ -69,12 +69,14 @@
         </dependency>
 
         <!-- Netvirt -->
+        <!-- Temporary remove netvirt
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>odl-netvirt-openstack</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
     </dependencies>
 </project>
