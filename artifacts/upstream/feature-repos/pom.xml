@@ -82,6 +82,24 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Dlux -->
+            <dependency>
+                <groupId>org.opendaylight.dlux</groupId>
+                <artifactId>features-dlux</artifactId>
+                <version>${dlux.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+            <!-- DluxApps -->
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>features-dluxapps</artifactId>
+                <version>${dluxapps.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- InfraUtils -->
             <dependency>
                 <groupId>org.opendaylight.infrautils</groupId>

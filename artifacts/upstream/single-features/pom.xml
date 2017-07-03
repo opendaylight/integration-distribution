@@ -58,6 +58,35 @@
                 <type>xml</type>
             </dependency>
 
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>odl-dluxapps-nodes</artifactId>
+                <version>${dluxapps.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>odl-dluxapps-topology</artifactId>
+                <version>${dluxapps.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>odl-dluxapps-yangman</artifactId>
+                <version>${dluxapps.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.dluxapps</groupId>
+                <artifactId>odl-dluxapps-yangvisualizer</artifactId>
+                <version>${dluxapps.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
             <!-- Netconf -->
             <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
