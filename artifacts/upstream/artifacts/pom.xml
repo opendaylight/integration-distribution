@@ -49,6 +49,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.coe</groupId>
+                <artifactId>coe-artifacts</artifactId>
+                <version>${coe.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.controller</groupId>
                 <artifactId>config-artifacts</artifactId>
                 <version>${config.version}</version>
