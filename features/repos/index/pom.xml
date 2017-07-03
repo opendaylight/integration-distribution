@@ -101,6 +101,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- COE -->
+        <dependency>
+            <groupId>org.opendaylight.coe</groupId>
+            <artifactId>features-coe</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- Controller -->
         <dependency>
             <groupId>org.opendaylight.controller</groupId>

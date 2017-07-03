@@ -60,6 +60,14 @@
 
         <!-- External single feature dependencies in alphabetical order -->
 
+        <!-- COE -->
+        <dependency>
+            <groupId>org.opendaylight.coe</groupId>
+            <artifactId>odl-coe</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Genius -->
         <dependency>
             <groupId>org.opendaylight.genius</groupId>
