@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_05acce9f",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-04T10:54:44Z",
+      "side": 1,
+      "message": "I wonder how this happened.\nContents of artifacts/ is there for the sole purpose of defining versions to use. If a component is already covered in artifacts/upstream/artifacts, there is no point repeating lines (without overriding versions) here.\nIn other words, the whole Netconf section can be removed from this file.",
+      "range": {
+        "startLine": 94,
+        "startChar": 12,
+        "endLine": 94,
+        "endChar": 28
+      },
+      "revId": "4ee0044a20b5af50d0d6507cead657ccd42ecd47",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_659caa6a",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-04T10:54:44Z",
+      "side": 1,
+      "message": "See https://git.opendaylight.org/gerrit/#/c/59607/5/artifacts/upstream/feature-repos/pom.xml@94",
+      "range": {
+        "startLine": 61,
+        "startChar": 12,
+        "endLine": 61,
+        "endChar": 28
+      },
+      "revId": "4ee0044a20b5af50d0d6507cead657ccd42ecd47",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
