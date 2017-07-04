@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_a5d50245",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-04T10:33:44Z",
+      "side": 1,
+      "message": "The packetcable project does not create this artifact. Either add that artifact to packetcable project, or add versions to other artifacts/upstream/ directories (feature-repos/ and single-features/).",
+      "range": {
+        "startLine": 130,
+        "startChar": 28,
+        "endLine": 130,
+        "endChar": 49
+      },
+      "revId": "1150fe7d7b7b9901cf4ebb19f70a978656aff1fc",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
