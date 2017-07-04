@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_8858d357",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-04T19:19:45Z",
+      "side": 1,
+      "message": "Add in alphabetical order",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_68559f1c",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-04T19:19:45Z",
+      "side": 1,
+      "message": "Also here, use alphabetical order",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_c8312b0d",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-04T19:19:45Z",
+      "side": 1,
+      "message": "Why are you adding neutron? this breaks the test.",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_48253bc1",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-04T19:19:45Z",
+      "side": 1,
+      "message": "add in alphabetical order.",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_a8367701",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-04T19:19:45Z",
+      "side": 1,
+      "message": "remove neutron",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_e8406f58",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-04T19:19:45Z",
+      "side": 1,
+      "message": "use alphabetical order",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
