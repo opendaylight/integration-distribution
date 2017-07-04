@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_a5bfc2cf",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-04T10:48:16Z",
+      "side": 1,
+      "message": "lispflowmapping",
+      "range": {
+        "startLine": 61,
+        "startChar": 27,
+        "endLine": 61,
+        "endChar": 33
+      },
+      "revId": "bbad2f4d5faf69600c8e1b3b2be133421f16e238",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
