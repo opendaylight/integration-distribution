@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_4e4b7eb0",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-06T18:34:09Z",
+      "side": 1,
+      "message": "lispflowmapping\nSorry for not spotting that earlier.",
+      "range": {
+        "startLine": 66,
+        "startChar": 42,
+        "endLine": 66,
+        "endChar": 52
+      },
+      "revId": "2b2763345bec26cdec7815795b79c1d09e64e9df",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
