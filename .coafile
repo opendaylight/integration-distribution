@@ -1,3 +1,7 @@
+[all]
+ignore = .tox/**, .git/**, .gitignore, .gitreview, **.sw?, **.orig,
+         karaf/target/**
+
 [GitCommit]
 bears = GitCommitBear
 ignore_length_regex = Signed-off-by,
@@ -6,8 +10,23 @@ ignore_length_regex = Signed-off-by,
     http://,
     https://
 
-[Python]
-bears = PEP8Bear
-files = **/*.py
-ignore = .*/**
-max_line_length = 120
+[all.spacing]
+bears = SpaceConsistencyBear
+# TODO: Enable this and fix errors
+enabled = False
+use_spaces = True
+enforce_newline_at_EOF = False
+files = **
+# default_actions = SpaceConsistencyBear: ApplyPatchAction
+
+[all.shell]
+bears = ShellCheckBear
+# TODO: Enable this and fix errors
+enabled = False
+files = **.sh
+
+[all.xml]
+bears = XMLBear
+# TODO: Enable this and fix errors
+enabled = False
+files = **.xml
