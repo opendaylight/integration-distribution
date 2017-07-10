@@ -32,3 +32,6 @@ maven-eclipse.xml
 
 # Maven console output redirect
 log.txt
+
+# Tox test/linting files
+.tox/
