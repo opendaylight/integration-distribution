@@ -231,6 +231,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_bcc4e640",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 7254
+      },
+      "writtenOn": "2017-07-12T08:03:32Z",
+      "side": 1,
+      "message": "It was in master. I removed Neutron.",
+      "parentUuid": "da2a55be_a8367701",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_e8406f58",
         "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
         "patchSetId": 5
@@ -242,6 +260,24 @@
       "writtenOn": "2017-07-04T19:19:45Z",
       "side": 1,
       "message": "use alphabetical order",
+      "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_9cc12231",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 7254
+      },
+      "writtenOn": "2017-07-12T08:03:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_e8406f58",
       "revId": "b758869de3096bd2f78ff9e0abae7b1a141f082f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
