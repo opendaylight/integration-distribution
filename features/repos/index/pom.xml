@@ -283,6 +283,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- VTN -->
+        <dependency>
+            <groupId>org.opendaylight.vtn</groupId>
+            <artifactId>features-vtn-manager</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- FIXME: Add Yangtools -->
 
     </dependencies>
