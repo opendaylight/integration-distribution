@@ -62,6 +62,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- Daexim -->
+        <dependency>
+	    <groupId>org.opendaylight.daexim</groupId>
+            <artifactId>odl-daexim-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Distribution -->
         <dependency>
             <groupId>${project.groupId}</groupId>
