@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_3159385b",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-07-13T16:38:05Z",
+      "side": 1,
+      "message": "OK",
+      "parentUuid": "da2a55be_cb2bca80",
+      "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_2b21c69f",
         "filename": "artifacts/upstream/artifacts/pom.xml",
         "patchSetId": 6
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_d159bc5c",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-07-13T16:38:05Z",
+      "side": 1,
+      "message": "Andrej rebased this patch, suppose it\u0027s a rebase issue, will fix.",
+      "parentUuid": "da2a55be_2b21c69f",
+      "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_6b3a9ece",
         "filename": "features/repos/index/pom.xml",
         "patchSetId": 6
@@ -47,6 +83,24 @@
       "writtenOn": "2017-07-13T03:46:33Z",
       "side": 1,
       "message": "Why this is brought in this patch?",
+      "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_1154f41f",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-07-13T16:38:05Z",
+      "side": 1,
+      "message": "Andrej rebased this patch and this got in. I thought it was intentional. Will remove.",
+      "parentUuid": "da2a55be_6b3a9ece",
       "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
