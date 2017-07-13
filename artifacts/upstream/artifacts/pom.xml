@@ -63,6 +63,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.daexim</groupId>
+                <artifactId>daexim-artifacts</artifactId>
+                <version>${daexim.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.genius</groupId>
                 <artifactId>genius-artifacts</artifactId>
                 <version>${genius.version}</version>

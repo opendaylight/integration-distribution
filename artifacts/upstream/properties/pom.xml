@@ -54,6 +54,7 @@
         <coe.version>0.2.0-SNAPSHOT</coe.version>
         <config.version>0.7.0-SNAPSHOT</config.version>
         <controller.extras.version>1.9.0-SNAPSHOT</controller.extras.version>
+        <daexim.version>1.2.0-SNAPSHOT</daexim.version>
         <didm.version>0.5.0-SNAPSHOT</didm.version>
         <dlux.version>0.6.0-SNAPSHOT</dlux.version>
         <dluxapps.version>0.6.0-SNAPSHOT</dluxapps.version>
