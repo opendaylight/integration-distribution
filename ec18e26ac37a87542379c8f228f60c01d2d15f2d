@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_f1db20eb",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-13T15:53:05Z",
+      "side": 1,
+      "message": "Does this mean we can revert [0], or is this just a subset that does not cause any problems?\n\n[0] https://git.opendaylight.org/gerrit/59905",
+      "range": {
+        "startLine": 96,
+        "startChar": 40,
+        "endLine": 96,
+        "endChar": 47
+      },
+      "revId": "ec18e26ac37a87542379c8f228f60c01d2d15f2d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
