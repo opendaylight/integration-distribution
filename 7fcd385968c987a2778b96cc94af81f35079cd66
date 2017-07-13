@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_cb2bca80",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-13T03:46:33Z",
+      "side": 1,
+      "message": "Please place this in alphabetical order",
+      "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_2b21c69f",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-13T03:46:33Z",
+      "side": 1,
+      "message": "Why neutron is brought in this patch?",
+      "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_6b3a9ece",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-13T03:46:33Z",
+      "side": 1,
+      "message": "Why this is brought in this patch?",
+      "revId": "7fcd385968c987a2778b96cc94af81f35079cd66",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
