@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da2a55be_c90d8439",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 824
+      },
+      "writtenOn": "2017-07-17T12:54:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_8b4b8986",
+      "revId": "ec18e26ac37a87542379c8f228f60c01d2d15f2d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da2a55be_f1db20eb",
         "filename": "features/singles/odl-integration-all/pom.xml",
         "patchSetId": 2
