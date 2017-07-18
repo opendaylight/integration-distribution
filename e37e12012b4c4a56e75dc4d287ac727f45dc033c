@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_a207861c",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-07-18T16:22:22Z",
+      "side": 1,
+      "message": "spaces are still there.",
+      "revId": "e37e12012b4c4a56e75dc4d287ac727f45dc033c",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
