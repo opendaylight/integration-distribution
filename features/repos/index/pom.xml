@@ -169,6 +169,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- GROUPBASEDPOLICY -->
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>features-groupbasedpolicy</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Honeycomb/VBD -->
         <dependency>
             <groupId>org.opendaylight.honeycomb.vbd</groupId>
@@ -316,6 +324,5 @@
         </dependency>
 
         <!-- FIXME: Add Yangtools -->
-
     </dependencies>
 </project>

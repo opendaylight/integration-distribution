@@ -147,6 +147,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.groupbasedpolicy</groupId>
+                <artifactId>groupbasedpolicy-artifacts</artifactId>
+                <version>${groupbasedpolicy.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.honeycomb.vbd</groupId>
                 <artifactId>vbd-artifacts</artifactId>
                 <version>${honeycomb.vbd.version}</version>
