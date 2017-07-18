@@ -62,22 +62,6 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- Daexim -->
-        <dependency>
-	    <groupId>org.opendaylight.daexim</groupId>
-            <artifactId>odl-daexim-all</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- Distribution -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>odl-distribution-version</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
          <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
@@ -85,7 +69,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bmp</artifactId>
@@ -98,9 +81,26 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-rsvp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Daexim -->
+        <dependency>
+            <groupId>org.opendaylight.daexim</groupId>
+            <artifactId>odl-daexim-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- Distribution -->
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>odl-distribution-version</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -127,6 +127,86 @@
         <dependency>
             <groupId>org.opendaylight.dluxapps</groupId>
             <artifactId>odl-dluxapps-yangvisualizer</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- GROUPBASEDPOLICY or GBP-->
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-base</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-iovisor</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-neutronmapper</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-neutron-and-ofoverlay</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-ofoverlay</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-vpp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-neutron-vpp-mapper</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-ui</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-ip-sgt-distribution-service</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-ne-location-provider</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-ios-xe</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-sxp-ep-provider</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-sxp-ise-adapter</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
@@ -201,14 +281,6 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- TTP -->
-        <dependency>
-            <groupId>org.opendaylight.ttp</groupId>
-            <artifactId>odl-ttp-model-rest</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
         <!-- OVSDB -->
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
@@ -265,6 +337,14 @@
         <dependency>
             <groupId>org.opendaylight.topoprocessing</groupId>
             <artifactId>odl-topoprocessing-mlmt</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- TTP -->
+        <dependency>
+            <groupId>org.opendaylight.ttp</groupId>
+            <artifactId>odl-ttp-model-rest</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
