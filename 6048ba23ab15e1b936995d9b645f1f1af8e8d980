@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_57a2c1ae",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-21T12:16:21Z",
+      "side": 1,
+      "message": "Replace with spaces please.",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 1
+      },
+      "revId": "6048ba23ab15e1b936995d9b645f1f1af8e8d980",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_f7c3f554",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-21T12:16:21Z",
+      "side": 1,
+      "message": "Groupbasedpolicy or GBP.",
+      "range": {
+        "startLine": 133,
+        "startChar": 13,
+        "endLine": 133,
+        "endChar": 29
+      },
+      "revId": "6048ba23ab15e1b936995d9b645f1f1af8e8d980",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
