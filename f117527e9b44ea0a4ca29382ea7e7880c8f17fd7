@@ -22,6 +22,30 @@
       "revId": "f117527e9b44ea0a4ca29382ea7e7880c8f17fd7",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_dcf9b6c9",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7254
+      },
+      "writtenOn": "2017-07-21T09:17:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da2a55be_9c21fea1",
+      "range": {
+        "startLine": 175,
+        "startChar": 24,
+        "endLine": 175,
+        "endChar": 49
+      },
+      "revId": "f117527e9b44ea0a4ca29382ea7e7880c8f17fd7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
