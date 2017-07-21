@@ -102,6 +102,71 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- SFC -->
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-ios-xe-renderer</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-netconf</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-openflow-renderer</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-ovs</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-sb-rest</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-test-consumer</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-ui</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfc-vpp-renderer</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>odl-sfclisp</artifactId>
+                <version>${sfc.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
             <!-- SXP -->
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
@@ -136,6 +201,6 @@
                 <type>xml</type>
             </dependency>
 
-      </dependencies>
+        </dependencies>
     </dependencyManagement>
 </project>
