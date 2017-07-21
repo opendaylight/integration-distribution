@@ -152,6 +152,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- SFC -->
+            <dependency>
+                <groupId>org.opendaylight.sfc</groupId>
+                <artifactId>features4-sfc</artifactId>
+                <version>${sfc.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- SNMP4SDN -->
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
