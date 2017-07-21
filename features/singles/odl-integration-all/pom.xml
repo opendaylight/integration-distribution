@@ -98,5 +98,25 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- SFC -->
+        <dependency>
+            <groupId>org.opendaylight.sfc</groupId>
+            <artifactId>odl-sfc-openflow-renderer</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.sfc</groupId>
+            <artifactId>odl-sfc-ios-xe-renderer</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.sfc</groupId>
+            <artifactId>odl-sfc-vpp-renderer</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
     </dependencies>
 </project>
