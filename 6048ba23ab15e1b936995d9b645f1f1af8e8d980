@@ -45,6 +45,75 @@
       "revId": "6048ba23ab15e1b936995d9b645f1f1af8e8d980",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_d7ca314e",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-21T12:34:19Z",
+      "side": 1,
+      "message": "This has been removed: https://git.opendaylight.org/gerrit/#/c/46247/2/features/odl-groupbasedpolicy-ovssfc/pom.xml",
+      "range": {
+        "startLine": 148,
+        "startChar": 24,
+        "endLine": 148,
+        "endChar": 51
+      },
+      "revId": "6048ba23ab15e1b936995d9b645f1f1af8e8d980",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_b7c5fd3e",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-21T12:34:19Z",
+      "side": 1,
+      "message": "Sort alphabetically please.",
+      "range": {
+        "startLine": 154,
+        "startChar": 45,
+        "endLine": 154,
+        "endChar": 52
+      },
+      "revId": "6048ba23ab15e1b936995d9b645f1f1af8e8d980",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_97b1d9e3",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-21T12:34:19Z",
+      "side": 1,
+      "message": "This has been removed: https://git.opendaylight.org/gerrit/#/c/46246/3/features/odl-groupbasedpolicy-netconf/pom.xml",
+      "range": {
+        "startLine": 160,
+        "startChar": 24,
+        "endLine": 160,
+        "endChar": 52
+      },
+      "revId": "6048ba23ab15e1b936995d9b645f1f1af8e8d980",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
