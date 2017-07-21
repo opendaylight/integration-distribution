@@ -285,6 +285,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- SFC -->
+        <dependency>
+            <groupId>org.opendaylight.sfc</groupId>
+            <artifactId>features4-sfc</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SXP -->
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
