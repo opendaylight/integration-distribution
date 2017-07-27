@@ -112,6 +112,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.ocpplugin</groupId>
+                <artifactId>ocpplugin-artifacts</artifactId>
+                <version>${ocpplugin.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.openflowplugin</groupId>
                 <artifactId>openflowplugin-artifacts</artifactId>
                 <version>${openflowplugin.version}</version>
