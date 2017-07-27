@@ -161,6 +161,13 @@
             <type>xml</type>
         </dependency>
 
+        <!-- Cardinal -->
+        <dependency>
+            <groupId>org.opendaylight.cardinal</groupId>
+            <artifactId>cardinal-features4</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
         <!-- Genius -->
         <dependency>
             <groupId>org.opendaylight.genius</groupId>
