@@ -299,6 +299,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- Unimgr -->
+        <dependency>
+            <groupId>org.opendaylight.unimgr</groupId>
+            <artifactId>features4-unimgr</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- VTN -->
         <dependency>
             <groupId>org.opendaylight.vtn</groupId>

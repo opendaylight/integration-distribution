@@ -246,5 +246,13 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- Unimgr -->
+        <dependency>
+            <groupId>org.opendaylight.unimgr</groupId>
+            <artifactId>odl-unimgr</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
     </dependencies>
 </project>
