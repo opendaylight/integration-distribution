@@ -96,6 +96,15 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- OCP Plugin -->
+            <dependency>
+                <groupId>org.opendaylight.ocpplugin</groupId>
+                <artifactId>odl-ocpplugin-all</artifactId>
+                <version>${ocpplugin.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- SNMP4SDN -->
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
