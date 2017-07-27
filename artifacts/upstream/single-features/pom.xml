@@ -87,6 +87,36 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- Cardinal -->
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>odl-cardinal-api</artifactId>
+                <version>${cardinal.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>odl-cardinal</artifactId>
+                <version>${cardinal.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>odl-cardinal-rest</artifactId>
+                <version>${cardinal.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>odl-cardinal-ui</artifactId>
+                <version>${cardinal.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
             <!-- Netconf -->
             <dependency>
                 <groupId>org.opendaylight.netconf</groupId>
