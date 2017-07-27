@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
  Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
@@ -97,6 +97,14 @@
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>features-rsvp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        
+        <!-- BIER -->
+        <dependency>
+            <groupId>org.opendaylight.bier</groupId>
+            <artifactId>features-bier</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
