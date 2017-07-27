@@ -87,21 +87,6 @@
                 <classifier>features</classifier>
             </dependency>
 
-            <!-- Netconf -->
-            <dependency>
-                <groupId>org.opendaylight.netconf</groupId>
-                <artifactId>odl-netconf-mdsal</artifactId>
-                <version>${mdsal.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.netconf</groupId>
-                <artifactId>odl-restconf</artifactId>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-
             <!-- SXP -->
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
