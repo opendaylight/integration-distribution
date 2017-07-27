@@ -101,6 +101,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- BIER -->
+        <dependency>
+            <groupId>org.opendaylight.bier</groupId>
+            <artifactId>features-bier</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- COE -->
         <dependency>
             <groupId>org.opendaylight.coe</groupId>

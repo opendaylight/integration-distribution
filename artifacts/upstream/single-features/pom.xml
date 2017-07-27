@@ -58,6 +58,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- BIER -->
+            <dependency>
+                <groupId>org.opendaylight.bier</groupId>
+                <artifactId>odl-bier-all</artifactId>
+                <version>${bier.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <dependency>
                 <groupId>org.opendaylight.dluxapps</groupId>
                 <artifactId>odl-dluxapps-nodes</artifactId>

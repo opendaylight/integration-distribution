@@ -60,6 +60,14 @@
 
         <!-- External single feature dependencies in alphabetical order -->
 
+        <!-- BIER -->
+        <dependency>
+            <groupId>org.opendaylight.bier</groupId>
+            <artifactId>odl-bier-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- COE -->
         <dependency>
             <groupId>org.opendaylight.coe</groupId>
