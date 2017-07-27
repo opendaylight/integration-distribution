@@ -120,6 +120,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- UNIMGR -->
+            <dependency>
+                <groupId>org.opendaylight.unimgr</groupId>
+                <artifactId>odl-unimgr</artifactId>
+                <version>${unimgr.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- VTN -->
             <dependency>
                 <groupId>org.opendaylight.vtn</groupId>
