@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da2a55be_a01643ef",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-27T14:41:10Z",
+      "side": 1,
+      "message": "OCPplugin needs to be in Nitrogen autorelease first,\notherwise integration-distribution-validate-autorelease-nitrogen will keep failing.",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 13
+      },
+      "revId": "1742d028c653baecdc9b0cd313488ec23ae6a9a3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_80cfbf7e",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-27T14:41:10Z",
+      "side": 1,
+      "message": "No need to list a block which does not specify version here (yes, the features-restconf block alse should not be here).",
+      "range": {
+        "startLine": 127,
+        "startChar": 12,
+        "endLine": 127,
+        "endChar": 24
+      },
+      "revId": "1742d028c653baecdc9b0cd313488ec23ae6a9a3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_e0a5dbb5",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-27T14:41:10Z",
+      "side": 1,
+      "message": "Do not specify version in this file, it is already imported from ocpplugin-artifacts.",
+      "range": {
+        "startLine": 234,
+        "startChar": 12,
+        "endLine": 234,
+        "endChar": 45
+      },
+      "revId": "1742d028c653baecdc9b0cd313488ec23ae6a9a3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_008aaf1a",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-27T14:41:10Z",
+      "side": 1,
+      "message": "Do not specify version in this file.\nSpecify it in ocpplugin artifacts, or at least in atrifacts/upstream/single-features/.",
+      "range": {
+        "startLine": 171,
+        "startChar": 12,
+        "endLine": 171,
+        "endChar": 45
+      },
+      "revId": "1742d028c653baecdc9b0cd313488ec23ae6a9a3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da2a55be_20b093f3",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-07-27T14:41:10Z",
+      "side": 1,
+      "message": "Remove trailing whitespace.",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 175,
+        "endChar": 7
+      },
+      "revId": "1742d028c653baecdc9b0cd313488ec23ae6a9a3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
