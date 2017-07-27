@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
  Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
 
@@ -59,6 +59,14 @@
         </dependency>
 
         <!-- External single feature dependencies in alphabetical order -->
+
+        <!-- BIER -->
+        <dependency>
+            <groupId>org.opendaylight.bier</groupId>
+            <artifactId>odl-bier-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
 
         <!-- COE -->
         <dependency>
