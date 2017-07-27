@@ -49,6 +49,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>cardinal-artifacts</artifactId>
+                <version>${cardinal.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.coe</groupId>
                 <artifactId>coe-artifacts</artifactId>
                 <version>${coe.version}</version>
