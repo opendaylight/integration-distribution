@@ -85,6 +85,7 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bmp</artifactId>
@@ -155,14 +156,12 @@
         </dependency>
 
         <!-- Neutron Northbound -->
-        <!-- Temporary remove because SFT Server unhealth
         <dependency>
             <groupId>org.opendaylight.neutron</groupId>
             <artifactId>odl-neutron-service</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- OpenflowPlugin -->
         <dependency>

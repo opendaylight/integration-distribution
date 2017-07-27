@@ -218,14 +218,12 @@
         </dependency>
 
         <!-- Neutron Northbound -->
-        <!-- Temporary remove because SFT Server unhealth
         <dependency>
             <groupId>org.opendaylight.neutron</groupId>
             <artifactId>features-neutron-service</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
 
         <!-- ODL Parent -->
         <dependency>
