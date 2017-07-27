@@ -81,7 +81,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-rsvp</artifactId>
@@ -132,6 +131,7 @@
         </dependency>
 
         <!-- Honeycomb/VBD -->
+        <!-- Commented out because netconf topology issue
         <dependency>
             <groupId>org.opendaylight.honeycomb.vbd</groupId>
             <artifactId>odl-vbd</artifactId>
@@ -150,6 +150,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- LISP Flow Mapping -->
         <dependency>
@@ -160,18 +161,21 @@
         </dependency>
 
         <!-- Netconf -->
+        <!-- Commented out because netconf topology issue
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-mdsal</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-mdsal-apidocs</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- Commented out because netconf topology issue
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-callhome-ssh</artifactId>
@@ -184,6 +188,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
@@ -201,6 +206,14 @@
         <dependency>
             <groupId>org.opendaylight.neutron</groupId>
             <artifactId>odl-neutron-service</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- OCPplugin -->
+        <dependency>
+            <groupId>org.opendaylight.ocpplugin</groupId>
+            <artifactId>odl-ocpplugin-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
