@@ -92,9 +92,7 @@
         <topoprocessing.version>0.4.0-SNAPSHOT</topoprocessing.version>
         <tsdr.version>1.4.0-SNAPSHOT</tsdr.version>
         <ttp.version>0.5.0-SNAPSHOT</ttp.version>
-        <!-- Removing on 5/23/17 b/c of compilation failures
         <unimgr.version>0.3.0-SNAPSHOT</unimgr.version>
-        -->
         <usc.version>1.4.0-SNAPSHOT</usc.version>
         <vpnservice.version>0.5.0-SNAPSHOT</vpnservice.version>
         <vtn-manager.version>0.7.0-SNAPSHOT</vtn-manager.version>
