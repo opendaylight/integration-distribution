@@ -59,6 +59,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- BIER -->
+            <dependency>
+                <groupId>org.opendaylight.bier</groupId>
+                <artifactId>features-bier</artifactId>
+                <version>${bier.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- Controller -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
