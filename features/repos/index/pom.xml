@@ -227,6 +227,14 @@
         </dependency>
         -->
 
+        <!-- OCPplugin -->
+        <dependency>
+            <groupId>org.opendaylight.ocpplugin</groupId>
+            <artifactId>features-ocpplugin</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- ODL Parent -->
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>

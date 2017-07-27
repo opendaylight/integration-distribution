@@ -164,6 +164,14 @@
         </dependency>
         -->
 
+        <!-- OCPplugin -->
+        <dependency>
+            <groupId>org.opendaylight.ocpplugin</groupId>
+            <artifactId>odl-ocpplugin-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+ 
         <!-- OpenflowPlugin -->
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
