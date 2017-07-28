@@ -241,6 +241,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- SNMP4SDN -->
+        <dependency>
+            <groupId>org.opendaylight.snmp4sdn</groupId>
+            <artifactId>odl-snmp4sdn-snmp4sdn</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SXP -->
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
