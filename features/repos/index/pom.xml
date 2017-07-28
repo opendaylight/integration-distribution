@@ -285,6 +285,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- SNMP4SDN -->
+        <dependency>
+            <groupId>org.opendaylight.snmp4sdn</groupId>
+            <artifactId>features-snmp4sdn</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SXP -->
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
