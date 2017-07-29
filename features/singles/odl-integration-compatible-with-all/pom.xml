@@ -63,22 +63,25 @@
         </dependency>
 
         <!-- Daexim -->
+<!--
         <dependency>
 	    <groupId>org.opendaylight.daexim</groupId>
             <artifactId>odl-daexim-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
         <!-- Distribution -->
+<!--
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>odl-distribution-version</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
-         <!-- BGPCEP -->
+-->
+        <!-- BGPCEP -->
+        <!-- Comment out as these may have issues 
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
@@ -103,8 +106,10 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- DluxApps -->
+<!--
         <dependency>
             <groupId>org.opendaylight.dluxapps</groupId>
             <artifactId>odl-dluxapps-nodes</artifactId>
@@ -129,15 +134,16 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
         <!-- LISP Flow Mapping -->
+<!--
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
             <artifactId>odl-lispflowmapping-msmr</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
         <!-- Netconf -->
         <!-- Commented out due to https://bugs.opendaylight.org/show_bug.cgi?id=7891
         <dependency>
@@ -149,9 +155,33 @@
         -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>odl-restconf</artifactId>
-            <type>xml</type>
+            <artifactId>odl-mdsal-apidocs</artifactId>
             <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-callhome-ssh</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-console</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-restconf</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-yanglib</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
         </dependency>
 
         <!-- Neutron Northbound -->
@@ -165,6 +195,7 @@
         -->
 
         <!-- OpenflowPlugin -->
+<!--
         <dependency>
             <groupId>org.opendaylight.openflowplugin</groupId>
             <artifactId>odl-openflowplugin-flow-services-rest</artifactId>
@@ -177,16 +208,18 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
         <!-- TTP -->
+<!--
         <dependency>
             <groupId>org.opendaylight.ttp</groupId>
             <artifactId>odl-ttp-model-rest</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
         <!-- OVSDB -->
+<!--
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
             <artifactId>odl-ovsdb-library</artifactId>
@@ -205,16 +238,18 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
         <!-- SXP -->
+<!--
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>odl-sxp-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-
+-->
         <!-- Topoprocessing -->
+<!--
         <dependency>
             <groupId>org.opendaylight.topoprocessing</groupId>
             <artifactId>odl-topoprocessing-i2rs</artifactId>
@@ -245,6 +280,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
     </dependencies>
 </project>
