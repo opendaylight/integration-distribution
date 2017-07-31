@@ -67,6 +67,7 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Dlux Apps -->
             <dependency>
                 <groupId>org.opendaylight.dluxapps</groupId>
                 <artifactId>odl-dluxapps-nodes</artifactId>
@@ -96,14 +97,34 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- L2switch -->
+            <dependency>
+                <groupId>org.opendaylight.l2switch</groupId>
+                <artifactId>odl-l2switch-switch</artifactId>
+                <version>${l2switch.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.l2switch</groupId>
+                <artifactId>odl-l2switch-switch-rest</artifactId>
+                <version>${l2switch.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.l2switch</groupId>
+                <artifactId>odl-l2switch-switch-ui</artifactId>
+                <version>${l2switch.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- OCP Plugin -->
             <dependency>
                 <groupId>org.opendaylight.ocpplugin</groupId>
                 <artifactId>odl-ocpplugin-all</artifactId>
                 <version>${ocpplugin.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
 
             <!-- SNMP4SDN -->
             <dependency>
