@@ -293,6 +293,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- L2switch -->
+        <dependency>
+            <groupId>org.opendaylight.l2switch</groupId>
+            <artifactId>features-l2switch</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SNMP4SDN -->
         <dependency>
             <groupId>org.opendaylight.snmp4sdn</groupId>
