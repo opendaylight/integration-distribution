@@ -193,7 +193,13 @@
             <type>xml</type>
         </dependency>
 
-        <!-- FIXME: Add Mdsal -->
+        <!-- L2switch -->
+        <dependency>
+            <groupId>org.opendaylight.l2switch</groupId>
+            <artifactId>features-l2switch</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
 
         <!-- LISP Flow Mapping -->
         <dependency>
@@ -202,6 +208,8 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+
+        <!-- FIXME: Add Mdsal -->
 
         <!-- Netconf -->
         <dependency>

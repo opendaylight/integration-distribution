@@ -118,6 +118,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- L2switch -->
+            <dependency>
+                <groupId>org.opendaylight.l2switch</groupId>
+                <artifactId>features-l2switch</artifactId>
+                <version>${l2switch.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- OCP Plugin -->
             <dependency>
                 <groupId>org.opendaylight.ocpplugin</groupId>
