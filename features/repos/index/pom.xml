@@ -273,6 +273,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- L2switch -->
+        <dependency>
+            <groupId>org.opendaylight.l2switch</groupId>
+            <artifactId>features-l2switch</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SXP -->
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
