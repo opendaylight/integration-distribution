@@ -16,6 +16,24 @@
       "revId": "03ac0c17a7facae6aba009f4759fe4a44cb9633e",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_fd020bb3",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2017-08-01T14:19:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba1f61a0_1ca605c2",
+      "revId": "03ac0c17a7facae6aba009f4759fe4a44cb9633e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
