@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba1f61a0_fcf051cb",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:32:24Z",
+      "side": 1,
+      "message": "I do not think this is the right name for the feature and also I think this feature is NOT compatible so it should be listed in the other file.",
+      "revId": "ae297e99bc03412e47c9062e402e536b77335244",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
