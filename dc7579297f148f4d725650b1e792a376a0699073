@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba1f61a0_5cb07df4",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:49:59Z",
+      "side": 1,
+      "message": "I think cardinal goes before dlux in the alphabetical order.",
+      "revId": "dc7579297f148f4d725650b1e792a376a0699073",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_bc941945",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:49:59Z",
+      "side": 1,
+      "message": "I think cardinal goes before dlux in the alphabetical order.",
+      "revId": "dc7579297f148f4d725650b1e792a376a0699073",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_9c915555",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:49:59Z",
+      "side": 1,
+      "message": "new line here please",
+      "revId": "dc7579297f148f4d725650b1e792a376a0699073",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
