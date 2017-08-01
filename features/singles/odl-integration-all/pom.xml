@@ -84,6 +84,20 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- Netconf -->
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-topology</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-clustered-topology</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Netvirt -->
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
