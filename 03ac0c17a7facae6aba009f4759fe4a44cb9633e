@@ -34,6 +34,24 @@
       "revId": "03ac0c17a7facae6aba009f4759fe4a44cb9633e",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_5db517cc",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2017-08-01T14:48:56Z",
+      "side": 1,
+      "message": "Seems like this causes the build to fail now. I think patchset 5 was the correct patch.",
+      "parentUuid": "ba1f61a0_fd020bb3",
+      "revId": "03ac0c17a7facae6aba009f4759fe4a44cb9633e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
