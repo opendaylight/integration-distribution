@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba1f61a0_5cb99de8",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:40:46Z",
+      "side": 1,
+      "message": "remove this",
+      "revId": "d6d3bc00d92e27990fd3f7b8447476099a3bd111",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_bccd3989",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:40:46Z",
+      "side": 1,
+      "message": "remove this",
+      "revId": "d6d3bc00d92e27990fd3f7b8447476099a3bd111",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_9ccaf56c",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:40:46Z",
+      "side": 1,
+      "message": "remove this",
+      "revId": "d6d3bc00d92e27990fd3f7b8447476099a3bd111",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_fcc7b162",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-01T02:40:46Z",
+      "side": 1,
+      "message": "remove this",
+      "revId": "d6d3bc00d92e27990fd3f7b8447476099a3bd111",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
