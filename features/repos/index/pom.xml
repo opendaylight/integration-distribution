@@ -350,12 +350,14 @@
         </dependency>
 
         <!-- Unimgr -->
+        <!-- This project is still using odlparent 1.9.0
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>features4-unimgr</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- VTN -->
         <dependency>
