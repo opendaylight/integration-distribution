@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba1f61a0_f27d15b3",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-02T02:46:25Z",
+      "side": 1,
+      "message": "Please add in alphabetical order",
+      "revId": "e5276dcf14fc3b04baffaeafd204f735527baa2b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_524a2184",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-08-02T02:46:25Z",
+      "side": 1,
+      "message": "Please add in alphabetical order",
+      "revId": "e5276dcf14fc3b04baffaeafd204f735527baa2b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
