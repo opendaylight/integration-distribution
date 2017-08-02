@@ -67,6 +67,22 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Cardinal -->
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>odl-cardinal-ui</artifactId>
+                <version>${cardinal.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.cardinal</groupId>
+                <artifactId>odl-cardinal</artifactId>
+                <version>${cardinal.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
             <!-- Dlux Apps -->
             <dependency>
                 <groupId>org.opendaylight.dluxapps</groupId>
