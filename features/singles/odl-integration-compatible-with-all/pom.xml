@@ -355,12 +355,14 @@
         </dependency>
 
         <!-- Unimgr -->
+        <!-- This project is still using odlparent 1.9.0
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>odl-unimgr</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
     </dependencies>
 </project>

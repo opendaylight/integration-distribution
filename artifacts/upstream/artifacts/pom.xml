@@ -160,6 +160,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- This project is still using odlparent 1.9.0
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>unimgr-artifacts</artifactId>
@@ -167,6 +168,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
         </dependencies>
     </dependencyManagement>
 </project>
