@@ -62,7 +62,7 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- BGPCEP -->
+         <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
@@ -84,20 +84,6 @@
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-rsvp</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- Cardinal -->
-        <dependency>
-            <groupId>org.opendaylight.cardinal</groupId>
-            <artifactId>odl-cardinal-ui</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.cardinal</groupId>
-            <artifactId>odl-cardinal</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
