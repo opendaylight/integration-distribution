@@ -131,6 +131,7 @@
         </dependency>
 
         <!-- Honeycomb/VBD -->
+        <!-- Comment out because SFT memory problem
         <dependency>
             <groupId>org.opendaylight.honeycomb.vbd</groupId>
             <artifactId>odl-vbd</artifactId>
@@ -149,6 +150,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- LISP Flow Mapping -->
         <dependency>
@@ -242,44 +244,6 @@
         <dependency>
             <groupId>org.opendaylight.ovsdb</groupId>
             <artifactId>odl-ovsdb-southbound-impl</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- SFC -->
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-netconf</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-ovs</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-sb-rest</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-test-consumer</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-ui</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfclisp</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>

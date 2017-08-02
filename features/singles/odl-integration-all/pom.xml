@@ -61,14 +61,12 @@
         <!-- External single feature dependencies in alphabetical order -->
 
         <!-- BIER -->
-        <!-- Comment out bier because of SFT memory problem
         <dependency>
             <groupId>org.opendaylight.bier</groupId>
             <artifactId>odl-bier-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- COE -->
         <dependency>
@@ -124,26 +122,6 @@
         <dependency>
             <groupId>org.opendaylight.netvirt</groupId>
             <artifactId>odl-netvirt-openstack</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
-        <!-- SFC -->
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-ios-xe-renderer</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-openflow-renderer</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-vpp-renderer</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
