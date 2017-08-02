@@ -131,7 +131,7 @@
         </dependency>
 
         <!-- Honeycomb/VBD -->
-        <!-- Commented out because netconf topology issue
+        <!-- Comment out because SFT memory problem
         <dependency>
             <groupId>org.opendaylight.honeycomb.vbd</groupId>
             <artifactId>odl-vbd</artifactId>
@@ -161,21 +161,18 @@
         </dependency>
 
         <!-- Netconf -->
-        <!-- Commented out because netconf topology issue
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-mdsal</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-mdsal-apidocs</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <!-- Commented out because netconf topology issue
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-callhome-ssh</artifactId>
@@ -188,7 +185,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-restconf</artifactId>
