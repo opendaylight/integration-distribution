@@ -137,14 +137,6 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Cardinal -->
-        <dependency>
-            <groupId>org.opendaylight.cardinal</groupId>
-            <artifactId>cardinal-features4</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
         <!-- Daexim -->
         <dependency>
             <groupId>org.opendaylight.daexim</groupId>
