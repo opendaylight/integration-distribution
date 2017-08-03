@@ -59,6 +59,16 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- ALTO -->
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>features4-alto</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
+
             <!-- BIER -->
             <dependency>
                 <groupId>org.opendaylight.bier</groupId>
