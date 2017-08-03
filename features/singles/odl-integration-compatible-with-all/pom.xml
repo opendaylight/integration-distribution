@@ -62,6 +62,38 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- ALTO -->
+        <dependency>
+            <groupId>org.opendaylight.alto</groupId>
+            <artifactId>odl-alto-simpleird</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.alto</groupId>
+            <artifactId>odl-alto-manual-maps</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.alto</groupId>
+            <artifactId>odl-alto-simpleecs</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.alto</groupId>
+            <artifactId>odl-alto-auto-maps</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.alto</groupId>
+            <artifactId>odl-alto-spce</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
