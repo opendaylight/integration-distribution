@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba1f61a0_00ddec70",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-08-03T11:52:26Z",
+      "side": 1,
+      "message": "alto",
+      "range": {
+        "startLine": 64,
+        "startChar": 42,
+        "endLine": 64,
+        "endChar": 45
+      },
+      "revId": "fa669448d0c93a889e012f798caaa01adb324338",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_00c4cc90",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-08-03T11:52:26Z",
+      "side": 1,
+      "message": "This is not a single feature.",
+      "range": {
+        "startLine": 64,
+        "startChar": 28,
+        "endLine": 64,
+        "endChar": 42
+      },
+      "revId": "fa669448d0c93a889e012f798caaa01adb324338",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_e0c0987e",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-08-03T11:52:26Z",
+      "side": 1,
+      "message": "Not a single feature.",
+      "range": {
+        "startLine": 68,
+        "startChar": 24,
+        "endLine": 68,
+        "endChar": 38
+      },
+      "revId": "fa669448d0c93a889e012f798caaa01adb324338",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
