@@ -58,6 +58,43 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- ALTO -->
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>odl-alto-simpleird</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>odl-alto-manual-maps</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>odl-alto-simpleecs</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>odl-alto-auto-maps</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.alto</groupId>
+                <artifactId>odl-alto-spce</artifactId>
+                <version>${alto.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- BIER -->
             <dependency>
                 <groupId>org.opendaylight.bier</groupId>
