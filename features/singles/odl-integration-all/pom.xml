@@ -128,6 +128,15 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- OF-CONFIG -->
+        <dependency>
+            <groupId>org.opendaylight.of-config</groupId>
+            <artifactId>odl-of-config-all</artifactId>
+            <version>${ofconfig.version}</version>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SFC -->
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
