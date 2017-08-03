@@ -62,7 +62,15 @@
             <classifier>features</classifier>
         </dependency>
 
-         <!-- BGPCEP -->
+        <!-- ALTO -->
+        <dependency>
+            <groupId>org.opendaylight.alto</groupId>
+            <artifactId>features4-alto</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
+        <!-- BGPCEP -->
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
