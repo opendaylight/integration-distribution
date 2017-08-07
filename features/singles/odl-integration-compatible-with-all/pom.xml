@@ -277,7 +277,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        <!-- Commenting because SFT memory issue
         <dependency>
             <groupId>org.opendaylight.packetcable</groupId>
             <artifactId>odl-packetcable-policy-server</artifactId>
@@ -290,7 +289,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- SFC -->
         <dependency>
