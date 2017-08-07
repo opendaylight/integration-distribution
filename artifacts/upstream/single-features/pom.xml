@@ -323,7 +323,6 @@
             </dependency>
 
             <!-- UNIMGR -->
-            <!-- This project is still using odlparent 1.9.0
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>odl-unimgr</artifactId>
@@ -331,7 +330,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
 
             <!-- VTN -->
             <dependency>
