@@ -234,6 +234,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- USC -->
+            <dependency>
+                <groupId>org.opendaylight.usc</groupId>
+                <artifactId>usc-features</artifactId>
+                <version>${usc.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- VTN -->
             <dependency>
                 <groupId>org.opendaylight.vtn</groupId>
