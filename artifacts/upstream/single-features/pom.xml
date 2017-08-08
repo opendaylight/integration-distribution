@@ -294,6 +294,15 @@
             </dependency>
             -->
 
+            <!-- USC -->
+            <dependency>
+                <groupId>org.opendaylight.usc</groupId>
+                <artifactId>odl-usc-channel-ui</artifactId>
+                <version>${usc.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- VTN -->
             <dependency>
                 <groupId>org.opendaylight.vtn</groupId>

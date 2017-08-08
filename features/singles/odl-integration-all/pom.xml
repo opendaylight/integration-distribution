@@ -148,6 +148,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- USC -->
+        <dependency>
+            <groupId>org.opendaylight.usc</groupId>
+            <artifactId>odl-usc-channel-ui</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- VTN -->
         <dependency>
             <groupId>org.opendaylight.vtn</groupId>
