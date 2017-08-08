@@ -383,6 +383,14 @@
         </dependency>
         -->
 
+        <!-- USC -->
+        <dependency>
+            <groupId>org.opendaylight.usc</groupId>
+            <artifactId>usc-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- VTN -->
         <dependency>
             <groupId>org.opendaylight.vtn</groupId>
