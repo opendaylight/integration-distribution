@@ -209,6 +209,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- NEMO -->
+        <dependency>
+            <groupId>org.opendaylight.nemo</groupId>
+            <artifactId>nemo-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- LISP Flow Mapping -->
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
