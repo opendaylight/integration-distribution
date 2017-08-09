@@ -173,6 +173,43 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- NEMO -->
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>odl-nemo-engine</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>odl-nemo-engine-rest</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>odl-nemo-engine-ui</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>odl-nemo-openflow-renderer</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>odl-nemo-cli-renderer</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- NIC -->
             <dependency>
                 <groupId>org.opendaylight.nic</groupId>

@@ -146,6 +146,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- NEMO -->
+            <dependency>
+                <groupId>org.opendaylight.nemo</groupId>
+                <artifactId>nemo-features</artifactId>
+                <version>${nemo.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- NIC -->
             <dependency>
                 <groupId>org.opendaylight.nic</groupId>
