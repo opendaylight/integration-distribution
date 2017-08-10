@@ -185,6 +185,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- Eman -->
+        <dependency>
+            <groupId>org.opendaylight.eman</groupId>
+            <artifactId>features-eman</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- Genius -->
         <dependency>
             <groupId>org.opendaylight.genius</groupId>
