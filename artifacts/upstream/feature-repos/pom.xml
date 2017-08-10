@@ -118,6 +118,15 @@
                 <type>xml</type>
             </dependency>
 
+            <!-- Eman -->
+            <dependency>
+                <groupId>org.opendaylight.eman</groupId>
+                <artifactId>features-eman</artifactId>
+                <version>${eman.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- InfraUtils -->
             <dependency>
                 <groupId>org.opendaylight.infrautils</groupId>
