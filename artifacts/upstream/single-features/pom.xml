@@ -208,6 +208,29 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- Eman -->
+            <dependency>
+                <groupId>org.opendaylight.eman</groupId>
+                <artifactId>odl-eman-ui</artifactId>
+                <version>${eman.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.eman</groupId>
+                <artifactId>odl-eman-api</artifactId>
+                <version>${eman.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.eman</groupId>
+                <artifactId>odl-eman</artifactId>
+                <version>${eman.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
             <!-- L2switch -->
             <dependency>
                 <groupId>org.opendaylight.l2switch</groupId>
