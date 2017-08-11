@@ -390,6 +390,15 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- SNMP -->
+            <dependency>
+                <groupId>org.opendaylight.snmp</groupId>
+                <artifactId>odl-snmp-plugin</artifactId>
+                <version>${snmp.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- SNMP4SDN -->
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
