@@ -150,6 +150,64 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- FAAS -->
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-base</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-vxlan-ovs-adapter</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-vxlan-fabric</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-vlan-fabric</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-fabric</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-fabricmgr</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-uln-mapper</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+            <dependency>
+                <groupId>org.opendaylight.faas</groupId>
+                <artifactId>odl-faas-all</artifactId>
+                <version>${faas.version}</version>
+                <type>xml</type>
+                <classifier>features</classifier>
+            </dependency>
+
             <!-- L2switch -->
             <dependency>
                 <groupId>org.opendaylight.l2switch</groupId>
