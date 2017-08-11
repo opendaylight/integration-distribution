@@ -61,7 +61,7 @@
         <!-- External single feature dependencies in alphabetical order -->
 
         <!-- BIER -->
-        <!-- Comment out bier because of SFT memory problem
+        <!-- Comment out because of SFT memory problem
         <dependency>
             <groupId>org.opendaylight.bier</groupId>
             <artifactId>odl-bier-all</artifactId>
@@ -77,6 +77,16 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+
+        <!-- FaaS -->
+        <!-- Comment out because of SFT memory problem
+        <dependency>
+            <groupId>org.opendaylight.faas</groupId>
+            <artifactId>odl-faas-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        -->
 
         <!-- Genius -->
         <dependency>

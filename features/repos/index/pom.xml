@@ -184,6 +184,13 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        <!-- FAAS -->
+        <dependency>
+            <groupId>org.opendaylight.faas</groupId>
+            <artifactId>features4-faas</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
 
         <!-- Genius -->
         <dependency>
