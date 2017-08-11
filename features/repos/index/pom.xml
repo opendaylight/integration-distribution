@@ -365,6 +365,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- SNMP -->
+        <dependency>
+            <groupId>org.opendaylight.snmp</groupId>
+            <artifactId>features-snmp</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- SNMP4SDN -->
         <dependency>
             <groupId>org.opendaylight.snmp4sdn</groupId>
