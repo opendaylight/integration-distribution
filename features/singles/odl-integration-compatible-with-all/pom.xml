@@ -63,6 +63,7 @@
         </dependency>
 
         <!-- ALTO -->
+        <!-- Commenting this feature because SFT memory issues
         <dependency>
             <groupId>org.opendaylight.alto</groupId>
             <artifactId>odl-alto-simpleird</artifactId>
@@ -93,6 +94,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- BGPCEP -->
         <dependency>
