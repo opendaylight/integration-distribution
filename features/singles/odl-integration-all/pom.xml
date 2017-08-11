@@ -78,6 +78,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- FaaS -->
+        <dependency>
+            <groupId>org.opendaylight.faas</groupId>
+            <artifactId>odl-faas-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- Genius -->
         <dependency>
             <groupId>org.opendaylight.genius</groupId>
