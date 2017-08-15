@@ -165,7 +165,6 @@
         </dependency>
 
         <!-- GROUPBASEDPOLICY or GBP-->
-        <!-- Commenting this feature because SFT memory issues
         <dependency>
             <groupId>org.opendaylight.groupbasedpolicy</groupId>
             <artifactId>odl-groupbasedpolicy-base</artifactId>
@@ -244,7 +243,6 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-        -->
 
         <!-- Honeycomb/VBD -->
         <dependency>
