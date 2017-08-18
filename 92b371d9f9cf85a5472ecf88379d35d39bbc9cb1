@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba1f61a0_cc590a5d",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2017-08-18T14:17:43Z",
+      "side": 1,
+      "message": "I think this should just be features-tsdr. One of the steps of karaf 4 migration was to rename the feature.",
+      "range": {
+        "startLine": 267,
+        "startChar": 28,
+        "endLine": 267,
+        "endChar": 42
+      },
+      "revId": "92b371d9f9cf85a5472ecf88379d35d39bbc9cb1",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_2c59c65a",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2017-08-18T14:17:43Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 427,
+        "startChar": 24,
+        "endLine": 427,
+        "endChar": 38
+      },
+      "revId": "92b371d9f9cf85a5472ecf88379d35d39bbc9cb1",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
