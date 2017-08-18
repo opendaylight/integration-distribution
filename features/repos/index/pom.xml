@@ -421,6 +421,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- TSDR -->
+        <dependency>
+            <groupId>org.opendaylight.tsdr</groupId>
+            <artifactId>features4-tsdr</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- TTP -->
         <dependency>
             <groupId>org.opendaylight.ttp</groupId>
