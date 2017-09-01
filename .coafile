@@ -1,6 +1,7 @@
 [all]
+# TODO: How to ignore extracted K4 distros but not useful stuff? (/karaf/**)
 ignore = .tox/**, .git/**, .gitignore, .gitreview, **.sw?, **.orig,
-         karaf/target/**
+         karaf/target/**, **distribution-karaf**
 
 [GitCommit]
 bears = GitCommitBear
