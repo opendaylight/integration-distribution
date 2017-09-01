@@ -43,6 +43,7 @@
     <repository>mvn:org.opendaylight.controller/features-extras/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.controller/features-mdsal-benchmark/{{VERSION}}/xml/features</repository>
+    <repository>mvn:org.opendaylight.controller/mdsal-trace-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-hp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.didm/features-didm-ovs/{{VERSION}}/xml/features</repository>

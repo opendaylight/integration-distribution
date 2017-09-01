@@ -141,6 +141,12 @@
             <type>xml</type>
         </dependency>
         <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <artifactId>mdsal-trace-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
             <groupId>org.opendaylight.didm</groupId>
             <artifactId>features-didm</artifactId>
             <classifier>features</classifier>
