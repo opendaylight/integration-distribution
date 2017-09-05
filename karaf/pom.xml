@@ -96,18 +96,16 @@
             </exclusions>
         </dependency>
 
-        <!-- External applications. -->
-        <!-- This leads to "Unsupported 'Bundle-ManifestVersion' value: 1". Uncomment when fixed.
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>aaa-cli-jar</artifactId>
+            <!-- This scope test here is just a trick, so that we can use aaa-cli-jar in maven-dependency-plugin, but don't have karaf-maven-plugin choke on it -->
+            <scope>test</scope>
         </dependency>
-        -->
     </dependencies>
 
     <build>
         <plugins>
-            <!-- This leads to "Unsupported 'Bundle-ManifestVersion' value: 1". Uncomment when fixed.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -125,15 +123,14 @@
                             <overWriteSnapshots>true</overWriteSnapshots>
                             <overWriteIfNewer>true</overWriteIfNewer>
                             <excludeTransitive>true</excludeTransitive>
-                            < ! - - Do not include version in JAR filename, as external scripts call this utility,
+                            <!-- Do not include version in JAR filename, as external scripts call this utility,
                                  and they understandly do not want to have to adjust for every ODL release;
-                                 see e.g. https://github.com/dfarrell07/puppet-opendaylight/pull/140 - - >
+                                 see e.g. https://github.com/dfarrell07/puppet-opendaylight/pull/140 -->
                             <stripVersion>true</stripVersion>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
-            -->
         </plugins>
     </build>
 </project>
