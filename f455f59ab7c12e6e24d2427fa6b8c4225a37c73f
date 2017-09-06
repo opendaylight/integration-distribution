@@ -22,6 +22,30 @@
       "revId": "f455f59ab7c12e6e24d2427fa6b8c4225a37c73f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_3ba37650",
+        "filename": ".coafile",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1723
+      },
+      "writtenOn": "2017-09-06T12:07:42Z",
+      "side": 1,
+      "message": "This match is meant to match int/distribution/karaf/target/**. I think the match you proposed would match something like fookaraf/target/**, but not something like foo/karaf/target/**. I don\u0027t see anything additional that would result in matching.",
+      "parentUuid": "ba1f61a0_1b3af298",
+      "range": {
+        "startLine": 4,
+        "startChar": 9,
+        "endLine": 4,
+        "endChar": 24
+      },
+      "revId": "f455f59ab7c12e6e24d2427fa6b8c4225a37c73f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
