@@ -46,6 +46,30 @@
       "revId": "f455f59ab7c12e6e24d2427fa6b8c4225a37c73f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba1f61a0_bb211c4f",
+        "filename": ".coafile",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-09-08T11:25:26Z",
+      "side": 1,
+      "message": "Oh, right.\nPerhaps **/target*/** will be easier, as that will catch every /target/ and /target-ide/ (already listed in .gitignore)?",
+      "parentUuid": "ba1f61a0_3ba37650",
+      "range": {
+        "startLine": 4,
+        "startChar": 9,
+        "endLine": 4,
+        "endChar": 24
+      },
+      "revId": "f455f59ab7c12e6e24d2427fa6b8c4225a37c73f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
