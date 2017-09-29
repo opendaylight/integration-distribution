@@ -96,7 +96,7 @@
         <usc.version>1.5.0-SNAPSHOT</usc.version>
         <vpnservice.version>0.6.0-SNAPSHOT</vpnservice.version>
         <vtn-manager.version>0.8.0-SNAPSHOT</vtn-manager.version>
-        <yangtools.version>2.0.0-SNAPSHOT</yangtools.version>
+        <yangtools.version>1.2.0</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
