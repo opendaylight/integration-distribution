@@ -185,12 +185,14 @@
         </dependency>
 
         <!-- OF-CONFIG -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
             <artifactId>odl-of-config-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- SFC -->
         <dependency>
