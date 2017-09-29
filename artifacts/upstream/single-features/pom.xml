@@ -317,6 +317,7 @@
             </dependency>
 
             <!-- OF-CONFIG -->
+            <!--
             <dependency>
                 <groupId>org.opendaylight.of-config</groupId>
                 <artifactId>odl-of-config-all</artifactId>
@@ -324,6 +325,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- Packetcable -->
             <dependency>
