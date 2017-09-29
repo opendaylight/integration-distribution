@@ -215,6 +215,7 @@
             </dependency>
 
             <!-- OF-CONFIG -->
+            <!--
             <dependency>
                 <groupId>org.opendaylight.of-config</groupId>
                 <artifactId>features-of-config</artifactId>
@@ -222,6 +223,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- Packetcable -->
             <dependency>
