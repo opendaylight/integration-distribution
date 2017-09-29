@@ -338,12 +338,14 @@
         </dependency>
 
         <!-- OF-CONFIG -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
             <artifactId>features-of-config</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- OpenflowPlugin -->
         <dependency>
