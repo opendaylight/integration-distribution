@@ -89,7 +89,6 @@
         <snmp.version>1.5.0-SNAPSHOT</snmp.version>
         <snmp4sdn.version>0.7.0-SNAPSHOT</snmp4sdn.version>
         <sxp.version>1.6.0-SNAPSHOT</sxp.version>
-        <topoprocessing.version>0.5.0-SNAPSHOT</topoprocessing.version>
         <tsdr.version>1.5.0-SNAPSHOT</tsdr.version>
         <ttp.version>0.6.0-SNAPSHOT</ttp.version>
         <unimgr.version>0.4.0-SNAPSHOT</unimgr.version>
