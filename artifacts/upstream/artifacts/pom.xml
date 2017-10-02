@@ -140,13 +140,6 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
-                <groupId>org.opendaylight.topoprocessing</groupId>
-                <artifactId>topoprocessing-artifacts</artifactId>
-                <version>${topoprocessing.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
                 <groupId>org.opendaylight.groupbasedpolicy</groupId>
                 <artifactId>groupbasedpolicy-artifacts</artifactId>
                 <version>${groupbasedpolicy.version}</version>
