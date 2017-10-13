@@ -78,15 +78,6 @@
                 <type>xml</type>
             </dependency>
 
-            <!-- Cardinal -->
-            <dependency>
-                <groupId>org.opendaylight.cardinal</groupId>
-                <artifactId>cardinal-features4</artifactId>
-                <version>${cardinal.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-
             <!-- Controller -->
             <dependency>
                 <groupId>org.opendaylight.controller</groupId>
@@ -264,15 +255,6 @@
                 <groupId>org.opendaylight.sxp</groupId>
                 <artifactId>features-sxp</artifactId>
                 <version>${sxp.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-
-            <!-- TTP -->
-            <dependency>
-                <groupId>org.opendaylight.ttp</groupId>
-                <artifactId>features-ttp</artifactId>
-                <version>${ttp.version}</version>
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>

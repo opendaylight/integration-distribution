@@ -448,14 +448,6 @@
             <type>xml</type>
         </dependency>
 
-        <!-- TTP -->
-        <dependency>
-            <groupId>org.opendaylight.ttp</groupId>
-            <artifactId>odl-ttp-model-rest</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
         <!-- Unimgr -->
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>

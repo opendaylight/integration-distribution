@@ -151,14 +151,6 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Cardinal -->
-        <dependency>
-            <groupId>org.opendaylight.cardinal</groupId>
-            <artifactId>cardinal-features4</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
         <!-- Daexim -->
         <dependency>
             <groupId>org.opendaylight.daexim</groupId>
@@ -415,14 +407,6 @@
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>features-sxp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
-        <!-- TTP -->
-        <dependency>
-            <groupId>org.opendaylight.ttp</groupId>
-            <artifactId>features-ttp</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>

@@ -70,20 +70,6 @@
         </dependency>
         -->
 
-        <!-- Cardinal -->
-        <dependency>
-            <groupId>org.opendaylight.cardinal</groupId>
-            <artifactId>odl-cardinal-ui</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.cardinal</groupId>
-            <artifactId>odl-cardinal</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
         <!-- COE -->
         <dependency>
             <groupId>org.opendaylight.coe</groupId>
