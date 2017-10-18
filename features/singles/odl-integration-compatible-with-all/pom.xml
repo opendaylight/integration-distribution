@@ -266,6 +266,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- InfraUtils -->
+        <dependency>
+            <groupId>org.opendaylight.infrautils</groupId>
+            <artifactId>odl-infrautils-ready</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- LISP Flow Mapping -->
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
