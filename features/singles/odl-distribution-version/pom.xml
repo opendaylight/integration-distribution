@@ -65,6 +65,15 @@
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>odl-config-persister</artifactId>
+            <!-- This pulls in both config-api and yang-common -->
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <!-- Additional dependencies are needed because config-parent also requires sal-binding-config bundle. -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <!-- This is an overkill, but it is the only feature which contains sal-binding-config bundle... -->
+            <artifactId>odl-mdsal-broker-local</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
