@@ -424,7 +424,7 @@
                 <type>xml</type>
             </dependency>
 
-            <!-- UNIMGR -->
+            <!-- UNIMGR commented out due to https://jira.opendaylight.org/browse/NETCONF-479
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>odl-unimgr</artifactId>
@@ -432,7 +432,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-
+-->
             <!-- USC -->
             <dependency>
                 <groupId>org.opendaylight.usc</groupId>

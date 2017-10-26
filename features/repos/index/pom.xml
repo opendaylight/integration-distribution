@@ -411,14 +411,14 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Unimgr -->
+        <!-- Unimgr commented out due to https://jira.opendaylight.org/browse/NETCONF-479
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>features4-unimgr</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-
+-->
         <!-- USC -->
         <dependency>
             <groupId>org.opendaylight.usc</groupId>

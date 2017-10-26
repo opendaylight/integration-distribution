@@ -456,13 +456,13 @@
             <type>xml</type>
         </dependency>
 
-        <!-- Unimgr -->
+        <!-- Unimgr commented out due to https://jira.opendaylight.org/browse/NETCONF-479
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>odl-unimgr</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+-->
     </dependencies>
 </project>
