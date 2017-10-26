@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a245df4_b92170fe",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 2046
+      },
+      "writtenOn": "2017-10-26T14:41:19Z",
+      "side": 1,
+      "message": "Indent please.\n\nAlso, this is the only bock which needs to be commented-out. Other blocks affected by this patch can be kept, allowing users to install other unimgr features.",
+      "range": {
+        "startLine": 466,
+        "startChar": 0,
+        "endLine": 466,
+        "endChar": 3
+      },
+      "revId": "8ec22d6c48c6af4676057fa38a0445628d02608a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
