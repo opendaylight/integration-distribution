@@ -63,6 +63,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>mdsal-artifacts</artifactId>
+                <version>${mdsal.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.daexim</groupId>
                 <artifactId>daexim-artifacts</artifactId>
                 <version>${daexim.version}</version>

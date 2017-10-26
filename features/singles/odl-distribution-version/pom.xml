@@ -65,6 +65,17 @@
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>odl-config-persister</artifactId>
+            <!-- This pulls in both config-api and yang-common -->
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <!-- Additional dependencies are needed because config-parent also requires sal-binding-config bundle. -->
+        <dependency>
+            <groupId>org.opendaylight.controller</groupId>
+            <!-- This is an overkill, but odl-mdsal-broker-local is the only feature which contains sal-binding-config
+                 bundle, and odl-mdsal-broker is its nearest ancestor tested to not fail SingleFeatureTest
+                 (others are blacklisted in feature-test so SFT is skipped and they would cause SFT failure here). -->
+            <artifactId>odl-mdsal-broker</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
