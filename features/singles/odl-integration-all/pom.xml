@@ -24,10 +24,7 @@
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
     <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>
-        Single feature containing all features separately compatible with odl-integration-compatible-with-all.
-        TODO: Split out 1node and 3node compatibility classes.
-    </description>
+    <description>Single feature containing all features separately compatible with odl-integration-compatible-with-all.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
