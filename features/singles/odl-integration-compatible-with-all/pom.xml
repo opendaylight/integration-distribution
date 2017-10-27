@@ -24,13 +24,7 @@
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
     <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>
-        Single feature containing all features compatible with most.
-        If a feature is known to be incompatible with any typical use case,
-        for 1node or 3node deployment, it should not be listed here.
-        See other feature definitions for compatibility details.
-        Note: Even commented-out features should be moved to their appropriate compatibility class.
-    </description>
+    <description>Single feature containing all features compatible together.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -130,7 +124,7 @@
 
         <!-- Daexim -->
         <dependency>
-        <groupId>org.opendaylight.daexim</groupId>
+	    <groupId>org.opendaylight.daexim</groupId>
             <artifactId>odl-daexim-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
@@ -204,6 +198,18 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-vpp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-neutron-vpp-mapper</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
             <artifactId>odl-groupbasedpolicy-ui</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
@@ -222,6 +228,12 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.groupbasedpolicy</groupId>
+            <artifactId>odl-groupbasedpolicy-ios-xe</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.groupbasedpolicy</groupId>
             <artifactId>odl-groupbasedpolicy-sxp-ep-provider</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
@@ -233,6 +245,26 @@
             <classifier>features</classifier>
         </dependency>
         -->
+
+        <!-- Honeycomb/VBD -->
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-rest</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.honeycomb.vbd</groupId>
+            <artifactId>odl-vbd-ui</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
 
         <!-- InfraUtils -->
         <dependency>
@@ -251,7 +283,6 @@
         </dependency>
 
         <!-- Netconf -->
-        <!-- odl-netconf-callhome-ssh and odl-netconf-console are not compatible with 3node deployment. -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-mdsal</artifactId>
@@ -261,6 +292,18 @@
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-mdsal-apidocs</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-callhome-ssh</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.netconf</groupId>
+            <artifactId>odl-netconf-console</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -411,6 +454,14 @@
             <artifactId>odl-sxp-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
+        </dependency>
+
+        <!-- Unimgr -->
+        <dependency>
+            <groupId>org.opendaylight.unimgr</groupId>
+            <artifactId>odl-unimgr</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
         </dependency>
 
     </dependencies>
