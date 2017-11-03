@@ -120,6 +120,15 @@
                 <classifier>features</classifier>
             </dependency>
 
+            <!-- CONTROLLER -->
+            <dependency>
+                <groupId>org.opendaylight.controller</groupId>
+                <artifactId>odl-mdsal-broker</artifactId>
+                <version>${mdsal.version}</version>
+                <classifier>features</classifier>
+                <type>xml</type>
+            </dependency>
+
             <!-- Dlux Apps -->
             <dependency>
                 <groupId>org.opendaylight.dluxapps</groupId>
