@@ -81,6 +81,7 @@
         <ofconfig.version>1.4.0-SNAPSHOT</ofconfig.version>
         <openflowplugin.version>0.6.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.6.0-SNAPSHOT</ovsdb.version>
+        <p4plugin.version>0.1.0-SNAPSHOT</p4plugin.version>
         <packetcable.version>1.7.0-SNAPSHOT</packetcable.version>
         <restconf.version>1.7.0-SNAPSHOT</restconf.version>
         <sdninterfaceapp.version>1.10.0-SNAPSHOT</sdninterfaceapp.version>

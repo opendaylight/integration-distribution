@@ -178,6 +178,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- P4 Plugin -->
+        <dependency>
+            <groupId>org.opendaylight.p4plugin</groupId>
+            <artifactId>odl-p4plugin-all</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+
         <!-- SFC -->
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>

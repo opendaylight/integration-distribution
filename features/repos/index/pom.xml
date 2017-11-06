@@ -371,6 +371,14 @@
             <type>xml</type>
         </dependency>
 
+        <!-- P4 Plugin -->
+        <dependency>
+            <groupId>org.opendaylight.p4plugin</groupId>
+            <artifactId>features-p4plugin</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- Packetcable -->
         <dependency>
             <groupId>org.opendaylight.packetcable</groupId>
