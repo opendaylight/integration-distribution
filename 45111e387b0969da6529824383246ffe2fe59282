@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a245df4_6c50afd4",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 491
+      },
+      "writtenOn": "2017-11-06T08:03:11Z",
+      "side": 1,
+      "message": "I think generally we want to avoid features ending in -all, and use meaningful names which describe what the feature does.",
+      "revId": "45111e387b0969da6529824383246ffe2fe59282",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
