@@ -52,6 +52,24 @@
       "revId": "45111e387b0969da6529824383246ffe2fe59282",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_0a10eea6",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 6888
+      },
+      "writtenOn": "2017-11-07T04:56:39Z",
+      "side": 1,
+      "message": "Yes, We set this feature to all because it is the top feature facing the user. When it is installed, other user-facing features also installed too, we have described this in the Installation Guide and User Guide.",
+      "parentUuid": "9a245df4_8ad69eef",
+      "revId": "45111e387b0969da6529824383246ffe2fe59282",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
