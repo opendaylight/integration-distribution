@@ -34,6 +34,24 @@
       "revId": "45111e387b0969da6529824383246ffe2fe59282",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_8ad69eef",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-11-07T04:09:31Z",
+      "side": 1,
+      "message": "Right, we recommend projects to list here the user-facing features \u003d those features users are expected to install and are described in the user/install guides. These features are more clear defined as odl-project-feature rather than -all. Still if a project feels like a feature containing all features makes sense for users (not for testing) we do not normally block this decision in int/dist.",
+      "parentUuid": "9a245df4_cf51c837",
+      "revId": "45111e387b0969da6529824383246ffe2fe59282",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
