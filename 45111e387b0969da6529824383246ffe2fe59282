@@ -16,6 +16,24 @@
       "revId": "45111e387b0969da6529824383246ffe2fe59282",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_cf51c837",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2017-11-07T02:03:24Z",
+      "side": 1,
+      "message": "agreed, although it\u0027s understandable to see new projects\ncoming in and using -all. just a few lines up we see other\nexamples.\n\nbut, if we have something more meaningful, it would be good\nto use that from the beginning.",
+      "parentUuid": "9a245df4_6c50afd4",
+      "revId": "45111e387b0969da6529824383246ffe2fe59282",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
