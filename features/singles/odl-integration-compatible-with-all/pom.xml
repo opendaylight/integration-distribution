@@ -339,12 +339,14 @@
         -->
 
         <!-- OCPplugin -->
+        <!-- Not active project
         <dependency>
             <groupId>org.opendaylight.ocpplugin</groupId>
             <artifactId>odl-ocpplugin-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- OpenflowPlugin -->
         <dependency>
