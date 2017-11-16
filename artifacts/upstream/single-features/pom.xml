@@ -301,6 +301,7 @@
             </dependency>
 
             <!-- OCP Plugin -->
+            <!-- Not active project
             <dependency>
                 <groupId>org.opendaylight.ocpplugin</groupId>
                 <artifactId>odl-ocpplugin-all</artifactId>
@@ -308,6 +309,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- OF-CONFIG -->
             <dependency>
