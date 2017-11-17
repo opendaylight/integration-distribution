@@ -315,6 +315,12 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        <dependency>
+            <groupId>org.opendaylight.sfc</groupId>
+            <artifactId>odl-sfc-shell</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
 
         <!-- SNMP4SDN -->
         <dependency>
