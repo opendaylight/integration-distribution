@@ -301,12 +301,6 @@
         </dependency>
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-test-consumer</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
             <artifactId>odl-sfc-ui</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
@@ -314,6 +308,12 @@
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
             <artifactId>odl-sfclisp</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.sfc</groupId>
+            <artifactId>odl-sfc-shell</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
