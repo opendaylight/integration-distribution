@@ -164,108 +164,6 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- GROUPBASEDPOLICY or GBP-->
-        <!-- Commenting this feature because SFT memory issues
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-base</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-iovisor</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-neutronmapper</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-neutron-and-ofoverlay</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-ofoverlay</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-vpp</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-neutron-vpp-mapper</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-ui</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-ip-sgt-distribution-service</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-ne-location-provider</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-ios-xe</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-sxp-ep-provider</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>odl-groupbasedpolicy-sxp-ise-adapter</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        -->
-
-        <!-- Honeycomb/VBD -->
-        <dependency>
-            <groupId>org.opendaylight.honeycomb.vbd</groupId>
-            <artifactId>odl-vbd</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.honeycomb.vbd</groupId>
-            <artifactId>odl-vbd-rest</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.honeycomb.vbd</groupId>
-            <artifactId>odl-vbd-ui</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
         <!-- InfraUtils -->
         <dependency>
             <groupId>org.opendaylight.infrautils</groupId>
@@ -285,25 +183,7 @@
         <!-- Netconf -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>odl-netconf-mdsal</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-mdsal-apidocs</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>odl-netconf-callhome-ssh</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>odl-netconf-console</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -407,12 +287,6 @@
         <!-- SFC -->
         <dependency>
             <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>odl-sfc-netconf</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
             <artifactId>odl-sfc-ovs</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
@@ -456,14 +330,6 @@
             <artifactId>odl-sxp-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
-        </dependency>
-
-        <!-- Unimgr -->
-        <dependency>
-            <groupId>org.opendaylight.unimgr</groupId>
-            <artifactId>odl-unimgr</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
         </dependency>
 
     </dependencies>
