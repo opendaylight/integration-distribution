@@ -161,6 +161,13 @@
                 <scope>import</scope>
             </dependency>
             <dependency>
+                <groupId>org.opendaylight.tsdr</groupId>
+                <artifactId>tsdr-artifacts</artifactId>
+                <version>${tsdr.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>unimgr-artifacts</artifactId>
                 <version>${unimgr.version}</version>
