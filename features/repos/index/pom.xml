@@ -62,12 +62,6 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        <dependency>
-            <groupId>org.opendaylight.aaa</groupId>
-            <artifactId>features-aaa-shiro</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
 
         <!-- ALTO -->
         <dependency>
