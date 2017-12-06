@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_50968895",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 1842
+      },
+      "writtenOn": "2017-12-06T12:10:03Z",
+      "side": 1,
+      "message": "Why was unimgr added as well",
+      "revId": "02e0a59ab8aa452109978bcda4d0d20add31b758",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
