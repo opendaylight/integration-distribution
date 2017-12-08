@@ -16,6 +16,23 @@
       "revId": "be44b8912537bc1e994a6c3f2b97de107f290438",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1969be_274bc92c",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2017-12-08T21:05:43Z",
+      "side": 1,
+      "message": "Also if you can add the version in: artifacts/upstream/properties/pom.xml, and then add the variable here so we have all versions centralized in a single place.",
+      "revId": "be44b8912537bc1e994a6c3f2b97de107f290438",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
