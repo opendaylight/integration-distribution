@@ -330,6 +330,14 @@
             <classifier>features</classifier>
         </dependency>
 
+        <!-- TSDR -->
+        <dependency>
+            <groupId>org.opendaylight.tsdr</groupId>
+            <artifactId>odl-tsdr-hsqldb-all</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+        </dependency>
+
         <!-- Unimgr -->
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
