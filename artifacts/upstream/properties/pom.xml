@@ -74,7 +74,7 @@
         <netconf.version>1.4.0-SNAPSHOT</netconf.version>
         <netide.version>0.5.0-SNAPSHOT</netide.version>
         <netvirt.version>1.6.0-SNAPSHOT</netvirt.version>
-        <nic.version>1.5.0-SNAPSHOT</nic.version>
+        <nic.version>1.4.2-SNAPSHOT</nic.version>
         <neutron.version>0.10.0-SNAPSHOT</neutron.version>
         <ocpplugin.version>0.4.0-SNAPSHOT</ocpplugin.version>
         <odlparent.version>2.0.5</odlparent.version>
