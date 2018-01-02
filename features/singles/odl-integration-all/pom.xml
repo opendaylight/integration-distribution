@@ -337,12 +337,14 @@
         </dependency>
 
         <!-- Unimgr -->
+        <!-- Comment because failed merge job
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>odl-unimgr</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- USC -->
         <dependency>
