@@ -427,12 +427,14 @@
         </dependency>
 
         <!-- Unimgr -->
+        <!-- Comment because failed merge job
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>features4-unimgr</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- USC -->
         <dependency>
