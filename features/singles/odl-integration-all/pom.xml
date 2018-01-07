@@ -61,12 +61,14 @@
         <!-- External single feature dependencies in alphabetical order -->
 
         <!-- BIER -->
+        <!-- Comment due to fail merge job
         <dependency>
             <groupId>org.opendaylight.bier</groupId>
             <artifactId>odl-bier-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- COE -->
         <dependency>

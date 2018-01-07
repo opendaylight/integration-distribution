@@ -104,12 +104,14 @@
         </dependency>
 
         <!-- BIER -->
+        <!-- Comment due to fail merge job
         <dependency>
             <groupId>org.opendaylight.bier</groupId>
             <artifactId>features-bier</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- COE -->
         <dependency>
