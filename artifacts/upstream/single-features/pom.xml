@@ -287,7 +287,6 @@
             </dependency>
 
             <!-- NIC -->
-            <!-- Comment due to fail merge job
             <dependency>
                 <groupId>org.opendaylight.nic</groupId>
                 <artifactId>odl-nic-intent-common</artifactId>
@@ -302,7 +301,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            -->
 
             <!-- OCP Plugin -->
             <!-- Not active project

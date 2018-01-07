@@ -296,15 +296,12 @@
         </dependency>
 
         <!-- NIC -->
-        <!-- Comment due to fail merge job
-
         <dependency>
             <groupId>org.opendaylight.nic</groupId>
             <artifactId>features-nic</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
-        -->
 
         <!-- OCPplugin -->
         <!-- Not active project
