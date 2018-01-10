@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>single-feature-parent</artifactId>
-        <version>2.0.5</version>
+        <version>3.0.2</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -218,7 +218,8 @@
             <type>xml</type>
         </dependency>
 
-            <!-- NEMO -->
+        <!-- NEMO -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.nemo</groupId>
             <artifactId>odl-nemo-engine</artifactId>
@@ -249,6 +250,7 @@
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- Netconf -->
         <dependency>
@@ -291,20 +293,24 @@
         </dependency>
 
         <!-- OF-CONFIG -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
             <artifactId>odl-of-config-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- P4 Plugin -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.p4plugin</groupId>
             <artifactId>odl-p4plugin-all</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- SFC -->
         <dependency>
@@ -333,30 +339,37 @@
         </dependency>
 
         <!-- TSDR -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.tsdr</groupId>
             <artifactId>odl-tsdr-hsqldb-all</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- Unimgr -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.unimgr</groupId>
             <artifactId>odl-unimgr</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- USC -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.usc</groupId>
             <artifactId>odl-usc-channel-ui</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- VTN -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.vtn</groupId>
             <artifactId>odl-vtn-manager-rest</artifactId>
@@ -369,6 +382,7 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
     </dependencies>
 </project>
