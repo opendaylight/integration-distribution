@@ -59,6 +59,7 @@
             </dependency>
 
             <!-- ALTO -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.alto</groupId>
                 <artifactId>odl-alto-simpleird</artifactId>
@@ -94,6 +95,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- BIER -->
             <!-- Comment due to fail merge job
@@ -146,6 +148,7 @@
             </dependency>
 
             <!-- Eman -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.eman</groupId>
                 <artifactId>odl-eman-ui</artifactId>
@@ -167,8 +170,10 @@
                 <type>xml</type>
                 <classifier>features</classifier>
             </dependency>
+            -->
 
             <!-- FAAS -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.faas</groupId>
                 <artifactId>odl-faas-base</artifactId>
@@ -225,8 +230,10 @@
                 <type>xml</type>
                 <classifier>features</classifier>
             </dependency>
+            -->
 
             <!-- L2switch -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.l2switch</groupId>
                 <artifactId>odl-l2switch-switch</artifactId>
@@ -248,8 +255,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- NEMO -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.nemo</groupId>
                 <artifactId>odl-nemo-engine</artifactId>
@@ -285,8 +294,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- NIC -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.nic</groupId>
                 <artifactId>odl-nic-intent-common</artifactId>
@@ -301,6 +312,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- OCP Plugin -->
             <!-- Not active project
@@ -314,6 +326,7 @@
             -->
 
             <!-- OF-CONFIG -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.of-config</groupId>
                 <artifactId>odl-of-config-all</artifactId>
@@ -321,8 +334,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- P4 Plugin -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.p4plugin</groupId>
                 <artifactId>odl-p4plugin-all</artifactId>
@@ -330,8 +345,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- Packetcable -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.packetcable</groupId>
                 <artifactId>odl-packetcable-policy-model</artifactId>
@@ -353,6 +370,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SFC -->
             <dependency>
@@ -420,6 +438,7 @@
             </dependency>
 
             <!-- SNMP -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.snmp</groupId>
                 <artifactId>odl-snmp-plugin</artifactId>
@@ -427,8 +446,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SNMP4SDN -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
                 <artifactId>odl-snmp4sdn-snmp4sdn</artifactId>
@@ -436,8 +457,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SXP -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.sxp</groupId>
                 <artifactId>odl-sxp-controller</artifactId>
@@ -445,8 +468,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- UNIMGR -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.unimgr</groupId>
                 <artifactId>odl-unimgr</artifactId>
@@ -454,8 +479,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- USC -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.usc</groupId>
                 <artifactId>odl-usc-channel-ui</artifactId>
@@ -463,8 +490,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- VTN -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.vtn</groupId>
                 <artifactId>odl-vtn-manager-rest</artifactId>
@@ -479,6 +508,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
         </dependencies>
     </dependencyManagement>
 </project>

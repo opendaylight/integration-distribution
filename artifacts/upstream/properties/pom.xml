@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>2.0.5</version>
+        <version>3.0.2</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -77,7 +77,7 @@
         <nic.version>1.5.0-SNAPSHOT</nic.version>
         <neutron.version>0.10.0-SNAPSHOT</neutron.version>
         <ocpplugin.version>0.4.0-SNAPSHOT</ocpplugin.version>
-        <odlparent.version>2.0.5</odlparent.version>
+        <odlparent.version>3.0.2</odlparent.version>
         <ofconfig.version>1.4.0-SNAPSHOT</ofconfig.version>
         <openflowplugin.version>0.6.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.6.0-SNAPSHOT</ovsdb.version>
@@ -94,7 +94,7 @@
         <usc.version>1.5.0-SNAPSHOT</usc.version>
         <vpnservice.version>0.6.0-SNAPSHOT</vpnservice.version>
         <vtn-manager.version>0.8.0-SNAPSHOT</vtn-manager.version>
-        <yangtools.version>1.2.0</yangtools.version>
+        <yangtools.version>2.0.0</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
