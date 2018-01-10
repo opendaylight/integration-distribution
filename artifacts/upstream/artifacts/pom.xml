@@ -41,6 +41,7 @@
         <dependencies>
             <!-- Project artifact poms. Alphabetical order -->
             <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.bgpcep</groupId>
                 <artifactId>bgpcep-artifacts</artifactId>
@@ -48,6 +49,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.opendaylight.coe</groupId>
                 <artifactId>coe-artifacts</artifactId>
@@ -139,6 +141,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.groupbasedpolicy</groupId>
                 <artifactId>groupbasedpolicy-artifacts</artifactId>
@@ -146,6 +149,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.opendaylight.honeycomb.vbd</groupId>
                 <artifactId>vbd-artifacts</artifactId>
@@ -160,6 +164,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.tsdr</groupId>
                 <artifactId>tsdr-artifacts</artifactId>
@@ -174,6 +179,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
         </dependencies>
     </dependencyManagement>
 </project>
