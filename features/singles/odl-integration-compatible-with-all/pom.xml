@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>single-feature-parent</artifactId>
-        <version>2.0.5</version>
+        <version>3.0.2</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -97,6 +97,7 @@
         -->
 
         <!-- BGPCEP -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.bgpcep</groupId>
             <artifactId>odl-bgpcep-bgp</artifactId>
@@ -121,6 +122,7 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
 
         <!-- Daexim -->
         <dependency>
@@ -173,12 +175,13 @@
         </dependency>
 
         <!-- LISP Flow Mapping -->
+        <!--
         <dependency>
             <groupId>org.opendaylight.lispflowmapping</groupId>
             <artifactId>odl-lispflowmapping-msmr</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
-        </dependency>
+        </dependency>-->
 
         <!-- Netconf -->
         <dependency>
@@ -263,12 +266,14 @@
         </dependency>
 
         <!-- Packetcable -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.packetcable</groupId>
             <artifactId>odl-packetcable-policy-model</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->
         <!-- Commenting because SFT memory issue
         <dependency>
             <groupId>org.opendaylight.packetcable</groupId>
@@ -285,7 +290,7 @@
         -->
 
         <!-- SFC -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.opendaylight.sfc</groupId>
             <artifactId>odl-sfc-ovs</artifactId>
             <type>xml</type>
@@ -314,23 +319,27 @@
             <artifactId>odl-sfclisp</artifactId>
             <type>xml</type>
             <classifier>features</classifier>
-        </dependency>
+        </dependency>-->
 
         <!-- SNMP4SDN -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.snmp4sdn</groupId>
             <artifactId>odl-snmp4sdn-snmp4sdn</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
         <!-- SXP -->
+        <!-- Removed for the odlparent 3 / yangtools 2 migration
         <dependency>
             <groupId>org.opendaylight.sxp</groupId>
             <artifactId>odl-sxp-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
+        -->
 
     </dependencies>
 </project>
