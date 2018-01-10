@@ -97,6 +97,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.netvirt</groupId>
                 <artifactId>vpnservice-artifacts</artifactId>
@@ -104,6 +105,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.opendaylight.neutron</groupId>
                 <artifactId>neutron-artifacts</artifactId>
@@ -139,6 +141,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.groupbasedpolicy</groupId>
                 <artifactId>groupbasedpolicy-artifacts</artifactId>
@@ -146,6 +149,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
             <dependency>
                 <groupId>org.opendaylight.honeycomb.vbd</groupId>
                 <artifactId>vbd-artifacts</artifactId>
@@ -160,6 +164,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.tsdr</groupId>
                 <artifactId>tsdr-artifacts</artifactId>
@@ -174,6 +179,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            -->
         </dependencies>
     </dependencyManagement>
 </project>

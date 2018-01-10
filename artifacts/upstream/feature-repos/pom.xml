@@ -53,6 +53,7 @@
             </dependency>
 
             <!-- ALTO -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.alto</groupId>
                 <artifactId>features4-alto</artifactId>
@@ -60,6 +61,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
 
             <!-- BIER -->
@@ -122,6 +124,7 @@
             </dependency>
 
             <!-- Eman -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.eman</groupId>
                 <artifactId>features-eman</artifactId>
@@ -129,8 +132,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- FaaS -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.faas</groupId>
                 <artifactId>features4-faas</artifactId>
@@ -138,6 +143,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- InfraUtils -->
             <dependency>
@@ -149,6 +155,7 @@
             </dependency>
 
             <!-- L2switch -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.l2switch</groupId>
                 <artifactId>features-l2switch</artifactId>
@@ -156,8 +163,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- NEMO -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.nemo</groupId>
                 <artifactId>nemo-features</artifactId>
@@ -165,8 +174,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- NIC -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.nic</groupId>
                 <artifactId>features-nic</artifactId>
@@ -174,6 +185,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- OCP Plugin -->
             <!-- Not active project
@@ -203,6 +215,7 @@
             </dependency>
 
             <!-- OF-CONFIG -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.of-config</groupId>
                 <artifactId>features-of-config</artifactId>
@@ -210,8 +223,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- P4 Plugin -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.p4plugin</groupId>
                 <artifactId>features-p4plugin</artifactId>
@@ -219,8 +234,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- Packetcable -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.packetcable</groupId>
                 <artifactId>features4-packetcable-policy</artifactId>
@@ -228,8 +245,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SFC -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.sfc</groupId>
                 <artifactId>features4-sfc</artifactId>
@@ -237,6 +256,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SNMP -->
             <dependency>
@@ -248,6 +268,7 @@
             </dependency>
 
             <!-- SNMP4SDN -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.snmp4sdn</groupId>
                 <artifactId>features-snmp4sdn</artifactId>
@@ -255,6 +276,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- SXP -->
             <dependency>
@@ -266,6 +288,7 @@
             </dependency>
 
             <!-- USC -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.usc</groupId>
                 <artifactId>usc-features</artifactId>
@@ -273,8 +296,10 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
             <!-- VTN -->
+            <!-- Removed for the odlparent 3 / yangtools 2 migration
             <dependency>
                 <groupId>org.opendaylight.vtn</groupId>
                 <artifactId>features-vtn-manager</artifactId>
@@ -282,6 +307,7 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
+            -->
 
         </dependencies>
     </dependencyManagement>
