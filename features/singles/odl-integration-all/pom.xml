@@ -169,7 +169,13 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
-
+         <dependency>
+            <groupId>org.opendaylight.netvirt</groupId>
+            <artifactId>odl-netvirt-coe</artifactId>
+            <type>xml</type>
+            <classifier>features</classifier>
+        </dependency>
+		
         <!-- OF-CONFIG -->
         <dependency>
             <groupId>org.opendaylight.of-config</groupId>
