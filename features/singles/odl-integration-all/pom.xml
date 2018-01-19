@@ -201,7 +201,7 @@
         <!-- L2switch -->
         <dependency>
             <groupId>org.opendaylight.l2switch</groupId>
-            <artifactId>odl-l2switch-switch-ui</artifactId>
+            <artifactId>odl-l2switch-switch-rest</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
