@@ -201,7 +201,7 @@
         <!-- L2switch -->
         <dependency>
             <groupId>org.opendaylight.l2switch</groupId>
-            <artifactId>odl-l2switch-switch-ui</artifactId>
+            <artifactId>odl-l2switch-switch-rest</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
         </dependency>
@@ -241,6 +241,7 @@
         -->
 
         <!-- Netconf -->
+        <!-- This project is no good after last bump migration
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>odl-netconf-callhome-ssh</artifactId>
@@ -271,6 +272,7 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        -->:
 
         <!-- Netvirt -->
         <dependency>
