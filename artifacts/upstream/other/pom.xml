@@ -37,15 +37,23 @@
         <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream/other;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <dependencyManagement>
-        <dependencies>
-            <!-- External applications. -->
-            <dependency>
-                <groupId>org.opendaylight.aaa</groupId>
-                <artifactId>aaa-cli-jar</artifactId>
-                <!-- TODO: Open Bug agains AAA to export this version in an artifact pom. -->
-                <version>${aaa.version}</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <!-- External applications. -->
+    <profiles>
+        <profile>
+            <id>aaa</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.aaa</groupId>
+                        <artifactId>aaa-cli-jar</artifactId>
+                        <!-- TODO: Open Bug agains AAA to export this version in an artifact pom. -->
+                        <version>${aaa.version}</version>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+    </profiles>
 </project>
