@@ -50,434 +50,680 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-    <dependencies>
-
-        <!-- User facing single features. Alphabetical order -->
-        <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
-
+    <!-- User facing single features. Alphabetical order -->
+    <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
+    <profiles>
         <!-- AAA -->
-        <dependency>
-            <groupId>org.opendaylight.aaa</groupId>
-            <artifactId>features-aaa</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>aaa</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.aaa</groupId>
+                    <artifactId>features-aaa</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- ALTO -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.alto</groupId>
-            <artifactId>features4-alto</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>alto</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.alto</groupId>
+                    <artifactId>features4-alto</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- BGPCEP -->
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features-bgp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features-bmp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features-bgpcep-extras</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features-pcep</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.bgpcep</groupId>
-            <artifactId>features-rsvp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>bgpcep</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-bgp</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-bmp</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-bgpcep-extras</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-pcep</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-rsvp</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- BIER -->
-        <!-- Comment due to fail merge job
-        <dependency>
-            <groupId>org.opendaylight.bier</groupId>
-            <artifactId>features-bier</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>bier</id>
+            <!-- Disabled due to failed merge job -->
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.bier</groupId>
+                    <artifactId>features-bier</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- COE -->
-        <dependency>
-            <groupId>org.opendaylight.coe</groupId>
-            <artifactId>features-coe</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>coe</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.coe</groupId>
+                    <artifactId>features-coe</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Controller -->
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-extras</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-mdsal</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-mdsal-benchmark</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-mdsal-trace</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>controller</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>features-extras</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>features-mdsal</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>features-mdsal-benchmark</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>features-mdsal-trace</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Daexim -->
-        <dependency>
-            <groupId>org.opendaylight.daexim</groupId>
-            <artifactId>daexim-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>daexim</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.daexim</groupId>
+                    <artifactId>daexim-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Distribution -->
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>features-distribution</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>distribution</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>${project.groupId}</groupId>
+                    <artifactId>features-distribution</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Dlux -->
-        <dependency>
-            <groupId>org.opendaylight.dlux</groupId>
-            <artifactId>features-dlux</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>dlux</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.dlux</groupId>
+                    <artifactId>features-dlux</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- DluxApps -->
-        <dependency>
-            <groupId>org.opendaylight.dluxapps</groupId>
-            <artifactId>features-dluxapps</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>dluxapps</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.dluxapps</groupId>
+                    <artifactId>features-dluxapps</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Eman -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.eman</groupId>
-            <artifactId>features-eman</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>emacs</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.eman</groupId>
+                    <artifactId>features-eman</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- FAAS -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.faas</groupId>
-            <artifactId>features4-faas</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>faas</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.faas</groupId>
+                    <artifactId>features4-faas</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Genius -->
-        <dependency>
-            <groupId>org.opendaylight.genius</groupId>
-            <artifactId>genius-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>genius</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.genius</groupId>
+                    <artifactId>genius-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- GROUPBASEDPOLICY -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.groupbasedpolicy</groupId>
-            <artifactId>features-groupbasedpolicy</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        -->
-
+        <profile>
+            <id>groupbasedpolicy</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
+                    <artifactId>features-groupbasedpolicy</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Honeycomb/VBD -->
-        <dependency>
-            <groupId>org.opendaylight.honeycomb.vbd</groupId>
-            <artifactId>vbd-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>honeycombvbd</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                    <artifactId>vbd-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- InfraUtils -->
-        <dependency>
-            <groupId>org.opendaylight.infrautils</groupId>
-            <artifactId>infrautils-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>infrautils</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.infrautils</groupId>
+                    <artifactId>infrautils-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- L2switch -->
-        <dependency>
-            <groupId>org.opendaylight.l2switch</groupId>
-            <artifactId>features-l2switch</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
-        <!-- NEMO -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.nemo</groupId>
-            <artifactId>nemo-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>l2switch</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.l2switch</groupId>
+                    <artifactId>features-l2switch</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- LISP Flow Mapping -->
-        <dependency>
-            <groupId>org.opendaylight.lispflowmapping</groupId>
-            <artifactId>features-lispflowmapping</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>lispflowmapping</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.lispflowmapping</groupId>
+                    <artifactId>features-lispflowmapping</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- FIXME: Add Mdsal -->
-
+        <!-- NEMO -->
+        <profile>
+            <id>nemo</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.nemo</groupId>
+                    <artifactId>nemo-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Netconf -->
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>features-netconf</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>features-netconf-connector</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>features-restconf</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.netconf</groupId>
-            <artifactId>features-yanglib</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>netconf</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.netconf</groupId>
+                    <artifactId>features-netconf</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.netconf</groupId>
+                    <artifactId>features-netconf-connector</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.netconf</groupId>
+                    <artifactId>features-restconf</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.netconf</groupId>
+                    <artifactId>features-yanglib</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Netvirt -->
-        <dependency>
-            <groupId>org.opendaylight.netvirt</groupId>
-            <artifactId>vpnservice-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>netvirt</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.netvirt</groupId>
+                    <artifactId>vpnservice-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Neutron Northbound -->
-        <dependency>
-            <groupId>org.opendaylight.neutron</groupId>
-            <artifactId>features-neutron-service</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>neutron</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.neutron</groupId>
+                    <artifactId>features-neutron-service</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- NIC -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.nic</groupId>
-            <artifactId>features-nic</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>nic</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.nic</groupId>
+                    <artifactId>features-nic</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- OCPplugin -->
-        <!-- Not active project
-        <dependency>
-            <groupId>org.opendaylight.ocpplugin</groupId>
-            <artifactId>features-ocpplugin</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>ocpplugin</id>
+            <activation>
+                <!-- Inactive -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.ocpplugin</groupId>
+                    <artifactId>features-ocpplugin</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- ODL Parent -->
-        <dependency>
-            <groupId>org.opendaylight.odlparent</groupId>
-            <artifactId>features-akka</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.odlparent</groupId>
-            <artifactId>features-odlparent</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>odlparent</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>features-akka</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>features-odlparent</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- OF-CONFIG -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.of-config</groupId>
-            <artifactId>features-of-config</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        -->
-
+        <profile>
+            <id>ofconfig</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.of-config</groupId>
+                    <artifactId>features-of-config</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- OpenflowPlugin -->
-        <dependency>
-            <groupId>org.opendaylight.openflowplugin</groupId>
-            <artifactId>features-openflowplugin</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.openflowplugin</groupId>
-            <artifactId>features-openflowplugin-extension</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>openflowplugin</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.openflowplugin</groupId>
+                    <artifactId>features-openflowplugin</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.openflowplugin</groupId>
+                    <artifactId>features-openflowplugin-extension</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- OVSDB -->
-        <dependency>
-            <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>library-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>hwvtepsouthbound-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.ovsdb</groupId>
-            <artifactId>southbound-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>ovsdb</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.ovsdb</groupId>
+                    <artifactId>library-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.ovsdb</groupId>
+                    <artifactId>hwvtepsouthbound-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.ovsdb</groupId>
+                    <artifactId>southbound-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- P4 Plugin -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.p4plugin</groupId>
-            <artifactId>features-p4plugin</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>p4plugin</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.p4plugin</groupId>
+                    <artifactId>features-p4plugin</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Packetcable -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.packetcable</groupId>
-            <artifactId>features4-packetcable-policy</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>packetcable</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.packetcable</groupId>
+                    <artifactId>features4-packetcable-policy</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- SFC -->
-        <dependency>
-            <groupId>org.opendaylight.sfc</groupId>
-            <artifactId>features4-sfc</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>sfc</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.sfc</groupId>
+                    <artifactId>features4-sfc</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- SNMP -->
-        <dependency>
-            <groupId>org.opendaylight.snmp</groupId>
-            <artifactId>features-snmp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>snmp</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.snmp</groupId>
+                    <artifactId>features-snmp</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- SNMP4SDN -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.snmp4sdn</groupId>
-            <artifactId>features-snmp4sdn</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>snmp4sdn</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.snmp4sdn</groupId>
+                    <artifactId>features-snmp4sdn</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- SXP -->
-        <dependency>
-            <groupId>org.opendaylight.sxp</groupId>
-            <artifactId>features-sxp</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-
+        <profile>
+            <id>sxp</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.sxp</groupId>
+                    <artifactId>features-sxp</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- TSDR  -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.tsdr</groupId>
-            <artifactId>features-tsdr</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>tsdr</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.tsdr</groupId>
+                    <artifactId>features-tsdr</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Unimgr -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.unimgr</groupId>
-            <artifactId>features4-unimgr</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>unimgr</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.unimgr</groupId>
+                    <artifactId>features4-unimgr</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- USC -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.usc</groupId>
-            <artifactId>usc-features</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+        <profile>
+            <id>usc</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.usc</groupId>
+                    <artifactId>usc-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- VTN -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration
-        <dependency>
-            <groupId>org.opendaylight.vtn</groupId>
-            <artifactId>features-vtn-manager</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-        </dependency>
-        -->
-
+        <profile>
+            <id>vtn</id>
+            <activation>
+                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.vtn</groupId>
+                    <artifactId>features-vtn-manager</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- FIXME: Add Yangtools -->
-
-    </dependencies>
+    </profiles>
 </project>
