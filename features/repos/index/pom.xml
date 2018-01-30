@@ -690,11 +690,10 @@
             </dependencies>
         </profile>
         <!-- USC -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration -->
         <profile>
             <id>usc</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
