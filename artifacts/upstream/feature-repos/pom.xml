@@ -348,7 +348,6 @@
         <profile>
             <id>p4plugin</id>
             <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
                 <activeByDefault>true</activeByDefault>
             </activation>
             <dependencyManagement>
