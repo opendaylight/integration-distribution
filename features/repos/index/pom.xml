@@ -249,7 +249,7 @@
         </profile>
         <!-- Eman -->
         <profile>
-            <id>emacs</id>
+            <id>eman</id>
             <activation>
                 <!-- Removed for the odlparent 3 / yangtools 2 migration -->
                 <activeByDefault>false</activeByDefault>
@@ -571,8 +571,7 @@
         <profile>
             <id>p4plugin</id>
             <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
