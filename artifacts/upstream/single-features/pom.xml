@@ -288,6 +288,24 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- JSON RPC -->
+        <profile>
+            <id>jsonrpc</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.jsonrpc</groupId>
+                        <artifactId>jsonrpc-features</artifactId>
+                        <version>${jsonrpc.version}</version>
+                        <type>xml</type>
+                        <classifier>features</classifier>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
         <!-- L2switch -->
         <profile>
             <id>l2switch</id>
