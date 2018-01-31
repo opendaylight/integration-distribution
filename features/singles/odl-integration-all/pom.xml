@@ -351,8 +351,7 @@
         <profile>
             <id>ofconfig</id>
             <activation>
-                <!-- Inactive -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
