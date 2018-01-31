@@ -418,8 +418,7 @@
         <profile>
             <id>tsdr</id>
             <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
