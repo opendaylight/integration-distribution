@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
  Copyright (c) 2017 Cisco Systems, Inc. and others.  All rights reserved.
@@ -126,9 +126,8 @@
         <!-- BIER -->
         <profile>
             <id>bier</id>
-            <!-- Disabled due to failed merge job -->
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
