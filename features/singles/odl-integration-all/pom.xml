@@ -64,8 +64,7 @@
         <profile>
             <id>bier</id>
             <activation>
-                <!-- Disabled due to failed merge job -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
