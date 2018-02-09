@@ -203,6 +203,33 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- Honeycomb/VBD -->
+        <profile>
+            <id>honeycombvbd</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                    <artifactId>odl-vbd</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                    <artifactId>odl-vbd-rest</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                    <artifactId>odl-vbd-ui</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- InfraUtils -->
         <profile>
             <id>infrautils</id>
