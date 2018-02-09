@@ -208,6 +208,24 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- GROUPBASEDPOLICY -->
+        <profile>
+            <id>groupbasedpolicy</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.groupbasedpolicy</groupId>
+                        <artifactId>features4-groupbasedpolicy</artifactId>
+                        <version>${groupbasedpolicy.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
         <!-- InfraUtils -->
         <profile>
             <id>infrautils</id>
