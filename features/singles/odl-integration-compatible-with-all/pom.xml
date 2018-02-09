@@ -50,6 +50,21 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <!-- Override odlparent default to get the speed improvements in feature generation
+         FIXME: remove this once odlparent ships 4.1.5+ -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.karaf.tooling</groupId>
+                    <artifactId>karaf-maven-plugin</artifactId>
+                    <version>4.1.5</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
     <!-- User facing single features. Alphabetical order -->
     <profiles>
         <!-- AAA -->
