@@ -126,7 +126,7 @@
             <id>groupbasedpolicy</id>
             <activation>
                 <!-- Disabled because of SFT memory issues -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
