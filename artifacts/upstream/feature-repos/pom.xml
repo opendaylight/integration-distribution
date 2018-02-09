@@ -208,6 +208,24 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- HONEYCOMB/VBD -->
+        <profile>
+            <id>honeycombvbd</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                        <artifactId>vbd-features4</artifactId>
+                        <version>${honeycomb.vbd.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
         <!-- InfraUtils -->
         <profile>
             <id>infrautils</id>

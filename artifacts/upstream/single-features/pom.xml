@@ -306,6 +306,35 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- Honeycomb/VBD -->
+        <profile>
+            <id>honeycombvbd</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                        <artifactId>odl-vbd</artifactId>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                        <artifactId>odl-vbd-rest</artifactId>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.honeycomb.vbd</groupId>
+                        <artifactId>odl-vbd-ui</artifactId>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
         <!-- L2switch -->
         <profile>
             <id>l2switch</id>

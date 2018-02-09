@@ -213,8 +213,7 @@
         <profile>
             <id>honeycombvbd</id>
             <activation>
-                <!-- Commented out because of SFT memory problem -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
