@@ -427,7 +427,8 @@
         <profile>
             <id>tsdr</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <!-- Removed because tsdr is not using latest netty version -->
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
