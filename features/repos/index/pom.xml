@@ -126,8 +126,9 @@
         <!-- BIER -->
         <profile>
             <id>bier</id>
+            <!-- Disabled due to failed merge job -->
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
