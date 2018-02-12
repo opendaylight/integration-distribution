@@ -61,10 +61,11 @@
     <!-- External single feature dependencies in alphabetical order -->
     <profiles>
         <!-- BIER -->
+        <!-- Comment bier because a conflicting dependency makes SFT fail -->
         <profile>
             <id>bier</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
