@@ -72,7 +72,7 @@
             <id>alto</id>
             <activation>
                 <!-- Commented because of SFT memory issues -->
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
