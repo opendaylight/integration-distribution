@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8e77256_ab3274c4",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:21:58Z",
+      "side": 1,
+      "message": "You do not need this if feature repos are already in artifacts.",
+      "revId": "6d7c5cf665a18216fb9f757e0b5c8c93794b16c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1964d0f1_cde31583",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:21:58Z",
+      "side": 1,
+      "message": "You do not need this if features are already in artifacts.",
+      "revId": "6d7c5cf665a18216fb9f757e0b5c8c93794b16c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e4dd7ee_9bfef849",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:21:58Z",
+      "side": 1,
+      "message": "You do not need this if feature is already in odl-integration-all.",
+      "revId": "6d7c5cf665a18216fb9f757e0b5c8c93794b16c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
