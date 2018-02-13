@@ -213,7 +213,7 @@
         <profile>
             <id>honeycombvbd</id>
             <activation>
-                <!-- netconf connector is broken after last bump migration -->
+                <!-- Commented out because of SFT memory problem -->
                 <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
@@ -310,8 +310,7 @@
         <profile>
             <id>netconf</id>
             <activation>
-                <!-- netconf connector is broken after last bump migration -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
@@ -395,8 +394,7 @@
         <profile>
             <id>sfc</id>
             <activation>
-                <!-- netconf connector is broken after last bump migration -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
