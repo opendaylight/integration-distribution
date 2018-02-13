@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f440f7f0_92f48b24",
+        "filename": "artifacts/upstream/feature-repos/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:28:17Z",
+      "side": 1,
+      "message": "You do not need this if feature repos are already in artifacts.",
+      "revId": "8145f21f49d2cf82f4bde6a5ecd70cecb05df058",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ea2850a9_c07a1f7a",
+        "filename": "artifacts/upstream/single-features/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:28:17Z",
+      "side": 1,
+      "message": "You do not need this if features are already in artifacts.",
+      "revId": "8145f21f49d2cf82f4bde6a5ecd70cecb05df058",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5936600b_ea6090a2",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:28:17Z",
+      "side": 1,
+      "message": "Most likely the features are giving SFT issues so you may want to leave this false.",
+      "revId": "8145f21f49d2cf82f4bde6a5ecd70cecb05df058",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "539d0302_f3469291",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-02-13T22:28:17Z",
+      "side": 1,
+      "message": "You do not need this if feature is already in odl-integration-all.",
+      "revId": "8145f21f49d2cf82f4bde6a5ecd70cecb05df058",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
