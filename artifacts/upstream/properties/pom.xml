@@ -19,7 +19,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.7.2-SNAPSHOT</version>
+    <version>0.7.2</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -45,58 +45,58 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.6.2-SNAPSHOT</aaa.version>
-        <alto.version>0.5.2-SNAPSHOT</alto.version>
-        <benchmark.version>1.4.2-SNAPSHOT</benchmark.version>
-        <bgpcep.version>0.8.2-SNAPSHOT</bgpcep.version>
-        <bier.version>0.2.2-SNAPSHOT</bier.version>
-        <cardinal.version>0.3.2-SNAPSHOT</cardinal.version>
-        <coe.version>0.2.2-SNAPSHOT</coe.version>
-        <config.version>0.7.2-SNAPSHOT</config.version>
-        <controller.extras.version>1.9.2-SNAPSHOT</controller.extras.version>
-        <daexim.version>1.2.2-SNAPSHOT</daexim.version>
-        <didm.version>0.5.2-SNAPSHOT</didm.version>
-        <dlux.version>0.6.2-SNAPSHOT</dlux.version>
-        <dluxapps.version>0.6.2-SNAPSHOT</dluxapps.version>
-        <eman.version>1.2.2-SNAPSHOT</eman.version>
-        <faas.version>1.3.2-SNAPSHOT</faas.version>
-        <federation.version>0.3.2-SNAPSHOT</federation.version>
-        <flow.version>1.6.2-SNAPSHOT</flow.version>
-        <genius.version>0.3.2-SNAPSHOT</genius.version>
-        <groupbasedpolicy.version>0.6.2-SNAPSHOT</groupbasedpolicy.version>
-        <honeycomb.vbd.version>1.2.2-SNAPSHOT</honeycomb.vbd.version>
-        <infrautils.version>1.2.2-SNAPSHOT</infrautils.version>
-        <iotdm.version>0.4.2-SNAPSHOT</iotdm.version>
-        <l2switch.version>0.6.2-SNAPSHOT</l2switch.version>
-        <lacp.version>1.4.2-SNAPSHOT</lacp.version>
-        <lispflowmapping.version>1.6.2-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>1.6.2-SNAPSHOT</mdsal.version>
-        <nemo.version>1.3.2-SNAPSHOT</nemo.version>
-        <netconf.version>1.3.2-SNAPSHOT</netconf.version>
-        <netide.version>0.4.2-SNAPSHOT</netide.version>
-        <netvirt.version>1.5.2-SNAPSHOT</netvirt.version>
-        <nic.version>1.4.2-SNAPSHOT</nic.version>
-        <neutron.version>0.9.2-SNAPSHOT</neutron.version>
-        <ocpplugin.version>0.3.2-SNAPSHOT</ocpplugin.version>
+        <aaa.version>0.6.2</aaa.version>
+        <alto.version>0.5.2</alto.version>
+        <benchmark.version>1.4.2</benchmark.version>
+        <bgpcep.version>0.8.2</bgpcep.version>
+        <bier.version>0.2.2</bier.version>
+        <cardinal.version>0.3.2</cardinal.version>
+        <coe.version>0.2.2</coe.version>
+        <config.version>0.7.2</config.version>
+        <controller.extras.version>1.9.2</controller.extras.version>
+        <daexim.version>1.2.2</daexim.version>
+        <didm.version>0.5.2</didm.version>
+        <dlux.version>0.6.2</dlux.version>
+        <dluxapps.version>0.6.2</dluxapps.version>
+        <eman.version>1.2.2</eman.version>
+        <faas.version>1.3.2</faas.version>
+        <federation.version>0.3.2</federation.version>
+        <flow.version>1.6.2</flow.version>
+        <genius.version>0.3.2</genius.version>
+        <groupbasedpolicy.version>0.6.2</groupbasedpolicy.version>
+        <honeycomb.vbd.version>1.2.2</honeycomb.vbd.version>
+        <infrautils.version>1.2.2</infrautils.version>
+        <iotdm.version>0.4.2</iotdm.version>
+        <l2switch.version>0.6.2</l2switch.version>
+        <lacp.version>1.4.2</lacp.version>
+        <lispflowmapping.version>1.6.2</lispflowmapping.version>
+        <mdsal.version>1.6.2</mdsal.version>
+        <nemo.version>1.3.2</nemo.version>
+        <netconf.version>1.3.2</netconf.version>
+        <netide.version>0.4.2</netide.version>
+        <netvirt.version>1.5.2</netvirt.version>
+        <nic.version>1.4.2</nic.version>
+        <neutron.version>0.9.2</neutron.version>
+        <ocpplugin.version>0.3.2</ocpplugin.version>
         <odlparent.version>2.0.5</odlparent.version>
-        <ofconfig.version>1.3.2-SNAPSHOT</ofconfig.version>
-        <openflowplugin.version>0.5.2-SNAPSHOT</openflowplugin.version>
-        <ovsdb.version>1.5.2-SNAPSHOT</ovsdb.version>
-        <packetcable.version>1.6.2-SNAPSHOT</packetcable.version>
-        <restconf.version>1.6.2-SNAPSHOT</restconf.version>
-        <sdninterfaceapp.version>1.9.2-SNAPSHOT</sdninterfaceapp.version>
-        <sfc.version>0.6.2-SNAPSHOT</sfc.version>
-        <snmp.version>1.4.2-SNAPSHOT</snmp.version>
-        <snmp4sdn.version>0.6.2-SNAPSHOT</snmp4sdn.version>
-        <sxp.version>1.5.2-SNAPSHOT</sxp.version>
-        <topoprocessing.version>0.4.2-SNAPSHOT</topoprocessing.version>
-        <tsdr.version>1.4.2-SNAPSHOT</tsdr.version>
-        <ttp.version>0.5.2-SNAPSHOT</ttp.version>
-        <unimgr.version>0.3.2-SNAPSHOT</unimgr.version>
-        <usc.version>1.4.2-SNAPSHOT</usc.version>
-        <vpnservice.version>0.5.2-SNAPSHOT</vpnservice.version>
-        <vtn-manager.version>0.7.2-SNAPSHOT</vtn-manager.version>
-        <yangtools.version>1.2.2-SNAPSHOT</yangtools.version>
+        <ofconfig.version>1.3.2</ofconfig.version>
+        <openflowplugin.version>0.5.2</openflowplugin.version>
+        <ovsdb.version>1.5.2</ovsdb.version>
+        <packetcable.version>1.6.2</packetcable.version>
+        <restconf.version>1.6.2</restconf.version>
+        <sdninterfaceapp.version>1.9.2</sdninterfaceapp.version>
+        <sfc.version>0.6.2</sfc.version>
+        <snmp.version>1.4.2</snmp.version>
+        <snmp4sdn.version>0.6.2</snmp4sdn.version>
+        <sxp.version>1.5.2</sxp.version>
+        <topoprocessing.version>0.4.2</topoprocessing.version>
+        <tsdr.version>1.4.2</tsdr.version>
+        <ttp.version>0.5.2</ttp.version>
+        <unimgr.version>0.3.2</unimgr.version>
+        <usc.version>1.4.2</usc.version>
+        <vpnservice.version>0.5.2</vpnservice.version>
+        <vtn-manager.version>0.7.2</vtn-manager.version>
+        <yangtools.version>1.2.2</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
