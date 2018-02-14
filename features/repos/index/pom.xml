@@ -441,6 +441,12 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.netvirt</groupId>
+                    <artifactId>netvirt-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.netvirt</groupId>
                     <artifactId>vpnservice-features</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
