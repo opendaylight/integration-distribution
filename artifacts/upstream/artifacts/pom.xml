@@ -226,8 +226,8 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.opendaylight.netvirt</groupId>
-                        <artifactId>vpnservice-artifacts</artifactId>
-                        <version>${vpnservice.version}</version>
+                        <artifactId>netvirt-artifacts</artifactId>
+                        <version>${netvirt.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>

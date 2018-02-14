@@ -432,7 +432,7 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Netvirt -->
+        <!-- NetVirt -->
         <profile>
             <id>netvirt</id>
             <activation>
@@ -441,7 +441,7 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.netvirt</groupId>
-                    <artifactId>vpnservice-features</artifactId>
+                    <artifactId>netvirt-features</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>

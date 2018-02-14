@@ -74,7 +74,7 @@
         <nemo.version>1.4.0-SNAPSHOT</nemo.version>
         <netconf.version>1.4.0-SNAPSHOT</netconf.version>
         <netide.version>0.5.0-SNAPSHOT</netide.version>
-        <netvirt.version>1.6.0-SNAPSHOT</netvirt.version>
+        <netvirt.version>0.6.0-SNAPSHOT</netvirt.version>
         <nic.version>1.5.0-SNAPSHOT</nic.version>
         <neutron.version>0.10.0-SNAPSHOT</neutron.version>
         <ocpplugin.version>0.4.0-SNAPSHOT</ocpplugin.version>
@@ -93,7 +93,6 @@
         <tsdr.version>1.5.0-SNAPSHOT</tsdr.version>
         <unimgr.version>0.4.0-SNAPSHOT</unimgr.version>
         <usc.version>1.5.0-SNAPSHOT</usc.version>
-        <vpnservice.version>0.6.0-SNAPSHOT</vpnservice.version>
         <vtn-manager.version>0.8.0-SNAPSHOT</vtn-manager.version>
         <yangtools.version>2.0.1</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
