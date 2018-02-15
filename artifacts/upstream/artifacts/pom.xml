@@ -252,6 +252,23 @@
             </dependencyManagement>
         </profile>
         <profile>
+            <id>nic</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.nic</groupId>
+                        <artifactId>nic-artifacts</artifactId>
+                        <version>${nic.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
             <id>openflowplugin</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
