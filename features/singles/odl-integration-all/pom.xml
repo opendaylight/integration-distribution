@@ -64,7 +64,8 @@
         <profile>
             <id>bier</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <!-- Removed because restconf-bierman issue -->
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
@@ -427,8 +428,7 @@
         <profile>
             <id>tsdr</id>
             <activation>
-                <!-- Removed because tsdr is not using latest netty version -->
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
