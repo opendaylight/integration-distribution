@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Robert Varga <nite@hq.sk>
+Code-Review+2: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-by: Thanh Ha <thanh.ha@linuxfoundation.org>
+Submitted-at: Fri, 23 Feb 2018 02:32:14 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/68314
+Project: integration/distribution
+Branch: refs/heads/master
