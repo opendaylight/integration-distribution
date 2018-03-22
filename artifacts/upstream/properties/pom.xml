@@ -7,14 +7,12 @@
  terms of the Eclipse Public License v1.0 which accompanies this distribution,
  and is available at http://www.eclipse.org/legal/epl-v10.html
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>3.0.2</version>
+        <version>3.1.0</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -59,12 +57,12 @@
         <netconf.version>1.5.0-SNAPSHOT</netconf.version>
         <netvirt.version>0.7.0-SNAPSHOT</netvirt.version>
         <neutron.version>0.11.0-SNAPSHOT</neutron.version>
-        <odlparent.version>3.0.2</odlparent.version>
+        <odlparent.version>3.1.0</odlparent.version>
         <openflowplugin.version>0.7.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.7.0-SNAPSHOT</ovsdb.version>
         <restconf.version>1.8.0-SNAPSHOT</restconf.version>
         <sfc.version>0.8.0-SNAPSHOT</sfc.version>
-        <yangtools.version>2.0.2</yangtools.version>
+        <yangtools.version>2.0.3</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
