@@ -657,7 +657,7 @@
         <profile>
             <id>snmp4sdn</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
