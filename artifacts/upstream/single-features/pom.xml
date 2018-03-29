@@ -70,7 +70,7 @@
             <id>alto</id>
             <activation>
                 <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -116,7 +116,7 @@
         <profile>
             <id>bier</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -152,7 +152,7 @@
         <profile>
             <id>dluxapps</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -292,7 +292,7 @@
         <profile>
             <id>jsonrpc</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -310,7 +310,7 @@
         <profile>
             <id>l2switch</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -342,7 +342,7 @@
         <profile>
             <id>nemo</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -433,7 +433,7 @@
         <profile>
             <id>ofconfig</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -451,7 +451,7 @@
         <profile>
             <id>p4plugin</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -469,7 +469,7 @@
         <profile>
             <id>packetcable</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -575,7 +575,7 @@
         <profile>
             <id>snmp</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -593,7 +593,7 @@
         <profile>
             <id>snmp4sdn</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -611,7 +611,7 @@
         <profile>
             <id>sxp</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -648,7 +648,7 @@
         <profile>
             <id>usc</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -666,7 +666,7 @@
         <profile>
             <id>vtn</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
