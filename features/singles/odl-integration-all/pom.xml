@@ -301,12 +301,6 @@
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.nemo</groupId>
-                    <artifactId>odl-nemo-engine-ui</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.nemo</groupId>
                     <artifactId>odl-nemo-openflow-renderer</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
