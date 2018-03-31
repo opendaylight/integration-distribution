@@ -128,7 +128,7 @@
         <profile>
             <id>groupbasedpolicy</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -302,7 +302,7 @@
         <profile>
             <id>tsdr</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
