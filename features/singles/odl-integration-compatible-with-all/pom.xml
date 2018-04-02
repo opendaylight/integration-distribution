@@ -168,21 +168,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Distribution -->
-        <profile>
-            <id>distribution</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>${project.groupId}</groupId>
-                    <artifactId>odl-distribution-version</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- DluxApps -->
         <profile>
             <id>dluxapps</id>

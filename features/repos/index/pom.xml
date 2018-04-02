@@ -216,21 +216,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Distribution -->
-        <profile>
-            <id>distribution</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>${project.groupId}</groupId>
-                    <artifactId>features-distribution</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Dlux -->
         <profile>
             <id>dlux</id>

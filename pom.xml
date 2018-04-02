@@ -43,6 +43,5 @@
         <module>artifacts</module>
         <module>karaf</module>
         <module>features</module>
-        <module>version</module>
     </modules>
 </project>
