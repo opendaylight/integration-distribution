@@ -42,27 +42,7 @@
     <dependencyManagement>
         <!-- TODO: Hardcode versions when moving to semantic versioning. -->
         <dependencies>
-            <!-- Version artifacts. -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>version</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>version</artifactId>
-                <version>${project.version}</version>
-                <type>xml</type>
-                <classifier>config</classifier>
-            </dependency>
             <!-- Karaf 4 single features. -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>odl-distribution-version</artifactId>
-                <version>${project.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>odl-integration-compatible-with-all</artifactId>
@@ -78,13 +58,6 @@
                 <type>xml</type>
             </dependency>
             <!-- Karaf 4 feature repositories. -->
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>features-distribution</artifactId>
-                <version>${project.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>features-index</artifactId>

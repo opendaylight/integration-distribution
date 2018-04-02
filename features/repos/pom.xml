@@ -41,7 +41,6 @@
     </scm>
     <modules>
         <!-- Keep distribution-artifacts updated -->
-        <module>distribution</module>
         <module>index</module>
         <module>test</module>
     </modules>

@@ -41,7 +41,6 @@
     </scm>
     <modules>
         <!-- Keep distribution-atrifacts updated. -->
-        <module>odl-distribution-version</module>
         <module>odl-integration-compatible-with-all</module>
         <module>odl-integration-all</module>
     </modules>
