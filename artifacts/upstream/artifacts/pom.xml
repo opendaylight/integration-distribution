@@ -145,7 +145,7 @@
         <profile>
             <id>honeycombvbd</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
