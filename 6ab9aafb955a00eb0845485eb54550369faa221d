@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "644b0baa_5351bb8b",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-04-04T22:51:11Z",
+      "side": 1,
+      "message": "Not sure it is all over the place in distribution repo so I just copy/paste.",
+      "parentUuid": "f0f8c536_3a11dd13",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 7
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c8d2928c_10abb3cb",
         "filename": "opendaylight/pom.xml",
         "patchSetId": 4
@@ -83,6 +107,30 @@
       "writtenOn": "2018-04-04T21:58:24Z",
       "side": 1,
       "message": "probably don\u0027t need this comment as the id is usc and self-documenting",
+      "range": {
+        "startLine": 41,
+        "startChar": 8,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8a43f0e1_132628eb",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-04-04T22:51:11Z",
+      "side": 1,
+      "message": "Same as with Managed, this is used because same project can have multiple features repos, so it is more clear to identify what belongs to each project.",
+      "parentUuid": "c8d2928c_10abb3cb",
       "range": {
         "startLine": 41,
         "startChar": 8,
@@ -118,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "3b4338f8_0cb3dcb1",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-04-04T22:51:11Z",
+      "side": 1,
+      "message": "I guess the idea is the same as with Managed, to be able to create full distro (-Punmanaged) and temporary deselect some project for whatever reason.",
+      "parentUuid": "1bb46149_ec61b2ff",
+      "range": {
+        "startLine": 45,
+        "startChar": 33,
+        "endLine": 45,
+        "endChar": 37
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a55f7fa1_7d5981da",
         "filename": "opendaylight/pom.xml",
         "patchSetId": 4
@@ -129,6 +201,30 @@
       "writtenOn": "2018-04-04T21:58:24Z",
       "side": 1,
       "message": "what is the test scope for? Is that how the distro\u0027s build in a test cycle?",
+      "range": {
+        "startLine": 54,
+        "startChar": 27,
+        "endLine": 54,
+        "endChar": 31
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "21151063_7e79b80f",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-04-04T22:51:11Z",
+      "side": 1,
+      "message": "This is to actually \"hide\" the feature.",
+      "parentUuid": "a55f7fa1_7d5981da",
       "range": {
         "startLine": 54,
         "startChar": 27,
