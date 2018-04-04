@@ -49,6 +49,98 @@
     },
     {
       "key": {
+        "uuid": "f0f8c536_3a11dd13",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2018-04-04T21:58:24Z",
+      "side": 1,
+      "message": "is this section still used?",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 7
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c8d2928c_10abb3cb",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2018-04-04T21:58:24Z",
+      "side": 1,
+      "message": "probably don\u0027t need this comment as the id is usc and self-documenting",
+      "range": {
+        "startLine": 41,
+        "startChar": 8,
+        "endLine": 41,
+        "endChar": 20
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1bb46149_ec61b2ff",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2018-04-04T21:58:24Z",
+      "side": 1,
+      "message": "setting this true and not setting a profile actually includes this, so not sure what the goal is here. If this pom is only included in the other pom when the unmanaged profile is active, then it doesn\u0027t matter if there is a profile here does it? or do we think there would be a selective check here also?",
+      "range": {
+        "startLine": 45,
+        "startChar": 33,
+        "endLine": 45,
+        "endChar": 37
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a55f7fa1_7d5981da",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2018-04-04T21:58:24Z",
+      "side": 1,
+      "message": "what is the test scope for? Is that how the distro\u0027s build in a test cycle?",
+      "range": {
+        "startLine": 54,
+        "startChar": 27,
+        "endLine": 54,
+        "endChar": 31
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d68ea7d8_2c44eccd",
         "filename": "opendaylight/pom.xml",
         "patchSetId": 4
