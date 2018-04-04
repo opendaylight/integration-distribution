@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5cdd4f2c_d3c0eeb6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2018-04-04T18:13:54Z",
+      "side": 1,
+      "message": "I didn\u0027t follow this part. Does it mean that if a project\nis scope\u003dtest, then that means unmanaged?",
+      "range": {
+        "startLine": 12,
+        "startChar": 2,
+        "endLine": 12,
+        "endChar": 30
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d68ea7d8_2c44eccd",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2018-04-04T18:13:54Z",
+      "side": 1,
+      "message": "so, is this the idea for unmanaged projects to be added to the final distribution? In other words, they need to add\nthis profile and make sure scope\u003dtest\n\nonce they push a patch for that, it wont verify unless\nthings are ok on their side right?",
+      "range": {
+        "startLine": 41,
+        "startChar": 8,
+        "endLine": 57,
+        "endChar": 18
+      },
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
