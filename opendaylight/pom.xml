@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- vi: set et smarttab sw=4 tabstop=4: -->
 <!--
- Copyright (c) 2014-2017 Cisco Systems, Inc. and others.  All rights reserved.
+ Copyright (c) 2018 Lumina Networks, Inc. and others.  All rights reserved.
 
  This program and the accompanying materials are made available under the
  terms of the Eclipse Public License v1.0 which accompanies this distribution,
@@ -12,18 +12,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.opendaylight.odlparent</groupId>
-        <artifactId>odlparent-lite</artifactId>
-        <version>3.0.2</version>
+        <groupId>org.opendaylight.integration</groupId>
+        <artifactId>karaf</artifactId>
+        <version>0.9.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
-    <artifactId>distribution-aggregator</artifactId>
+    <artifactId>opendaylight</artifactId>
     <version>0.9.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <!-- <name> value is used by Sonar to set project name -->
-    <name>Integration/Distribution</name>
-    <description>OpenDaylight Integration/Distribution project, used for creating complete Karaf distribution packages.</description>
+    <name>ODL :: integration :: ${project.artifactId}</name>
+    <description>The actual Karaf archive building sub-project.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
@@ -35,29 +34,26 @@
     <scm>
         <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
         <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
-        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;hb=HEAD</url>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=karaf;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
     <profiles>
+        <!-- USC -->
         <profile>
-            <id>managed</id>
+            <id>usc</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <modules>
-                <module>artifacts</module>
-                <module>karaf</module>
-                <module>features</module>
-            </modules>
-        </profile>
-       <profile>
-            <id>unmanaged</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <modules>
-                <module>opendaylight</module>
-            </modules>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.usc</groupId>
+                    <artifactId>usc-features</artifactId>
+                    <version>1.6.0-SNAPSHOT</version>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
         </profile>
     </profiles>
 </project>
