@@ -316,23 +316,5 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
-        <profile>
-            <id>unimgr</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.unimgr</groupId>
-                        <artifactId>unimgr-artifacts</artifactId>
-                        <version>${unimgr.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
     </profiles>
 </project>
