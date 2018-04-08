@@ -288,38 +288,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- NIC -->
-        <profile>
-            <id>nic</id>
-            <activation>
-                <!-- Disabled because of SFT memory issues -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.nic</groupId>
-                    <artifactId>odl-nic-intent-common</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- OCPplugin -->
-        <profile>
-            <id>ocpplugin</id>
-            <activation>
-                <!-- Inactive -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.ocpplugin</groupId>
-                    <artifactId>odl-ocpplugin-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- OpenflowPlugin -->
         <profile>
             <id>openflowplugin</id>

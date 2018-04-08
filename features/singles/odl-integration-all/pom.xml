@@ -104,22 +104,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- FaaS -->
-        <profile>
-            <id>faas</id>
-            <activation>
-                <!-- Commented out because of SFT memory problem -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.faas</groupId>
-                    <artifactId>odl-faas-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Genius -->
         <profile>
             <id>genius</id>
@@ -452,22 +436,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Unimgr -->
-        <profile>
-            <id>unimgr</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.unimgr</groupId>
-                    <artifactId>odl-unimgr</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- USC -->
         <profile>
             <id>usc</id>
@@ -478,27 +446,6 @@
                 <dependency>
                     <groupId>org.opendaylight.usc</groupId>
                     <artifactId>odl-usc-channel-ui</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- VTN -->
-        <profile>
-            <id>vtn</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.vtn</groupId>
-                    <artifactId>odl-vtn-manager-rest</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.vtn</groupId>
-                    <artifactId>odl-vtn-manager-neutron</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
                 </dependency>
