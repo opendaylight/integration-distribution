@@ -170,44 +170,6 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
-        <!-- Eman -->
-        <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-        <profile>
-            <id>eman</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.eman</groupId>
-                        <artifactId>features-eman</artifactId>
-                        <version>${eman.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <!-- FaaS -->
-        <profile>
-            <id>faas</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.faas</groupId>
-                        <artifactId>features4-faas</artifactId>
-                        <version>${faas.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
         <!-- InfraUtils -->
         <profile>
             <id>infrautils</id>
@@ -256,44 +218,6 @@
                         <groupId>org.opendaylight.nemo</groupId>
                         <artifactId>nemo-features</artifactId>
                         <version>${nemo.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <!-- NIC -->
-        <profile>
-            <id>nic</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.nic</groupId>
-                        <artifactId>features-nic</artifactId>
-                        <version>${nic.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <!-- OCP Plugin -->
-        <profile>
-            <id>ocpplugin</id>
-            <activation>
-                <!-- Inactive -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.ocpplugin</groupId>
-                        <artifactId>features-ocpplugin</artifactId>
-                        <version>${ocpplugin.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>
@@ -463,24 +387,6 @@
                         <groupId>org.opendaylight.usc</groupId>
                         <artifactId>usc-features</artifactId>
                         <version>${usc.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <!-- VTN -->
-        <profile>
-            <id>vtn</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.vtn</groupId>
-                        <artifactId>features-vtn-manager</artifactId>
-                        <version>${vtn-manager.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>

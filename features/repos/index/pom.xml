@@ -245,38 +245,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Eman -->
-        <profile>
-            <id>eman</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.eman</groupId>
-                    <artifactId>features-eman</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- FAAS -->
-        <profile>
-            <id>faas</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.faas</groupId>
-                    <artifactId>features4-faas</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Genius -->
         <profile>
             <id>genius</id>
@@ -456,38 +424,6 @@
                 <dependency>
                     <groupId>org.opendaylight.neutron</groupId>
                     <artifactId>features-neutron-service</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- NIC -->
-        <profile>
-            <id>nic</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.nic</groupId>
-                    <artifactId>features-nic</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- OCPplugin -->
-        <profile>
-            <id>ocpplugin</id>
-            <activation>
-                <!-- Inactive -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.ocpplugin</groupId>
-                    <artifactId>features-ocpplugin</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
@@ -682,22 +618,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Unimgr -->
-        <profile>
-            <id>unimgr</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.unimgr</groupId>
-                    <artifactId>features4-unimgr</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- USC -->
         <profile>
             <id>usc</id>
@@ -713,21 +633,5 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- VTN -->
-        <profile>
-            <id>vtn</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.vtn</groupId>
-                    <artifactId>features-vtn-manager</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- FIXME: Add Yangtools -->
     </profiles>
 </project>
