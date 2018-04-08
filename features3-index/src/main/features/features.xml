@@ -91,5 +91,4 @@
     <repository>mvn:org.opendaylight.ttp/features-ttp/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.unimgr/unimgr-features/{{VERSION}}/xml/features</repository>
     <repository>mvn:org.opendaylight.usc/usc-features/{{VERSION}}/xml/features</repository>
-    <repository>mvn:org.opendaylight.vtn/features-vtn-manager/{{VERSION}}/xml/features</repository>
 </features>

@@ -150,8 +150,6 @@
         <feature>odl-sfc-openflow-renderer</feature>
         <feature>odl-tsdr-hsqldb-all</feature>
         <feature>odl-unimgr</feature>
-        <feature>odl-vtn-manager-neutron</feature>
-        <feature>odl-vtn-manager-rest</feature>
     </feature>
 
 </features>
