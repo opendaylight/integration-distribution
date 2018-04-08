@@ -504,14 +504,6 @@
                 <classifier>features</classifier>
                 <type>xml</type>
             </dependency>
-            <!-- Vtn -->
-            <dependency>
-                <groupId>org.opendaylight.vtn</groupId>
-                <artifactId>features-vtn-manager</artifactId>
-                <version>${vtn-manager.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
