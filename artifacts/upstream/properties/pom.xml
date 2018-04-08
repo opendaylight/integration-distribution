@@ -95,7 +95,6 @@
         <unimgr.version>0.3.3-SNAPSHOT</unimgr.version>
         <usc.version>1.4.3-SNAPSHOT</usc.version>
         <vpnservice.version>0.5.3-SNAPSHOT</vpnservice.version>
-        <vtn-manager.version>0.7.3-SNAPSHOT</vtn-manager.version>
         <yangtools.version>1.2.3-SNAPSHOT</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>

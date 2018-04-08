@@ -476,21 +476,6 @@
                 <type>xml</type>
             </dependency>
 
-            <!-- VTN -->
-            <dependency>
-                <groupId>org.opendaylight.vtn</groupId>
-                <artifactId>odl-vtn-manager-rest</artifactId>
-                <version>${vtn-manager.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
-            <dependency>
-                <groupId>org.opendaylight.vtn</groupId>
-                <artifactId>odl-vtn-manager-neutron</artifactId>
-                <version>${vtn-manager.version}</version>
-                <classifier>features</classifier>
-                <type>xml</type>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

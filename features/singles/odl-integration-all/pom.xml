@@ -352,19 +352,5 @@
             <classifier>features</classifier>
         </dependency>
 
-        <!-- VTN -->
-        <dependency>
-            <groupId>org.opendaylight.vtn</groupId>
-            <artifactId>odl-vtn-manager-rest</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.vtn</groupId>
-            <artifactId>odl-vtn-manager-neutron</artifactId>
-            <type>xml</type>
-            <classifier>features</classifier>
-        </dependency>
-
     </dependencies>
 </project>
