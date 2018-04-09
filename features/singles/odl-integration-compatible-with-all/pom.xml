@@ -384,7 +384,7 @@
         <profile>
             <id>sfc</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
@@ -396,12 +396,6 @@
                 <dependency>
                     <groupId>org.opendaylight.sfc</groupId>
                     <artifactId>odl-sfc-sb-rest</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.sfc</groupId>
-                    <artifactId>odl-sfc-ui</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
                 </dependency>
