@@ -281,6 +281,23 @@
       "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9c1729e9_c85ead95",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2018-04-09T19:30:43Z",
+      "side": 1,
+      "message": "Just want to be clear that activeByDefault will be disabled if another profile in this pom.xml file is activated. So I guess if we are building unmanaged projects we don\u0027t need anything from the managed project modules?",
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
