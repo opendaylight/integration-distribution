@@ -298,6 +298,24 @@
       "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "028ac520_60a93419",
+        "filename": "pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-04-09T19:41:46Z",
+      "side": 1,
+      "message": "Correct, we will download Managed distro from nexus rather than building it one more time.",
+      "parentUuid": "9c1729e9_c85ead95",
+      "revId": "6ab9aafb955a00eb0845485eb54550369faa221d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
