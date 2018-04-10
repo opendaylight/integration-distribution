@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9bb5755a_8cd3e321",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2018-04-10T17:05:10Z",
+      "side": 1,
+      "message": "I thought we fixed this in netconf already?",
+      "revId": "95e4f3030d9c197c9578a12f9be079a0a97c36db",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
