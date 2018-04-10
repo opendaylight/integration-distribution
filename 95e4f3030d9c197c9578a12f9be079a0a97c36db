@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "29fa46a2_ebcc297f",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2018-04-10T21:20:54Z",
+      "side": 0,
+      "message": "commit message says VTN, but this is unimgr",
+      "range": {
+        "startLine": 320,
+        "startChar": 16,
+        "endLine": 320,
+        "endChar": 22
+      },
+      "revId": "95e4f3030d9c197c9578a12f9be079a0a97c36db",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
