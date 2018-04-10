@@ -73,21 +73,6 @@
 
     <!-- External single feature dependencies in alphabetical order -->
     <profiles>
-        <!-- BIER -->
-        <profile>
-            <id>bier</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.bier</groupId>
-                    <artifactId>odl-bier-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- COE -->
         <profile>
             <id>coe</id>
@@ -98,22 +83,6 @@
                 <dependency>
                     <groupId>org.opendaylight.coe</groupId>
                     <artifactId>odl-coe</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- FaaS -->
-        <profile>
-            <id>faas</id>
-            <activation>
-                <!-- Commented out because of SFT memory problem -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.faas</groupId>
-                    <artifactId>odl-faas-all</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
                 </dependency>
@@ -131,191 +100,6 @@
                     <artifactId>odl-genius-rest</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- GROUPBASEDPOLICY or GBP-->
-        <profile>
-            <id>groupbasedpolicy</id>
-            <activation>
-                <!-- Disabled because of SFT memory issues -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-base</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-iovisor</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-neutronmapper</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-neutron-and-ofoverlay</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-ofoverlay</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-vpp</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-neutron-vpp-mapper</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-ui</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-ip-sgt-distribution-service</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-ne-location-provider</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-ios-xe</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-sxp-ep-provider</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                    <artifactId>odl-groupbasedpolicy-sxp-ise-adapter</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- Honeycomb/VBD -->
-        <profile>
-            <id>honeycombvbd</id>
-            <activation>
-                <!-- Commented out because of SFT memory problem -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
-                    <artifactId>odl-vbd</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
-                    <artifactId>odl-vbd-rest</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.honeycomb.vbd</groupId>
-                    <artifactId>odl-vbd-ui</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- jsonrpc -->
-        <profile>
-            <id>jsonrpc</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.jsonrpc</groupId>
-                    <artifactId>jsonrpc-features</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- L2switch -->
-        <profile>
-            <id>l2switch</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.l2switch</groupId>
-                    <artifactId>odl-l2switch-switch-rest</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- NEMO -->
-        <profile>
-            <id>nemo</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.nemo</groupId>
-                    <artifactId>odl-nemo-engine</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.nemo</groupId>
-                    <artifactId>odl-nemo-engine-rest</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.nemo</groupId>
-                    <artifactId>odl-nemo-engine-ui</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.nemo</groupId>
-                    <artifactId>odl-nemo-openflow-renderer</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.nemo</groupId>
-                    <artifactId>odl-nemo-cli-renderer</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
                 </dependency>
             </dependencies>
         </profile>
@@ -373,36 +157,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- OF-CONFIG -->
-        <profile>
-            <id>ofconfig</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.of-config</groupId>
-                    <artifactId>odl-of-config-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- P4 Plugin -->
-        <profile>
-            <id>p4plugin</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.p4plugin</groupId>
-                    <artifactId>odl-p4plugin-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- SFC -->
         <profile>
             <id>sfc</id>
@@ -431,73 +185,6 @@
                 <dependency>
                     <groupId>org.opendaylight.sfc</groupId>
                     <artifactId>odl-sfc-vpp-renderer</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- TSDR -->
-        <profile>
-            <id>tsdr</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.tsdr</groupId>
-                    <artifactId>odl-tsdr-hsqldb-all</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- Unimgr -->
-        <profile>
-            <id>unimgr</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.unimgr</groupId>
-                    <artifactId>odl-unimgr</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- USC -->
-        <profile>
-            <id>usc</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.usc</groupId>
-                    <artifactId>odl-usc-channel-ui</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- VTN -->
-        <profile>
-            <id>vtn</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.vtn</groupId>
-                    <artifactId>odl-vtn-manager-rest</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.vtn</groupId>
-                    <artifactId>odl-vtn-manager-neutron</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
                 </dependency>
