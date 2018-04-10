@@ -80,46 +80,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- ALTO -->
-        <profile>
-            <id>alto</id>
-            <activation>
-                <!-- Commented because of SFT memory issues -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.alto</groupId>
-                    <artifactId>odl-alto-simpleird</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.alto</groupId>
-                    <artifactId>odl-alto-manual-maps</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.alto</groupId>
-                    <artifactId>odl-alto-simpleecs</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.alto</groupId>
-                    <artifactId>odl-alto-auto-maps</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.alto</groupId>
-                    <artifactId>odl-alto-spce</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- BGPCEP -->
         <profile>
             <id>bgpcep</id>
@@ -163,39 +123,6 @@
                 <dependency>
                     <groupId>org.opendaylight.daexim</groupId>
                     <artifactId>odl-daexim-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- DluxApps -->
-        <profile>
-            <id>dluxapps</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.dluxapps</groupId>
-                    <artifactId>odl-dluxapps-nodes</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.dluxapps</groupId>
-                    <artifactId>odl-dluxapps-topology</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.dluxapps</groupId>
-                    <artifactId>odl-dluxapps-yangman</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.dluxapps</groupId>
-                    <artifactId>odl-dluxapps-yangvisualizer</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
                 </dependency>
@@ -273,38 +200,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- NIC -->
-        <profile>
-            <id>nic</id>
-            <activation>
-                <!-- Disabled because of SFT memory issues -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.nic</groupId>
-                    <artifactId>odl-nic-intent-common</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- OCPplugin -->
-        <profile>
-            <id>ocpplugin</id>
-            <activation>
-                <!-- Inactive -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.ocpplugin</groupId>
-                    <artifactId>odl-ocpplugin-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- OpenflowPlugin -->
         <profile>
             <id>openflowplugin</id>
@@ -353,33 +248,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Packetcable -->
-        <profile>
-            <id>packetcable</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.packetcable</groupId>
-                    <artifactId>odl-packetcable-policy-model</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.packetcable</groupId>
-                    <artifactId>odl-packetcable-policy-server</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.packetcable</groupId>
-                    <artifactId>odl-packetcable-policy-server-all</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- SFC -->
         <profile>
             <id>sfc</id>
@@ -416,36 +284,6 @@
                     <artifactId>odl-sfc-shell</artifactId>
                     <type>xml</type>
                     <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- SNMP4SDN -->
-        <profile>
-            <id>snmp4sdn</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.snmp4sdn</groupId>
-                    <artifactId>odl-snmp4sdn-snmp4sdn</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- SXP -->
-        <profile>
-            <id>sxp</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.sxp</groupId>
-                    <artifactId>odl-sxp-controller</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
                 </dependency>
             </dependencies>
         </profile>

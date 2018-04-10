@@ -126,40 +126,6 @@
             </dependencyManagement>
         </profile>
         <profile>
-            <id>groupbasedpolicy</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.groupbasedpolicy</groupId>
-                        <artifactId>groupbasedpolicy-artifacts</artifactId>
-                        <version>${groupbasedpolicy.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
-            <id>honeycombvbd</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.honeycomb.vbd</groupId>
-                        <artifactId>vbd-artifacts</artifactId>
-                        <version>${honeycomb.vbd.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
             <id>infrautils</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -293,41 +259,6 @@
                         <groupId>org.opendaylight.ovsdb</groupId>
                         <artifactId>southbound-artifacts</artifactId>
                         <version>${ovsdb.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
-            <id>tsdr</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.tsdr</groupId>
-                        <artifactId>tsdr-artifacts</artifactId>
-                        <version>${tsdr.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
-            <id>unimgr</id>
-            <activation>
-                <!-- Removed for the odlparent 3 / yangtools 2 migration -->
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.unimgr</groupId>
-                        <artifactId>unimgr-artifacts</artifactId>
-                        <version>${unimgr.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>
