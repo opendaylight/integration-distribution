@@ -251,14 +251,12 @@
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
-                <!-- Disabled for Oxygen SR1
                 <dependency>
                     <groupId>org.opendaylight.netconf</groupId>
                     <artifactId>odl-yanglib</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
-                -->
             </dependencies>
         </profile>
         <!-- Neutron Northbound -->
