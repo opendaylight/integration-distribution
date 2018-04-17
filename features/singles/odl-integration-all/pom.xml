@@ -24,6 +24,11 @@
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>Single feature containing all features separately compatible with odl-integration-compatible-with-all.</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+
+    <properties>
+      <skipTests>true</skipTests>
+    </properties>
+
     <licenses>
         <license>
             <name>Eclipse Public License v1.0</name>
