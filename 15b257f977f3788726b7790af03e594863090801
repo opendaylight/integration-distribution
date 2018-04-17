@@ -16,6 +16,24 @@
       "revId": "15b257f977f3788726b7790af03e594863090801",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "766dfe87_5b43737b",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-04-17T15:55:12Z",
+      "side": 1,
+      "message": "So why do we want to skip this multi-feature test?",
+      "parentUuid": "4f1a2abc_18df5519",
+      "revId": "15b257f977f3788726b7790af03e594863090801",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
