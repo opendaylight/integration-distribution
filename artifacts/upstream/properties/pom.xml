@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>1.8.4-SNAPSHOT</version>
+        <version>1.8.4-Carbon</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.6.4-SNAPSHOT</version>
+    <version>0.6.4-Carbon</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -45,55 +45,55 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.5.4-SNAPSHOT</aaa.version>
-        <alto.version>0.4.4-SNAPSHOT</alto.version>
-        <benchmark.version>1.3.4-SNAPSHOT</benchmark.version>
-        <bgpcep.version>0.7.4-SNAPSHOT</bgpcep.version>
-        <bier.version>0.1.4-SNAPSHOT</bier.version>
-        <cardinal.version>0.2.4-SNAPSHOT</cardinal.version>
-        <config.version>0.6.4-SNAPSHOT</config.version>
-        <controller.extras.version>1.8.4-SNAPSHOT</controller.extras.version>
-        <didm.version>0.4.4-SNAPSHOT</didm.version>
-        <dlux.version>0.5.4-SNAPSHOT</dlux.version>
-        <dluxapps.version>0.5.4-SNAPSHOT</dluxapps.version>
-        <eman.version>1.1.4-SNAPSHOT</eman.version>
-        <faas.version>1.2.4-SNAPSHOT</faas.version>
-        <federation.version>0.2.4-SNAPSHOT</federation.version>
-        <flow.version>1.5.4-SNAPSHOT</flow.version>
-        <genius.version>0.2.4-SNAPSHOT</genius.version>
-        <groupbasedpolicy.version>0.5.4-SNAPSHOT</groupbasedpolicy.version>
-        <honeycomb.vbd.version>1.1.4-SNAPSHOT</honeycomb.vbd.version>
-        <infrautils.version>1.1.4-SNAPSHOT</infrautils.version>
-        <iotdm.version>0.3.4-SNAPSHOT</iotdm.version>
-        <l2switch.version>0.5.4-SNAPSHOT</l2switch.version>
-        <lacp.version>1.3.4-SNAPSHOT</lacp.version>
-        <lispflowmapping.version>1.5.4-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>1.5.4-SNAPSHOT</mdsal.version>
-        <nemo.version>1.2.4-SNAPSHOT</nemo.version>
-        <netconf.version>1.2.4-SNAPSHOT</netconf.version>
-        <netide.version>0.3.4-SNAPSHOT</netide.version>
-        <netvirt.version>1.4.4-SNAPSHOT</netvirt.version>
-        <nic.version>1.3.4-SNAPSHOT</nic.version>
-        <neutron.version>0.8.4-SNAPSHOT</neutron.version>
-        <ocpplugin.version>0.2.4-SNAPSHOT</ocpplugin.version>
-        <odlparent.version>1.8.4-SNAPSHOT</odlparent.version>
-        <of-config.version>1.2.4-SNAPSHOT</of-config.version>
-        <openflowplugin.version>0.4.4-SNAPSHOT</openflowplugin.version>
-        <ovsdb.version>1.4.4-SNAPSHOT</ovsdb.version>
-        <packetcable.version>1.5.4-SNAPSHOT</packetcable.version>
-        <restconf.version>1.5.4-SNAPSHOT</restconf.version>
-        <sdninterfaceapp.version>1.8.4-SNAPSHOT</sdninterfaceapp.version>
-        <sfc.version>0.5.4-SNAPSHOT</sfc.version>
-        <snmp.version>1.3.4-SNAPSHOT</snmp.version>
-        <snmp4sdn.version>0.5.4-SNAPSHOT</snmp4sdn.version>
-        <sxp.version>1.4.4-SNAPSHOT</sxp.version>
-        <topoprocessing.version>0.3.4-SNAPSHOT</topoprocessing.version>
-        <tsdr.version>1.3.4-SNAPSHOT</tsdr.version>
-        <ttp.version>0.4.4-SNAPSHOT</ttp.version>
-        <unimgr.version>0.2.4-SNAPSHOT</unimgr.version>
-        <usc.version>1.3.4-SNAPSHOT</usc.version>
-        <vpnservice.version>0.4.4-SNAPSHOT</vpnservice.version>
-        <yangtools.version>1.1.4-SNAPSHOT</yangtools.version>
+        <aaa.version>0.5.4-Carbon</aaa.version>
+        <alto.version>0.4.4-Carbon</alto.version>
+        <benchmark.version>1.3.4-Carbon</benchmark.version>
+        <bgpcep.version>0.7.4-Carbon</bgpcep.version>
+        <bier.version>0.1.4-Carbon</bier.version>
+        <cardinal.version>0.2.4-Carbon</cardinal.version>
+        <config.version>0.6.4-Carbon</config.version>
+        <controller.extras.version>1.8.4-Carbon</controller.extras.version>
+        <didm.version>0.4.4-Carbon</didm.version>
+        <dlux.version>0.5.4-Carbon</dlux.version>
+        <dluxapps.version>0.5.4-Carbon</dluxapps.version>
+        <eman.version>1.1.4-Carbon</eman.version>
+        <faas.version>1.2.4-Carbon</faas.version>
+        <federation.version>0.2.4-Carbon</federation.version>
+        <flow.version>1.5.4-Carbon</flow.version>
+        <genius.version>0.2.4-Carbon</genius.version>
+        <groupbasedpolicy.version>0.5.4-Carbon</groupbasedpolicy.version>
+        <honeycomb.vbd.version>1.1.4-Carbon</honeycomb.vbd.version>
+        <infrautils.version>1.1.4-Carbon</infrautils.version>
+        <iotdm.version>0.3.4-Carbon</iotdm.version>
+        <l2switch.version>0.5.4-Carbon</l2switch.version>
+        <lacp.version>1.3.4-Carbon</lacp.version>
+        <lispflowmapping.version>1.5.4-Carbon</lispflowmapping.version>
+        <mdsal.version>1.5.4-Carbon</mdsal.version>
+        <nemo.version>1.2.4-Carbon</nemo.version>
+        <netconf.version>1.2.4-Carbon</netconf.version>
+        <netide.version>0.3.4-Carbon</netide.version>
+        <netvirt.version>1.4.4-Carbon</netvirt.version>
+        <nic.version>1.3.4-Carbon</nic.version>
+        <neutron.version>0.8.4-Carbon</neutron.version>
+        <ocpplugin.version>0.2.4-Carbon</ocpplugin.version>
+        <odlparent.version>1.8.4-Carbon</odlparent.version>
+        <of-config.version>1.2.4-Carbon</of-config.version>
+        <openflowplugin.version>0.4.4-Carbon</openflowplugin.version>
+        <ovsdb.version>1.4.4-Carbon</ovsdb.version>
+        <packetcable.version>1.5.4-Carbon</packetcable.version>
+        <restconf.version>1.5.4-Carbon</restconf.version>
+        <sdninterfaceapp.version>1.8.4-Carbon</sdninterfaceapp.version>
+        <sfc.version>0.5.4-Carbon</sfc.version>
+        <snmp.version>1.3.4-Carbon</snmp.version>
+        <snmp4sdn.version>0.5.4-Carbon</snmp4sdn.version>
+        <sxp.version>1.4.4-Carbon</sxp.version>
+        <topoprocessing.version>0.3.4-Carbon</topoprocessing.version>
+        <tsdr.version>1.3.4-Carbon</tsdr.version>
+        <ttp.version>0.4.4-Carbon</ttp.version>
+        <unimgr.version>0.2.4-Carbon</unimgr.version>
+        <usc.version>1.3.4-Carbon</usc.version>
+        <vpnservice.version>0.4.4-Carbon</vpnservice.version>
+        <yangtools.version>1.1.4-Carbon</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
