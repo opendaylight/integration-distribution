@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>1.8.4-SNAPSHOT</version>
+        <version>1.8.5-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>distribution-aggregator</artifactId>
-    <version>0.6.4-SNAPSHOT</version>
+    <version>0.6.5-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!-- <name> value is used by Sonar to set project name -->
     <name>Integration/Distribution</name>

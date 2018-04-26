@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.controller</groupId>
         <artifactId>config-filtering-parent</artifactId>
-        <version>0.6.4-SNAPSHOT</version>
+        <version>0.6.5-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>version</artifactId>
-    <version>0.6.4-SNAPSHOT</version>
+    <version>0.6.5-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
@@ -41,6 +41,6 @@
     </scm>
     <!-- Is there a way to inherit/include properties from a file bumped autimatically? -->
     <properties>
-        <feature.odlparent.version>1.8.4-SNAPSHOT</feature.odlparent.version>
+        <feature.odlparent.version>1.8.5-SNAPSHOT</feature.odlparent.version>
     </properties>
 </project>
