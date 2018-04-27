@@ -83,7 +83,7 @@ and join the distribution-check verification.
 Self-Managed Projects
 ---------------------
 
-Self-Managed projects must only be in the distribution if they want to be packaged in distrbution
+Self-Managed projects must only be in the distribution if they want to be packaged in distribution
 and released at the same time as the Managed projects do.
 
 Follow the next steps to add your karaf features to the OpenDaylight distribution:
@@ -129,7 +129,7 @@ See this example for the file section:
 #. Push changes to int/dist and releng/builder and wait for patch verification and review.
 
 Once the patches are merged your project will be part of the OpenDaylight distribution
-and join the distibution-sanity verification.
+and join the distribution-sanity verification.
 
 .. note:: In order to install a Self-Managed feature, you have to first install the feature repository
           in karaf, the example below shows how to install a repository from the karaf console.
