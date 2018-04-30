@@ -35,3 +35,4 @@ log.txt
 
 # Tox test/linting files
 .tox/
+_build/
