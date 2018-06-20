@@ -188,5 +188,26 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- Serviceutils -->
+        <profile>
+            <id>serviceutils</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.serviceutils</groupId>
+                    <artifactId>odl-serviceutils-srm</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.serviceutils</groupId>
+                    <artifactId>odl-serviceutils-tools</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
 </project>
