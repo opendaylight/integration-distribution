@@ -265,5 +265,22 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <profile>
+            <id>serviceutils</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.serviceutils</groupId>
+                        <artifactId>serviceutils-artifacts</artifactId>
+                        <version>${serviceutils.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
     </profiles>
 </project>
