@@ -61,7 +61,6 @@
         <openflowplugin.version>0.7.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.7.0-SNAPSHOT</ovsdb.version>
         <restconf.version>1.8.0-SNAPSHOT</restconf.version>
-        <serviceutils.version>0.2.0-SNAPSHOT</serviceutils.version>
         <sfc.version>0.8.0-SNAPSHOT</sfc.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
