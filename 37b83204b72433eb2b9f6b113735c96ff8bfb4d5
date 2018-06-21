@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3044543a_0aea9d51",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-06-21T16:23:16Z",
+      "side": 1,
+      "message": "This is not place for project feature repo but for individual user features like odl-serviceutils-*",
+      "revId": "37b83204b72433eb2b9f6b113735c96ff8bfb4d5",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
