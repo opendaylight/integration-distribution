@@ -108,8 +108,13 @@ function modules_builder
         count=$[count + 1]
     done
 
-    # using ::-1 below to remove the extra comma we get from the above loop
-    echo -e ${modules_string::-1}"\n]"
+    if [ ${count} == 1 ]; then
+        # if no modules found in custom_shard_config.txt just close the bracket
+        echo -e ${modules_string}"\n]"
+    else
+        # using ::-1 below to remove the extra comma we get from the above loop
+        echo -e ${modules_string::-1}"\n]"
+    fi
 }
 
 function get_cli_params
