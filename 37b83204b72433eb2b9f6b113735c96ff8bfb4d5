@@ -16,6 +16,24 @@
       "revId": "37b83204b72433eb2b9f6b113735c96ff8bfb4d5",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aeeea710_0763dab6",
+        "filename": "features/singles/odl-integration-all/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 817
+      },
+      "writtenOn": "2018-06-21T18:13:07Z",
+      "side": 1,
+      "message": "odl-integration-all is failing for serviceutils, which we are not able to figure out why it is happening. So, was trying out different combinations ;)\nReverted",
+      "parentUuid": "3044543a_0aea9d51",
+      "revId": "37b83204b72433eb2b9f6b113735c96ff8bfb4d5",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
