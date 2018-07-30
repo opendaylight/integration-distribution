@@ -72,6 +72,23 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- TSDR -->
+        <profile>
+            <id>tsdr</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.tsdr</groupId>
+                    <artifactId>features-tsdr</artifactId>
+                    <version>1.6.0-SNAPSHOT</version>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Unimgr -->
         <profile>
             <id>unimgr</id>
