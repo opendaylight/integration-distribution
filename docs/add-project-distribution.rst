@@ -170,22 +170,29 @@ features to the sanity test.
 
       git clone ssh://<user>@git.opendaylight.org:29418/releng/builder
 
-#. Add your feature repo and user-facing features in:
+#. Open the distribution-jobs.yaml file:
 
    .. code-block:: bash
 
       jjb/integration/distribution/distribution-jobs.yaml
 
-   See this example for the file section:
+   Add your feature repo and user-facing features in the distribution section:
 
    .. code-block:: bash
 
-      # Self-Managed projects features
-      sm-repos: >
-          mvn:org.opendaylight.sxp/features-sxp//xml/features
-
-      sm-features: >
-          odl-sxp-controller
+      stream:
+        - fluorine:
+            branch: 'master'
+            karaf-version: odl
+            # Self-Managed projects repos and features:
+            sm-repos: >
+              mvn:org.opendaylight.sxp/features-sxp//xml/features,
+              mvn:org.opendaylight.tsdr/features-tsdr//xml/features
+            sm-features: >
+              odl-sxp-routing
+              odl-tsdr-core,
+              odl-tsdr-openflow-statistics-collector,
+              odl-tsdr-netflow-statistics-collector
 
    .. note:: If the feature version is not specified in the URL (see example above), Karaf will use
              the latest version (normally only one stored) in the the system folder.
@@ -193,7 +200,7 @@ features to the sanity test.
 #. Push changes to releng/builder and wait for patch verification and review.
 
    Once the patch is merged your project will be tested in the distribution-sanity_.
- 
+
 Trigger distribution build
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
