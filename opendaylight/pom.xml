@@ -82,7 +82,7 @@
                 <dependency>
                     <groupId>org.opendaylight.tsdr</groupId>
                     <artifactId>features-tsdr</artifactId>
-                    <version>1.7.0-SNAPSHOT</version>
+                    <version>1.6.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
