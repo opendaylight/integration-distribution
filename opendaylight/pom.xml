@@ -22,7 +22,7 @@
     <version>0.9.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
-    <description>The actual Karaf archive building sub-project.</description>
+    <description>The actual Karaf archive building sub-project</description>
     <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
     <licenses>
         <license>
