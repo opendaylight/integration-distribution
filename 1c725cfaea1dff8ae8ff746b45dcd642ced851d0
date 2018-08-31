@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ebb835a_c4577c1c",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-08-31T17:22:48Z",
+      "side": 1,
+      "message": "this version has to match the tpce stable/fluorine version which I think it is 0.2.0-SNAPSHOT",
+      "revId": "1c725cfaea1dff8ae8ff746b45dcd642ced851d0",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
