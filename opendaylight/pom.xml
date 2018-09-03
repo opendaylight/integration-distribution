@@ -123,5 +123,22 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- Unimgr -->
+        <profile>
+            <id>unimgr</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.unimgr</groupId>
+                    <artifactId>features4-unimgr</artifactId>
+                    <version>0.4.0</version>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
 </project>
