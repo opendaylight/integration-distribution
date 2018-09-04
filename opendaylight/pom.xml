@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.9.0-SNAPSHOT</version>
+        <version>0.9.0</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -48,7 +48,7 @@
                 <dependency>
                     <groupId>org.opendaylight.honeycomb.vbd</groupId>
                     <artifactId>vbd-features</artifactId>
-                    <version>1.4.0-SNAPSHOT</version>
+                    <version>1.4.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -65,7 +65,7 @@
                 <dependency>
                     <groupId>org.opendaylight.jsonrpc</groupId>
                     <artifactId>jsonrpc-features</artifactId>
-                    <version>1.5.0-SNAPSHOT</version>
+                    <version>1.5.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -82,7 +82,7 @@
                 <dependency>
                     <groupId>org.opendaylight.snmp4sdn</groupId>
                     <artifactId>features-snmp4sdn</artifactId>
-                    <version>0.8.0-SNAPSHOT</version>
+                    <version>0.8.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -99,7 +99,7 @@
                 <dependency>
                     <groupId>org.opendaylight.sxp</groupId>
                     <artifactId>features-sxp</artifactId>
-                    <version>1.7.0-SNAPSHOT</version>
+                    <version>1.7.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -116,7 +116,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>features-transportpce</artifactId>
-                    <version>0.2.0-SNAPSHOT</version>
+                    <version>0.2.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -133,7 +133,7 @@
                 <dependency>
                     <groupId>org.opendaylight.tsdr</groupId>
                     <artifactId>features-tsdr</artifactId>
-                    <version>1.6.0-SNAPSHOT</version>
+                    <version>1.6.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -150,7 +150,7 @@
                 <dependency>
                     <groupId>org.opendaylight.unimgr</groupId>
                     <artifactId>features4-unimgr</artifactId>
-                    <version>0.4.0-SNAPSHOT</version>
+                    <version>0.4.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
