@@ -10,4 +10,5 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   platform-versions
    add-project-distribution
