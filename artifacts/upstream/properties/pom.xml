@@ -57,7 +57,7 @@
         <netconf.version>1.5.1-SNAPSHOT</netconf.version>
         <netvirt.version>0.7.1-SNAPSHOT</netvirt.version>
         <neutron.version>0.11.1-SNAPSHOT</neutron.version>
-        <odlparent.version>3.1.4-SNAPSHOT</odlparent.version>
+        <odlparent.version>3.1.4</odlparent.version>
         <openflowplugin.version>0.7.1-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.7.1-SNAPSHOT</ovsdb.version>
         <restconf.version>1.8.1-SNAPSHOT</restconf.version>
