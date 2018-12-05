@@ -158,5 +158,23 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- Telemetry -->
+        <profile>
+            <id>telemetry</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.telemetry</groupId>
+                        <artifactId>features-telemetry</artifactId>
+                        <version>${telemetry.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
     </profiles>
 </project>

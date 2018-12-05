@@ -150,5 +150,37 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- Telemetry -->
+        <profile>
+            <id>telemetry</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.telemetry</groupId>
+                        <artifactId>odl-telemetry-collector</artifactId>
+                        <version>${telemetry.version}</version>
+                        <type>xml</type>
+                        <classifier>features</classifier>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.telemetry</groupId>
+                        <artifactId>odl-telemetry-configurator</artifactId>
+                        <version>${telemetry.version}</version>
+                        <type>xml</type>
+                        <classifier>features</classifier>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.telemetry</groupId>
+                        <artifactId>odl-telemetry-all</artifactId>
+                        <version>${telemetry.version}</version>
+                        <type>xml</type>
+                        <classifier>features</classifier>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
     </profiles>
 </project>

@@ -377,6 +377,21 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- Telemetry -->
+        <profile>
+            <id>telemetry</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.telemetry</groupId>
+                    <artifactId>features-telemetry</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- FIXME: Add Yangtools -->
     </profiles>
 </project>
