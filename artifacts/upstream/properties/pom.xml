@@ -17,7 +17,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.8.4-SNAPSHOT</version>
+    <version>0.8.4</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -43,50 +43,50 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.7.4-SNAPSHOT</aaa.version>
-        <alto.version>0.6.4-SNAPSHOT</alto.version>
-        <benchmark.version>1.5.4-SNAPSHOT</benchmark.version>
-        <bgpcep.version>0.9.4-SNAPSHOT</bgpcep.version>
-        <bier.version>0.3.4-SNAPSHOT</bier.version>
-        <coe.version>0.3.4-SNAPSHOT</coe.version>
-        <config.version>0.8.4-SNAPSHOT</config.version>
-        <controller.extras.version>1.10.4-SNAPSHOT</controller.extras.version>
-        <daexim.version>1.3.4-SNAPSHOT</daexim.version>
-        <didm.version>0.6.4-SNAPSHOT</didm.version>
-        <dlux.version>0.7.4-SNAPSHOT</dlux.version>
-        <dluxapps.version>0.7.4-SNAPSHOT</dluxapps.version>
-        <federation.version>0.4.4-SNAPSHOT</federation.version>
-        <flow.version>1.7.4-SNAPSHOT</flow.version>
-        <genius.version>0.4.4-SNAPSHOT</genius.version>
-        <groupbasedpolicy.version>0.7.4-SNAPSHOT</groupbasedpolicy.version>
-        <honeycomb.vbd.version>1.3.4-SNAPSHOT</honeycomb.vbd.version>
-        <infrautils.version>1.3.4-SNAPSHOT</infrautils.version>
-        <iotdm.version>0.5.4-SNAPSHOT</iotdm.version>
-        <jsonrpc.version>1.3.6-SNAPSHOT</jsonrpc.version>
-        <l2switch.version>0.7.4-SNAPSHOT</l2switch.version>
-        <lacp.version>1.5.4-SNAPSHOT</lacp.version>
-        <lispflowmapping.version>1.7.4-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>1.7.4-SNAPSHOT</mdsal.version>
-        <nemo.version>1.4.4-SNAPSHOT</nemo.version>
-        <netconf.version>1.4.4-SNAPSHOT</netconf.version>
-        <netide.version>0.5.4-SNAPSHOT</netide.version>
-        <netvirt.version>0.6.4-SNAPSHOT</netvirt.version>
-        <neutron.version>0.10.4-SNAPSHOT</neutron.version>
+        <aaa.version>0.7.4</aaa.version>
+        <alto.version>0.6.4</alto.version>
+        <benchmark.version>1.5.4</benchmark.version>
+        <bgpcep.version>0.9.4</bgpcep.version>
+        <bier.version>0.3.4</bier.version>
+        <coe.version>0.3.4</coe.version>
+        <config.version>0.8.4</config.version>
+        <controller.extras.version>1.10.4</controller.extras.version>
+        <daexim.version>1.3.4</daexim.version>
+        <didm.version>0.6.4</didm.version>
+        <dlux.version>0.7.4</dlux.version>
+        <dluxapps.version>0.7.4</dluxapps.version>
+        <federation.version>0.4.4</federation.version>
+        <flow.version>1.7.4</flow.version>
+        <genius.version>0.4.4</genius.version>
+        <groupbasedpolicy.version>0.7.4</groupbasedpolicy.version>
+        <honeycomb.vbd.version>1.3.4</honeycomb.vbd.version>
+        <infrautils.version>1.3.4</infrautils.version>
+        <iotdm.version>0.5.4</iotdm.version>
+        <jsonrpc.version>1.3.6</jsonrpc.version>
+        <l2switch.version>0.7.4</l2switch.version>
+        <lacp.version>1.5.4</lacp.version>
+        <lispflowmapping.version>1.7.4</lispflowmapping.version>
+        <mdsal.version>1.7.4</mdsal.version>
+        <nemo.version>1.4.4</nemo.version>
+        <netconf.version>1.4.4</netconf.version>
+        <netide.version>0.5.4</netide.version>
+        <netvirt.version>0.6.4</netvirt.version>
+        <neutron.version>0.10.4</neutron.version>
         <odlparent.version>3.1.4</odlparent.version>
-        <ofconfig.version>1.4.4-SNAPSHOT</ofconfig.version>
-        <openflowplugin.version>0.6.4-SNAPSHOT</openflowplugin.version>
-        <ovsdb.version>1.6.4-SNAPSHOT</ovsdb.version>
-        <p4plugin.version>0.1.4-SNAPSHOT</p4plugin.version>
-        <packetcable.version>1.7.4-SNAPSHOT</packetcable.version>
-        <restconf.version>1.7.4-SNAPSHOT</restconf.version>
-        <sdninterfaceapp.version>1.10.4-SNAPSHOT</sdninterfaceapp.version>
-        <serviceutils.version>0.1.4-SNAPSHOT</serviceutils.version>
-        <sfc.version>0.7.4-SNAPSHOT</sfc.version>
-        <snmp.version>1.5.4-SNAPSHOT</snmp.version>
-        <snmp4sdn.version>0.7.4-SNAPSHOT</snmp4sdn.version>
-        <sxp.version>1.6.4-SNAPSHOT</sxp.version>
-        <tsdr.version>1.5.4-SNAPSHOT</tsdr.version>
-        <usc.version>1.5.4-SNAPSHOT</usc.version>
+        <ofconfig.version>1.4.4</ofconfig.version>
+        <openflowplugin.version>0.6.4</openflowplugin.version>
+        <ovsdb.version>1.6.4</ovsdb.version>
+        <p4plugin.version>0.1.4</p4plugin.version>
+        <packetcable.version>1.7.4</packetcable.version>
+        <restconf.version>1.7.4</restconf.version>
+        <sdninterfaceapp.version>1.10.4</sdninterfaceapp.version>
+        <serviceutils.version>0.1.4</serviceutils.version>
+        <sfc.version>0.7.4</sfc.version>
+        <snmp.version>1.5.4</snmp.version>
+        <snmp4sdn.version>0.7.4</snmp4sdn.version>
+        <sxp.version>1.6.4</sxp.version>
+        <tsdr.version>1.5.4</tsdr.version>
+        <usc.version>1.5.4</usc.version>
         <yangtools.version>2.0.6.5</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
