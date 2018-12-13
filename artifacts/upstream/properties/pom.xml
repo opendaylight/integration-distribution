@@ -62,7 +62,7 @@
         <honeycomb.vbd.version>1.3.4-SNAPSHOT</honeycomb.vbd.version>
         <infrautils.version>1.3.4-SNAPSHOT</infrautils.version>
         <iotdm.version>0.5.4-SNAPSHOT</iotdm.version>
-        <jsonrpc.version>1.3.6-SNAPSHOT</jsonrpc.version>
+        <jsonrpc.version>1.3.7-SNAPSHOT</jsonrpc.version>
         <l2switch.version>0.7.4-SNAPSHOT</l2switch.version>
         <lacp.version>1.5.4-SNAPSHOT</lacp.version>
         <lispflowmapping.version>1.7.4-SNAPSHOT</lispflowmapping.version>
