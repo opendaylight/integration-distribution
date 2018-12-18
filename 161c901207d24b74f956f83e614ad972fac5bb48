@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2e0b24e_6e1a30ec",
+        "filename": "karaf-branding/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-12-18T17:20:43Z",
+      "side": 1,
+      "message": "This is going to be a bit pain to maintain as if someone forgets to update this property there is real risk of shipping a release with the wrong version. Let me think if there is any way we can automate this.",
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
