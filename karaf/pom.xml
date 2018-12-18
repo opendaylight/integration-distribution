@@ -49,6 +49,13 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <!-- ODL Branding -->
+        <dependency>
+            <groupId>org.opendaylight.integration</groupId>
+            <artifactId>karaf.branding</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <!-- Integration index feature repository. -->
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -125,6 +132,24 @@
                                  and they understandly do not want to have to adjust for every ODL release;
                                  see e.g. https://github.com/dfarrell07/puppet-opendaylight/pull/140 -->
                             <stripVersion>true</stripVersion>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy</id>
+                        <goals>
+                            <goal>copy</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <artifactItems>
+                                <artifactItem>
+                                    <groupId>org.opendaylight.integration</groupId>
+                                    <artifactId>karaf.branding</artifactId>
+                                    <version>${project.version}</version>
+                                    <outputDirectory>target/assembly/lib</outputDirectory>
+                                    <destFileName>karaf.branding-${project.version}.jar</destFileName>
+                                </artifactItem>
+                            </artifactItems>
                         </configuration>
                     </execution>
                 </executions>

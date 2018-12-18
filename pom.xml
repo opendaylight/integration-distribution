@@ -45,6 +45,7 @@
             <modules>
                 <module>artifacts</module>
                 <module>karaf</module>
+                <module>karaf-branding</module>
                 <module>features</module>
             </modules>
         </profile>
