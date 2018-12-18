@@ -52,6 +52,24 @@
       "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a43c64a0_f790db2e",
+        "filename": "karaf-branding/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2018-12-18T17:47:15Z",
+      "side": 1,
+      "message": "finding a way to guarantee this and make it work would be really nice to have though.",
+      "parentUuid": "11861963_c2b78083",
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
