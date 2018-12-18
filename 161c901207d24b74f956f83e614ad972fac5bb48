@@ -34,6 +34,24 @@
       "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "11861963_c2b78083",
+        "filename": "karaf-branding/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4540
+      },
+      "writtenOn": "2018-12-18T17:27:12Z",
+      "side": 1,
+      "message": "That’s exactly my concern...",
+      "parentUuid": "a2e0b24e_6e1a30ec",
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
