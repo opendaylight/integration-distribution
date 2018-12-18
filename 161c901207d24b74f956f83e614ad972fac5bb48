@@ -16,6 +16,24 @@
       "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "135a56af_88c082ea",
+        "filename": "karaf-branding/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2018-12-18T17:25:31Z",
+      "side": 1,
+      "message": "Thanh, can we do something in AR and the bump scripts to automatically write this? if not I think it would be better to just show the version as a number e.g. 0.10.0",
+      "parentUuid": "a2e0b24e_6e1a30ec",
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
