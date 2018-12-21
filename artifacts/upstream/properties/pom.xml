@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>3.1.4</version>
+        <version>3.1.5</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -57,7 +57,7 @@
         <netconf.version>1.5.2-SNAPSHOT</netconf.version>
         <netvirt.version>0.7.2-SNAPSHOT</netvirt.version>
         <neutron.version>0.11.2-SNAPSHOT</neutron.version>
-        <odlparent.version>3.1.4</odlparent.version>
+        <odlparent.version>3.1.5</odlparent.version>
         <openflowplugin.version>0.7.2-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.7.2-SNAPSHOT</ovsdb.version>
         <restconf.version>1.8.2-SNAPSHOT</restconf.version>
