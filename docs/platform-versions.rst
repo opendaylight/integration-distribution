@@ -15,15 +15,15 @@ Platform versions
 
    * - org.opendaylight.odlparent
      - \*
-     - 3.1.5
-     - 3.1.5
+     - 3.1.3
+     - 3.1.4
      - 3.1.5
 
    * - org.opendaylight.yangtools
      - yangtools-artifacts
+     - 2.0.10
      - 2.0.12
-     - 2.0.13
-     - 2.0.13
+     - 2.0.15
 
    * - org.opendaylight.mdsal
      - binding-parent
