@@ -13,7 +13,7 @@ Platform versions
 
    * - org.opendaylight.odlparent
      - \*
-     - 4.0.5
+     - 4.0.7
 
    * - org.opendaylight.yangtools
      - yangtools-artifacts
