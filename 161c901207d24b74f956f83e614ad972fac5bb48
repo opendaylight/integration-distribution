@@ -88,6 +88,52 @@
       "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "12c4454d_a837f4ad",
+        "filename": "karaf-branding/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2019-01-17T19:02:41Z",
+      "side": 1,
+      "message": "why is this needed?",
+      "range": {
+        "startLine": 44,
+        "startChar": 12,
+        "endLine": 44,
+        "endChar": 46
+      },
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ac6ede4_37cce3db",
+        "filename": "karaf-branding/src/main/java/org/opendaylight/integration/branding/Activator.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2019-01-17T19:02:41Z",
+      "side": 1,
+      "message": "why do we need to use the TCCL?",
+      "range": {
+        "startLine": 26,
+        "startChar": 47,
+        "endLine": 26,
+        "endChar": 93
+      },
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
