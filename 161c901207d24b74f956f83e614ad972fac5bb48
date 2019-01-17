@@ -70,6 +70,24 @@
       "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "246a038e_f8a2ba5c",
+        "filename": "karaf-branding/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2019-01-17T18:57:49Z",
+      "side": 1,
+      "message": "how about: https://github.com/git-commit-id/maven-git-commit-id-plugin/blob/master/docs/using-the-plugin.md\n\nAnd make a combination of:\ngit.branch\ngit.build.time\ngit.commit.id.abbrev\n\nTo mark things as \"development snapshot\", this needs to sit in a profile be the default (to support -merge jobs) and flipped to \"release\" by the autorelease job (or stage job, when int/dist becomes MRI)",
+      "parentUuid": "a43c64a0_f790db2e",
+      "revId": "161c901207d24b74f956f83e614ad972fac5bb48",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
