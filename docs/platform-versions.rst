@@ -17,7 +17,7 @@ Platform versions
      - \*
      - 3.1.3
      - 3.1.4
-     - 3.1.5
+     - 3.1.6
 
    * - org.opendaylight.yangtools
      - yangtools-artifacts
