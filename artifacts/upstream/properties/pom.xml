@@ -87,7 +87,7 @@
         <sxp.version>1.6.5-SNAPSHOT</sxp.version>
         <tsdr.version>1.5.5-SNAPSHOT</tsdr.version>
         <usc.version>1.5.5-SNAPSHOT</usc.version>
-        <yangtools.version>2.0.6.5</yangtools.version>
+        <yangtools.version>2.0.6.7</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
