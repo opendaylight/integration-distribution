@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+2: Stephen Kitt <skitt@redhat.com>
+Submitted-by: Stephen Kitt <skitt@redhat.com>
+Submitted-at: Fri, 18 Jan 2019 17:08:52 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/79362
+Project: integration/distribution
+Branch: refs/heads/master
