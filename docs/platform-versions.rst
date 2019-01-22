@@ -17,15 +17,15 @@ Platform versions
 
    * - org.opendaylight.yangtools
      - yangtools-artifacts
-     - 2.1.7
+     - 2.1.8
 
    * - org.opendaylight.mdsal
      - binding-parent
-     - 3.0.4
+     - 3.0.6
 
    * - org.opendaylight.mdsal
      - mdsal-artifacts
-     - 3.0.4
+     - 3.0.6
 
    * - org.opendaylight.controller
      - mdsal-artifacts
