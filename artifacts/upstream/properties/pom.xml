@@ -48,12 +48,13 @@
         <bgpcep.version>0.11.0-SNAPSHOT</bgpcep.version>
         <coe.version>0.5.0-SNAPSHOT</coe.version>
         <config.version>0.10.0-SNAPSHOT</config.version>
-        <controller.extras.version>1.12.0-SNAPSHOT</controller.extras.version>
+        <controller.version>1.9.0-SNAPSHOT</controller.version>
+	<controller.extras.version>1.12.0-SNAPSHOT</controller.extras.version>
         <daexim.version>1.5.0-SNAPSHOT</daexim.version>
         <genius.version>0.6.0-SNAPSHOT</genius.version>
         <infrautils.version>1.5.0-SNAPSHOT</infrautils.version>
         <lispflowmapping.version>1.9.0-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>1.9.0-SNAPSHOT</mdsal.version>
+        <mdsal.version>3.0.6</mdsal.version>
         <netconf.version>1.6.0-SNAPSHOT</netconf.version>
         <netvirt.version>0.8.0-SNAPSHOT</netvirt.version>
         <neutron.version>0.12.0-SNAPSHOT</neutron.version>
@@ -63,6 +64,7 @@
         <restconf.version>1.9.0-SNAPSHOT</restconf.version>
         <serviceutils.version>0.3.0-SNAPSHOT</serviceutils.version>
         <sfc.version>0.9.0-SNAPSHOT</sfc.version>
+        <yangtools.version>2.1.8</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>

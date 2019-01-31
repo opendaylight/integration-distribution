@@ -76,7 +76,7 @@
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
                         <artifactId>odl-mdsal-broker</artifactId>
-                        <version>${mdsal.version}</version>
+                        <version>${controller.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>
