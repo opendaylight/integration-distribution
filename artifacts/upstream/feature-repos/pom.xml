@@ -76,7 +76,7 @@
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
                         <artifactId>features-mdsal</artifactId>
-                        <version>${mdsal.version}</version>
+                        <version>${controller.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>
@@ -90,7 +90,7 @@
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
                         <artifactId>features-mdsal-trace</artifactId>
-                        <version>${mdsal.version}</version>
+                        <version>${controller.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>
