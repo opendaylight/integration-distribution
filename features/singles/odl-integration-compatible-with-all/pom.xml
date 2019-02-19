@@ -267,5 +267,20 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- SNMP4SDN -->
+        <profile>
+            <id>snmp4sdn</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.snmp4sdn</groupId>
+                    <artifactId>odl-snmp4sdn-snmp4sdn</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
 </project>

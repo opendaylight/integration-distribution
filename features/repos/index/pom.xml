@@ -377,6 +377,21 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- SNMP4SDN -->
+        <profile>
+            <id>snmp4sdn</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.snmp4sdn</groupId>
+                    <artifactId>features-snmp4sdn</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- FIXME: Add Yangtools -->
     </profiles>
 </project>
