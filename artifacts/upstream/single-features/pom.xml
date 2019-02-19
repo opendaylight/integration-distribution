@@ -150,5 +150,23 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
+        <!-- SNMP4SDN -->
+        <profile>
+            <id>snmp4sdn</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.snmp4sdn</groupId>
+                        <artifactId>odl-snmp4sdn-snmp4sdn</artifactId>
+                        <version>${snmp4sdn.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
     </profiles>
 </project>
