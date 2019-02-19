@@ -55,6 +55,23 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- SNMP4SDN -->
+        <profile>
+            <id>snmp4sdn</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.snmp4sdn</groupId>
+                    <artifactId>features-snmp4sdn</artifactId>
+                    <version>0.9.0-SNAPSHOT</version>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- SXP -->
         <profile>
             <id>sxp</id>

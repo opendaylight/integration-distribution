@@ -64,6 +64,7 @@
         <restconf.version>1.9.0-SNAPSHOT</restconf.version>
         <serviceutils.version>0.3.0-SNAPSHOT</serviceutils.version>
         <sfc.version>0.9.0-SNAPSHOT</sfc.version>
+        <snmp4sdn.version>0.9.0-SNAPSHOT</snmp4sdn.version>
         <yangtools.version>2.1.8</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
