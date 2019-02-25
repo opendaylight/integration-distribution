@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c0220f6f_9c49afc1",
+        "filename": "karaf-scripts/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 3675
+      },
+      "writtenOn": "2019-02-25T22:08:48Z",
+      "side": 1,
+      "message": "could be odlparent-lite",
+      "range": {
+        "startLine": 14,
+        "startChar": 20,
+        "endLine": 14,
+        "endChar": 29
+      },
+      "revId": "37a5a4fd53a33606bf674016fbc540c57a088ab5",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
