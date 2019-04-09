@@ -125,13 +125,6 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.opendaylight.odlparent</groupId>
-                        <artifactId>features-akka</artifactId>
-                        <version>${odlparent.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.opendaylight.odlparent</groupId>
                         <artifactId>features-odlparent</artifactId>
                         <version>${odlparent.version}</version>
                         <classifier>features</classifier>

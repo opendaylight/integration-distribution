@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>4.0.9</version>
+        <version>5.0.0</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -285,12 +285,6 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.odlparent</groupId>
-                    <artifactId>features-akka</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
                 <dependency>
                     <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>features-odlparent</artifactId>
