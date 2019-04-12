@@ -72,6 +72,23 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- SNMP4SDN -->
+        <profile>
+            <id>snmp4sdn</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.snmp4sdn</groupId>
+                    <artifactId>features-snmp4sdn</artifactId>
+                    <version>0.9.1-SNAPSHOT</version>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- TransportPCE -->
         <profile>
             <id>transportpce</id>
