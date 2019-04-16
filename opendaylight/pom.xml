@@ -59,7 +59,7 @@
         <profile>
             <id>transportpce</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
