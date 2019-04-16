@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eff2bffe_ac0bf9e3",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-04-16T17:00:55Z",
+      "side": 1,
+      "message": "you have to set \"true\" to enable SNMP4SDN.",
+      "revId": "684db324d5f06898cdf43e536f013bfda2489ae9",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
