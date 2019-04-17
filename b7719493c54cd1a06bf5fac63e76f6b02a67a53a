@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9c632991_6a0b49ed",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-04-17T18:51:25Z",
+      "side": 1,
+      "message": "I think it is 0.9.1-SNAPSHOT",
+      "revId": "b7719493c54cd1a06bf5fac63e76f6b02a67a53a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
