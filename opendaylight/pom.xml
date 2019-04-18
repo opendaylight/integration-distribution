@@ -91,6 +91,9 @@
         </profile>
         <profile>
             <id>dependency-convergence</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
