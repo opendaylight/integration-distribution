@@ -59,7 +59,7 @@
         <profile>
             <id>telemetry</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
@@ -91,6 +91,9 @@
         </profile>
         <profile>
             <id>dependency-convergence</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
