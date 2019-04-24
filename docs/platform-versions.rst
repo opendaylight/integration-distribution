@@ -20,7 +20,7 @@ Platform versions
    * - org.opendaylight.yangtools
      - yangtools-artifacts
      - 2.1.8
-     - 2.1.8
+     - 2.1.10
 
    * - org.opendaylight.mdsal
      - binding-parent
