@@ -26,7 +26,7 @@ Platform versions
      - 2.0.10
      - 2.0.12
      - 2.0.16
-     - 2.0.16
+     - 2.0.21
 
    * - org.opendaylight.mdsal
      - binding-parent
