@@ -11,6 +11,7 @@
 # This script visits all jars within the OpenDaylight karaf distribution and extracts
 # all production YANG modules (as located in META-INF/yang)
 #
+echo "Extracting Yang models"
 set -e
 
 # FIXME: make this tuneable
