@@ -64,7 +64,7 @@
         <restconf.version>1.10.0-SNAPSHOT</restconf.version>
         <serviceutils.version>0.4.0-SNAPSHOT</serviceutils.version>
         <sfc.version>0.10.0-SNAPSHOT</sfc.version>
-        <yangtools.version>3.0.0</yangtools.version>
+        <yangtools.version>3.0.1</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
