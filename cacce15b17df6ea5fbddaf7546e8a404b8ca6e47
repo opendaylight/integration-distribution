@@ -22,6 +22,30 @@
       "revId": "cacce15b17df6ea5fbddaf7546e8a404b8ca6e47",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6b1ff54_ca4fed25",
+        "filename": "scripts/extract_modules.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 8458
+      },
+      "writtenOn": "2019-06-06T15:38:08Z",
+      "side": 1,
+      "message": "Sir, I added a POSIX(compatability for different OS) specification in the script where instead of backticked \u0027..\u0027 the notation $(...) is used.Is it not a fix? Please suggest the relevant wording for it.",
+      "parentUuid": "71d8933c_cd7dc436",
+      "range": {
+        "startLine": 20,
+        "startChar": 2,
+        "endLine": 20,
+        "endChar": 35
+      },
+      "revId": "cacce15b17df6ea5fbddaf7546e8a404b8ca6e47",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
