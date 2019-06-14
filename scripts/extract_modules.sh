@@ -17,27 +17,24 @@ set -e
 OUTPUT="opendaylight-models"
 INPUT="."
 
-JARS=`find $INPUT/system/org/opendaylight -type f -name '*.jar' | sort -u`
-
 # FIXME: also wipe output?
 [ -d "$OUTPUT" ] || mkdir "$OUTPUT"
-for jar in $JARS; do
-    artifact=`basename $jar | sed 's/.jar$//'`
-    echo "Extracting modules from $artifact"
-    # FIXME: better control over unzip errors
-    unzip -q "$jar" 'META-INF/yang/*' -d "$artifact" \
-        2>/dev/null || true
 
-    dir="$artifact/META-INF/yang"
-    if [ -d "$dir" ]; then
-        for file in `find $dir -type f -name '*.yang'`; do
-            module=`basename "$file"`
-            echo -e "\t$module"
-            # FIXME: better duplicate detection
-            mv -n "$file" "$OUTPUT"
-        done
+PROJECTS=`ls -d $INPUT/system/org/opendaylight/*`
+for proj in $PROJECTS; do
+    proj=`basename $proj`
+    echo "Extracting modules from $proj"
+    JARS=`find $INPUT/system/org/opendaylight/$proj -type f -name '*.jar' | sort -u`
+    [ -d "$OUTPUT/$proj" ] || mkdir $OUTPUT/$proj
+    for jar in $JARS; do
+        unzip -l "$jar" | grep -q -e "\.yang$" &&
+        unzip -q "$jar" 'META-INF/yang/*' -d "$OUTPUT/$proj"
+    done
+    if [ -z "$(ls -A $OUTPUT/$proj)" ]; then
+        rm -rf $OUTPUT/$proj
+    else
+        rm -rf *.yang
+        mv $OUTPUT/$proj/META-INF/yang/* $OUTPUT/$proj
+        rm -rf $OUTPUT/$proj/META-INF
     fi
-
-    rm -rf "$artifact"
 done
-
