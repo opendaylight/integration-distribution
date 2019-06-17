@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "20ba1daf_afd4f8f7",
+        "filename": "scripts/extract_modules.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-06-17T18:06:49Z",
+      "side": 1,
+      "message": "remove extra space here and in the other line",
+      "revId": "158c27b17ab242cf870e8e67ad30d2adf761ba73",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
