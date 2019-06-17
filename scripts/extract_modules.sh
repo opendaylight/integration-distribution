@@ -16,7 +16,7 @@ set -e
 # FIXME: make this tuneable
 OUTPUT="opendaylight-models"
 INPUT="."
-
+#This is my first comment ----> karthik
 JARS=`find $INPUT/system/org/opendaylight -type f -name '*.jar' | sort -u`
 
 # FIXME: also wipe output?
