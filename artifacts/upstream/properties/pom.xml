@@ -54,7 +54,7 @@
         <genius.version>0.6.2-SNAPSHOT</genius.version>
         <infrautils.version>1.5.2-SNAPSHOT</infrautils.version>
         <lispflowmapping.version>1.9.2-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>3.0.8</mdsal.version>
+        <mdsal.version>3.0.9</mdsal.version>
         <netconf.version>1.6.2-SNAPSHOT</netconf.version>
         <netvirt.version>0.8.2-SNAPSHOT</netvirt.version>
         <neutron.version>0.12.2-SNAPSHOT</neutron.version>
