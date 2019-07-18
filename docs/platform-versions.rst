@@ -29,13 +29,13 @@ Platform versions
      - binding-parent
      - 3.0.6
      - 3.0.8
-     - 3.0.9
+     - 3.0.10
 
    * - org.opendaylight.mdsal
      - mdsal-artifacts
      - 3.0.6
      - 3.0.8
-     - 3.0.9
+     - 3.0.10
 
    * - org.opendaylight.controller
      - mdsal-artifacts
