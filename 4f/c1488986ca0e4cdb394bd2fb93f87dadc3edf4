@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Robert Varga <nite@hq.sk>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Thu, 18 Jul 2019 14:17:45 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/82673
+Project: integration/distribution
+Branch: refs/heads/stable/fluorine
