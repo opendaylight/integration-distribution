@@ -12,7 +12,7 @@ Platform versions
      - Fluorine GA
      - Fluorine SR1
      - Fluorine SR2
-     - Fluorine Development
+     - Fluorine SR3
 
    * - org.opendaylight.odlparent
      - \*
@@ -33,48 +33,48 @@ Platform versions
      - 0.13.0
      - 0.13.1
      - 0.13.2
-     - 0.13.3-SNAPSHOT
+     - 0.13.3
 
    * - org.opendaylight.mdsal
      - mdsal-artifacts
      - 2.5.0
      - 2.5.1
      - 2.5.2
-     - 2.5.3-SNAPSHOT
+     - 2.5.3
 
    * - org.opendaylight.mdsal.model
      - mdsal-model-artifacts
      - 0.13.0
      - 0.13.1
      - 0.13.2
-     - 0.13.3-SNAPSHOT
+     - 0.13.3
 
    * - org.opendaylight.controller
      - mdsal-artifacts
      - 1.8.0
      - 1.8.1
      - 1.8.2
-     - 1.8.3-SNAPSHOT
+     - 1.8.3
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.8.0
      - 0.8.1
      - 0.8.2
-     - 0.8.3-SNAPSHOT
+     - 0.8.3
 
    * - org.opendaylight.netconf
      - netconf-artifacts
      - 1.5.0
      - 1.5.1
      - 1.5.2
-     - 1.5.3-SNAPSHOT
+     - 1.5.3
 
    * - org.opendaylight.netconf
      - restconf-artifacts
      - 1.8.0
      - 1.8.1
      - 1.8.2
-     - 1.8.3-SNAPSHOT
+     - 1.8.3
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
