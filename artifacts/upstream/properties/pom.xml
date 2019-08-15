@@ -49,12 +49,12 @@
         <coe.version>0.7.0-SNAPSHOT</coe.version>
         <config.version>0.12.0-SNAPSHOT</config.version>
         <controller.version>1.11.0-SNAPSHOT</controller.version>
-	<controller.extras.version>1.14.0-SNAPSHOT</controller.extras.version>
+        <controller.extras.version>1.14.0-SNAPSHOT</controller.extras.version>
         <daexim.version>1.7.0-SNAPSHOT</daexim.version>
         <genius.version>0.8.0-SNAPSHOT</genius.version>
         <infrautils.version>1.7.0-SNAPSHOT</infrautils.version>
         <lispflowmapping.version>1.11.0-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>4.0.3</mdsal.version>
+        <mdsal.version>4.0.4</mdsal.version>
         <netconf.version>1.8.0-SNAPSHOT</netconf.version>
         <netvirt.version>0.10.0-SNAPSHOT</netvirt.version>
         <neutron.version>0.14.0-SNAPSHOT</neutron.version>
