@@ -61,7 +61,6 @@
         <odlparent.version>5.0.1</odlparent.version>
         <openflowplugin.version>0.10.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.10.0-SNAPSHOT</ovsdb.version>
-        <restconf.version>1.11.0-SNAPSHOT</restconf.version>
         <serviceutils.version>0.5.0-SNAPSHOT</serviceutils.version>
         <sfc.version>0.11.0-SNAPSHOT</sfc.version>
         <yangtools.version>3.0.4</yangtools.version>

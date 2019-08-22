@@ -173,13 +173,6 @@
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>
-                    <dependency>
-                        <groupId>org.opendaylight.netconf</groupId>
-                        <artifactId>restconf-artifacts</artifactId>
-                        <version>${restconf.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
                 </dependencies>
             </dependencyManagement>
         </profile>
