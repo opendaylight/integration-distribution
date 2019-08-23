@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dd0cec13_7bfe53b5",
+        "filename": "scripts/extract_modules.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-23T20:40:31Z",
+      "side": 1,
+      "message": "Can you move the entire file to karaf/src/main/assembly/bin so the script gets packaged in the distribution bin folder?",
+      "revId": "731e50ac0f3e99d7172bbe58b5c55af29674b13f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "32d7d123_55784d79",
+        "filename": "scripts/extract_modules.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-23T20:40:31Z",
+      "side": 1,
+      "message": "In order for the script to be invoked from any folder, can you do something like this:\nBIN_DIR\u003d`dirname $0`\nOUTPUT\u003d\"$BIN_DIR/../opendaylight-models\"\nINPUT\u003d\"$BIN_DIR/..\"",
+      "revId": "731e50ac0f3e99d7172bbe58b5c55af29674b13f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "058acd0b_a7f9c66d",
+        "filename": "scripts/extract_modules.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-23T20:40:31Z",
+      "side": 1,
+      "message": "Can you add an \"echo\" by the end of the script saying the models are stored in $OUTPUT?",
+      "revId": "731e50ac0f3e99d7172bbe58b5c55af29674b13f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
