@@ -54,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "1e908d4d_b0499c7a",
+        "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 8455
+      },
+      "writtenOn": "2019-08-26T21:47:50Z",
+      "side": 1,
+      "message": "Good idea , thanks",
+      "parentUuid": "207c58db_7d51d234",
+      "revId": "707f7c76dd21aae24dfed537f7cb859d5b7a0877",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "cf7c7ca0_aa6e912f",
         "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
         "patchSetId": 5
