@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "26388cd7_8ee7f9c9",
+        "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-26T21:39:13Z",
+      "side": 1,
+      "message": "It looks like module is the right name for a yang file, so we can leave it as it is: https://github.com/YangModels/yang",
+      "parentUuid": "a2e39ba5_d0988845",
+      "revId": "707f7c76dd21aae24dfed537f7cb859d5b7a0877",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "207c58db_7d51d234",
         "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
         "patchSetId": 5
