@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2e39ba5_d0988845",
+        "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-26T21:34:27Z",
+      "side": 1,
+      "message": "I just realized now: should not this be called extract_models.sh vs extract_modules.sh",
+      "revId": "707f7c76dd21aae24dfed537f7cb859d5b7a0877",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "207c58db_7d51d234",
+        "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-26T21:34:27Z",
+      "side": 1,
+      "message": "Maybe it is useful to add readlink -f here so you get absolute paths:\nOUTPUT\u003d`readlink -f \"$BIN_DIR/../opendaylight-models\"`\nINPUT\u003d`readlink -f \"$BIN_DIR/..\"`",
+      "revId": "707f7c76dd21aae24dfed537f7cb859d5b7a0877",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cf7c7ca0_aa6e912f",
+        "filename": "karaf-scripts/src/main/assembly/bin/extract_modules.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2019-08-26T21:34:27Z",
+      "side": 1,
+      "message": "This line may not work with all the \", but you can just use $OUTPUT if this is already an absolute path.",
+      "revId": "707f7c76dd21aae24dfed537f7cb859d5b7a0877",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
