@@ -8,7 +8,7 @@
 #
 #
 # This script checks the YANG modules collected by the extract_modules.sh
-# scripti. The check is done by the pyang tool and an error text file is
+# script. The check is done by the pyang tool and an error text file is
 # generated for every opendaylight project so proper actions can be taken
 # to fix the modules.
 #
@@ -16,7 +16,7 @@
 BIN_DIR=`dirname $0`
 OUTPUT="$BIN_DIR/../opendaylight-models"
 
-# Exit if no yang module folder is found
+# Exit if yang module folder is not found
 [ ! -d "$OUTPUT" ] && echo "ERROR: no modules found, run extract_module.sh first" && exit 1
 
 # Assemble the pyang command options
