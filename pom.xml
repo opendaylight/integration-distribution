@@ -46,7 +46,8 @@
                 <module>artifacts</module>
                 <module>karaf</module>
                 <module>features</module>
-            </modules>
+                <module>onap-karaf</module>
+	</modules>
         </profile>
        <profile>
             <id>unmanaged</id>
