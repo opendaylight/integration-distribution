@@ -47,6 +47,7 @@
                 <module>karaf-scripts</module>
                 <module>karaf</module>
                 <module>features</module>
+                <module>onap-karaf</module>
             </modules>
         </profile>
        <profile>
