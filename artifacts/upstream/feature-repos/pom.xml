@@ -133,23 +133,5 @@
                 </dependencies>
             </dependencyManagement>
         </profile>
-        <!-- SFC -->
-        <profile>
-            <id>sfc</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.sfc</groupId>
-                        <artifactId>features4-sfc</artifactId>
-                        <version>${sfc.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
     </profiles>
 </project>

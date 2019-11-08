@@ -106,21 +106,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- COE -->
-        <profile>
-            <id>coe</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.coe</groupId>
-                    <artifactId>features-coe</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Controller -->
         <profile>
             <id>controller</id>
@@ -356,21 +341,5 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- SFC -->
-        <profile>
-            <id>sfc</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.sfc</groupId>
-                    <artifactId>features4-sfc</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- FIXME: Add Yangtools -->
     </profiles>
 </project>
