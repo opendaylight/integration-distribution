@@ -249,38 +249,5 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- SFC -->
-        <profile>
-            <id>sfc</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.sfc</groupId>
-                    <artifactId>odl-sfc-ovs</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.sfc</groupId>
-                    <artifactId>odl-sfc-sb-rest</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.sfc</groupId>
-                    <artifactId>odl-sfclisp</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.sfc</groupId>
-                    <artifactId>odl-sfc-shell</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
     </profiles>
 </project>

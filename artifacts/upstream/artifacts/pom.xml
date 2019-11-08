@@ -58,23 +58,6 @@
             </dependencyManagement>
         </profile>
         <profile>
-            <id>coe</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.coe</groupId>
-                        <artifactId>coe-artifacts</artifactId>
-                        <version>${coe.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
             <id>controller</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
