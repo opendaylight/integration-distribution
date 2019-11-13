@@ -143,6 +143,23 @@
             </dependencyManagement>
         </profile>
         <profile>
+            <id>jsonrpc</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.jsonrpc</groupId>
+                        <artifactId>jsonrpc-artifacts</artifactId>
+                        <version>${jsonrpc.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
             <id>lispflowmapping</id>
             <activation>
                 <activeByDefault>true</activeByDefault>

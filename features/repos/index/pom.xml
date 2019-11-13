@@ -199,6 +199,21 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- jsonrpc -->
+        <profile>
+            <id>jsonrpc</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.jsonrpc</groupId>
+                    <artifactId>jsonrpc-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- LISP Flow Mapping -->
         <profile>
             <id>lispflowmapping</id>

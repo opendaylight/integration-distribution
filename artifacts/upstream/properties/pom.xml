@@ -53,6 +53,7 @@
         <daexim.version>1.7.0-SNAPSHOT</daexim.version>
         <genius.version>0.8.0-SNAPSHOT</genius.version>
         <infrautils.version>1.7.0-SNAPSHOT</infrautils.version>
+        <jsonrpc.version>1.8.0-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.11.0-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>5.0.4</mdsal.version>
         <netconf.version>1.8.0-SNAPSHOT</netconf.version>
