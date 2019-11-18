@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "24e7ee50_c38491c1",
+        "filename": "pom.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 2759
+      },
+      "writtenOn": "2019-11-18T20:40:58Z",
+      "side": 1,
+      "message": "I think you do not even need to add this to he modules list so that the regular job is not impacted.",
+      "range": {
+        "startLine": 49,
+        "startChar": 17,
+        "endLine": 49,
+        "endChar": 42
+      },
+      "revId": "965cf190f609b57cf2e9cb81e8fa869c4de15959",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
