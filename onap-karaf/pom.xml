@@ -47,7 +47,6 @@
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>features-aaa</artifactId>
-            <version>0.9.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -57,7 +56,6 @@
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>features-extras</artifactId>
-            <version>1.12.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -65,7 +63,6 @@
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>features-mdsal</artifactId>
-            <version>1.9.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -73,7 +70,6 @@
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>features-mdsal-benchmark</artifactId>
-            <version>1.7.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -81,7 +77,6 @@
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
             <artifactId>features-mdsal-trace</artifactId>
-            <version>1.9.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -91,7 +86,6 @@
         <dependency>
             <groupId>org.opendaylight.daexim</groupId>
             <artifactId>daexim-features</artifactId>
-            <version>1.5.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -101,7 +95,6 @@
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features-netconf</artifactId>
-            <version>1.6.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -109,7 +102,6 @@
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features-netconf-connector</artifactId>
-            <version>1.6.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -117,7 +109,6 @@
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features-restconf</artifactId>
-            <version>1.6.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -125,7 +116,6 @@
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
             <artifactId>features-yanglib</artifactId>
-            <version>1.6.1</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -135,7 +125,6 @@
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>features-akka</artifactId>
-            <version>4.0.10</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -143,7 +132,6 @@
         <dependency>
             <groupId>org.opendaylight.odlparent</groupId>
             <artifactId>features-odlparent</artifactId>
-            <version>4.0.10</version>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -152,7 +140,6 @@
         <dependency>
             <groupId>org.opendaylight.aaa</groupId>
             <artifactId>aaa-cli-jar</artifactId>
-            <version>0.9.1</version>
             <!-- This scope test here is just a trick, so that we can use aaa-cli-jar in maven-dependency-plugin, but don't have karaf-maven-plugin choke on it -->
             <scope>test</scope>
         </dependency>
