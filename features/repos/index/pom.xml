@@ -208,7 +208,7 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.jsonrpc</groupId>
-                    <artifactId>jsonrpc-features</artifactId>
+                    <artifactId>features-jsonrpc</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
