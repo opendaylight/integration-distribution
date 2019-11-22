@@ -49,6 +49,10 @@
         </dependencies>
     </dependencyManagement>
 
+    <properties>
+        <jsonrpc.version>1.8.0-SNAPSHOT</jsonrpc.version>
+    </properties>
+
     <!-- User facing single features. Alphabetical order -->
     <!-- FIXME: How to explain to feature-repo-parent it shall not list single features from repo dependencies? -->
     <profiles>
@@ -210,6 +214,7 @@
                     <groupId>org.opendaylight.jsonrpc</groupId>
                     <artifactId>jsonrpc-features</artifactId>
                     <classifier>features</classifier>
+                    <version>${jsonrpc.version}</version>
                     <type>xml</type>
                 </dependency>
             </dependencies>
