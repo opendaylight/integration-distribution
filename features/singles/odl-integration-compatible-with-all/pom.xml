@@ -114,6 +114,21 @@
                 </dependency>
             </dependencies>
         </profile>
+	    <!-- Detnet -->
+        <profile>
+            <id>detnet</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.detnet</groupId>
+                    <artifactId>odl-detnet-all</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- InfraUtils -->
         <profile>
             <id>infrautils</id>
