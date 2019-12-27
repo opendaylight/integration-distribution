@@ -50,6 +50,7 @@
         <controller.version>1.11.0-SNAPSHOT</controller.version>
         <controller.extras.version>1.14.0-SNAPSHOT</controller.extras.version>
         <daexim.version>1.7.0-SNAPSHOT</daexim.version>
+		<detnet.version>0.1.0-SNAPSHOT</detnet.version>
         <genius.version>0.8.0-SNAPSHOT</genius.version>
         <infrautils.version>1.7.0-SNAPSHOT</infrautils.version>
         <jsonrpc.version>1.8.0-SNAPSHOT</jsonrpc.version>
