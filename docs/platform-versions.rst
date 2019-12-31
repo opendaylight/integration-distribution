@@ -12,7 +12,7 @@ Platform versions
      - Neon GA
      - Neon SR1
      - Neon SR2
-     - Neon Development
+     - Neon SR3
 
    * - org.opendaylight.odlparent
      - \*
@@ -47,27 +47,27 @@ Platform versions
      - 1.9.0
      - 1.9.1
      - 1.9.2
-     - 1.9.3-SNAPSHOT
+     - 1.9.3
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.9.0
      - 0.9.1
      - 0.9.2
-     - 0.9.3-SNAPSHOT
+     - 0.9.3
 
    * - org.opendaylight.netconf
      - netconf-artifacts
      - 1.6.0
      - 1.6.1
      - 1.6.2
-     - 1.6.3-SNAPSHOT
+     - 1.6.3
 
    * - org.opendaylight.netconf
      - restconf-artifacts
      - 1.9.0
      - 1.9.1
      - 1.9.2
-     - 1.9.3-SNAPSHOT
+     - 1.9.3
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
