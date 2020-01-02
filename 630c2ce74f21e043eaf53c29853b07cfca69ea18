@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e1fbcb34_8a3ad545",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-01-02T15:59:50Z",
+      "side": 1,
+      "message": "Can you please remove the JSONRPC profile? this project has moved to Managed in Magnesium.",
+      "revId": "630c2ce74f21e043eaf53c29853b07cfca69ea18",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    }
+  ]
+}
