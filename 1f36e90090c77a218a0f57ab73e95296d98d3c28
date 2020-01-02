@@ -16,6 +16,24 @@
       "revId": "1f36e90090c77a218a0f57ab73e95296d98d3c28",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed0dba77_6c4440dc",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2020-01-02T22:36:11Z",
+      "side": 1,
+      "message": "sure, but all others are false ... what is the intent here? :)",
+      "parentUuid": "51180163_adca495a",
+      "revId": "1f36e90090c77a218a0f57ab73e95296d98d3c28",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
