@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "942cb039_af710a9a",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2020-01-04T08:01:26Z",
+      "side": 1,
+      "message": "Ah yes.",
+      "parentUuid": "7434ffae_7707f63e",
+      "revId": "76d47f5757293b9edaaa2d50cc3db3dd16670d53",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "57733860_b9dc9347",
         "filename": "opendaylight/pom.xml",
         "patchSetId": 2
@@ -33,6 +51,24 @@
       "revId": "76d47f5757293b9edaaa2d50cc3db3dd16670d53",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fe26be91_509b77c7",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2020-01-04T08:01:26Z",
+      "side": 1,
+      "message": "That feels wrong, as it is an upstream dependency and those -SNAPSHOTs will not exist very soon. The logic here would be the same as for MRI projects.",
+      "parentUuid": "57733860_b9dc9347",
+      "revId": "76d47f5757293b9edaaa2d50cc3db3dd16670d53",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
