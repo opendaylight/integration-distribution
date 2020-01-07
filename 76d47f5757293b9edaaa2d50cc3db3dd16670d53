@@ -69,6 +69,24 @@
       "revId": "76d47f5757293b9edaaa2d50cc3db3dd16670d53",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a805914f_68582fb7",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-01-07T00:45:02Z",
+      "side": 1,
+      "message": "The common distribution uses SNAPSHOT vs release for 2 reasons:\n1) Continuous distribution sanity check, this is to make sure SM projects changes do not break the common distribution. 2) SM projects CSIT requires a distribution and not all projects have their own distribution.",
+      "parentUuid": "fe26be91_509b77c7",
+      "revId": "76d47f5757293b9edaaa2d50cc3db3dd16670d53",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
