@@ -38,6 +38,23 @@
         <tag>HEAD</tag>
     </scm>
     <profiles>
+       <!-- DLUX -->
+        <profile>
+            <id>dlux</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.dlux</groupId>
+                    <artifactId>features-dlux</artifactId>
+                    <version>0.8.3-SNAPSHOT</version>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>test</scope>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- JSONRPC -->
         <profile>
             <id>jsonrpc</id>
@@ -76,7 +93,7 @@
         <profile>
             <id>transportpce</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
