@@ -9,7 +9,7 @@ Platform versions
 
    * - Group
      - Artifact
-     - Magnesium Development
+     - Aluminium Development
 
    * - org.opendaylight.odlparent
      - \*
@@ -29,14 +29,14 @@ Platform versions
 
    * - org.opendaylight.controller
      - mdsal-artifacts
-     - 1.11.0-SNAPSHOT
+     - 1.12.0-SNAPSHOT
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.11.0-SNAPSHOT
+     - 0.12.0-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
-     - 1.8.0-SNAPSHOT
+     - 1.9.0-SNAPSHOT
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
