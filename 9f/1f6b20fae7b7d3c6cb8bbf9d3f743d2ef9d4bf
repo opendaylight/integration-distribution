@@ -1,0 +1,9 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Guillaume Lambert <guillaume.lambert@orange.com>
+Code-Review+1: Gilles Thouenon <gilles.thouenon@orange.com>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Mon, 23 Mar 2020 15:44:49 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/88569
+Project: integration/distribution
+Branch: refs/heads/stable/magnesium
