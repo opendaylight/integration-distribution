@@ -17,7 +17,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>distribution-aggregator</artifactId>
-    <version>0.12.1-SNAPSHOT</version>
+    <version>0.12.1</version>
     <packaging>pom</packaging>
     <!-- <name> value is used by Sonar to set project name -->
     <name>Integration/Distribution</name>
