@@ -44,11 +44,11 @@
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
         <aaa.version>0.12.0-SNAPSHOT</aaa.version>
-        <benchmark.version>1.10.0-SNAPSHOT</benchmark.version>
+        <benchmark.version>1.9.0</benchmark.version>
         <bgpcep.version>0.14.0-SNAPSHOT</bgpcep.version>
-        <config.version>0.13.0-SNAPSHOT</config.version>
-        <controller.version>1.12.0-SNAPSHOT</controller.version>
-        <controller.extras.version>1.15.0-SNAPSHOT</controller.extras.version>
+        <config.version>0.12.0</config.version>
+        <controller.version>1.11.0</controller.version>
+        <controller.extras.version>1.14.0</controller.extras.version>
         <daexim.version>1.8.0-SNAPSHOT</daexim.version>
         <genius.version>0.9.0-SNAPSHOT</genius.version>
         <infrautils.version>1.8.0-SNAPSHOT</infrautils.version>

@@ -29,7 +29,7 @@ Platform versions
 
    * - org.opendaylight.controller
      - mdsal-artifacts
-     - 1.12.0-SNAPSHOT
+     - 1.11.0
 
    * - org.opendaylight.aaa
      - aaa-artifacts
