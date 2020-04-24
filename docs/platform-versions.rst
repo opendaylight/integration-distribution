@@ -15,22 +15,22 @@ Platform versions
    * - org.opendaylight.odlparent
      - \*
      - 6.0.4
-     - 6.0.4
+     - 6.0.6
 
    * - org.opendaylight.yangtools
      - yangtools-artifacts
      - 4.0.6
-     - 4.0.6
+     - 4.0.8
 
    * - org.opendaylight.mdsal
      - binding-parent
      - 5.0.9
-     - 5.0.9
+     - 5.0.10
 
    * - org.opendaylight.mdsal
      - mdsal-artifacts
      - 5.0.9
-     - 5.0.9
+     - 5.0.10
 
    * - org.opendaylight.controller
      - mdsal-artifacts
