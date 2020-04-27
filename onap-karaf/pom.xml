@@ -141,6 +141,13 @@
             <!-- This scope test here is just a trick, so that we can use aaa-cli-jar in maven-dependency-plugin, but don't have karaf-maven-plugin choke on it -->
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.opendaylight.integration</groupId>
+            <artifactId>karaf-scripts</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -166,6 +173,21 @@
                                  and they understandly do not want to have to adjust for every ODL release;
                                  see e.g. https://github.com/dfarrell07/puppet-opendaylight/pull/140 -->
                             <stripVersion>true</stripVersion>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>unpack-odl-karaf-resources</id>
+                        <goals>
+                            <goal>unpack-dependencies</goal>
+                        </goals>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/assembly</outputDirectory>
+                            <groupId>org.opendaylight.integration</groupId>
+                            <includeArtifactIds>karaf-scripts</includeArtifactIds>
+                            <excludes>META-INF\/**</excludes>
+                            <excludeTransitive>true</excludeTransitive>
+                            <ignorePermissions>false</ignorePermissions>
                         </configuration>
                     </execution>
                 </executions>
