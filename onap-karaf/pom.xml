@@ -136,6 +136,13 @@
             <!-- This scope test here is just a trick, so that we can use aaa-cli-jar in maven-dependency-plugin, but don't have karaf-maven-plugin choke on it -->
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.opendaylight.integration</groupId>
+            <artifactId>karaf-scripts</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
