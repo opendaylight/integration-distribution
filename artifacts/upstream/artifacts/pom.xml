@@ -66,8 +66,8 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
-                        <artifactId>config-artifacts</artifactId>
-                        <version>${config.version}</version>
+                        <artifactId>controller-artifacts</artifactId>
+                        <version>${controller.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>

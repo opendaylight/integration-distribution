@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>6.0.4</version>
+        <version>7.0.1</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -115,25 +115,19 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-extras</artifactId>
+                    <artifactId>features-controller</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-mdsal</artifactId>
+                    <artifactId>features-controller-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-mdsal-benchmark</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-mdsal-trace</artifactId>
+                    <artifactId>features-controller-testing</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>

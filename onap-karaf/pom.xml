@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>karaf4-parent</artifactId>
-        <version>6.0.4</version>
+        <version>7.0.1</version>
         <relativePath/>
     </parent>
 
@@ -55,28 +55,14 @@
         <!-- Controller -->
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-extras</artifactId>
+            <artifactId>features-controller</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-mdsal</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-mdsal-benchmark</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.opendaylight.controller</groupId>
-            <artifactId>features-mdsal-trace</artifactId>
+            <artifactId>features-controller-experimental</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
             <scope>runtime</scope>
@@ -87,6 +73,17 @@
             <groupId>org.opendaylight.daexim</groupId>
             <artifactId>daexim-features</artifactId>
             <classifier>features</classifier>
+            <type>xml</type>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- MD-SAL Trace -->
+        <dependency>
+            <groupId>org.opendaylight.mdsal</groupId>
+            <artifactId>odl-mdsal-trace</artifactId>
+            <classifier>features</classifier>
+            <!-- FIXME: remove this with mdsal-6.0.1 -->
+            <version>${mdsal.version}</version>
             <type>xml</type>
             <scope>runtime</scope>
         </dependency>
