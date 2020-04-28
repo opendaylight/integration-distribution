@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "21860b39_40d46179",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2020-04-28T11:58:16Z",
+      "side": 1,
+      "message": "I do not believe this profile should be present at all, as it is MRI now",
+      "range": {
+        "startLine": 61,
+        "startChar": 12,
+        "endLine": 61,
+        "endChar": 31
+      },
+      "revId": "9b4854faea3e42ed5ea07c870724fc2f499e7d38",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
