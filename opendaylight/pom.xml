@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.11.2-SNAPSHOT</version>
+        <version>0.11.3-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>opendaylight</artifactId>
-    <version>0.11.2-SNAPSHOT</version>
+    <version>0.11.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
@@ -48,7 +48,7 @@
                 <dependency>
                     <groupId>org.opendaylight.dlux</groupId>
                     <artifactId>features-dlux</artifactId>
-                    <version>0.9.2-SNAPSHOT</version>
+                    <version>0.9.3-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -59,13 +59,13 @@
         <profile>
             <id>jsonrpc</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.jsonrpc</groupId>
                     <artifactId>jsonrpc-features</artifactId>
-                    <version>1.7.2-SNAPSHOT</version>
+                    <version>1.7.3-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -76,13 +76,13 @@
         <profile>
             <id>transportpce</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>features-transportpce</artifactId>
-                    <version>0.4.3-SNAPSHOT</version>
+                    <version>0.4.4-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
