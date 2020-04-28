@@ -68,28 +68,21 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
-                        <artifactId>features-extras</artifactId>
-                        <version>${controller.extras.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                    <dependency>
-                        <groupId>org.opendaylight.controller</groupId>
-                        <artifactId>features-mdsal</artifactId>
+                        <artifactId>features-controller</artifactId>
                         <version>${controller.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
-                        <artifactId>features-mdsal-benchmark</artifactId>
-                        <version>${benchmark.version}</version>
+                        <artifactId>features-controller-experimental</artifactId>
+                        <version>${controller.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
                     </dependency>
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
-                        <artifactId>features-mdsal-trace</artifactId>
+                        <artifactId>features-controller-testing</artifactId>
                         <version>${controller.version}</version>
                         <classifier>features</classifier>
                         <type>xml</type>
