@@ -12,7 +12,7 @@
     <parent>
       <groupId>org.opendaylight.odlparent</groupId>
       <artifactId>odlparent-lite</artifactId>
-      <version>6.0.4</version>
+      <version>7.0.1</version>
       <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -37,12 +37,9 @@
         <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <!-- TODO: Work towards using artifact-artifacts only. Properties, artifacts and all than can be joined to replace this pom. -->
     <modules>
         <module>properties</module>
         <module>artifacts</module>
-        <module>feature-repos</module>
-        <module>single-features</module>
         <module>other</module>
         <module>all</module>
     </modules>
