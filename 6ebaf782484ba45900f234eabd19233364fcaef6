@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6727322f_8f514bf6",
+        "filename": "onap-karaf/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2020-04-29T22:54:54Z",
+      "side": 1,
+      "message": "not a maven expert, but isn\u0027t scope test have something to do with not actually being there when\nit\u0027s the final deliverable? I\u0027m sure you know better, just curious.",
+      "revId": "6ebaf782484ba45900f234eabd19233364fcaef6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9b6e2bcd_11e4b9aa",
+        "filename": "onap-karaf/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2020-04-29T22:54:54Z",
+      "side": 1,
+      "message": "nice trick. does it work like it seems it should?",
+      "revId": "6ebaf782484ba45900f234eabd19233364fcaef6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
