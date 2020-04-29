@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "665cbfd3_89726c2f",
+        "filename": "artifacts/upstream/artifacts/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2020-04-29T22:59:12Z",
+      "side": 1,
+      "message": "got some tabs here",
+      "range": {
+        "startLine": 197,
+        "startChar": 0,
+        "endLine": 197,
+        "endChar": 3
+      },
+      "revId": "2866f697aeeb582c6de74933b3b1debec1a6ecfb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a489d912_46541767",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2020-04-29T22:59:12Z",
+      "side": 1,
+      "message": "tab",
+      "range": {
+        "startLine": 211,
+        "startChar": 0,
+        "endLine": 211,
+        "endChar": 1
+      },
+      "revId": "2866f697aeeb582c6de74933b3b1debec1a6ecfb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf4e3f06_fd40c586",
+        "filename": "onap-karaf/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2020-04-29T22:59:12Z",
+      "side": 1,
+      "message": "tab",
+      "range": {
+        "startLine": 89,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 1
+      },
+      "revId": "2866f697aeeb582c6de74933b3b1debec1a6ecfb",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
