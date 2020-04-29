@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>6.0.4</version>
+        <version>7.0.1</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -44,25 +44,22 @@
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
         <aaa.version>0.12.0-SNAPSHOT</aaa.version>
-        <benchmark.version>1.9.0</benchmark.version>
         <bgpcep.version>0.14.0-SNAPSHOT</bgpcep.version>
-        <config.version>0.12.0</config.version>
-        <controller.version>1.11.0</controller.version>
-        <controller.extras.version>1.14.0</controller.extras.version>
+        <controller.version>2.0.0</controller.version>
         <daexim.version>1.8.0-SNAPSHOT</daexim.version>
         <genius.version>0.9.0-SNAPSHOT</genius.version>
         <infrautils.version>1.8.0-SNAPSHOT</infrautils.version>
         <jsonrpc.version>1.9.0-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.12.0-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>5.0.9</mdsal.version>
+        <mdsal.version>6.0.0</mdsal.version>
         <netconf.version>1.9.0-SNAPSHOT</netconf.version>
         <netvirt.version>0.11.0-SNAPSHOT</netvirt.version>
         <neutron.version>0.15.0-SNAPSHOT</neutron.version>
-        <odlparent.version>6.0.4</odlparent.version>
+        <odlparent.version>7.0.1</odlparent.version>
         <openflowplugin.version>0.11.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.11.0-SNAPSHOT</ovsdb.version>
         <serviceutils.version>0.6.0-SNAPSHOT</serviceutils.version>
-        <yangtools.version>4.0.6</yangtools.version>
+        <yangtools.version>5.0.1</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
