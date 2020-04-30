@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "f98e4dc7_719f8363",
+        "filename": "onap-karaf/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-04-30T00:40:27Z",
+      "side": 1,
+      "message": "the existing comment on scope test above explains: it is used by maven-dependency-plugin (see below build section) but not by karaf-maven-plugin (packing this in system folder for example).",
+      "parentUuid": "6727322f_8f514bf6",
+      "revId": "6ebaf782484ba45900f234eabd19233364fcaef6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9b6e2bcd_11e4b9aa",
         "filename": "onap-karaf/pom.xml",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2020-04-29T22:54:54Z",
       "side": 1,
       "message": "nice trick. does it work like it seems it should?",
+      "revId": "6ebaf782484ba45900f234eabd19233364fcaef6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "81efcc88_12cbfde1",
+        "filename": "onap-karaf/pom.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-04-30T00:40:27Z",
+      "side": 1,
+      "message": "I cannot take credit for this, Alexis did this for managed karaf distribution itself long time back, I just happened to recall this work when you asked about not replicating files.",
+      "parentUuid": "9b6e2bcd_11e4b9aa",
       "revId": "6ebaf782484ba45900f234eabd19233364fcaef6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
