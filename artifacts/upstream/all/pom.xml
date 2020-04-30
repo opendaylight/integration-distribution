@@ -12,7 +12,7 @@
     <parent>
       <groupId>org.opendaylight.odlparent</groupId>
       <artifactId>odlparent-lite</artifactId>
-      <version>7.0.1</version>
+      <version>6.0.4</version>
       <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -40,9 +40,25 @@
     <dependencyManagement>
         <!-- TODO: Hardcode versions when moving to semantic versioning. -->
         <dependencies>
+            <!-- Idealy, only artifact artifacts should be needed. -->
             <dependency>
                 <groupId>${project.groupId}</groupId>
                 <artifactId>artifact-artifacts</artifactId>
+                <version>${project.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <!-- TODO: All of the following should contain directions on how to get rid of their content. -->
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>feature-repo-artifacts</artifactId>
+                <version>${project.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>single-feature-artifacts</artifactId>
                 <version>${project.version}</version>
                 <scope>import</scope>
                 <type>pom</type>

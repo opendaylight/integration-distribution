@@ -13,7 +13,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>karaf4-parent</artifactId>
-        <version>7.0.1</version>
+        <version>6.0.4</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -63,6 +63,10 @@
                     <artifactId>opendaylight-karaf4-empty</artifactId>
                 </exclusion>
                 <exclusion>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
@@ -79,6 +83,10 @@
                 <exclusion>
                     <groupId>org.opendaylight.odlparent</groupId>
                     <artifactId>opendaylight-karaf4-empty</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
                 </exclusion>
                 <exclusion>
                     <groupId>org.opendaylight.odlparent</groupId>

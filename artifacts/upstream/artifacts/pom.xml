@@ -41,23 +41,6 @@
     <!-- Project artifact poms. Alphabetical order -->
     <profiles>
         <profile>
-            <id>aaa</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.aaa</groupId>
-                        <artifactId>aaa-artifacts</artifactId>
-                        <version>${aaa.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
             <id>bgpcep</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -83,8 +66,8 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.opendaylight.controller</groupId>
-                        <artifactId>controller-artifacts</artifactId>
-                        <version>${controller.version}</version>
+                        <artifactId>config-artifacts</artifactId>
+                        <version>${config.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>
@@ -177,31 +160,6 @@
             </dependencyManagement>
         </profile>
         <profile>
-            <id>mdsal</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.mdsal</groupId>
-                        <artifactId>mdsal-artifacts</artifactId>
-                        <version>${mdsal.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                    <!-- FIXME: remove this with mdsal-6.0.1+ -->
-                    <dependency>
-                        <groupId>org.opendaylight.mdsal</groupId>
-                        <artifactId>odl-mdsal-trace</artifactId>
-                        <version>${mdsal.version}</version>
-                        <classifier>features</classifier>
-                        <type>xml</type>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
             <id>netconf</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -246,23 +204,6 @@
                         <groupId>org.opendaylight.neutron</groupId>
                         <artifactId>neutron-artifacts</artifactId>
                         <version>${neutron.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
-            <id>odlparent</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.odlparent</groupId>
-                        <artifactId>odlparent-artifacts</artifactId>
-                        <version>${odlparent.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>
@@ -328,23 +269,6 @@
                         <groupId>org.opendaylight.serviceutils</groupId>
                         <artifactId>serviceutils-artifacts</artifactId>
                         <version>${serviceutils.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
-            <id>yangtools</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.yangtools</groupId>
-                        <artifactId>yangtools-artifacts</artifactId>
-                        <version>${yangtools.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>

@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>7.0.1</version>
+        <version>6.0.4</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -115,19 +115,25 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-controller</artifactId>
+                    <artifactId>features-extras</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-controller-experimental</artifactId>
+                    <artifactId>features-mdsal</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
-                    <artifactId>features-controller-testing</artifactId>
+                    <artifactId>features-mdsal-benchmark</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>features-mdsal-trace</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
@@ -208,21 +214,7 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Mdsal -->
-        <profile>
-            <id>mdsal</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.mdsal</groupId>
-                    <artifactId>features-mdsal</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
+        <!-- FIXME: Add Mdsal -->
         <!-- Netconf -->
         <profile>
             <id>netconf</id>
@@ -359,21 +351,6 @@
                 <dependency>
                     <groupId>org.opendaylight.serviceutils</groupId>
                     <artifactId>serviceutils-features</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- Yangtools -->
-        <profile>
-            <id>yangtools</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.yangtools</groupId>
-                    <artifactId>features-yangtools</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
