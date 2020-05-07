@@ -14,7 +14,7 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>properties</artifactId>
-        <version>0.12.1-SNAPSHOT</version>
+        <version>0.12.1</version>
         <relativePath>../properties</relativePath>
     </parent>
     <artifactId>other-artifacts</artifactId>
