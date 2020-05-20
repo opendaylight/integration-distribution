@@ -10,7 +10,7 @@
 
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>onap-karaf</artifactId>
-    <version>0.12.2-SNAPSHOT</version>
+    <version>0.12.2</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <modelVersion>4.0.0</modelVersion>
