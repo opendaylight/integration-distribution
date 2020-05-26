@@ -117,7 +117,7 @@
         <profile>
             <id>netvirt</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>

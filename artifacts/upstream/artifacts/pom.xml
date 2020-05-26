@@ -162,7 +162,7 @@
         <profile>
             <id>lispflowmapping</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
@@ -221,7 +221,7 @@
         <profile>
             <id>netvirt</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencyManagement>
                 <dependencies>
