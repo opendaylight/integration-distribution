@@ -160,6 +160,23 @@
             </dependencyManagement>
         </profile>
         <profile>
+            <id>mdsal</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.mdsal</groupId>
+                        <artifactId>mdsal-artifacts</artifactId>
+                        <version>${mdsal.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
             <id>netconf</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -269,6 +286,23 @@
                         <groupId>org.opendaylight.serviceutils</groupId>
                         <artifactId>serviceutils-artifacts</artifactId>
                         <version>${serviceutils.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
+            <id>yangtools</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.yangtools</groupId>
+                        <artifactId>yangtools-artifacts</artifactId>
+                        <version>${yangtools.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
                     </dependency>

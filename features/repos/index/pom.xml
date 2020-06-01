@@ -214,7 +214,27 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- FIXME: Add Mdsal -->
+        <!-- Mdsal -->
+        <profile>
+            <id>mdsal</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.mdsal</groupId>
+                    <artifactId>features-mdsal</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.mdsal</groupId>
+                    <artifactId>features-mdsal-experimental</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- Netconf -->
         <profile>
             <id>netconf</id>
@@ -351,6 +371,27 @@
                 <dependency>
                     <groupId>org.opendaylight.serviceutils</groupId>
                     <artifactId>serviceutils-features</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
+        <!-- Yangtools -->
+        <profile>
+            <id>yangtools</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.yangtools</groupId>
+                    <artifactId>features-yangtools</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.yangtools</groupId>
+                    <artifactId>features-yangtools-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
