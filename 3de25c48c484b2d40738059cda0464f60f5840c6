@@ -16,6 +16,24 @@
       "revId": "3de25c48c484b2d40738059cda0464f60f5840c6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "171dcab1_ebd7d947",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2020-06-01T19:47:33Z",
+      "side": 1,
+      "message": "I don\u0027t think there is a difference. The problem is that controller-artifacts has these with scope\u003druntime, hence the override.",
+      "parentUuid": "9b4fa851_aac320bb",
+      "revId": "3de25c48c484b2d40738059cda0464f60f5840c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
