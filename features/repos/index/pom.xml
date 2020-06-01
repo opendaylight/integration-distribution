@@ -221,6 +221,12 @@
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.mdsal</groupId>
+                    <artifactId>features-mdsal-experimental</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
             </dependencies>
         </profile>
         <!-- Netconf -->
@@ -374,6 +380,12 @@
                 <dependency>
                     <groupId>org.opendaylight.yangtools</groupId>
                     <artifactId>features-yangtools</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.yangtools</groupId>
+                    <artifactId>features-yangtools-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
