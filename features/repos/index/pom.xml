@@ -118,18 +118,24 @@
                     <artifactId>features-controller</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
+                    <!-- FIXME: remove this with controller-2.0.2+ -->
+                    <scope>compile</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>features-controller-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
+                    <!-- FIXME: remove this with controller-2.0.2+ -->
+                    <scope>compile</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>features-controller-testing</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
+                    <!-- FIXME: remove this with controller-2.0.2+ -->
+                    <scope>compile</scope>
                 </dependency>
             </dependencies>
         </profile>
