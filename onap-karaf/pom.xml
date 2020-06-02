@@ -86,16 +86,6 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- MD-SAL Trace -->
-        <!-- FIXME: remove this with mdsal-6.0.1+ -->
-        <dependency>
-            <groupId>org.opendaylight.mdsal</groupId>
-            <artifactId>odl-mdsal-trace</artifactId>
-            <classifier>features</classifier>
-            <type>xml</type>
-            <scope>runtime</scope>
-        </dependency>
-
         <!-- Netconf -->
         <dependency>
             <groupId>org.opendaylight.netconf</groupId>
