@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "49dafc75_1a378863",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 2264
+      },
+      "writtenOn": "2020-06-02T16:18:42Z",
+      "side": 1,
+      "message": "@robert, can you explain what it means to \"not being properly indexed\"?",
+      "revId": "6a300269f4b288ca80a4dba62533ae3eb7926df6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
