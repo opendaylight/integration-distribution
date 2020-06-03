@@ -47,7 +47,7 @@ Platform versions
      - aaa-artifacts
      - 0.11.0
      - 0.11.1
-     - 1.11.2-SNAPSHOT
+     - 0.11.2-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
