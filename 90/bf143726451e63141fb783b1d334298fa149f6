@@ -1,0 +1,8 @@
+Code-Review+1: Samuel Kontris <samuel.kontris@pantheon.sk>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Wed, 03 Jun 2020 16:13:01 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/90234
+Project: integration/distribution
+Branch: refs/heads/stable/magnesium
