@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>7.0.2</version>
+        <version>7.0.3</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -118,24 +118,18 @@
                     <artifactId>features-controller</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <!-- FIXME: remove this with controller-2.0.2+ -->
-                    <scope>compile</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>features-controller-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <!-- FIXME: remove this with controller-2.0.2+ -->
-                    <scope>compile</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.controller</groupId>
                     <artifactId>features-controller-testing</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <!-- FIXME: remove this with controller-2.0.2+ -->
-                    <scope>compile</scope>
                 </dependency>
             </dependencies>
         </profile>
