@@ -13,19 +13,19 @@ Platform versions
 
    * - org.opendaylight.odlparent
      - \*
-     - 7.0.2
+     - 7.0.3
 
    * - org.opendaylight.yangtools
      - \*
-     - 5.0.2
+     - 5.0.3
 
    * - org.opendaylight.mdsal
      - \*
-     - 6.0.1
+     - 6.0.2
 
    * - org.opendaylight.controller
      - \*
-     - 2.0.1
+     - 2.0.2
 
    * - org.opendaylight.aaa
      - aaa-artifacts
