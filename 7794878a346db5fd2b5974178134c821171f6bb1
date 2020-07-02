@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ca112c8b_a2767242",
+        "filename": "docs/platform-versions.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-07-02T15:32:53Z",
+      "side": 1,
+      "message": "1.10.4-SNAPSHOT",
+      "revId": "7794878a346db5fd2b5974178134c821171f6bb1",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "067a84d9_952d7acc",
+        "filename": "docs/platform-versions.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-07-02T15:32:53Z",
+      "side": 1,
+      "message": "0.10.4-SNAPSHOT",
+      "revId": "7794878a346db5fd2b5974178134c821171f6bb1",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
