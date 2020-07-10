@@ -76,7 +76,19 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-algo</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
                     <artifactId>features-bgp</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.bgpcep</groupId>
+                    <artifactId>features-bgpcep-extras</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
@@ -88,7 +100,7 @@
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-bgpcep-extras</artifactId>
+                    <artifactId>features-graph</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
