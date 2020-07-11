@@ -1,0 +1,58 @@
+---
+project: 'integration'
+project_creation_date: '2015-08-20'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &odl_integration_ptl
+    name: 'Luis Gomez'
+    email: 'ecelgp@gmail.com'
+    company: 'Lumina Networks'
+    id: 'ecelgp'
+    timezone: 'Americas/Los_Angeles'
+primary_contact: *odl_integration_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opendaylight.org/projects/'
+    key: 'integration'
+mailing_list:
+    type: 'groups.io'
+    url: 'integration-dev@lists.opendaylight.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#opendaylight'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.opendaylight.org'
+      url: ''
+      server: 'freenode.net'
+      channel: '#opendaylight'
+      repeats: ''
+      time: ''
+repositories:
+    - integration
+committers:
+    - <<: *odl_integration_ptl
+    - name: 'Thanh Ha (zxiiro)'
+      email: 'zxiiro@gmail.com'
+      company: 'Lumina Networks'
+      id: 'zxiiro'
+      timezone: 'Americas/Toronto'
+    - name: 'Anil Belur'
+      email: 'abelur@linuxfoundation.org'
+      company: 'Linux Foundation'
+      id: 'askb'
+      timezone: 'Unknown/Unknown'
+    - name: 'Jamo Luhrsen'
+      email: 'jluhrsen@gmail.com'
+      company: 'Lumina Networks'
+      id: 'jluhrsen'
+      timezone: 'Americas/Los_Angeles'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://meetings.opendaylight.org/meetings/opendaylight-meeting/2015/tsc/opendaylight-meeting-tsc.2015-08-20-17.00.html'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
