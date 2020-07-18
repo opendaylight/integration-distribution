@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Sat, 18 Jul 2020 17:30:21 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/90858
+Project: integration/distribution
+Branch: refs/heads/stable/sodium
