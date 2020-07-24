@@ -114,21 +114,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- InfraUtils -->
-        <profile>
-            <id>infrautils</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.infrautils</groupId>
-                    <artifactId>odl-infrautils-ready</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- jsonrpc -->
         <profile>
             <id>jsonrpc</id>
