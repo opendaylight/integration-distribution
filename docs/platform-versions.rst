@@ -15,6 +15,10 @@ Platform versions
      - \*
      - 7.0.3
 
+   * - org.opendaylight.infrautils
+     - \*
+     - 1.8.0
+
    * - org.opendaylight.yangtools
      - \*
      - 5.0.3
