@@ -22,6 +22,30 @@
       "revId": "3e59c0562b9b43cac736c6a23895292f7806a344",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "593abd20_410e2caa",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-07-24T16:17:12Z",
+      "side": 0,
+      "message": "This particular feature is not needed here because other projects already pull it. Feel free to add other features if you want them to be installed during the -all- CSIT.",
+      "parentUuid": "ab1f2e0d_8a595344",
+      "range": {
+        "startLine": 117,
+        "startChar": 8,
+        "endLine": 117,
+        "endChar": 27
+      },
+      "revId": "3e59c0562b9b43cac736c6a23895292f7806a344",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
