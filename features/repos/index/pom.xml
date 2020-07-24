@@ -184,7 +184,13 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.infrautils</groupId>
-                    <artifactId>infrautils-features</artifactId>
+                    <artifactId>features-infrautils</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.infrautils</groupId>
+                    <artifactId>features-infrautils-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
