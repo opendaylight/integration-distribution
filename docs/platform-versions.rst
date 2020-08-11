@@ -11,12 +11,14 @@ Platform versions
      - Artifact
      - Magnesium GA
      - Magnesium SR1
-     - Magnesium SR2 Development
+     - Magnesium SR2
+     - Magnesium SR3 Development
 
    * - org.opendaylight.odlparent
      - \*
      - 6.0.4
      - 6.0.6
+     - 6.0.11
      - 6.0.11
 
    * - org.opendaylight.yangtools
@@ -24,35 +26,41 @@ Platform versions
      - 4.0.6
      - 4.0.8
      - 4.0.13
+     - 4.0.13
 
    * - org.opendaylight.mdsal
      - binding-parent
      - 5.0.9
      - 5.0.10
      - 5.0.14
+     - 5.0.14
 
    * - org.opendaylight.mdsal
      - mdsal-artifacts
      - 5.0.9
      - 5.0.10
      - 5.0.14
+     - 5.0.14
 
    * - org.opendaylight.controller
      - mdsal-artifacts
      - 1.11.0
      - 1.11.1
-     - 1.11.2-SNAPSHOT
+     - 1.11.2
+     - 1.11.3-SNAPSHOT
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.11.0
      - 0.11.1
-     - 0.11.2-SNAPSHOT
+     - 0.11.2
+     - 0.11.3-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
      - 1.8.0
      - 1.8.1
-     - 1.8.2-SNAPSHOT
+     - 1.8.2
+     - 1.8.3-SNAPSHOT
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
