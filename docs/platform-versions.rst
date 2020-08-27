@@ -13,7 +13,7 @@ Platform versions
      - Sodium SR1
      - Sodium SR2
      - Sodium SR3
-     - Sodium SR4 Development
+     - Sodium SR4
 
    * - org.opendaylight.odlparent
      - \*
@@ -53,7 +53,7 @@ Platform versions
      - 1.10.1
      - 1.10.2
      - 1.10.3
-     - 1.10.4-SNAPSHOT
+     - 1.10.4
 
    * - org.opendaylight.aaa
      - aaa-artifacts
@@ -61,7 +61,7 @@ Platform versions
      - 0.10.1
      - 0.10.2
      - 0.10.3
-     - 0.10.4-SNAPSHOT
+     - 0.10.4
 
    * - org.opendaylight.netconf
      - netconf-artifacts
@@ -69,7 +69,7 @@ Platform versions
      - 1.7.1
      - 1.7.2
      - 1.7.3
-     - 1.7.4-SNAPSHOT
+     - 1.7.4
 
    * - org.opendaylight.netconf
      - restconf-artifacts
@@ -77,6 +77,6 @@ Platform versions
      - 1.10.1
      - 1.10.2
      - 1.10.3
-     - 1.10.4-SNAPSHOT
+     - 1.10.4
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
