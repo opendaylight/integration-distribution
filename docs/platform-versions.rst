@@ -39,4 +39,8 @@ Platform versions
      - netconf-artifacts
      - 1.9.0-SNAPSHOT
 
+   * - org.opendaylight.netconf
+     - odl-restconf-all
+     - 1.12.0-SNAPSHOT
+
 .. note:: Most projects get their YANG Tools version via MD-SAL.
