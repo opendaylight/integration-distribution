@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2580f359_52a39d06",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-09-16T15:32:35Z",
+      "side": 1,
+      "message": "Can you please set this to true so we can verify the change?",
+      "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
