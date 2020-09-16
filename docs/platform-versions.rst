@@ -63,4 +63,11 @@ Platform versions
      - 1.8.2
      - 1.8.3-SNAPSHOT
 
+   * - org.opendaylight.netconf
+     - restconf-artifacts
+     - 1.11.0
+     - 1.11.1
+     - 1.11.2
+     - 1.11.3-SNAPSHOT
+
 .. note:: Most projects get their YANG Tools version via MD-SAL.
