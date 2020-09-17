@@ -34,6 +34,24 @@
       "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37da7edd_adf9e8dd",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2020-09-17T15:15:32Z",
+      "side": 1,
+      "message": "Setting false basically means this portion of code does not build and TPCE is effectively out of distribution, therefore it does not make sense to modify this section without setting this to true. If you are still working in Aluminium, we can wait for that and then merge this patch with TPCE enabled.",
+      "parentUuid": "288a7299_2ca9cecd",
+      "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
