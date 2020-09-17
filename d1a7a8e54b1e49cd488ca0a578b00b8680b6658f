@@ -52,6 +52,24 @@
       "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8ef47166_144f2e5a",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2020-09-17T17:12:07Z",
+      "side": 1,
+      "message": "Thanks for the explanation Luis.\nI will create the transportpce stable/aluminium tomorrow.\nI\u0027ll touch base with you once it is ready.",
+      "parentUuid": "37da7edd_adf9e8dd",
+      "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
