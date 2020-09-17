@@ -16,6 +16,24 @@
       "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "288a7299_2ca9cecd",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2020-09-17T07:13:40Z",
+      "side": 1,
+      "message": "Done but I don\u0027t understand the point.\n\nIs is to test the configuration file only ?\nIf not, is it worth to test something else knowing that there probably won\u0027t be a transportPCE version 2.0.3 anyway ?\nI am not sure this is a good idea at that stage since I\u0027ve not created the tpce stable/aluminium yet... and self-managed projects should not be activated by Default in the distribution",
+      "parentUuid": "2580f359_52a39d06",
+      "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
