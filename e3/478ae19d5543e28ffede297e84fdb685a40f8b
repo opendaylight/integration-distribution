@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Code-Review+1: Guillaume Lambert <guillaume.lambert@orange.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Fri, 18 Sep 2020 15:33:08 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/92444
+Project: integration/distribution
+Branch: refs/heads/stable/aluminium
