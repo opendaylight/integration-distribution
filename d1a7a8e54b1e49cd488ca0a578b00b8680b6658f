@@ -70,6 +70,24 @@
       "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "801f9f07_8c557663",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2020-09-18T06:41:57Z",
+      "side": 1,
+      "message": "As stated yesterday, I\u0027ve created the transportPCE stable/aluminium branch and it has passed our tests.\nI think there is no more reason to not merge this change now.",
+      "parentUuid": "8ef47166_144f2e5a",
+      "revId": "d1a7a8e54b1e49cd488ca0a578b00b8680b6658f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
