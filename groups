@@ -2,4 +2,3 @@
 #
 c9025ab9ddc1e3171919e085449f22c54f8f7b54                                                	GitHub Replication
 f293c0a5fff222a0cc09eaf5d456f509a58507fb                                                	saml/odl-gerrit-integration-distribution-committers
-ldap:cn=odl-gerrit-integration-distribution-committers,ou=Groups,dc=freestandards,dc=org	ldap/odl-gerrit-integration-distribution-committers
