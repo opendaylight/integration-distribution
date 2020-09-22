@@ -9,34 +9,42 @@ Platform versions
 
    * - Group
      - Artifact
-     - Aluminium Development
+     - Aluminium GA
+     - Aluminium SR1 Development
 
    * - org.opendaylight.odlparent
      - \*
      - 7.0.5
+     - 7.0.6
 
    * - org.opendaylight.infrautils
      - \*
      - 1.8.0
+     - 1.8.1
 
    * - org.opendaylight.yangtools
      - \*
      - 5.0.5
+     - 5.0.6
 
    * - org.opendaylight.mdsal
      - \*
      - 6.0.4
+     - 6.0.5
 
    * - org.opendaylight.controller
      - \*
      - 2.0.3
+     - 2.0.4
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.12.0-SNAPSHOT
+     - 0.12.0
+     - 0.12.1-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
-     - 1.9.0-SNAPSHOT
+     - 1.9.0
+     - 1.9.1-SNAPSHOT
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
