@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.13.0-SNAPSHOT</version>
+        <version>0.13.0</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>opendaylight</artifactId>
-    <version>0.13.0-SNAPSHOT</version>
+    <version>0.13.0</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
@@ -48,7 +48,7 @@
                 <dependency>
                     <groupId>org.opendaylight.detnet</groupId>
                     <artifactId>features-detnet</artifactId>
-                    <version>0.2.0-SNAPSHOT</version>
+                    <version>0.2.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -65,7 +65,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce</artifactId>
-                    <version>2.0.0-SNAPSHOT</version>
+                    <version>2.0.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -73,7 +73,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-tapi</artifactId>
-                    <version>2.0.0-SNAPSHOT</version>
+                    <version>2.0.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -81,7 +81,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-inventory</artifactId>
-                    <version>2.0.0-SNAPSHOT</version>
+                    <version>2.0.0</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
