@@ -9,27 +9,27 @@ Platform versions
 
    * - Group
      - Artifact
-     - Aluminium Development
+     - Silicon Development
 
    * - org.opendaylight.odlparent
      - \*
-     - 7.0.6
+     - 8.0.0
 
    * - org.opendaylight.infrautils
      - \*
-     - 1.8.1
+     - 1.9.0
 
    * - org.opendaylight.yangtools
      - \*
-     - 5.0.6
+     - 6.0.0
 
    * - org.opendaylight.mdsal
      - \*
-     - 6.0.5
+     - 7.0.0
 
    * - org.opendaylight.controller
      - \*
-     - 2.0.4
+     - 3.0.0
 
    * - org.opendaylight.aaa
      - aaa-artifacts
