@@ -33,14 +33,14 @@ Platform versions
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.12.0-SNAPSHOT
+     - 0.12.1-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
-     - 1.9.0-SNAPSHOT
+     - 1.9.1-SNAPSHOT
 
    * - org.opendaylight.netconf
      - restconf-artifacts
-     - 1.12.0-SNAPSHOT
+     - 1.12.1-SNAPSHOT
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
