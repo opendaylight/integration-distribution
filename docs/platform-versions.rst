@@ -68,4 +68,5 @@ Platform versions
   (a.k.a. bom or BOM), whose use is strongly recommended to avoid versions
   mismatch across multiple dependencies in poms.
 
-
+.. note:: the restconf-artifacts BOM present previously Sodium is no more
+   available and now part of the netconf-artifacts BOM.
