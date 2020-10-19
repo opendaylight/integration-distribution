@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.12.2-SNAPSHOT</version>
+        <version>0.12.3-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>opendaylight</artifactId>
-    <version>0.12.2-SNAPSHOT</version>
+    <version>0.12.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
@@ -38,23 +38,6 @@
         <tag>HEAD</tag>
     </scm>
     <profiles>
-	    <!-- Detnet -->
-        <profile>
-            <id>detnet</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.detnet</groupId>
-                    <artifactId>features-detnet</artifactId>
-                    <version>0.1.2-SNAPSHOT</version>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                    <scope>test</scope>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- TransportPCE -->
         <profile>
             <id>transportpce</id>
@@ -65,7 +48,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce</artifactId>
-                    <version>1.2.0-SNAPSHOT</version>
+                    <version>1.3.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -73,7 +56,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-tapi</artifactId>
-                    <version>1.2.0-SNAPSHOT</version>
+                    <version>1.3.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -81,7 +64,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-inventory</artifactId>
-                    <version>1.2.0-SNAPSHOT</version>
+                    <version>1.3.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
