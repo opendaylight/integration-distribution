@@ -25,11 +25,11 @@ Platform versions
 
    * - org.opendaylight.mdsal
      - \*
-     - 7.0.0
+     - 7.0.1
 
    * - org.opendaylight.controller
      - \*
-     - 3.0.0
+     - 3.0.1
 
    * - org.opendaylight.aaa
      - aaa-artifacts
