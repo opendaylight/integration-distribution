@@ -113,21 +113,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Netvirt -->
-        <profile>
-            <id>netvirt</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.netvirt</groupId>
-                    <artifactId>odl-netvirt-openstack</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Serviceutils -->
         <profile>
             <id>serviceutils</id>

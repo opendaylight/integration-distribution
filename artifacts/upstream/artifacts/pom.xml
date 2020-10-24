@@ -211,23 +211,6 @@
             </dependencyManagement>
         </profile>
         <profile>
-            <id>netvirt</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.netvirt</groupId>
-                        <artifactId>netvirt-artifacts</artifactId>
-                        <version>${netvirt.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
             <id>neutron</id>
             <activation>
                 <activeByDefault>true</activeByDefault>

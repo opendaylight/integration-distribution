@@ -280,21 +280,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- NetVirt -->
-        <profile>
-            <id>netvirt</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.netvirt</groupId>
-                    <artifactId>netvirt-features</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Neutron Northbound -->
         <profile>
             <id>neutron</id>
