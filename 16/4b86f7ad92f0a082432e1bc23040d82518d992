@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng <jenkins-releng@opendaylight.org>
+Code-Review+1: Robert Varga <nite@hq.sk>
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Tue, 27 Oct 2020 16:07:28 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/93318
+Project: integration/distribution
+Branch: refs/heads/master
