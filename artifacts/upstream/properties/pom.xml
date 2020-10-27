@@ -48,7 +48,7 @@
         <controller.version>3.0.1</controller.version>
         <daexim.version>1.9.0-SNAPSHOT</daexim.version>
         <genius.version>0.10.0-SNAPSHOT</genius.version>
-        <infrautils.version>1.9.0</infrautils.version>
+        <infrautils.version>1.9.1</infrautils.version>
         <jsonrpc.version>1.10.0-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.13.0-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>7.0.1</mdsal.version>
