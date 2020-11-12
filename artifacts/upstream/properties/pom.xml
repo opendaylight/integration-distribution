@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>6.0.11</version>
+        <version>6.0.12</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -54,15 +54,15 @@
         <infrautils.version>1.7.3-SNAPSHOT</infrautils.version>
         <jsonrpc.version>1.8.3-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.11.3-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>5.0.14</mdsal.version>
+        <mdsal.version>5.0.16</mdsal.version>
         <netconf.version>1.8.3-SNAPSHOT</netconf.version>
         <netvirt.version>0.10.3-SNAPSHOT</netvirt.version>
         <neutron.version>0.14.3-SNAPSHOT</neutron.version>
-        <odlparent.version>6.0.11</odlparent.version>
+        <odlparent.version>6.0.12</odlparent.version>
         <openflowplugin.version>0.10.3-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.10.3-SNAPSHOT</ovsdb.version>
         <serviceutils.version>0.5.3-SNAPSHOT</serviceutils.version>
-        <yangtools.version>4.0.13</yangtools.version>
+        <yangtools.version>4.0.14</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
