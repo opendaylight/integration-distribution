@@ -230,18 +230,17 @@
         <profile>
             <id>mdsal</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <!-- Note: this is disabled due to naming conflict with
+                     controller's 'features-mdsal', above. -->
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
-                <!-- Note: this is disabled due to naming conflict with
-                           controller's 'features-mdsal', above.
                 <dependency>
                     <groupId>org.opendaylight.mdsal</groupId>
                     <artifactId>features-mdsal</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
-                 -->
                 <dependency>
                     <groupId>org.opendaylight.mdsal</groupId>
                     <artifactId>features-mdsal-experimental</artifactId>
