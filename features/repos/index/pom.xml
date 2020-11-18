@@ -230,7 +230,7 @@
         <profile>
             <id>mdsal</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <!-- Note: this is disabled due to naming conflict with
