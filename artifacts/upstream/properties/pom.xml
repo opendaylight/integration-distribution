@@ -17,7 +17,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.12.4-SNAPSHOT</version>
+    <version>0.12.4</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -43,25 +43,25 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.11.4-SNAPSHOT</aaa.version>
-        <benchmark.version>1.9.4-SNAPSHOT</benchmark.version>
-        <bgpcep.version>0.13.4-SNAPSHOT</bgpcep.version>
-        <config.version>0.12.4-SNAPSHOT</config.version>
-        <controller.version>1.11.4-SNAPSHOT</controller.version>
-        <controller.extras.version>1.14.4-SNAPSHOT</controller.extras.version>
-        <daexim.version>1.7.4-SNAPSHOT</daexim.version>
-        <genius.version>0.8.4-SNAPSHOT</genius.version>
-        <infrautils.version>1.7.4-SNAPSHOT</infrautils.version>
-        <jsonrpc.version>1.8.4-SNAPSHOT</jsonrpc.version>
-        <lispflowmapping.version>1.11.4-SNAPSHOT</lispflowmapping.version>
+        <aaa.version>0.11.4</aaa.version>
+        <benchmark.version>1.9.4</benchmark.version>
+        <bgpcep.version>0.13.4</bgpcep.version>
+        <config.version>0.12.4</config.version>
+        <controller.version>1.11.4</controller.version>
+        <controller.extras.version>1.14.4</controller.extras.version>
+        <daexim.version>1.7.4</daexim.version>
+        <genius.version>0.8.4</genius.version>
+        <infrautils.version>1.7.4</infrautils.version>
+        <jsonrpc.version>1.8.4</jsonrpc.version>
+        <lispflowmapping.version>1.11.4</lispflowmapping.version>
         <mdsal.version>5.0.16</mdsal.version>
-        <netconf.version>1.8.4-SNAPSHOT</netconf.version>
-        <netvirt.version>0.10.4-SNAPSHOT</netvirt.version>
-        <neutron.version>0.14.4-SNAPSHOT</neutron.version>
+        <netconf.version>1.8.4</netconf.version>
+        <netvirt.version>0.10.4</netvirt.version>
+        <neutron.version>0.14.4</neutron.version>
         <odlparent.version>6.0.12</odlparent.version>
-        <openflowplugin.version>0.10.4-SNAPSHOT</openflowplugin.version>
-        <ovsdb.version>1.10.4-SNAPSHOT</ovsdb.version>
-        <serviceutils.version>0.5.4-SNAPSHOT</serviceutils.version>
+        <openflowplugin.version>0.10.4</openflowplugin.version>
+        <ovsdb.version>1.10.4</ovsdb.version>
+        <serviceutils.version>0.5.4</serviceutils.version>
         <yangtools.version>4.0.14</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
