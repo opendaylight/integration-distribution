@@ -12,7 +12,7 @@ Platform versions
      - Magnesium GA
      - Magnesium SR1
      - Magnesium SR2
-     - Magnesium SR3 Development
+     - Magnesium SR3
 
    * - org.opendaylight.odlparent
      - \*
@@ -47,21 +47,21 @@ Platform versions
      - 1.11.0
      - 1.11.1
      - 1.11.2
-     - 1.11.3-SNAPSHOT
+     - 1.11.3
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.11.0
      - 0.11.1
      - 0.11.2
-     - 0.11.3-SNAPSHOT
+     - 0.11.3
 
    * - org.opendaylight.netconf
      - netconf-artifacts
      - 1.8.0
      - 1.8.1
      - 1.8.2
-     - 1.8.3-SNAPSHOT
+     - 1.8.3
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
