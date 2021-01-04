@@ -33,11 +33,11 @@ Platform versions
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.12.0-SNAPSHOT
+     - 0.13.0-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
-     - 1.9.0-SNAPSHOT
+     - 1.10.0-SNAPSHOT
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
