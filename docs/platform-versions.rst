@@ -17,31 +17,31 @@ Platform versions
      - \*
      - 7.0.5
      - 7.0.7
-     - 7.0.7
+     - 7.0.8
 
    * - org.opendaylight.infrautils
      - \*
      - 1.8.0
      - 1.8.2
-     - 1.8.2
+     - 1.8.3
 
    * - org.opendaylight.yangtools
      - \*
      - 5.0.5
      - 5.0.7
-     - 5.0.7
+     - 5.0.8
 
    * - org.opendaylight.mdsal
      - \*
      - 6.0.4
      - 6.0.7
-     - 6.0.7
+     - 6.0.8
 
    * - org.opendaylight.controller
      - \*
      - 2.0.3
      - 2.0.6
-     - 2.0.6
+     - 2.0.7
 
    * - org.opendaylight.aaa
      - aaa-artifacts
