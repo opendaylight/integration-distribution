@@ -17,7 +17,7 @@
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>odl-integration-all</artifactId>
     <!-- TODO: Diferent name? -->
-    <version>0.13.2-SNAPSHOT</version>
+    <version>0.13.3-SNAPSHOT</version>
     <packaging>feature</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
          build failure. Please do not modify this unless you have a good reason. -->
