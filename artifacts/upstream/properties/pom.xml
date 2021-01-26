@@ -45,7 +45,7 @@
         <!-- Keep this list sorted alphabetically please. -->
         <aaa.version>0.13.0-SNAPSHOT</aaa.version>
         <bgpcep.version>0.15.0-SNAPSHOT</bgpcep.version>
-        <controller.version>3.0.4</controller.version>
+        <controller.version>3.0.6-SNAPSHOT</controller.version>
         <daexim.version>1.9.0-SNAPSHOT</daexim.version>
         <genius.version>0.10.0-SNAPSHOT</genius.version>
         <infrautils.version>1.9.4</infrautils.version>
