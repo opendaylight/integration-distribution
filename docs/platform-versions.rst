@@ -33,7 +33,7 @@ Platform versions
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.13.0-SNAPSHOT
+     - 0.13.0
 
    * - org.opendaylight.netconf
      - netconf-artifacts
