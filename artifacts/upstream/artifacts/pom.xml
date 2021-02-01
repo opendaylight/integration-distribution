@@ -109,23 +109,6 @@
             </dependencyManagement>
         </profile>
         <profile>
-            <id>genius</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencyManagement>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.opendaylight.genius</groupId>
-                        <artifactId>genius-artifacts</artifactId>
-                        <version>${genius.version}</version>
-                        <type>pom</type>
-                        <scope>import</scope>
-                    </dependency>
-                </dependencies>
-            </dependencyManagement>
-        </profile>
-        <profile>
             <id>infrautils</id>
             <activation>
                 <activeByDefault>true</activeByDefault>

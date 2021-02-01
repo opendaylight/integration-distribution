@@ -59,21 +59,6 @@
 
     <!-- External single feature dependencies in alphabetical order -->
     <profiles>
-        <!-- Genius -->
-        <profile>
-            <id>genius</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.genius</groupId>
-                    <artifactId>odl-genius-rest</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- Netconf -->
         <profile>
             <id>netconf</id>

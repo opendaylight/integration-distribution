@@ -47,7 +47,6 @@
         <bgpcep.version>0.15.0-SNAPSHOT</bgpcep.version>
         <controller.version>3.0.5</controller.version>
         <daexim.version>1.9.0-SNAPSHOT</daexim.version>
-        <genius.version>0.10.0-SNAPSHOT</genius.version>
         <infrautils.version>1.9.5</infrautils.version>
         <jsonrpc.version>1.10.0-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.13.0-SNAPSHOT</lispflowmapping.version>
