@@ -29,11 +29,11 @@ Platform versions
 
    * - org.opendaylight.controller
      - \*
-     - 3.0.5
+     - 3.0.6
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.13.0
+     - 0.13.1
 
    * - org.opendaylight.netconf
      - netconf-artifacts
