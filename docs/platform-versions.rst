@@ -11,12 +11,14 @@ Platform versions
      - Artifact
      - Aluminium GA
      - Aluminium SR1
-     - Aluminium SR2 Development
+     - Aluminium SR2
+     - Aluminium SR3 Development
 
    * - org.opendaylight.odlparent
      - \*
      - 7.0.5
      - 7.0.7
+     - 7.0.8
      - 7.0.8
 
    * - org.opendaylight.infrautils
@@ -24,11 +26,13 @@ Platform versions
      - 1.8.0
      - 1.8.2
      - 1.8.3
+     - 1.8.3
 
    * - org.opendaylight.yangtools
      - \*
      - 5.0.5
      - 5.0.7
+     - 5.0.8
      - 5.0.8
 
    * - org.opendaylight.mdsal
@@ -36,24 +40,28 @@ Platform versions
      - 6.0.4
      - 6.0.7
      - 6.0.8
+     - 6.0.8
 
    * - org.opendaylight.controller
      - \*
      - 2.0.3
      - 2.0.6
      - 2.0.7
+     - 2.0.7
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.12.0
      - 0.12.1
-     - 0.12.2-SNAPSHOT
+     - 0.12.2
+     - 0.12.3-SNAPSHOT
 
    * - org.opendaylight.netconf
      - netconf-artifacts
      - 1.9.0
      - 1.9.1
-     - 1.9.2-SNAPSHOT
+     - 1.9.2
+     - 1.9.3-SNAPSHOT
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
