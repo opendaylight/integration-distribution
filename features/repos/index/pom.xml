@@ -263,6 +263,12 @@
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.controller</groupId>
+                    <artifactId>features-controller-testing</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
             </dependencies>
         </profile>
         <!-- Neutron Northbound -->

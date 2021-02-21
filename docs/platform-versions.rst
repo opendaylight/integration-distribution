@@ -36,8 +36,8 @@ Platform versions
      - 0.13.1
 
    * - org.opendaylight.netconf
-     - netconf-artifacts
-     - 1.10.0-SNAPSHOT
+     - \*
+     - 1.13.0
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
