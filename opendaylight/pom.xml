@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.13.2-SNAPSHOT</version>
+        <version>0.13.3-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>opendaylight</artifactId>
-    <version>0.13.2-SNAPSHOT</version>
+    <version>0.13.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
@@ -48,7 +48,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce</artifactId>
-                    <version>2.2.0-SNAPSHOT</version>
+                    <version>2.3.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -56,7 +56,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-tapi</artifactId>
-                    <version>2.2.0-SNAPSHOT</version>
+                    <version>2.3.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -64,7 +64,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-inventory</artifactId>
-                    <version>2.2.0-SNAPSHOT</version>
+                    <version>2.3.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
