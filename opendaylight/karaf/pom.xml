@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!-- vi: set et smarttab sw=4 tabstop=4: -->
+<!--
+ Copyright (c) 2014-2017 Cisco Systems, Inc. and others.  All rights reserved.
+
+ This program and the accompanying materials are made available under the
+ terms of the Eclipse Public License v1.0 which accompanies this distribution,
+ and is available at http://www.eclipse.org/legal/epl-v10.html
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.opendaylight.odlparent</groupId>
+        <artifactId>karaf4-parent</artifactId>
+        <version>8.1.1</version>
+        <relativePath/>
+    </parent>
+    <groupId>org.opendaylight.integration</groupId>
+    <artifactId>karaf</artifactId>
+    <version>0.14.0</version>
+    <packaging>pom</packaging>
+    <!-- <name> formatting is used by autorelease to parse and notify projects on
+         build failure. Please do not modify this unless you have a good reason. -->
+    <name>ODL :: integration :: ${project.artifactId}</name>
+    <description>The actual Karaf archive building sub-project.</description>
+    <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+    <licenses>
+        <license>
+            <name>Eclipse Public License v1.0</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
+    <!-- FIXME: Add developers section -->
+    <scm>
+        <connection>scm:git:https://git.opendaylight.org/gerrit/integration/distribution.git</connection>
+        <developerConnection>scm:git:ssh://git.opendaylight.org:29418/integration/distribution.git</developerConnection>
+        <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=karaf;hb=HEAD</url>
+        <tag>HEAD</tag>
+    </scm>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.opendaylight.integration</groupId>
+                <artifactId>all-artifacts</artifactId>
+                <version>0.14.0</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <!-- Integration index feature repository. -->
+        <dependency>
+            <groupId>org.opendaylight.integration</groupId>
+            <artifactId>features-index</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+            <scope>runtime</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>opendaylight-karaf4-empty</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- Integration test feature repository. -->
+        <dependency>
+            <groupId>org.opendaylight.integration</groupId>
+            <artifactId>features-test</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>opendaylight-karaf4-empty</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.opendaylight.odlparent</groupId>
+                    <artifactId>opendaylight-karaf-empty</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- This scope test here is just a trick, so that we can use the dependencies
+         in maven-dependency-plugin, but don't have karaf-maven-plugin choke on it -->
+        <dependency>
+            <groupId>org.opendaylight.aaa</groupId>
+            <artifactId>aaa-cli-jar</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.opendaylight.integration</groupId>
+            <artifactId>karaf-scripts</artifactId>
+            <version>0.14.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
