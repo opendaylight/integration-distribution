@@ -41,9 +41,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>org.opendaylight.integration</groupId>
                 <artifactId>all-artifacts</artifactId>
-                <version>${project.version}</version>
+                <version>0.15.0-SNAPSHOT</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -52,7 +52,7 @@
     <dependencies>
         <!-- Integration index feature repository. -->
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.opendaylight.integration</groupId>
             <artifactId>features-index</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
@@ -70,7 +70,7 @@
         </dependency>
         <!-- Integration test feature repository. -->
         <dependency>
-            <groupId>${project.groupId}</groupId>
+            <groupId>org.opendaylight.integration</groupId>
             <artifactId>features-test</artifactId>
             <classifier>features</classifier>
             <type>xml</type>
@@ -97,7 +97,7 @@
         <dependency>
             <groupId>org.opendaylight.integration</groupId>
             <artifactId>karaf-scripts</artifactId>
-            <version>${project.version}</version>
+            <version>0.15.0-SNAPSHOT</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
