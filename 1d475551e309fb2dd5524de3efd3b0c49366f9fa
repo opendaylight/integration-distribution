@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2f8c1fa4_cdfbe820",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2021-04-06T12:43:16Z",
+      "side": 1,
+      "message": "I don\u0027t catch why using harcoded versions and groupId instead of maven variables is required for that.\nMaybe the next commit will make this clearer...",
+      "revId": "1d475551e309fb2dd5524de3efd3b0c49366f9fa",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
