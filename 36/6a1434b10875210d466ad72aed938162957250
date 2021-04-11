@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Sun, 11 Apr 2021 00:33:46 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/95667
+Project: integration/distribution
+Branch: refs/heads/stable/aluminium
