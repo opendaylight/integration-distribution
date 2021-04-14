@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aaf6b27_c467579b",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2021-04-14T20:32:45Z",
+      "side": 1,
+      "message": "Can you please change this to 15.0.0?",
+      "revId": "7e72c58946f783755266029b7021c8362939d145",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
