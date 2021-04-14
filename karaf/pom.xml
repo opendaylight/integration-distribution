@@ -24,7 +24,7 @@
          build failure. Please do not modify this unless you have a good reason. -->
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
-    <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+    <url>https://wiki.opendaylight.org/x/ggYF</url>
     <licenses>
         <license>
             <name>Eclipse Public License v1.0</name>

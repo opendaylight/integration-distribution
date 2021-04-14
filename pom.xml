@@ -22,7 +22,7 @@
     <!-- <name> value is used by Sonar to set project name -->
     <name>Integration/Distribution</name>
     <description>OpenDaylight Integration/Distribution project, used for creating complete Karaf distribution packages.</description>
-    <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+    <url>https://wiki.opendaylight.org/x/ggYF</url>
     <licenses>
         <license>
             <name>Eclipse Public License v1.0</name>

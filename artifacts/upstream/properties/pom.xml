@@ -25,7 +25,7 @@
     <name>ODL :: integration :: properties</name>
     <!-- Avoid ${project.*} in parent poms. -->
     <description>POM defining upstream public versions as properties, to be used as parent for artifact pom definitions.</description>
-    <url>https://wiki.opendaylight.org/view/Integration/Distribution</url>
+    <url>https://wiki.opendaylight.org/x/ggYF</url>
     <licenses>
         <license>
             <name>Eclipse Public License v1.0</name>
