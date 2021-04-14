@@ -22,6 +22,30 @@
       "revId": "1db77f6eca1f0a37192678d7af59812632fc81e3",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d87a3281_0f1dd9d6",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2021-04-14T13:16:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42550ab8_e0fbcca6",
+      "range": {
+        "startLine": 17,
+        "startChar": 17,
+        "endLine": 17,
+        "endChar": 32
+      },
+      "revId": "1db77f6eca1f0a37192678d7af59812632fc81e3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
