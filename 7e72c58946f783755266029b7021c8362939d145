@@ -16,6 +16,24 @@
       "revId": "7e72c58946f783755266029b7021c8362939d145",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2212b1fc_66dba43b",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2021-04-15T08:18:57Z",
+      "side": 1,
+      "message": "Sure, I am not sure to have caught the whole logic behind this.\nShould I change it only here or in every poms of the project ?",
+      "parentUuid": "9aaf6b27_c467579b",
+      "revId": "7e72c58946f783755266029b7021c8362939d145",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
     }
   ]
 }
