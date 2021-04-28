@@ -1,0 +1,8 @@
+Verified+1: jenkins-releng
+Code-Review+1: Luis Gomez <ecelgp@gmail.com>
+Code-Review+2: Stephen Kitt <skitt@redhat.com>
+Submitted-by: Stephen Kitt <skitt@redhat.com>
+Submitted-at: Wed, 28 Apr 2021 13:44:58 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/95832
+Project: integration/distribution
+Branch: refs/heads/master
