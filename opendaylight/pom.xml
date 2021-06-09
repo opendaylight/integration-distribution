@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.14.1-SNAPSHOT</version>
+        <version>0.14.2-SNAPSHOT</version>
         <relativePath>karaf</relativePath>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>opendaylight</artifactId>
-    <version>14.1.0-SNAPSHOT</version>
+    <version>14.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
@@ -48,7 +48,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce</artifactId>
-                    <version>3.1.0-SNAPSHOT</version>
+                    <version>3.2.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -56,7 +56,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-tapi</artifactId>
-                    <version>3.1.0-SNAPSHOT</version>
+                    <version>3.2.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -64,7 +64,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-inventory</artifactId>
-                    <version>3.1.0-SNAPSHOT</version>
+                    <version>3.2.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -72,7 +72,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-nbinotifications</artifactId>
-                    <version>3.1.0-SNAPSHOT</version>
+                    <version>3.2.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
@@ -80,7 +80,7 @@
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-dmaap-client</artifactId>
-                    <version>3.1.0-SNAPSHOT</version>
+                    <version>3.2.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
                     <scope>test</scope>
