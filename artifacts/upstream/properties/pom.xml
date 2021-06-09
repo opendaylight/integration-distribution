@@ -17,7 +17,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.14.2-SNAPSHOT</version>
+    <version>0.14.2</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -44,19 +44,19 @@
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
         <aaa.version>0.13.3</aaa.version>
-        <bgpcep.version>0.15.2-SNAPSHOT</bgpcep.version>
+        <bgpcep.version>0.15.2</bgpcep.version>
         <controller.version>3.0.8</controller.version>
-        <daexim.version>1.9.2-SNAPSHOT</daexim.version>
+        <daexim.version>1.9.2</daexim.version>
         <infrautils.version>1.9.8</infrautils.version>
-        <jsonrpc.version>1.10.2-SNAPSHOT</jsonrpc.version>
-        <lispflowmapping.version>1.13.3-SNAPSHOT</lispflowmapping.version>
+        <jsonrpc.version>1.10.2</jsonrpc.version>
+        <lispflowmapping.version>1.13.3</lispflowmapping.version>
         <mdsal.version>7.0.7</mdsal.version>
         <netconf.version>1.13.2</netconf.version>
-        <neutron.version>0.16.2-SNAPSHOT</neutron.version>
+        <neutron.version>0.16.2</neutron.version>
         <odlparent.version>8.1.2</odlparent.version>
-        <openflowplugin.version>0.12.2-SNAPSHOT</openflowplugin.version>
-        <ovsdb.version>1.12.2-SNAPSHOT</ovsdb.version>
-        <serviceutils.version>0.7.2-SNAPSHOT</serviceutils.version>
+        <openflowplugin.version>0.12.2</openflowplugin.version>
+        <ovsdb.version>1.12.2</ovsdb.version>
+        <serviceutils.version>0.7.2</serviceutils.version>
         <yangtools.version>6.0.6</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
