@@ -17,7 +17,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.13.5-SNAPSHOT</version>
+    <version>0.13.5</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -43,22 +43,22 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.12.5-SNAPSHOT</aaa.version>
-        <bgpcep.version>0.14.5-SNAPSHOT</bgpcep.version>
+        <aaa.version>0.12.5</aaa.version>
+        <bgpcep.version>0.14.5</bgpcep.version>
         <controller.version>2.0.8</controller.version>
-        <daexim.version>1.8.6-SNAPSHOT</daexim.version>
-        <genius.version>0.9.5-SNAPSHOT</genius.version>
+        <daexim.version>1.8.6</daexim.version>
+        <genius.version>0.9.5</genius.version>
         <infrautils.version>1.8.4</infrautils.version>
-        <jsonrpc.version>1.9.5-SNAPSHOT</jsonrpc.version>
-        <lispflowmapping.version>1.12.5-SNAPSHOT</lispflowmapping.version>
+        <jsonrpc.version>1.9.5</jsonrpc.version>
+        <lispflowmapping.version>1.12.5</lispflowmapping.version>
         <mdsal.version>6.0.10</mdsal.version>
-        <netconf.version>1.9.5-SNAPSHOT</netconf.version>
-        <netvirt.version>0.11.5-SNAPSHOT</netvirt.version>
-        <neutron.version>0.15.5-SNAPSHOT</neutron.version>
+        <netconf.version>1.9.5</netconf.version>
+        <netvirt.version>0.11.5</netvirt.version>
+        <neutron.version>0.15.5</neutron.version>
         <odlparent.version>7.0.10</odlparent.version>
-        <openflowplugin.version>0.11.5-SNAPSHOT</openflowplugin.version>
-        <ovsdb.version>1.11.5-SNAPSHOT</ovsdb.version>
-        <serviceutils.version>0.6.5-SNAPSHOT</serviceutils.version>
+        <openflowplugin.version>0.11.5</openflowplugin.version>
+        <ovsdb.version>1.11.5</ovsdb.version>
+        <serviceutils.version>0.6.5</serviceutils.version>
         <yangtools.version>5.0.10</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
