@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng
+Code-Review+2: Robert Varga <nite@hq.sk>
+Submitted-by: Robert Varga <nite@hq.sk>
+Submitted-at: Tue, 13 Jul 2021 07:26:07 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/96871
+Project: integration/distribution
+Branch: refs/heads/stable/silicon
