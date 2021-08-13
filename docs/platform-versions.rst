@@ -13,7 +13,7 @@ Platform versions
      - Aluminium SR1
      - Aluminium SR2
      - Aluminium SR3
-     - Aluminium SR4 Development
+     - Aluminium SR4
 
    * - org.opendaylight.odlparent
      - \*
