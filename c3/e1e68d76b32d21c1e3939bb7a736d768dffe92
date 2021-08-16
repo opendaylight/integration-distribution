@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Mon, 16 Aug 2021 00:30:05 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/97215
+Project: integration/distribution
+Branch: refs/heads/stable/silicon
