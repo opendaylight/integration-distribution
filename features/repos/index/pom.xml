@@ -271,21 +271,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Neutron Northbound -->
-        <profile>
-            <id>neutron</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.neutron</groupId>
-                    <artifactId>features-neutron-service</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- ODL Parent -->
         <profile>
             <id>odlparent</id>

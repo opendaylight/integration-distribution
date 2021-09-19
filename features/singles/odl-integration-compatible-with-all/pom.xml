@@ -171,21 +171,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- Neutron Northbound -->
-        <profile>
-            <id>neutron</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.neutron</groupId>
-                    <artifactId>odl-neutron-service</artifactId>
-                    <type>xml</type>
-                    <classifier>features</classifier>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- OpenflowPlugin -->
         <profile>
             <id>openflowplugin</id>

@@ -52,7 +52,6 @@
         <lispflowmapping.version>1.14.0-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>8.0.4</mdsal.version>
         <netconf.version>2.0.3</netconf.version>
-        <neutron.version>0.17.0-SNAPSHOT</neutron.version>
         <odlparent.version>9.0.5</odlparent.version>
         <openflowplugin.version>0.13.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.13.0-SNAPSHOT</ovsdb.version>
