@@ -44,7 +44,7 @@
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
         <aaa.version>0.14.3</aaa.version>
-        <bgpcep.version>0.16.4</bgpcep.version>
+        <bgpcep.version>0.16.5</bgpcep.version>
         <controller.version>4.0.3</controller.version>
         <daexim.version>1.10.0-SNAPSHOT</daexim.version>
         <infrautils.version>2.0.6</infrautils.version>
