@@ -59,48 +59,48 @@
         <profile>
             <id>transportpce</id>
             <activation>
-                <activeByDefault>false</activeByDefault>
+                <activeByDefault>true</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce</artifactId>
-                    <version>4.0.0-SNAPSHOT</version>
+                    <version>5.0.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <scope>test</scope>
+                    <scope>runtime</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-tapi</artifactId>
-                    <version>4.0.0-SNAPSHOT</version>
+                    <version>5.0.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <scope>test</scope>
+                    <scope>runtime</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-inventory</artifactId>
-                    <version>4.0.0-SNAPSHOT</version>
+                    <version>5.0.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <scope>test</scope>
+                    <scope>runtime</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-nbinotifications</artifactId>
-                    <version>4.0.0-SNAPSHOT</version>
+                    <version>5.0.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <scope>test</scope>
+                    <scope>runtime</scope>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.transportpce</groupId>
                     <artifactId>odl-transportpce-dmaap-client</artifactId>
-                    <version>4.0.0-SNAPSHOT</version>
+                    <version>5.0.0-SNAPSHOT</version>
                     <classifier>features</classifier>
                     <type>xml</type>
-                    <scope>test</scope>
+                    <scope>runtime</scope>
                 </dependency>
             </dependencies>
         </profile>
