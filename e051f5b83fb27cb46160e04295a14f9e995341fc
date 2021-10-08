@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fdaef210_ac512eba",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2021-10-08T16:45:38Z",
+      "side": 1,
+      "message": "Activate the feature by setting \"true\".",
+      "revId": "e051f5b83fb27cb46160e04295a14f9e995341fc",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b3369079_6f5fd28a",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2021-10-08T16:45:38Z",
+      "side": 1,
+      "message": "I think it is time to change scope to \"runtime\" so we can have TPCE available the same as the other features. This applies to the other features too.",
+      "revId": "e051f5b83fb27cb46160e04295a14f9e995341fc",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": true
+    }
+  ]
+}
