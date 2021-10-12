@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "83466af9_d833a82a",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2021-10-12T11:02:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdaef210_ac512eba",
+      "revId": "e051f5b83fb27cb46160e04295a14f9e995341fc",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b3369079_6f5fd28a",
         "filename": "opendaylight/pom.xml",
         "patchSetId": 1
@@ -51,6 +69,24 @@
       "revId": "e051f5b83fb27cb46160e04295a14f9e995341fc",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b70d329_8adf6e36",
+        "filename": "opendaylight/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2021-10-12T11:02:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49a9ac08_35241149",
+      "revId": "e051f5b83fb27cb46160e04295a14f9e995341fc",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81",
+      "unresolved": false
     }
   ]
 }
