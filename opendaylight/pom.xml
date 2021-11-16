@@ -14,12 +14,12 @@
     <parent>
         <groupId>org.opendaylight.integration</groupId>
         <artifactId>karaf</artifactId>
-        <version>0.15.0-SNAPSHOT</version>
+        <version>0.16.0-SNAPSHOT</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>opendaylight</artifactId>
-    <version>15.0.0-SNAPSHOT</version>
+    <version>16.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>ODL :: integration :: ${project.artifactId}</name>
     <description>The actual Karaf archive building sub-project.</description>
@@ -38,28 +38,11 @@
         <tag>HEAD</tag>
     </scm>
     <profiles>
-	    <!-- Detnet -->
-        <profile>
-            <id>detnet</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.detnet</groupId>
-                    <artifactId>features-detnet</artifactId>
-                    <version>0.3.0-SNAPSHOT</version>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                    <scope>test</scope>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- TransportPCE -->
         <profile>
             <id>transportpce</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
