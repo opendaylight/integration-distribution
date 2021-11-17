@@ -34,6 +34,24 @@
       "parentUuid": "02a386ea_8048ed97",
       "revId": "78b5506fb829f0eb13f3a6162a62d946fcbe4af0",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1daf94a_6980a7d4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2021-11-17T19:27:42Z",
+      "side": 1,
+      "message": "You are talking about the commit message? no, AFAIK that cannot be modified once it is merged.",
+      "parentUuid": "0af62fe5_109ce4ca",
+      "revId": "78b5506fb829f0eb13f3a6162a62d946fcbe4af0",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
