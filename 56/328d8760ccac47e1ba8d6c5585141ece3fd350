@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng
+Code-Review+2: Luis Gomez <ecelgp@gmail.com>
+Submitted-by: Luis Gomez <ecelgp@gmail.com>
+Submitted-at: Thu, 02 Dec 2021 03:34:45 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/98796
+Project: integration/distribution
+Branch: refs/heads/stable/phosphorus
