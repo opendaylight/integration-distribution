@@ -9,42 +9,50 @@ Platform versions
 
    * - Group
      - Artifact
-     - Phosphorus Development GA
-     - Phosphorus Development SR1
+     - Phosphorus GA
+     - Phosphorus SR1
+     - Phosphorus SR2 Development
 
    * - org.opendaylight.odlparent
      - \*
      - 9.0.6
+     - 9.0.8
      - 9.0.8
 
    * - org.opendaylight.infrautils
      - \*
      - 2.0.6
      - 2.0.8
+     - 2.0.8
 
    * - org.opendaylight.yangtools
      - \*
      - 7.0.8
+     - 7.0.9
      - 7.0.9
 
    * - org.opendaylight.mdsal
      - \*
      - 8.0.5
      - 8.0.7
+     - 8.0.7
 
    * - org.opendaylight.controller
      - \*
      - 4.0.3
+     - 4.0.7
      - 4.0.7
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.14.3
      - 0.14.7
+     - 0.14.7
 
    * - org.opendaylight.netconf
      - \*
      - 2.0.5
+     - 2.0.11
      - 2.0.11
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
