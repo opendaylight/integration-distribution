@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>9.0.8</version>
+        <version>9.0.13</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -43,20 +43,20 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.14.7</aaa.version>
-        <bgpcep.version>0.16.13</bgpcep.version>
-        <controller.version>4.0.7</controller.version>
+        <aaa.version>0.14.10</aaa.version>
+        <bgpcep.version>0.16.14</bgpcep.version>
+        <controller.version>4.0.10</controller.version>
         <daexim.version>1.10.2-SNAPSHOT</daexim.version>
-        <infrautils.version>2.0.8</infrautils.version>
+        <infrautils.version>2.0.13</infrautils.version>
         <jsonrpc.version>1.11.2-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.14.2-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>8.0.7</mdsal.version>
-        <netconf.version>2.0.11</netconf.version>
-        <odlparent.version>9.0.8</odlparent.version>
+        <mdsal.version>8.0.11</mdsal.version>
+        <netconf.version>2.0.14</netconf.version>
+        <odlparent.version>9.0.13</odlparent.version>
         <openflowplugin.version>0.13.2-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.13.2-SNAPSHOT</ovsdb.version>
         <serviceutils.version>0.8.2-SNAPSHOT</serviceutils.version>
-        <yangtools.version>7.0.9</yangtools.version>
+        <yangtools.version>7.0.14</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
