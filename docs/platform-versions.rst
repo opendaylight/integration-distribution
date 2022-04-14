@@ -13,7 +13,7 @@ Platform versions
      - Silicon SR1
      - Silicon SR2
      - Silicon SR3
-     - Silicon SR4 development
+     - Silicon SR4
 
    * - org.opendaylight.odlparent
      - \*
