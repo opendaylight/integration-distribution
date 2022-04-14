@@ -21,23 +21,23 @@ Platform versions
 
    * - org.opendaylight.yangtools
      - \*
-     - 8.0.2
+     - 8.0.3
 
    * - org.opendaylight.mdsal
      - \*
-     - 9.0.1
+     - 9.0.2
 
    * - org.opendaylight.controller
      - \*
-     - 5.0.1
+     - 5.0.2
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.15.1
+     - 0.15.2
 
    * - org.opendaylight.netconf
      - \*
-     - 3.0.0
+     - 3.0.1
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
