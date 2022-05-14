@@ -9,35 +9,43 @@ Platform versions
 
    * - Group
      - Artifact
-     - Sulfur Development
+     - Sulfur GA
+     - Sulfur SR1
 
    * - org.opendaylight.odlparent
      - \*
      - 10.0.0
+     - 10.0.2
 
    * - org.opendaylight.infrautils
      - \*
      - 3.0.0
+     - 3.0.1
 
    * - org.opendaylight.yangtools
      - \*
      - 8.0.3
+     - 8.0.5
 
    * - org.opendaylight.mdsal
      - \*
      - 9.0.2
+     - 9.0.3
 
    * - org.opendaylight.controller
      - \*
      - 5.0.3
+     - 5.0.4
 
    * - org.opendaylight.aaa
      - aaa-artifacts
      - 0.15.3
+     - 0.15.4
 
    * - org.opendaylight.netconf
      - \*
      - 3.0.2
+     - 3.0.3
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
