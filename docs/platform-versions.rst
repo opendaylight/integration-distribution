@@ -9,42 +9,34 @@ Platform versions
 
    * - Group
      - Artifact
-     - Sulfur GA
-     - Sulfur SR1
+     - Chlorine Development
 
    * - org.opendaylight.odlparent
      - \*
-     - 10.0.0
      - 10.0.2
 
    * - org.opendaylight.infrautils
      - \*
-     - 3.0.0
      - 3.0.1
 
    * - org.opendaylight.yangtools
      - \*
-     - 8.0.3
      - 8.0.6
 
    * - org.opendaylight.mdsal
      - \*
-     - 9.0.2
      - 9.0.4
 
    * - org.opendaylight.controller
      - \*
-     - 5.0.3
      - 5.0.5
 
    * - org.opendaylight.aaa
      - aaa-artifacts
-     - 0.15.3
      - 0.15.5
 
    * - org.opendaylight.netconf
      - \*
-     - 3.0.2
      - 3.0.4
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
