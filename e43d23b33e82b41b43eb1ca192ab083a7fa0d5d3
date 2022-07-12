@@ -16,6 +16,23 @@
       "message": "Luis, the verify job seems to be failing do we need todo anything about this?",
       "revId": "e43d23b33e82b41b43eb1ca192ab083a7fa0d5d3",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d039f7f_27eb4aaf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6258
+      },
+      "writtenOn": "2022-07-12T23:28:17Z",
+      "side": 1,
+      "message": "Looks like the docker login isnt going thru. \n\n11:42:10 ---\u003e docker-login.sh\n11:42:10 nexus3.opendaylight.org:10001",
+      "revId": "e43d23b33e82b41b43eb1ca192ab083a7fa0d5d3",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
