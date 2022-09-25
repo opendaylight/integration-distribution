@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cec92da6_b09c6bc0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-09-25T20:30:22Z",
+      "side": 1,
+      "message": "Another nexus authn issue 😞",
+      "revId": "a3d0e3c2579a7c28beb0e14a04264c9390ec7063",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
