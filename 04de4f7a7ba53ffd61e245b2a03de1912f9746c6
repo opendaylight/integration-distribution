@@ -16,6 +16,23 @@
       "message": "Hello,\nI tried to initialize the integration of transportpce and its new upstream transportpce-models dependency in the chlorine distribution as managed projects.\nI relied on the following documentation: https://docs.opendaylight.org/projects/integration-distribution/en/latest/add-project-distribution.html\nI have doubts about step 4, because none of our projects have an artifacts module, \nand moreover feature-repos and single-features repos do not exist...\nI just skiped it.\nThanks in advance for you help to adjust the configuration.",
       "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b7aa3db_5c566307",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2022-10-05T12:36:34Z",
+      "side": 1,
+      "message": "Thanks Gilles for having taken care of this.\nI don\u0027t know what to do. TPCE has no BOM (*-artifacts) to declare and the two folders you mentioned in the documentation do not exist anymore.\n\n+ Rangan",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
