@@ -37,7 +37,7 @@
         <url>https://git.opendaylight.org/gerrit/gitweb?p=integration/distribution.git;a=tree;f=artifacts/upstream/artifacts;hb=HEAD</url>
         <tag>HEAD</tag>
     </scm>
-    <!-- TODO: Open Bugs agains projects to export a single artifact pom containing every public atrifact version. -->
+    <!-- TODO: Open Bugs against projects to export a single artifact pom containing every public artifact version. -->
     <!-- Project artifact poms. Alphabetical order -->
     <profiles>
         <profile>
@@ -254,6 +254,72 @@
                         <version>${ovsdb.version}</version>
                         <type>pom</type>
                         <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
+            <id>transportpce</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce</groupId>
+                        <artifactId>odl-transportpce</artifactId>
+                        <version>{transportpce.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce</groupId>
+                        <artifactId>odl-transportpce-tapi</artifactId>
+                        <version>{transportpce.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce</groupId>
+                        <artifactId>odl-transportpce-inventory</artifactId>
+                        <version>{transportpce.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce</groupId>
+                        <artifactId>odl-transportpce-nbinotifications</artifactId>
+                        <version>{transportpce.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce</groupId>
+                        <artifactId>odl-transportpce-dmaap-client</artifactId>
+                        <version>{transportpce.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce.models</groupId>
+                        <artifactId>odl-openroadm-devices</artifactId>
+                        <version>{transportpce.models.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce.models</groupId>
+                        <artifactId>odl-openroadm-models</artifactId>
+                        <version>{transportpce.models.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.opendaylight.transportpce.models</groupId>
+                        <artifactId>odl-tapi-models</artifactId>
+                        <version>{transportpce.models.version}</version>
+                        <classifier>features</classifier>
+                        <type>xml</type>
                     </dependency>
                 </dependencies>
             </dependencyManagement>
