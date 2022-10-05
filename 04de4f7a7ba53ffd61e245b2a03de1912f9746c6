@@ -33,6 +33,91 @@
       "message": "Thanks Gilles for having taken care of this.\nI don\u0027t know what to do. TPCE has no BOM (*-artifacts) to declare and the two folders you mentioned in the documentation do not exist anymore.\n\n+ Rangan",
       "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5adaf662_70a5bd44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-05T21:12:06Z",
+      "side": 1,
+      "message": "Please enable the features, in case of issues check: https://docs.opendaylight.org/projects/integration-distribution/en/latest/add-project-distribution.html#managed-projects",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "936d44c8_0185ba88",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-05T21:12:06Z",
+      "side": 1,
+      "message": "this has to be true",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4696cb72_44273e43",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-05T21:12:06Z",
+      "side": 1,
+      "message": "this also true",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15cb6557_cf937ca5",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-05T21:12:06Z",
+      "side": 1,
+      "message": "this has to be true",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "104cc580_46d7a2cc",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-05T21:12:06Z",
+      "side": 1,
+      "message": "this also true",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
