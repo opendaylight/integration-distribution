@@ -52,6 +52,24 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37382022_b96d4baf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-05T21:35:10Z",
+      "side": 1,
+      "message": "Yeah, it looks like TPCE does not have artifacts or features repo pom.xml, try to add the individual features in artifacts/upstream/artifacts/pom.xml",
+      "parentUuid": "976b79c0_5f33f918",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "936d44c8_0185ba88",
