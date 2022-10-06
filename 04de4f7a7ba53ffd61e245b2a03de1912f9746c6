@@ -87,6 +87,24 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37302709_ca7d8787",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2022-10-06T07:09:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc1657a1_f6dfe1ca",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "936d44c8_0185ba88",
@@ -100,6 +118,24 @@
       "writtenOn": "2022-10-05T21:12:06Z",
       "side": 1,
       "message": "this has to be true",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ebb0c4_cebca13e",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2022-10-06T07:09:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "936d44c8_0185ba88",
       "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
@@ -121,6 +157,24 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "42a381e9_6a2d2a23",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2022-10-06T07:09:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4696cb72_44273e43",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "15cb6557_cf937ca5",
@@ -138,6 +192,24 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "19b5f558_c87f0dd4",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2022-10-06T07:09:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "15cb6557_cf937ca5",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "104cc580_46d7a2cc",
@@ -151,6 +223,24 @@
       "writtenOn": "2022-10-05T21:12:06Z",
       "side": 1,
       "message": "this also true",
+      "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9a21c7c_3d05243a",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2022-10-06T07:09:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "104cc580_46d7a2cc",
       "revId": "04de4f7a7ba53ffd61e245b2a03de1912f9746c6",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
