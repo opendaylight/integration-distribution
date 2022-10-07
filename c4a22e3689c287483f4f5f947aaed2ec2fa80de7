@@ -22,6 +22,23 @@
       },
       "revId": "c4a22e3689c287483f4f5f947aaed2ec2fa80de7",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3569db93_e9bdc241",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-07T19:37:57Z",
+      "side": 1,
+      "message": "LGTM but it may need to wait if you decided not to move to Managed at this time.",
+      "revId": "c4a22e3689c287483f4f5f947aaed2ec2fa80de7",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
