@@ -16,6 +16,23 @@
       "message": "Another nexus authn issue 😞",
       "revId": "a3d0e3c2579a7c28beb0e14a04264c9390ec7063",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43039e19_e557f76f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-10-09T17:03:03Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "a3d0e3c2579a7c28beb0e14a04264c9390ec7063",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
