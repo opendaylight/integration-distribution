@@ -9,7 +9,7 @@ Platform versions
 
    * - Group
      - Artifact
-     - 2022.09 Chlorine Development
+     - 2023.03 Argon Development
 
    * - org.opendaylight.odlparent
      - \*
