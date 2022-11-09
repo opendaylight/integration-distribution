@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng ODL
+Code-Review+2: Robert Varga <nite@hq.sk>
+Submitted-by: Robert Varga <nite@hq.sk>
+Submitted-at: Wed, 09 Nov 2022 18:13:31 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/103175
+Project: integration/distribution
+Branch: refs/heads/stable/chlorine
