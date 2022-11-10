@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe2e01f7_89a405ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-11-10T14:06:19Z",
+      "side": 1,
+      "message": "Thanks Sangwook for your review. I removed version tags given that they are already in properties file. For other comments, I am not able to answer. I let commiters have a look to them.",
+      "revId": "5656386cfbbef3138dcaec580c59ef96b2c51116",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
