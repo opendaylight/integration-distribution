@@ -1,0 +1,7 @@
+Verified+1: jenkins-releng ODL
+Code-Review+2: Anil Belur <abelur@linuxfoundation.org>
+Submitted-by: Anil Belur <abelur@linuxfoundation.org>
+Submitted-at: Fri, 11 Nov 2022 06:18:51 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/102568
+Project: integration/distribution
+Branch: refs/heads/stable/chlorine
