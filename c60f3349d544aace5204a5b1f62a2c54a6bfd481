@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec44fa93_c3393e16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2022-12-04T23:15:43Z",
+      "side": 1,
+      "message": "There are no non-snapshot version available, hence I have removed them.",
+      "revId": "c60f3349d544aace5204a5b1f62a2c54a6bfd481",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
