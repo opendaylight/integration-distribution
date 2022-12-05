@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "c60f3349d544aace5204a5b1f62a2c54a6bfd481",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe3216c8_823d3881",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-12-05T01:18:34Z",
+      "side": 1,
+      "message": "AFAIR Java heap space error on feature resolution occurred when project does not correctly set upstream versions. Guillaume, can you please double check all the TPCE upstream versions?",
+      "revId": "c60f3349d544aace5204a5b1f62a2c54a6bfd481",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
