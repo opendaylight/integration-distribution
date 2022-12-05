@@ -16,6 +16,23 @@
       "message": "There are no non-snapshot version available, hence I have removed them.",
       "revId": "c60f3349d544aace5204a5b1f62a2c54a6bfd481",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "148b2e66_4544b733",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2022-12-05T00:54:57Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "c60f3349d544aace5204a5b1f62a2c54a6bfd481",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
