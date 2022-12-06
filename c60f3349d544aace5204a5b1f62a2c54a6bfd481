@@ -121,6 +121,23 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "591174a3_b02a6fa2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2022-12-06T15:43:24Z",
+      "side": 1,
+      "message": "as noted on Slack, the problem is with tpce features and they need to be cleaned up to use dependencies on upstream features.\nOnce that is done, the OOM will go away.",
+      "revId": "c60f3349d544aace5204a5b1f62a2c54a6bfd481",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "475af07b_306cc3c9",
