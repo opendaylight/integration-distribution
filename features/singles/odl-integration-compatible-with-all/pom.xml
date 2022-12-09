@@ -219,5 +219,71 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- TransportPCE -->
+        <profile>
+            <id>transportpce</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce</groupId>
+                    <artifactId>odl-transportpce</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce</groupId>
+                    <artifactId>odl-transportpce-tapi</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce</groupId>
+                    <artifactId>odl-transportpce-inventory</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce</groupId>
+                    <artifactId>odl-transportpce-nbinotifications</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce</groupId>
+                    <artifactId>odl-transportpce-dmaap-client</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
+        <!-- TransportPCE-models -->
+        <profile>
+            <id>transportpce-models</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce.models</groupId>
+                    <artifactId>odl-openroadm-devices</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce.models</groupId>
+                    <artifactId>odl-openroadm-models</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.opendaylight.transportpce.models</groupId>
+                    <artifactId>odl-tapi-2.1.1-models</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                </dependency>
+            </dependencies>
+        </profile>
     </profiles>
 </project>
