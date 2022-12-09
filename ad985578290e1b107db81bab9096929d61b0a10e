@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09851eea_78521d76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-09T15:34:47Z",
+      "side": 1,
+      "message": "Need to abandon previous attempt (change 103237).\nWith artifacts and feature repo available on transportpce projects, it sticks better to the procedure described in the documentation.",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
