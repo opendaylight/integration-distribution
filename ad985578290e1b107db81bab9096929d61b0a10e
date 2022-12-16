@@ -16,6 +16,40 @@
       "message": "Need to abandon previous attempt (change 103237).\nWith artifacts and feature repo available on transportpce projects, it sticks better to the procedure described in the documentation.",
       "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c507cae_6fc448e4",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1927
+      },
+      "writtenOn": "2022-12-16T23:30:54Z",
+      "side": 1,
+      "message": "The version of \u0027features-transportpce-models\u0027 cannot be resolved because it\u0027s not included in \u0027transportpce-models-artifacts\u0027.",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e073b7e8_2b3f1166",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 1927
+      },
+      "writtenOn": "2022-12-16T23:30:54Z",
+      "side": 1,
+      "message": "Similarly, the version of \u0027features-transportpce\u0027 cannot be resolved because it\u0027s not included in \u0027transportpce-artifacts\u0027.",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
