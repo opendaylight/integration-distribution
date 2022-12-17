@@ -18,6 +18,69 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed515ecf_a8fd2a8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-17T07:34:49Z",
+      "side": 1,
+      "message": "Thank you Sangwook for your review. Yes indeed, I had forgotten to report features in artifacts. Since our stable/chlorine branches are still locked, I need again a super-committer to merge the two new pending changes on respectively transportpce-models and transportpce projects.",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db2fa74c_2ef2e418",
+        "filename": "artifacts/upstream/properties/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-17T07:34:49Z",
+      "side": 1,
+      "message": "I wonder if it shouldn\u0027t be \"6.1.0-SNAPSHOT\" instead.",
+      "range": {
+        "startLine": 59,
+        "startChar": 30,
+        "endLine": 59,
+        "endChar": 35
+      },
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f7abb0d_2c124088",
+        "filename": "artifacts/upstream/properties/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-17T07:34:49Z",
+      "side": 1,
+      "message": "idem, \"17.1.0-SNAPSHOT\" instead",
+      "range": {
+        "startLine": 60,
+        "startChar": 37,
+        "endLine": 60,
+        "endChar": 43
+      },
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c507cae_6fc448e4",
@@ -37,6 +100,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7cd696c9_98d39030",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-17T07:34:49Z",
+      "side": 1,
+      "message": "Done with following change: 103694: Declare features in artifacts | https://git.opendaylight.org/gerrit/c/transportpce/models/+/103694",
+      "parentUuid": "2c507cae_6fc448e4",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e073b7e8_2b3f1166",
         "filename": "features/repos/index/pom.xml",
         "patchSetId": 1
@@ -48,6 +129,24 @@
       "writtenOn": "2022-12-16T23:30:54Z",
       "side": 1,
       "message": "Similarly, the version of \u0027features-transportpce\u0027 cannot be resolved because it\u0027s not included in \u0027transportpce-artifacts\u0027.",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffa603df_b71b1468",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-17T07:34:49Z",
+      "side": 1,
+      "message": "Done with change 103695: Declare features in artifacts | https://git.opendaylight.org/gerrit/c/transportpce/+/103695",
+      "parentUuid": "e073b7e8_2b3f1166",
       "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
