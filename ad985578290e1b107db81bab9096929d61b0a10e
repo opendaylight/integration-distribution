@@ -35,6 +35,23 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "16b27a78_f7aa476a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-17T07:38:29Z",
+      "side": 1,
+      "message": "Sorry, I just said a false thing. The stable/chlorine branches are no longer blocked...",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db2fa74c_2ef2e418",
