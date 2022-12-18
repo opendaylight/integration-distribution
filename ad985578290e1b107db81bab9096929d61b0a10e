@@ -133,6 +133,24 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ade0269_d393a3b4",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 1927
+      },
+      "writtenOn": "2022-12-18T19:25:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7cd696c9_98d39030",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e073b7e8_2b3f1166",
@@ -164,6 +182,24 @@
       "side": 1,
       "message": "Done with change 103695: Declare features in artifacts | https://git.opendaylight.org/gerrit/c/transportpce/+/103695",
       "parentUuid": "e073b7e8_2b3f1166",
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37ddb857_7aaf2135",
+        "filename": "features/repos/index/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 1927
+      },
+      "writtenOn": "2022-12-18T19:25:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffa603df_b71b1468",
       "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
