@@ -33,6 +33,24 @@
       "message": "Build still fails because of missing configuration file dependencies. Submitted this patch to transportpce to address the issue:\nhttps://git.opendaylight.org/gerrit/c/transportpce/+/103696",
       "revId": "6dbe37a157afbe5a7cd95721d75f9d3f54af1a5f",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab817e22_5c4a04ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-18T19:51:39Z",
+      "side": 1,
+      "message": "Thank you very much Sangwook for your help and your change.\nChange merged.",
+      "parentUuid": "568c901d_98a448ff",
+      "revId": "6dbe37a157afbe5a7cd95721d75f9d3f54af1a5f",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
