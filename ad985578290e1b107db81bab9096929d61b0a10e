@@ -75,6 +75,30 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "52c4a460_509683e3",
+        "filename": "artifacts/upstream/properties/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-19T08:56:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db2fa74c_2ef2e418",
+      "range": {
+        "startLine": 59,
+        "startChar": 30,
+        "endLine": 59,
+        "endChar": 35
+      },
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5f7abb0d_2c124088",
@@ -88,6 +112,30 @@
       "writtenOn": "2022-12-17T07:34:49Z",
       "side": 1,
       "message": "idem, \"17.1.0-SNAPSHOT\" instead",
+      "range": {
+        "startLine": 60,
+        "startChar": 37,
+        "endLine": 60,
+        "endChar": 43
+      },
+      "revId": "ad985578290e1b107db81bab9096929d61b0a10e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09e62d65_427961d7",
+        "filename": "artifacts/upstream/properties/pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2022-12-19T08:56:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f7abb0d_2c124088",
       "range": {
         "startLine": 60,
         "startChar": 37,
