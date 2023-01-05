@@ -11,41 +11,49 @@ Platform versions
      - Artifact
      - 2022.09 Chlorine GA
      - 2022.09 Chlorine SR1
+     - 2022.09 Chlorine SR2
 
    * - org.opendaylight.odlparent
      - \*
      - 11.0.1
      - 11.0.3
+     - 11.0.4
 
    * - org.opendaylight.infrautils
      - \*
      - 4.0.1
      - 4.0.3
+     - 4.0.4
 
    * - org.opendaylight.yangtools
      - \*
      - 9.0.1
      - 9.0.5
+     - 9.0.6
 
    * - org.opendaylight.mdsal
      - \*
      - 10.0.2
      - 10.0.5
+     - 10.0.6
 
    * - org.opendaylight.controller
      - \*
      - 6.0.2
      - 6.0.5
+     - 6.0.7
 
    * - org.opendaylight.aaa
      - \*
      - 0.16.3
      - 0.16.6
+     - 0.16.7
 
    * - org.opendaylight.netconf
      - \*
      - 4.0.2
      - 4.0.4
+     - 4.0.5
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
