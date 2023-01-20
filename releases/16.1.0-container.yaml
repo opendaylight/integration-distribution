@@ -1,0 +1,10 @@
+---
+distribution_type: container
+container_release_tag: 16.1.0
+container_pull_registry: nexus3.opendaylight.org:10003
+container_push_registry: nexus3.opendaylight.org:10002
+project: distribution
+ref: 1bcd1f05411e15e1ab8409c2c23aaffcddb0338b
+containers:
+    - name: opendaylight
+      version: 16.1.0
