@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b241a98_95d5edf7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2023-01-28T21:01:03Z",
+      "side": 1,
+      "message": "Anil, it looks like we still have permission issues when trying to release docker image.",
+      "revId": "d8a15f80cefb03631d8f5d7e0d97323aab24e20d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
