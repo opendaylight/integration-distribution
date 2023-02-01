@@ -16,6 +16,24 @@
       "message": "Anil, it looks like we still have permission issues when trying to release docker image.",
       "revId": "d8a15f80cefb03631d8f5d7e0d97323aab24e20d",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43bc2061_4fc2cc69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6258
+      },
+      "writtenOn": "2023-02-01T02:42:04Z",
+      "side": 1,
+      "message": "that\u0027s because the image was not available, a recheck would have fixed it. :)",
+      "parentUuid": "8b241a98_95d5edf7",
+      "revId": "d8a15f80cefb03631d8f5d7e0d97323aab24e20d",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
