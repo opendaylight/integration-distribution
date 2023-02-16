@@ -56,7 +56,7 @@
         <openflowplugin.version>0.16.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.16.0-SNAPSHOT</ovsdb.version>
         <serviceutils.version>0.11.0-SNAPSHOT</serviceutils.version>
-        <yangtools.version>10.0.2</yangtools.version>
+        <yangtools.version>10.0.3</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
