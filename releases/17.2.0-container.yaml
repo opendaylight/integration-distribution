@@ -1,0 +1,10 @@
+---
+distribution_type: container
+container_release_tag: 17.2.0
+container_pull_registry: nexus3.opendaylight.org:10003
+container_push_registry: nexus3.opendaylight.org:10002
+project: distribution
+ref: 6909e4ea4cd844510d072e3662e9338fc9431ba9
+containers:
+    - name: opendaylight
+      version: 17.2.0
