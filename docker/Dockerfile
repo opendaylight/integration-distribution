@@ -34,7 +34,7 @@ WORKDIR /opt/opendaylight
 COPY --from=stage0 / /
 
 RUN set -eux \
-    && curl https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.17.1/karaf-0.17.1.tar.gz | tar zxf - -C /opt/opendaylight/ --strip-components 1 \
+    && curl https://nexus.opendaylight.org/content/repositories/opendaylight.release/org/opendaylight/integration/karaf/0.17.2/karaf-0.17.2.tar.gz | tar zxf - -C /opt/opendaylight/ --strip-components 1 \
     && groupadd -r karaf --gid=8181 \
     && useradd -rm -g karaf --uid=8181 karaf \
     && chown -R karaf:karaf /opt/opendaylight
