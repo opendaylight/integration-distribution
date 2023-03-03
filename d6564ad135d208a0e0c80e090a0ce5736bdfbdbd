@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "747255c1_79ba7389",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2023-03-03T15:55:11Z",
+      "side": 1,
+      "message": "Snapshots here will break autorelease...",
+      "revId": "d6564ad135d208a0e0c80e090a0ce5736bdfbdbd",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
