@@ -16,6 +16,24 @@
       "message": "Not sure why but `odl-tapi-2.1.1-models` \u0026 `odl-tapi-2.4.0-models` seem incompatible.",
       "revId": "26082635f84b634ccb9794d1d58ce794ff324578",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e476538e_56e75308",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 6731
+      },
+      "writtenOn": "2023-03-09T17:35:50Z",
+      "side": 1,
+      "message": "@Gilles @Olivier I don\u0027t think we use this version of TAPI. Isn\u0027t it a mistake ?",
+      "parentUuid": "122f7c48_a9abc43a",
+      "revId": "26082635f84b634ccb9794d1d58ce794ff324578",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
