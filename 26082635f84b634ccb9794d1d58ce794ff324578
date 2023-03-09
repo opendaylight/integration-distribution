@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "122f7c48_a9abc43a",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 1927
+      },
+      "writtenOn": "2023-03-09T15:11:47Z",
+      "side": 1,
+      "message": "Not sure why but `odl-tapi-2.1.1-models` \u0026 `odl-tapi-2.4.0-models` seem incompatible.",
+      "revId": "26082635f84b634ccb9794d1d58ce794ff324578",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
