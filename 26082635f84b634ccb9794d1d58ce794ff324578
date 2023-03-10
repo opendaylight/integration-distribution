@@ -34,6 +34,24 @@
       "parentUuid": "122f7c48_a9abc43a",
       "revId": "26082635f84b634ccb9794d1d58ce794ff324578",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ecf3584_8d8ee0dd",
+        "filename": "features/singles/odl-integration-compatible-with-all/pom.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2023-03-10T08:07:53Z",
+      "side": 1,
+      "message": "Thank you Sangwook for your review.\nYes indeed, the two odl-tapi-2.1.1-models and odl-tapi-2.4.0-models are not compatible and, once implemented at medium term, the user will have to choose one or the other. That makes sence not declare both here.",
+      "parentUuid": "e476538e_56e75308",
+      "revId": "26082635f84b634ccb9794d1d58ce794ff324578",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
