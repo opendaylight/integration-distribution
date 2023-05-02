@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>odlparent-lite</artifactId>
-        <version>12.0.3</version>
+        <version>12.0.5</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -43,22 +43,22 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.17.7</aaa.version>
-        <bgpcep.version>0.19.4</bgpcep.version>
-        <controller.version>7.0.4</controller.version>
+        <aaa.version>0.17.8</aaa.version>
+        <bgpcep.version>0.19.5</bgpcep.version>
+        <controller.version>7.0.6</controller.version>
         <daexim.version>1.13.1-SNAPSHOT</daexim.version>
-        <infrautils.version>5.0.3</infrautils.version>
+        <infrautils.version>5.0.4</infrautils.version>
         <jsonrpc.version>1.14.1-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.17.1-SNAPSHOT</lispflowmapping.version>
-        <mdsal.version>11.0.7</mdsal.version>
-        <netconf.version>5.0.4</netconf.version>
-        <odlparent.version>12.0.3</odlparent.version>
+        <mdsal.version>11.0.9</mdsal.version>
+        <netconf.version>5.0.6</netconf.version>
+        <odlparent.version>12.0.5</odlparent.version>
         <openflowplugin.version>0.16.1-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.16.1-SNAPSHOT</ovsdb.version>
         <serviceutils.version>0.11.1-SNAPSHOT</serviceutils.version>
-        <transportpce.version>7.0.1</transportpce.version>
-        <transportpce.models.version>18.0.1</transportpce.models.version>
-        <yangtools.version>10.0.4</yangtools.version>
+        <transportpce.version>7.1.0</transportpce.version>
+        <transportpce.models.version>18.1.0</transportpce.models.version>
+        <yangtools.version>10.0.6</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
 </project>
