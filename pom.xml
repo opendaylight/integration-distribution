@@ -48,14 +48,6 @@
                 <module>karaf</module>
                 <module>features</module>
                 <module>onap-karaf</module>
-            </modules>
-        </profile>
-       <profile>
-            <id>unmanaged</id>
-            <activation>
-                <activeByDefault>false</activeByDefault>
-            </activation>
-            <modules>
                 <module>opendaylight</module>
             </modules>
         </profile>
