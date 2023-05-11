@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e02cefec_72468b51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2023-05-11T03:09:32Z",
+      "side": 1,
+      "message": "This needs https://git.opendaylight.org/gerrit/c/releng/builder/+/105854 to pass",
+      "revId": "2dd5a8a0d7be275005f5722cd7957e58198a509e",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
