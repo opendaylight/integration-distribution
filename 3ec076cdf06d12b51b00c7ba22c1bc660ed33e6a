@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33c7f7e9_ba4e033a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 797
+      },
+      "writtenOn": "2023-05-28T20:13:40Z",
+      "side": 1,
+      "message": "See:\nhttps://git.opendaylight.org/gerrit/c/integration/distribution/+/106211\nhttps://git.opendaylight.org/gerrit/c/integration/distribution/+/106212\n",
+      "revId": "3ec076cdf06d12b51b00c7ba22c1bc660ed33e6a",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
