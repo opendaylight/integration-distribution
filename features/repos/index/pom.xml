@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>12.0.3</version>
+        <version>13.0.3</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -76,43 +76,13 @@
             <dependencies>
                 <dependency>
                     <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-algo</artifactId>
+                    <artifactId>features-bgpcep</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-bgp</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-bgpcep-extras</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-bmp</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-graph</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-pcep</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.bgpcep</groupId>
-                    <artifactId>features-rsvp</artifactId>
+                    <artifactId>features-bgpcep-testing</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
@@ -247,19 +217,13 @@
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.netconf</groupId>
-                    <artifactId>features-netconf-connector</artifactId>
+                    <artifactId>features-netconf-experimental</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
                 <dependency>
                     <groupId>org.opendaylight.netconf</groupId>
-                    <artifactId>features-restconf</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.netconf</groupId>
-                    <artifactId>features-yanglib</artifactId>
+                    <artifactId>features-netconf-testing</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
@@ -353,7 +317,7 @@
         <profile>
             <id>transportpce-models</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
@@ -368,7 +332,7 @@
         <profile>
             <id>transportpce</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <dependencies>
                 <dependency>
