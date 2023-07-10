@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d95c55bf_469d1d89",
+        "filename": "pom.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 8144
+      },
+      "writtenOn": "2023-07-10T12:51:48Z",
+      "side": 1,
+      "message": "We would like to build opendaylight distro by default - so this should be moved to \u0027managed\u0027.",
+      "revId": "9f26cc6fb47b796ab2ca5d08d64e28355647fe87",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
