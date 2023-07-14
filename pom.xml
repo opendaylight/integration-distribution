@@ -48,6 +48,7 @@
                 <module>karaf</module>
                 <module>features</module>
                 <module>onap-karaf</module>
+                <module>opendaylight</module>
             </modules>
         </profile>
        <profile>
@@ -55,9 +56,6 @@
             <activation>
                 <activeByDefault>false</activeByDefault>
             </activation>
-            <modules>
-                <module>opendaylight</module>
-            </modules>
         </profile>
     </profiles>
 </project>
