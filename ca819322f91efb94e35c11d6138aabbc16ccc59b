@@ -16,6 +16,24 @@
       "message": "https://git.opendaylight.org/gerrit/c/integration/distribution/+/107405 is better in that it retains reference to the snapshot build",
       "revId": "ca819322f91efb94e35c11d6138aabbc16ccc59b",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6570172f_eeef39d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2023-08-29T10:03:07Z",
+      "side": 1,
+      "message": "Yes indeed.",
+      "parentUuid": "143d1485_8e105ad0",
+      "revId": "ca819322f91efb94e35c11d6138aabbc16ccc59b",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
