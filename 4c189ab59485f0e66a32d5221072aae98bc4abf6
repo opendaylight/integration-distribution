@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34cde285_396c3b98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2023-08-29T08:58:59Z",
+      "side": 1,
+      "message": "Tox is failing on expired \u0027opendaylight\u0027 distro reference. Will fix that separately.",
+      "revId": "4c189ab59485f0e66a32d5221072aae98bc4abf6",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
