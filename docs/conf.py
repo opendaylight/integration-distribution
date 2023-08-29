@@ -12,3 +12,5 @@
 
 from docs_conf.conf import *
 
+# Ignore full distribution, which we are currently not publishing
+linkcheck_ignore = ['https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/org/opendaylight/integration/opendaylight']
