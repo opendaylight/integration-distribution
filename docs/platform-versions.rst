@@ -9,7 +9,7 @@ Platform versions
 
    * - Group
      - Artifact
-     - 2023.09 Potassium Development
+     - 2024.03 Calcium Development
 
    * - org.opendaylight.odlparent
      - \*
