@@ -11,7 +11,7 @@ Platform versions
      - Artifact
      - 2023.09 Potassium GA
      - 2023.09 Potassium SR1
-     - 2023.09 Potassium SR1
+     - 2023.09 Potassium SR2
 
    * - org.opendaylight.odlparent
      - \*
