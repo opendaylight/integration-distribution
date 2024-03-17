@@ -13,31 +13,31 @@ Platform versions
 
    * - org.opendaylight.odlparent
      - \*
-     - 13.0.10
+     - 13.0.11
 
    * - org.opendaylight.infrautils
      - \*
-     - 6.0.5
+     - 6.0.6
 
    * - org.opendaylight.yangtools
      - \*
-     - 13.0.1
+     - 13.0.2
 
    * - org.opendaylight.mdsal
      - \*
-     - 13.0.0
+     - 13.0.1
 
    * - org.opendaylight.controller
      - \*
-     - 9.0.0
+     - 9.0.1
 
    * - org.opendaylight.aaa
      - \*
-     - 0.19.1
+     - 0.19.2
 
    * - org.opendaylight.netconf
      - \*
-     - 7.0.1
+     - 7.0.2
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
