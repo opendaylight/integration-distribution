@@ -44,14 +44,14 @@
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
         <aaa.version>0.19.2</aaa.version>
-        <bgpcep.version>0.21.2</bgpcep.version>
+        <bgpcep.version>0.21.3</bgpcep.version>
         <controller.version>9.0.1</controller.version>
         <daexim.version>1.15.0-SNAPSHOT</daexim.version>
         <infrautils.version>6.0.6</infrautils.version>
         <jsonrpc.version>1.16.0-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.19.0-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>13.0.1</mdsal.version>
-        <netconf.version>7.0.2</netconf.version>
+        <netconf.version>7.0.3</netconf.version>
         <odlparent.version>13.0.11</odlparent.version>
         <openflowplugin.version>0.18.0-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.18.0-SNAPSHOT</ovsdb.version>
