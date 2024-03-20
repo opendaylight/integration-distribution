@@ -163,12 +163,6 @@
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
-                <dependency>
-                    <groupId>org.opendaylight.netconf</groupId>
-                    <artifactId>odl-yanglib</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
             </dependencies>
         </profile>
         <!-- OpenflowPlugin -->
