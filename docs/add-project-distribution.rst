@@ -235,6 +235,6 @@ every time a merge happens in the project. Follow the steps below to add this tr
 
 #. Push changes to releng/builder and wait for patch verification and review.
 
-.. _managed-distribution: https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/org/opendaylight/integration/integration/distribution/karaf
+.. _managed-distribution: https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/org/opendaylight/integration/karaf
 .. _full-distribution: https://nexus.opendaylight.org/content/repositories/opendaylight.snapshot/org/opendaylight/integration/opendaylight
 .. _distribution-sanity: https://jenkins.opendaylight.org/releng/view/Sanity
