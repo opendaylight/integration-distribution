@@ -45,7 +45,7 @@ Platform versions
    * - org.opendaylight.netconf
      - \*
      - 7.0.4
-     - 7.0.6
+     - 7.0.7
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
