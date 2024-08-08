@@ -9,35 +9,35 @@ Platform versions
 
    * - Group
      - Artifact
-     - 2024.03 Calcium Development
+     - 2024.09 Scandium GA
 
    * - org.opendaylight.odlparent
      - \*
-     - 13.0.11
+     - 14.0.2
 
    * - org.opendaylight.infrautils
      - \*
-     - 6.0.6
+     - 7.0.2
 
    * - org.opendaylight.yangtools
      - \*
-     - 13.0.2
+     - 14.0.2
 
    * - org.opendaylight.mdsal
      - \*
-     - 13.0.1
+     - 14.0.1
 
    * - org.opendaylight.controller
      - \*
-     - 9.0.2
+     - 10.0.1
 
    * - org.opendaylight.aaa
      - \*
-     - 0.19.3
+     - 0.20.0
 
    * - org.opendaylight.netconf
      - \*
-     - 7.0.4
+     - 8.0.0
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
