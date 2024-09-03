@@ -51,7 +51,7 @@
         <jsonrpc.version>1.16.2-SNAPSHOT</jsonrpc.version>
         <lispflowmapping.version>1.19.2-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>13.0.6</mdsal.version>
-        <netconf.version>7.0.8</netconf.version>
+        <netconf.version>7.0.9</netconf.version>
         <odlparent.version>13.1.4</odlparent.version>
         <openflowplugin.version>0.18.2-SNAPSHOT</openflowplugin.version>
         <ovsdb.version>1.18.2-SNAPSHOT</ovsdb.version>
