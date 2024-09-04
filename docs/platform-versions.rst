@@ -9,7 +9,7 @@ Platform versions
 
    * - Group
      - Artifact
-     - 2024.09 Scandium GA
+     - 2025.03 Titanium GA
 
    * - org.opendaylight.odlparent
      - \*
