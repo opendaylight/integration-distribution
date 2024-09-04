@@ -1,0 +1,8 @@
+Verified+1: Robert Varga <nite@hq.sk>
+Verified+1: ODL Required.GHA <releng+odl.required.gha@linuxfoundation.org>
+Code-Review+2: Robert Varga <nite@hq.sk>
+Submitted-by: Robert Varga <nite@hq.sk>
+Submitted-at: Wed, 04 Sep 2024 08:49:12 +0000
+Reviewed-on: https://git.opendaylight.org/gerrit/c/integration/distribution/+/113416
+Project: integration/distribution
+Branch: refs/heads/master
