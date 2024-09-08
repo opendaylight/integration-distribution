@@ -57,7 +57,8 @@
         <ovsdb.version>1.20.0-SNAPSHOT</ovsdb.version>
         <serviceutils.version>0.15.0-SNAPSHOT</serviceutils.version>
         <transportpce.version>9.0.0</transportpce.version>
-        <transportpce.models.version>20.0.0</transportpce.models.version>
+        <transportpce.version>10.0.0</transportpce.version>
+        <transportpce.models.version>21.0.0</transportpce.models.version>
         <yangtools.version>14.0.4</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
