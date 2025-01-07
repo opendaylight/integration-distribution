@@ -65,6 +65,30 @@
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9975e2e5_73a029c8",
+        "filename": "karaf-scripts/src/main/assembly/bin/configure-cluster-ipdetect.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 9063
+      },
+      "writtenOn": "2025-01-07T10:18:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "588b3380_8380ef7e",
+      "range": {
+        "startLine": 239,
+        "startChar": 32,
+        "endLine": 239,
+        "endChar": 61
+      },
+      "revId": "38ea7b45b71a32caea77916de6791f2d454fa653",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29205df7_74202038",
@@ -78,6 +102,30 @@
       "writtenOn": "2024-08-06T10:46:28Z",
       "side": 1,
       "message": "These are local parameters - we can migrate them too.",
+      "range": {
+        "startLine": 202,
+        "startChar": 32,
+        "endLine": 202,
+        "endChar": 61
+      },
+      "revId": "38ea7b45b71a32caea77916de6791f2d454fa653",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9f5803f_2a0b3b91",
+        "filename": "karaf-scripts/src/main/assembly/bin/configure_cluster.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 9063
+      },
+      "writtenOn": "2025-01-07T10:18:28Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "29205df7_74202038",
       "range": {
         "startLine": 202,
         "startChar": 32,
