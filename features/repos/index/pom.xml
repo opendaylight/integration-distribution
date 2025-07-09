@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.opendaylight.odlparent</groupId>
         <artifactId>feature-repo-parent</artifactId>
-        <version>14.0.3</version>
+        <version>14.1.0</version>
         <relativePath/>
     </parent>
     <groupId>org.opendaylight.integration</groupId>
@@ -293,21 +293,6 @@
                 <dependency>
                     <groupId>org.opendaylight.ovsdb</groupId>
                     <artifactId>southbound-features</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
-        <!-- Serviceutils -->
-        <profile>
-            <id>serviceutils</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.serviceutils</groupId>
-                    <artifactId>serviceutils-features</artifactId>
                     <classifier>features</classifier>
                     <type>xml</type>
                 </dependency>
