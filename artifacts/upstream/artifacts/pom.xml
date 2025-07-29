@@ -141,6 +141,23 @@
             </dependencyManagement>
         </profile>
         <profile>
+            <id>l2switch</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.l2switch</groupId>
+                        <artifactId>l2switch-artifacts</artifactId>
+                        <version>${l2switch.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
             <id>lispflowmapping</id>
             <activation>
                 <activeByDefault>true</activeByDefault>

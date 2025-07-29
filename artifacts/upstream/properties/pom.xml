@@ -49,6 +49,7 @@
         <daexim.version>1.18.0-SNAPSHOT</daexim.version>
         <infrautils.version>7.1.4</infrautils.version>
         <jsonrpc.version>1.19.0-SNAPSHOT</jsonrpc.version>
+        <l2switch.version>2.0.0</l2switch.version>
         <lispflowmapping.version>1.22.0-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>14.0.13</mdsal.version>
         <netconf.version>9.0.0</netconf.version>
