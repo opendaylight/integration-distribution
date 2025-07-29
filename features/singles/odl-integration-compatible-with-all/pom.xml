@@ -129,6 +129,21 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- L2 Switch -->
+        <profile>
+            <id>l2switch</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.l2switch</groupId>
+                    <artifactId>odl-l2switch-switch</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- LISP Flow Mapping -->
         <profile>
             <id>lispflowmapping</id>
