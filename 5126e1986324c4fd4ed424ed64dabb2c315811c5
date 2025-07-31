@@ -16,6 +16,24 @@
       "message": "Aren\u0027t we missing features/singles/odl-integration-compatible-with-all/pom.xml?",
       "revId": "5126e1986324c4fd4ed424ed64dabb2c315811c5",
       "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4000f474_4cfdf607",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7446
+      },
+      "writtenOn": "2025-07-31T09:08:34Z",
+      "side": 1,
+      "message": "Thank you Ivan for your review.\nyes, this is intentional. This is because since Scandium there is an incompatibility between versions of some OpenConfig models used by bgpcep and transportpce.",
+      "parentUuid": "56c5232f_53d603d4",
+      "revId": "5126e1986324c4fd4ed424ed64dabb2c315811c5",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
     }
   ]
 }
