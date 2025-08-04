@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6196555_e903fb80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1927
+      },
+      "writtenOn": "2025-08-04T20:52:06Z",
+      "side": 1,
+      "message": "This should be cherry-picked to `stable/titanium`.\n\nAlso, these scripts won\u0027t be available to the karaf package in the upstream projects (e.g. controller, netconf, bgpcep), hence it\u0027s not possible to run clustering tests with a project karaf build: e.g.\n\nhttps://jenkins.opendaylight.org/releng/view/netconf/job/netconf-csit-3node-clustering-only-calcium/110/consoleFull\n```\n15:55:16 + /tmp/netconf-karaf-7.0.12-SNAPSHOT/bin/configure_cluster.sh 1 10.30.171.150 10.30.171.241 10.30.171.166\n15:55:16 /tmp/configuration-script.sh: line 50: /tmp/netconf-karaf-7.0.12-SNAPSHOT/bin/configure_cluster.sh: No such file or directory\n```",
+      "revId": "57fe98d358a70fc2595de8c58bcddb73f9681472",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
