@@ -307,21 +307,6 @@
                 </dependency>
             </dependencies>
         </profile>
-        <!-- transportpce-models -->
-        <profile>
-            <id>transportpce-models</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.opendaylight.transportpce.models</groupId>
-                    <artifactId>features-transportpce-models</artifactId>
-                    <classifier>features</classifier>
-                    <type>xml</type>
-                </dependency>
-            </dependencies>
-        </profile>
         <!-- transportpce -->
         <profile>
             <id>transportpce</id>
