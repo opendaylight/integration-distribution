@@ -17,7 +17,7 @@
     </parent>
     <groupId>org.opendaylight.integration</groupId>
     <artifactId>properties</artifactId>
-    <version>0.23.0-SNAPSHOT</version>
+    <version>0.23.1-SNAPSHOT</version>
     <!-- This is a parent POM, it cannot act as an aggregator, to avoid cyclic imports. -->
     <packaging>pom</packaging>
     <!-- <name> formatting is used by autorelease to parse and notify projects on
@@ -46,16 +46,16 @@
         <aaa.version>0.22.3</aaa.version>
         <bgpcep.version>1.0.0</bgpcep.version>
         <controller.version>12.0.3</controller.version>
-        <daexim.version>1.18.0-SNAPSHOT</daexim.version>
+        <daexim.version>1.18.1-SNAPSHOT</daexim.version>
         <infrautils.version>7.1.9</infrautils.version>
-        <jsonrpc.version>1.19.0-SNAPSHOT</jsonrpc.version>
+        <jsonrpc.version>1.19.1-SNAPSHOT</jsonrpc.version>
         <l2switch.version>3.0.0</l2switch.version>
-        <lispflowmapping.version>1.22.0-SNAPSHOT</lispflowmapping.version>
+        <lispflowmapping.version>1.22.1-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>15.0.2</mdsal.version>
         <netconf.version>10.0.2</netconf.version>
         <odlparent.version>14.1.6</odlparent.version>
         <openflowplugin.version>0.21.2</openflowplugin.version>
-        <ovsdb.version>1.21.0-SNAPSHOT</ovsdb.version>
+        <ovsdb.version>1.21.1-SNAPSHOT</ovsdb.version>
         <transportpce.version>12.0.1</transportpce.version>
         <transportpce.models.version>23.0.1</transportpce.models.version>
         <yangtools.version>14.0.20</yangtools.version>
