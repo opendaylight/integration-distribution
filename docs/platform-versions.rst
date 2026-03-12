@@ -47,5 +47,3 @@ Platform versions
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
   (a.k.a. bom or BOM), whose use is strongly recommended to avoid versions
   mismatch across multiple dependencies in poms.
-
-
