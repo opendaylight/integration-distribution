@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ed42f8b_482873a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2026-03-14T12:40:52Z",
+      "side": 1,
+      "message": "this needs switching to the controller\u0027s version of karaf4-parent as well",
+      "revId": "ae117c4702dcdbe28b98428d83304cedaa84a8fa",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
