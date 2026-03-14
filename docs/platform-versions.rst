@@ -11,41 +11,49 @@ Platform versions
      - Artifact
      - 2025.03 Titanium GA
      - 2025.03 Titanium SR1
+     - 2025.03 Titanium SR2
 
    * - org.opendaylight.odlparent
      - \*
      - 14.1.0
      - 14.1.3
+     - 14.3.1
 
    * - org.opendaylight.infrautils
      - \*
      - 7.1.4
      - 7.1.7
+     - 7.1.12
 
    * - org.opendaylight.yangtools
      - \*
      - 14.0.14
      - 14.0.17
+     - 14.0.23
 
    * - org.opendaylight.mdsal
      - \*
      - 14.0.13
      - 14.0.18
+     - 14.0.21
 
    * - org.opendaylight.controller
      - \*
      - 11.0.0
      - 11.0.2
+     - 11.0.4
 
    * - org.opendaylight.aaa
      - \*
      - 0.21.0
      - 0.21.2
+     - 0.21.4
 
    * - org.opendaylight.netconf
      - \*
      - 9.0.0
      - 9.0.1
+     - 9.0.2
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
