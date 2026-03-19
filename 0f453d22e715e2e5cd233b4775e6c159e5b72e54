@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edc2c706_df8e571c",
+        "filename": "INFO.yaml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 649
+      },
+      "writtenOn": "2026-03-19T07:44:06Z",
+      "side": 0,
+      "message": "INFO.yaml needs to be modified separately, this is split out to https://git.opendaylight.org/gerrit/c/integration/distribution/+/121689",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 22
+      },
+      "revId": "0f453d22e715e2e5cd233b4775e6c159e5b72e54",
+      "serverId": "7fc14799-209e-464c-9743-7a06c2c21a81"
+    }
+  ]
+}
