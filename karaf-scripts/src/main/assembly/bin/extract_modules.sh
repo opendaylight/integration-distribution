@@ -34,16 +34,16 @@ for proj in $PROJECTS; do
         unzip -q "$jar" 'META-INF/yang/*' -d "$OUTPUT/$proj"
     done
     # Remove folder if no yang modules found
-    if [ -z "$(ls -A $OUTPUT/$proj)" ]; then
-        rm -rf $OUTPUT/$proj
+    if [ -z "$(ls -A "$OUTPUT/$proj")" ]; then
+        rm -rf "${OUTPUT:?}/${proj:?}"
     # Copy yang modules to project or external folder
     else
         YANGS=`find $OUTPUT/$proj/META-INF/yang/ -type f -name '*.yang'`
         for yang in $YANGS; do
             name=`basename $yang`
-            less $yang | grep -q namespace.*opendaylight &&
-            cp $OUTPUT/$proj/META-INF/yang/$name $OUTPUT/$proj
-            less $yang | grep -q namespace.*opendaylight ||
+            less "$yang" | grep -q 'namespace.*opendaylight' &&
+            cp "$OUTPUT/$proj/META-INF/yang/$name" "$OUTPUT/$proj"
+            less "$yang" | grep -q 'namespace.*opendaylight' ||
             cp $OUTPUT/$proj/META-INF/yang/$name $OUTPUT/external
             echo "  $name"
         done

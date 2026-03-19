@@ -34,7 +34,7 @@ for proj in $PROJECTS; do
     touch $OUTPUT/$proj/errors.txt
     YANGS=`find $OUTPUT/$proj -type f -name '*.yang'`
     for yang in $YANGS; do
-        less $yang | grep -q namespace.*opendaylight &&
+        less "$yang" | grep -q 'namespace.*opendaylight' &&
         echo $yang && pyang $flags $yang 2>> $OUTPUT/$proj/errors.txt
     done
     echo "Write error file: $OUTPUT/$proj/errors.txt"
