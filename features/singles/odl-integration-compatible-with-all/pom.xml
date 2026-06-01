@@ -114,6 +114,21 @@
                 </dependency>
             </dependencies>
         </profile>
+        <!-- gNMI -->
+        <profile>
+            <id>gnmi</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>org.opendaylight.gnmi</groupId>
+                    <artifactId>odl-gnmi</artifactId>
+                    <type>xml</type>
+                    <classifier>features</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
         <!-- jsonrpc -->
         <profile>
             <id>jsonrpc</id>
