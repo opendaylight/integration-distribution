@@ -107,6 +107,23 @@
             </dependencyManagement>
         </profile>
         <profile>
+            <id>gnmi</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <dependencyManagement>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.opendaylight.gnmi</groupId>
+                        <artifactId>gnmi-artifacts</artifactId>
+                        <version>${gnmi.version}</version>
+                        <type>pom</type>
+                        <scope>import</scope>
+                    </dependency>
+                </dependencies>
+            </dependencyManagement>
+        </profile>
+        <profile>
             <id>infrautils</id>
             <activation>
                 <activeByDefault>true</activeByDefault>

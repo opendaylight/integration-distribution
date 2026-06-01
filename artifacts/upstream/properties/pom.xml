@@ -47,6 +47,7 @@
         <bgpcep.version>2.0.0</bgpcep.version>
         <controller.version>13.0.2</controller.version>
         <daexim.version>1.19.0-SNAPSHOT</daexim.version>
+        <gnmi.version>3.0.0</gnmi.version>
         <infrautils.version>7.1.12</infrautils.version>
         <jsonrpc.version>1.20.0-SNAPSHOT</jsonrpc.version>
         <l2switch.version>4.0.0</l2switch.version>
