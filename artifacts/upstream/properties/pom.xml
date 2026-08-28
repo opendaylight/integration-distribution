@@ -43,22 +43,22 @@
     <properties>
         <!-- Version properties by project or component. -->
         <!-- Keep this list sorted alphabetically please. -->
-        <aaa.version>0.23.4</aaa.version>
-        <bgpcep.version>2.0.1</bgpcep.version>
-        <controller.version>13.0.4</controller.version>
+        <aaa.version>0.23.5</aaa.version>
+        <bgpcep.version>2.0.2</bgpcep.version>
+        <controller.version>13.0.5</controller.version>
         <daexim.version>1.19.1-SNAPSHOT</daexim.version>
         <gnmi.version>3.0.0</gnmi.version>
         <infrautils.version>7.1.14</infrautils.version>
         <jsonrpc.version>1.20.1-SNAPSHOT</jsonrpc.version>
-        <l2switch.version>4.0.1</l2switch.version>
+        <l2switch.version>4.0.2</l2switch.version>
         <lispflowmapping.version>1.23.1-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>16.0.6</mdsal.version>
-        <netconf.version>11.0.1</netconf.version>
+        <netconf.version>11.0.2</netconf.version>
         <odlparent.version>14.3.7</odlparent.version>
-        <openflowplugin.version>1.0.1</openflowplugin.version>
+        <openflowplugin.version>1.0.2</openflowplugin.version>
         <ovsdb.version>1.22.1-SNAPSHOT</ovsdb.version>
         <transportpce.version>13.0.0</transportpce.version>
-        <transportpce.models.version>24.0.1</transportpce.models.version>
+        <transportpce.models.version>24.0.2</transportpce.models.version>
         <yangtools.version>15.1.5</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
