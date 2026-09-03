@@ -55,8 +55,8 @@
         <odlparent.version>14.3.7</odlparent.version>
         <openflowplugin.version>0.20.4</openflowplugin.version>
         <ovsdb.version>1.20.3-SNAPSHOT</ovsdb.version>
-        <transportpce.version>11.2.0</transportpce.version>
-        <transportpce.models.version>22.2.1</transportpce.models.version>
+        <transportpce.version>11.3.0</transportpce.version>
+        <transportpce.models.version>22.3.2</transportpce.models.version>
         <yangtools.version>14.0.25</yangtools.version>
         <!-- Keep this list sorted alphabetically please. -->
     </properties>
