@@ -9,39 +9,39 @@ Platform versions
 
    * - Group
      - Artifact
-     - 2026.03 Chromium GA
+     - 2026.09 Manganese GA
 
    * - org.opendaylight.odlparent
      - \*
-     - 14.3.1
+     - 15.0.2
 
    * - org.opendaylight.infrautils
      - \*
-     - 7.1.12
+     - 8.0.3
 
    * - org.opendaylight.yangtools
      - \*
-     - 15.0.2
+     - 16.1.0
 
    * - org.opendaylight.ietf
      - \*
-     - 2.0.2
+     - 3.0.1
 
    * - org.opendaylight.mdsal
      - \*
-     - 16.0.3
+     - 17.0.2
 
    * - org.opendaylight.controller
      - \*
-     - 13.0.2
+     - 14.0.4
 
    * - org.opendaylight.aaa
      - \*
-     - 0.23.2
+     - 0.24.4
 
    * - org.opendaylight.netconf
      - \*
-     - 11.0.0
+     - 12.0.2
 
 .. note:: Most projects get their YANG Tools version via MD-SAL.
   ${project}-artifacts are maven `bill of materials <https://howtodoinjava.com/maven/maven-bom-bill-of-materials-dependency/>`__
