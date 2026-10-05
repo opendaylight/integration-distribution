@@ -50,7 +50,7 @@
         <gnmi.version>3.0.0</gnmi.version>
         <infrautils.version>8.0.3</infrautils.version>
         <jsonrpc.version>1.21.0-SNAPSHOT</jsonrpc.version>
-        <l2switch.version>4.0.0</l2switch.version>
+        <l2switch.version>5.0.0</l2switch.version>
         <lispflowmapping.version>1.24.0-SNAPSHOT</lispflowmapping.version>
         <mdsal.version>17.0.2</mdsal.version>
         <netconf.version>12.0.2</netconf.version>
